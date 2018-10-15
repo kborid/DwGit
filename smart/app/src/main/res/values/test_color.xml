@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- android package -->
+    <color name="android_smartisanos_blue_light">#ffedaa00</color>
+    <color name="android_smartisanos_blue_dark">#ffedaa00</color>
+    <color name="android_smartisanos_blue_bright">#ffedaa00</color>
+    <color name="soundrecorder_edit_sweep_view_label_color">#edaa00</color>
+    <color name="nodisturb_blacklist_label_color">#edaa00</color>
+    <color name="nodisturb_blacklist_label_color_disabled">#edaa00</color>
+    <color name="calendar_item_content_text_color">#edaa00</color>
+    <color name="calendar_item_content_text_color_disabled">#7Fedaa00</color>
+
+    <!-- Mms Colors -->
+    <color name="mms_conversation_list_item_date">#edaa00</color>
+    <color name="mms_compose_group_button_text_color">#edaa00</color>
+    <color name="mms_compose_send_text_normal_color">#e5a400</color>
+    <color name="mms_compose_send_mms_text_normal_color">#e5a400</color>
+    <color name="mms_phone_list_item_image_color">#ffcb00</color>
+
+    <!-- Backup colors -->
+    <color name="backup_blue_text_color">#edaa00</color>
+
+    <!-- Browser colors -->
+    <color name="browser_item_content_text_color">#edaa00</color>
+
+    <!-- incallui colors -->
+    <color name="incallui_phone_number_label_text_color">#edaa00</color>
+    <color name="menu_tracer_text_color">#ffcb00</color>
+
+    <!-- MusicPlayer Colors -->
+    <color name="musicplayer_holo_blue_dark">#ffedaa00</color>
+    <color name="musicplayer_lrc_highlight">#ffedaa00</color>
+
+    <!-- Email Colors -->
+    <color name="email_item_date_color">#edaa00</color>
+    <color name="email_setting_items_content_normal_color">#edaa00</color>
+    <color name="email_recipient_text_color">#e5a400</color>
+    <color name="email_invite_calendar_view_text_color">#edaa00</color>
+    <color name="email_conversation_list_sticky_header_text_color">#72000000</color>
+    <color name="email_body_editor_cursor_color">#ffd400</color>
+
+    <!-- Clock Colors -->
+    <color name="clock_number_pick_highlight">#edaa00</color>
+
+    <!-- Cloud Gallery Colors -->
+    <color name="cloudgallery_space_summary_text_used">#edaa00</color>
+
+    <!-- TouchPad input method -->
+    <color name="touchpad_text_hightlight_color">#e5a400</color>
+
+    <!-- Notifications colors -->
+    <color name="notification_line1">#ff666666</color>
+    <color name="notification_event_info">#9a9a9a</color>
+    <color name="notification_time">#4c000000</color>
+    <color name="notification_clock">#9e000000</color>
+    <color name="notification_date">#9e000000</color>
+    <color name="widget_btn_color_normal">#9e000000</color>
+    <color name="smartisan_notification_container_pkg_name_color">#9e000000</color>
+    <color name="smartisan_notification_container_pnotifications_num_color">#4c000000</color>
+    <color name="clear_notification_text">#9e000000</color>
+    <color name="power_widget_imageview_color_filter">#26000000</color>
+
+    <!-- Keyguard colors -->
+    <color name="pattern_unlock_view_tips_normal">#9e000000</color>
+    <color name="pattern_unlock_view_tips_wrong">#d44d44</color>
+    <color name="emg_btn_text_color">#9e000000</color>
+    <color name="cmpl_unlock_view_tips_normal">#9e000000</color>
+    <color name="cmpl_unlock_view_tips_wrong">#d44d44</color>
+    <color name="emg_shadow">#00000000</color>
+    <color name="sm_password_tip">#9e000000</color>
+    <color name="sm_password_tip_wrong">#d44d44</color>
+    <color name="keyguard_patternview_right_path_color">#ffcb00</color>
+    <color name="keyguard_patternview_wrong_path_color">#ae0400</color>
+    <!-- Notes colors -->
+    <color name="notes_setting_right_text_color">#edaa00</color>
+</resources>

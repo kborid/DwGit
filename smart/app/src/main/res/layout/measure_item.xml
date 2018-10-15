@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#ff0000"/>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#00ff00"/>
+
+    <View
+        android:id="@+id/view_3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#0000ff"/>
+    <View
+        android:id="@+id/view_4"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        android:layout_height="1dp"/>
+    <!--<RelativeLayout
+        android:id="@+id/view_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/view_3">
+        <com.kborid.smart.widget.MySimpleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.kborid.smart.widget.MySimpleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>-->
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart</string>
+
+    <plurals name="test_plurals">
+        <item quantity="one">test %d</item>
+        <item quantity="other">other %d</item>
+    </plurals>
+</resources>

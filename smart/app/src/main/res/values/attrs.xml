@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LetterIndexView">
+        <attr name="letterWidth" format="dimension" />
+        <attr name="letterHeight" format="dimension" />
+        <attr name="letterSize" format="dimension" />
+        <attr name="letterColor" format="color" />
+        <attr name="letterArray" format="reference" />
+        <attr name="letterMarginTop" format="dimension" />
+        <attr name="letterMarginBottom" format="dimension" />
+        <attr name="letterStyle">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+        </attr>
+        <attr name="letterHeadArray" format="reference" />
+        <attr name="letterHeadWidth" format="dimension" />
+        <attr name="letterHeadHeight" format="dimension" />
+        <attr name="letterHeadSpace" format="dimension" />
+        <attr name="letterHeadMarginTop" format="dimension" />
+        <attr name="letterHeadMarginBottom" format="dimension" />
+        <attr name="letterNormalColor" format="color" />
+        <attr name="letterTouchBackground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ContactSelectView">
+        <attr name="numColumns" format="integer" />
+        <attr name="showLivIndex" format="boolean" />
+        <attr name="multiple" format="boolean" />
+        <attr name="showLabel" format="boolean" />
+        <attr name="dataType">
+            <enum name="friend" value="1" />
+            <enum name="recentFriend" value="2" />
+            <enum name="starFriend" value="3" />
+            <enum name="starAndAllFriend" value="4" />
+            <enum name="recentAndAllFriend" value="5" />
+        </attr>
+    </declare-styleable>
+</resources>
