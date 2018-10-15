@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.ideapills.view.BubbleItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ideapills="http://schemas.android.com/apk/res/com.smartisanos.ideapills"
+    android:id="@+id/bubbleitemview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right">
+
+    <include
+        android:id="@+id/fl_layout"
+        layout="@layout/bubble_item_for_fl_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/bubble_item_base_margin_bottom"
+        android:layout_marginTop="@dimen/bubble_item_base_margin_top" />
+
+    <com.smartisanos.ideapills.view.BubbleToDoCheckBox
+        android:id="@+id/cb_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fl_layout"
+        android:layout_marginRight="-51.5dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/fl_layout"
+        android:background="@drawable/bubble_todo_checkbox"
+        android:contentDescription="@string/bubble_todo_checkbox"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/fl_layout"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="23dp"
+        android:contentDescription="@string/bubble_collapse"
+        android:scaleType="center"
+        android:src="@drawable/collapse_icon" />
+
+    <CheckBox
+        android:id="@+id/cb_item_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/fl_layout"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="23dp"
+        android:button="@drawable/bubble_edit_selected"
+        android:visibility="gone" />
+</com.smartisanos.ideapills.view.BubbleItemView>

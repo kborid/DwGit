@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Search Services</string>
+    <string name="dialtacts_tab_recent">Журнал вызовов</string>
+    <string name="dialtacts_tab_contacts">Контакты</string>
+    <string name="dialtacts_tab_starred">Избранное</string>
+    <string name="dialtacts_tab_dialpad">Клавиатура</string>
+    <string name="tabBar_worldclock">Мировое время</string>
+    <string name="tabBar_alarm">"Сигнал"</string>
+    <string name="tabBar_stopwatch">Секундомер</string>
+    <string name="tabBar_timer">"Таймер"</string>
+    <string name="china_unicom">CUCC</string>
+    <string name="china_mobile">CMCC</string>
+    <string name="china_telecom">CTCC</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ppt_add_attachment"
+    android:layout_width="@dimen/bubble_attachment_image_width"
+    android:layout_height="@dimen/bubble_attachment_image_height"
+    android:background="@drawable/ppt_photo_add_bg"
+    android:src="@drawable/ppt_photo_add"
+    android:layout_gravity="center"
+    android:scaleType="center" />

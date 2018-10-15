@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#0f000000" />
+    <corners android:topLeftRadius="@dimen/bubble_attachment_shape_corner"
+        android:topRightRadius="@dimen/bubble_attachment_shape_corner"
+        android:bottomRightRadius="@dimen/bubble_attachment_shape_corner"
+        android:bottomLeftRadius="@dimen/bubble_attachment_shape_corner"/>
+    <stroke android:width="2px" android:color="#20000000" />
+</shape>
+

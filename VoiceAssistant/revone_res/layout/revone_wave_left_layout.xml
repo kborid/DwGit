@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wave_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+
+    <View
+        android:id="@+id/text_popup"
+        android:layout_width="@dimen/bubble_wave_left_min_width"
+        android:layout_height="@dimen/bubble_text_popup_height"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/text_popup">
+    </View>
+
+    <View
+        android:id="@+id/popup_bottom_arrow"
+        android:layout_width="@dimen/revone_bubble_arrow_width"
+        android:layout_height="@dimen/revone_bubble_arrow_height"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/popup_bottom_arrow_left" />
+
+    <com.smartisanos.sara.widget.WaveView
+        android:id="@+id/waveform"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bubble_text_popup_height"
+        android:layout_gravity="center_vertical" />
+
+</FrameLayout>

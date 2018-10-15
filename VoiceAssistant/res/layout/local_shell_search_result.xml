@@ -1,0 +1,99 @@
+<com.smartisanos.sara.widget.LocalSearchLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.smartisanos.sara.widget.RoundedRectLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/search_result_bg"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:radius="12dp"
+        app:radius_marginLeft="@dimen/local_search_rect_margin"
+        app:radius_marginRight="@dimen/local_search_rect_margin"
+        app:radius_marginBottom="20dp" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/local_search_rect_margin"
+            android:layout_marginRight="@dimen/local_search_rect_margin"
+            android:background="@drawable/voice_search_titlebar" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/result_header_app"
+                    android:contentDescription="@string/listener_name_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble_app_bg" />
+
+                <ImageView
+                    android:id="@+id/result_header_contact"
+                    android:contentDescription="@string/listener_name_contacts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble_contact_bg" />
+
+                <ImageView
+                    android:id="@+id/result_header_music"
+                    android:contentDescription="@string/listener_name_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble_music_bg" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/local_result_hide"
+                android:contentDescription="@string/button_expand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/bubble_hide" />
+        </FrameLayout>
+
+            <ListView
+                android:id="@+id/result_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/local_search_rect_margin"
+                android:layout_marginRight="@dimen/local_search_rect_margin"
+                android:layout_gravity="center"
+                android:divider="@android:color/transparent"
+                android:fadingEdge="none"
+                android:fadingEdgeLength="0dp"
+                android:listSelector="@android:color/transparent"
+                android:overScrollMode="always"
+                android:scrollbars="none" >
+            </ListView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/voice_search_titlebar_shadow" />
+    </com.smartisanos.sara.widget.RoundedRectLinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/voice_search_content_mask"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp" >
+    </View>
+
+</com.smartisanos.sara.widget.LocalSearchLayout>

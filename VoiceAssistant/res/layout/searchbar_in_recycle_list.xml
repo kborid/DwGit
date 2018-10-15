@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/searchbarframe"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/bubble_searchbar_bg"
+    android:gravity="center_vertical"
+    android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:importantForAccessibility="noHideDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/searchbarleft"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/searchbar_left" />
+
+            <TextView
+                android:id="@+id/searchbarright"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/searchbar_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="36dip" >
+
+            <EditText
+                android:id="@+id/search_edit_text"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:cursorVisible="false"
+                android:ems="10"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@color/searchbar_text_color"
+                android:textSize="@dimen/button_primary_textsize" />
+
+            <TextView
+                android:id="@+id/btn_clear_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/search_clear"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            style="@style/NorShadowColorTitleButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/normal_button"
+            android:text="@string/cancel"
+            android:visibility="invisible" />
+
+</RelativeLayout>

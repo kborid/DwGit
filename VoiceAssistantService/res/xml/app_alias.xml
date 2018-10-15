@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alias xmlns:voice="http://schemas.android.com/apk/res/com.smartisanos.voice" >
+    <!-- 相机 -->
+    <app
+        voice:aliasName="拍照,开莫若,照相"
+        voice:realName="相机" />
+
+    <!-- 相册 -->
+    <app
+        voice:aliasName="图片,照片"
+        voice:realName="相册" />
+
+    <!-- 日历 -->
+    <app
+        voice:aliasName="日程"
+        voice:realName="日历" />
+    <!-- 时钟 -->
+    <app
+        voice:aliasName="时间"
+        voice:realName="时钟" />
+    <!-- 邮件 -->
+    <app
+        voice:aliasName="邮箱"
+        voice:realName="邮件" />
+    <!-- 应用商店 -->
+    <app
+        voice:aliasName="市场,商店,诶皮皮,应用市场,应用"
+        voice:realName="应用商店" />
+    <!-- 音乐 -->
+    <app
+        voice:aliasName="播放器,听歌,歌曲"
+        voice:realName="音乐" />
+    <!-- 浏览器 -->
+    <app
+        voice:aliasName="上网"
+        voice:realName="浏览器" />
+    <!-- 电话 -->
+    <app
+        voice:aliasName="打电话"
+        voice:realName="电话" />
+
+    <!-- 短信 -->
+    <app
+        voice:aliasName="信息,彩信,消息"
+        voice:realName="短信" />
+
+    <!-- ES文件浏览器 -->
+    <app
+        voice:aliasName="文件管理器,文件夹,一挨死文件浏览器,一挨死"
+        voice:realName="ES文件浏览器" />
+
+    <!-- 便签 -->
+    <app
+        voice:aliasName="闹特,闹此,写文档"
+        voice:realName="便签" />
+
+    <!-- 陌陌 -->
+    <app
+        voice:aliasName="麦麦"
+        voice:realName="脉脉" />
+
+    <app
+        voice:aliasName="脉脉"
+        voice:realName="陌陌" />
+
+    <!-- 搜索 -->
+    <app
+        voice:aliasName="搜寻,寻找,查找"
+        voice:realName="搜索" />
+    <!-- 录音机 -->
+    <app
+        voice:aliasName="录音"
+        voice:realName="录音机" />
+    <!-- 用户反馈 -->
+    <app
+        voice:aliasName="爸各"
+        voice:realName="用户反馈" />
+    <!-- UC浏览器 -->
+    <app
+        voice:aliasName="优思浏览器,优西浏览器"
+        voice:realName="UC浏览器" />
+    <!-- 100tv播放器 -->
+    <app
+        voice:aliasName="一百提微播放器"
+        voice:realName="100tv播放器" />
+    <!-- play 商店 -->
+    <app
+        voice:aliasName="普类商店"
+        voice:realName="play 商店" />
+    <!-- 139邮箱 -->
+    <app
+        voice:aliasName="幺三九邮箱"
+        voice:realName="139邮箱" />
+    <!-- QQ邮箱 -->
+    <app
+        voice:aliasName="珂优珂优邮箱"
+        voice:realName="QQ邮箱" />
+    <!-- QQ -->
+    <app
+        voice:aliasName="扣扣,课油课油,可油可油,抠抠"
+        voice:realName="QQ" />
+    <app
+        voice:aliasName="芒果踢威,芒果忒威"
+        voice:realName="芒果TV" />
+    <app
+        voice:aliasName="批批踢威,批批忒威,批批踢威聚力,批批忒威聚力"
+        voice:realName="PPTV聚力" />
+    <app
+        voice:aliasName="斗鱼踢威,斗鱼忒威"
+        voice:realName="斗鱼TV" />
+    <app
+        voice:aliasName="按慢克斯普赖饿,慢克斯剖赖饿,爱母爱课思普赖饿,按慢克斯泼赖儿,俺母差佩勒饿,俺差佩勒饿,俺挨克丝佩勒饿,俺母挨克丝佩勒饿"
+        voice:realName="MX Player" />
+    <app
+        voice:aliasName="战旗踢威,战旗忒威"
+        voice:realName="战旗TV" />
+    <app
+        voice:aliasName="优兔逼,欲兔逼"
+        voice:realName="YouTuBe" />
+    <app
+        voice:aliasName="硬,茵"
+        voice:realName="in" />
+    <app
+        voice:aliasName="天天批图"
+        voice:realName="天天P图" />
+    <app
+        voice:aliasName="刊么弱三六零,看么惹三六零"
+        voice:realName="Camera360" />
+    <app
+        voice:aliasName="耐丝,耐屎"
+        voice:realName="nice" />
+    <app
+        voice:aliasName="思难泼赛的,斯男四爱的"
+        voice:realName="Snapseed" />
+    <app
+        voice:aliasName="狼服特,狼纷特,狼服特儿"
+        voice:realName="LOFTER" />
+    <app
+        voice:aliasName="破口相机,口相机,剖口相机"
+        voice:realName="POCO相机" />
+    <app
+        voice:aliasName="三六五日历"
+        voice:realName="365日历" />
+    <app
+        voice:aliasName="诶丝塔趣,诶丝踏趣,一日诶踏齿"
+        voice:realName="EasyTouch" />
+    <app
+        voice:aliasName="思难泼效率锁屏"
+        voice:realName="Snap效率锁屏" />
+    <app
+        voice:aliasName="九一桌面"
+        voice:realName="91桌面" />
+    <app
+        voice:aliasName="三六零手机桌面"
+        voice:realName="360手机桌面" />
+    <app
+        voice:aliasName="搭不溜批桌面"
+        voice:realName="WP桌面" />
+    <app
+        voice:aliasName="够桌面"
+        voice:realName="GO桌面" />
+    <app
+        voice:aliasName="狗锁屏"
+        voice:realName="GO锁屏" />
+    <app
+        voice:aliasName="耐丝桌面,耐科死特桌面"
+        voice:realName="Next桌面" />
+    <app
+        voice:aliasName="扣立方桌面"
+        voice:realName="Q里放桌面" />
+    <app
+        voice:aliasName="飞死步克"
+        voice:realName="Facebook" />
+    <app
+        voice:aliasName="赖,赖你,赖呢,赖爱"
+        voice:realName="LINE" />
+    <app
+        voice:aliasName="我次,我次爱皮皮"
+        voice:realName="WhatsApp" />
+    <app
+        voice:aliasName="歪歪"
+        voice:realName="YY" />
+    <app
+        voice:aliasName="歪歪备份"
+        voice:realName="YY备份" />
+    <app
+        voice:aliasName="乌奔而,优奔而"
+        voice:realName="Uber" />
+    <app
+        voice:aliasName="菇狗麦,谷歌麦,故狗慢破死"
+        voice:realName="Google Maps" />
+    <app
+        voice:aliasName="八六八四公交"
+        voice:realName="8684公交" />
+    <app
+        voice:aliasName="一号店"
+        voice:realName="1号店" />
+    <app
+        voice:aliasName="一号药店"
+        voice:realName="1号药店" />
+    <app
+        voice:aliasName="折八百"
+        voice:realName="折800" />
+    <app
+        voice:aliasName="荔枝挨服俺"
+        voice:realName="荔枝FM" />
+    <app
+        voice:aliasName="豆瓣挨服俺"
+        voice:realName="豆瓣FM" />
+    <app
+        voice:aliasName="考拉挨服俺,考拉挨服俺电台"
+        voice:realName="考拉FM电台" />
+    <app
+        voice:aliasName="蜻蜓挨服俺"
+        voice:realName="蜻蜓FM" />
+    <app
+        voice:aliasName="扎克,热爱格"
+        voice:realName="ZAKER" />
+    <app
+        voice:aliasName="佛里波的,福利榜的"
+        voice:realName="Flipboard" />
+    <app
+        voice:aliasName="歪佛挨,歪佛挨万能钥匙,外佛爱,外佛爱万能钥匙"
+        voice:realName="WiFi万能钥匙" />
+    <app
+        voice:aliasName="歪佛挨联网神器"
+        voice:realName="WiFi连网神器" />
+    <app
+        voice:aliasName="噢逼一,噢逼一安全大师,俺奥逼一安全大师"
+        voice:realName="LBE安全大师" />
+    <app
+        voice:aliasName="三六零超级,三六零超级茹特"
+        voice:realName="360超级ROOT" />
+    <app
+        voice:aliasName="三六零浏览器"
+        voice:realName="360浏览器" />
+    <app
+        voice:aliasName="三六零免费歪佛挨"
+        voice:realName="360免费Wifi" />
+    <app
+        voice:aliasName="妖妖五,一一五"
+        voice:realName="115" />
+    <app
+        voice:aliasName="达不留批挨死,得不留批挨死,达不留批爱死昂费死,达不优批爱死昂费死"
+        voice:realName="WPS Office" />
+    <app
+        voice:aliasName="谷歌文档,菇狗文档,故狗文档"
+        voice:realName="Google文档" />
+    <app
+        voice:aliasName="安妮肚,按内度"
+        voice:realName="Any.Do" />
+    <app
+        voice:aliasName="一八九邮箱,妖八九邮箱"
+        voice:realName="189邮箱" />
+    <app
+        voice:aliasName="五八同城"
+        voice:realName="58同城" />
+    <app
+        voice:aliasName="前程无忧五一,前程无忧五一坐,前程无忧五一帐博"
+        voice:realName="前程无忧51job" />
+    <app
+        voice:aliasName="领英,领克的印"
+        voice:realName="LinkedIn" />
+    <app
+        voice:aliasName="一代驾"
+        voice:realName="e代驾" />
+    <app
+        voice:aliasName="五一公积金,五一公积金管家"
+        voice:realName="51公积金管家" />
+    <app
+        voice:aliasName="五八帮帮"
+        voice:realName="58帮帮" />
+    <app
+        voice:aliasName="谷歌翻译,菇狗翻译,故狗翻译"
+        voice:realName="Google翻译" />
+    <app
+        voice:aliasName="踢一滴,踢一滴公开课,泰得公开课"
+        voice:realName="TED公开课" />
+    <app
+        voice:aliasName="踢一滴,泰得"
+        voice:realName="TED" />
+    <app
+        voice:aliasName="威哦哎,威哦哎慢速英语"
+        voice:realName="VOA慢速英语" />
+    <app
+        voice:aliasName="三六零,三六零影视大全"
+        voice:realName="360影视大全" />
+</alias>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="format_year_month_day">%1$s年%2$s月%3$s日</string>
+    <string name="format_year">%1$s年</string>
+    <string name="format_month_day">%1$s月%2$s日</string>
+    <string name="format_week_notify">%1$s %2$s:%3$s%4$s</string>
+    <string name="format_today_notify">今天 %1$s:%2$s%3$s</string>
+    <string name="format_tomorrow_notify">明天 %1$s:%2$s%3$s</string>
+    <string name="format_week">%1$s</string>
+    <string name="format_today">今天</string>
+    <string name="format_tomorrow">明天</string>
+    <string name="format_week_1">星期一</string>
+    <string name="format_week_2">星期二</string>
+    <string name="format_week_3">星期三</string>
+    <string name="format_week_4">星期四</string>
+    <string name="format_week_5">星期五</string>
+    <string name="format_week_6">星期六</string>
+    <string name="format_week_7">星期日</string>
+    <string name="bubble_share_attachment_unknown_type">无法分享此类文件</string>
+    <string name="bubble_open_attachment_unknown_type">无法打开此类文件</string>
+    <string name="bubble_share_setting_title">共享闪念胶囊</string>
+
+    <!-- add for remind begin-->
+    <string name="remind_text">提醒时间</string>
+    <string name="cancel_reminder">取消提醒</string>
+    <string name="confirm_reminder">确认</string>
+    <string name="remind_previous_arrow_text">向前</string>
+    <string name="remind_next_arrow_text">向后</string>
+    <string name="button_month">月</string>
+    <string name="day">日</string>
+    <string name="regularly_time_error">抱歉，你选取的时间早于当前时间</string>
+    <string name="des_selected">已选中</string>
+    <string name="des_scroll_updown_to_select">上下滑动可进行选择</string>
+    <string name="save_label" >完成</string>
+    <string name="discard_label">取消</string>
+    <string name="chose_date">"选择要跳转的日期"</string>
+    <string name="year">年</string>
+    <string name="time_picker_dialog_title">"设置时间"</string>
+    <string name="set_full_day_time">全天</string>
+    <string name="set_notify_text">设置提醒</string>
+    <string name="today_text">今天</string>
+    <string name="set_notify_real_time">任务发生时</string>
+    <string name="set_notify_before_5_min">5分钟前</string>
+    <string name="set_notify_before_15_min">15分钟前</string>
+    <string name="set_notify_before_30_min">30分钟前</string>
+    <string name="set_notify_before_1_hour">1小时前</string>
+    <string name="set_notify_before_2_hour">2小时前</string>
+    <string name="set_notify_before_1_day">1天前</string>
+    <string name="set_notify_before_2_day">2天前</string>
+    <string name="set_notify_before_1_week">1周前</string>
+    <string name="remind_notify_time_expire">提醒时间不能早于当前时间</string>
+    <string name="set_time_text">设置时间</string>
+    <string name="remind_remove">清除</string>
+    <string name="remind_cancel">取消</string>
+    <string name="sync_share_main_title">共享闪念胶囊</string>
+    <!-- add for remind end-->
+
+    <string name="bubble_attachment_size_count_limit">最多可以添加 %d 个附件，总大小不超过 30 MB</string>
+    <string name="bubble_share">分享</string>
+    <string name="bubble_remove">移除</string>
+    <string name="bubble_attachment_size_limit">附件总大小不能超过 30 M</string>
+    <string name="bubble_attachment_limit">最多可以添加 %d 个附件</string>
+
+    <string name="bubble_cancel">取消</string>
+    <string name="bubble_notice">提示</string>
+    <string name="sync_no_login_dialog_content">你还未登录欢喜云账户，前去登录并开启胶囊同步。</string>
+    <string name="sync_unenable_dialog_content">你还未开启胶囊同步，前往设置？</string>
+    <string name="sync_send_invitation_phone_email">手机号码/邮箱</string>
+    <string name="sync_send_invitation_dialog_content">添加共享账号后，你可将闪念胶囊共享给其他人，请在下方输入对方的手机号码或邮箱并发送邀请。 低版本系统的设备上不支持共享胶囊功能。</string>
+    <string name="sync_send_invitation_dialog_send">发送邀请</string>
+    <string name="sync_phone_email_empty_tip">手机号码或邮箱不能为空</string>
+    <string name="sync_phone_email_illegal_tip">请填写正确的手机号码或邮箱</string>
+</resources>

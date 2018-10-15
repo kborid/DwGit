@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="GlobalSearchStyle" parent="FullBackground">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

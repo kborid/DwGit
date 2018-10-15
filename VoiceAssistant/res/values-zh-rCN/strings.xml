@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">语音助手</string>
+    <string name="app_pill_name">闪念胶囊</string>
+    <!-- listener names -->
+    <string name="listener_name_contacts">联系人</string>
+    <string name="listener_name_app">应用</string>
+    <string name="listener_name_music">音乐</string>
+    <!-- Select listener tips -->
+    <string name="toast_tip1">请按住最下方的语音按钮</string>
+    <string name="toast_tip2">并说出你想查找的</string>
+    <string name="toast_tip3">联系人，应用<font size='15'>&#160;或&#160;</font>音乐</string>
+    <string name="toast_tip4">松手搜索</string>
+    <!-- Listener title -->
+    <string name="contacts_listener_title">联系人</string>
+    <string name="web_search_listener_title">网页搜索</string>
+    <!-- play text before call a contact -->
+    <string name="play_text_call_people">是否呼叫%s</string>
+    <string name="pls_say_number">请说出序号</string>
+    <plurals name="find_people_many_number">
+        <item quantity="one">找到1个号码</item>
+        <item quantity="other">找到%d个号码</item>
+    </plurals>
+    <string name="re_confirm">对不起，没有识别到你的答复，请重新确认</string>
+    <string name="re_say_number">对不起，没有识别到你说的序号，请重新说出序号</string>
+    <string name="cancel">取消</string>
+    <string name="music_title">歌曲:&#160; </string>
+    <string name="music_album">专辑:&#160; </string>
+    <string name="music_artist">歌手:&#160; </string>
+    <plurals name="music_total">
+        <item quantity="one">共 1 首歌曲</item>
+        <item quantity="other">共&#160;%d&#160;首歌曲</item>
+    </plurals>
+    <plurals name="music_artist">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>，共&#160;<xliff:g id="COUNT_0">%1$d</xliff:g>&#160;首歌曲</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g>，共&#160;<xliff:g id="COUNT_0">%1$d</xliff:g>&#160;首歌曲</item>
+    </plurals>
+    <string name="call_person">呼叫%s</string>
+    <string name="no_result">没听清你的指令，请再说一遍</string>
+    <string name="research">没听清你的指令，请重新搜索</string>
+    <string name="calling_now">正在呼叫</string>
+    <string name="record_warning_dialog_title">无法使用</string>
+    <string name="record_warning_dialog_message">其他应用正在使用手机话筒，闪念胶囊暂时不可用</string>
+    <string name="record_warning_dialog_positive_button">确定</string>
+    <string name="china_unicom">联通</string>
+    <string name="china_mobile">移动</string>
+    <string name="china_telecom">电信</string>
+    <string name="no_result_title">未找到结果</string>
+   <string name="no_result_detail1">请按住下方按钮，并说出你想查找的</string>
+    <string name="no_result_detail2">联系人、应用或音乐，松手搜索</string>
+    <string name="headset_no_result_play">未找到结果，请长按线控中键激活，松手后说出联系人或音乐进行搜索</string>
+    <string name="contact_is_forbidden">当前无法绕过锁屏搜索联系人\n请到“搜索与语音”中更改设置</string>
+    <string name="contact_is_forbidden_tts">当前无法绕过锁屏搜索联系人，请到“搜索与语音”中更改设置</string>
+    <plurals name="find_many_result">
+        <item quantity="one">找到1个结果</item>
+        <item quantity="other">找到%d个结果</item>
+    </plurals>
+    <string name="contact_no_result">未找到结果，请重新搜索</string>
+    <string name="find_many_contact_result">找到多个结果，请在屏幕上选择</string>
+    <plurals name="find_many_phone_result">
+        <item quantity="one">找到1个号码，请在屏幕上选择</item>
+        <item quantity="other">找到%d个号码，请在屏幕上选择</item>
+    </plurals>
+    <string name="control_by_headset">请按上下选择，中键确定</string>
+    <plurals name="some_other">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>有<xliff:g id="COUNT_0">%1$d</xliff:g>个号码</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g>有<xliff:g id="COUNT_0">%1$d</xliff:g>个号码</item>
+    </plurals>
+    <string name="headset_guide">请松开线控听到滴声后搜索</string>
+    <string name="play_music_singer">歌曲:&#160;</string>
+    <string name="play_music_album">专辑:&#160;</string>
+    <string name="play_aritst_music">播放艺术家%s的所有歌曲</string>
+    <!-- key string, not translate -->
+    <string name="random_play">随机播放</string>
+    <string name="listen_music">听音乐</string>
+    <string name="music">音乐</string>
+    <string name="random">随机</string>
+    <string name="mute_toast">当前是静音，请调高系统音量</string>
+    <!-- index alias -->
+    <string name="dialtacts_tab_recent">通话记录</string>
+    <string name="dialtacts_tab_contacts">联系人</string>
+    <string name="dialtacts_tab_starred">收藏</string>
+    <string name="dialtacts_tab_dialpad">拨号</string>
+    <string name="tabBar_worldclock">"世界时钟"</string>
+    <string name="tabBar_alarm">"闹钟"</string>
+    <string name="tabBar_stopwatch">"秒表"</string>
+    <string name="tabBar_timer">"计时器"</string>
+    <string name="copy_text">"复制号码到剪贴板"</string>
+    <string name="toast_text_copied" >"文本已复制"</string>
+    <string name="more_action">更多操作</string>
+    <string name="view_contact_detail">查看联系人详情</string>
+    <string name="btn_share_contact_text">以文字分享联系人</string>
+    <string name="btn_share_contact_vcf">以 vcf 文件分享联系人</string>
+    <string name="share_contact_subject_context">分享联系人: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%s</xliff:g></string>
+    <string name="menu_share">"分享"</string>
+    <string name="missing_name">（无姓名）\u0008</string>
+    <string name="full_name">"姓名"</string>
+    <string name="share_error">"无法分享此联系人"</string>
+    <string name="agree">"同意"</string>
+    <string name="disagree">"不同意"</string>
+    <string name="loading">"正在加载，请稍候\u2026"</string>
+    <string name="permission_tips">"提示"</string>
+    <string name="permission_content">"使用语音搜索服务，需获取你的手机录音权限，读取联系人信息及联网认证。是否同意？"</string>
+    <string name="call_by_sim1">使用 SIM 卡 1 呼叫</string>
+    <string name="call_by_sim2">使用 SIM 卡 2 呼叫</string>
+    <string name="public_number">公共号码</string>
+    <string name="bubble_speech_duration">语音时长：%s </string>
+    <string name="bubble_no_result">未识别到文字</string>
+    <string name="voice_input">语音输入</string>
+    <string name="voice_input_settings">语音输入设置</string>
+    <string name="voice_input_web">网络搜索结果</string>
+    <string name="voice_input_local">本地搜索结果</string>
+    <string name="default_dict">默认词典</string>
+    <string name="default_search_way">默认搜索引擎或百科</string>
+    <string name="search_via_baidu">百度搜索</string>
+    <string name="search_via_google">谷歌搜索</string>
+    <string name="search_via_bing">必应搜索</string>
+    <string name="search_via_shenma">神马搜索</string>
+      <string name="search_via_sogo">搜狗搜索</string>
+    <string name="search_via_hudong">互动百科</string>
+    <string name="search_via_baidupedia">百度百科</string>
+    <string name="search_via_bingdict">必应词典</string>
+    <string name="search_via_powerword">金山词霸</string>
+    <string name="search_via_youdao">有道词典</string>
+    <string name="search_via_hidict">海词词典</string>
+    <string name="default_input_mode">默认输入方式</string>
+    <string name="voice_input_mode">语音输入</string>
+    <string name="keyboard_input_mode">键盘输入</string>
+    <string name="auto_generated_backlog">自动生成待办事项</string>
+    <string name="manual_generated_backlog">手动生成待办事项</string>
+    <string name="recycle_bin">回收站</string>
+    <string name="btn_edit">编辑</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_restore">"恢复"</string>
+    <string name="no_search_result">无搜索结果</string>
+    <string name="recycle_bin_empty">"暂无已删除的闪念胶囊"</string>
+    <string name="recycle_bin_empty_secondary">"被删除的闪念胶囊将会出现在这里"</string>
+    <string name="btn_delete_permanently_confirm">"彻底删除"</string>
+    <string name="dialog_content_wait_message">请稍候</string>
+    <string name="edit_bubbles_option_bar_msg">已选择闪念胶囊 ( %1$d/%2$d )</string>
+    <string name="delete_single_recycle_bubble_dialog_title">"彻底删除选中的闪念胶囊？"</string>
+    <plurals name="delete_recycle_bubbles_dialog_title">
+        <item quantity="other">彻底删除选中的 %d 个闪念胶囊？</item>
+    </plurals>
+    <string name="progress_dialog_message_for_wait">请稍候&#8230;</string>
+    <string name="delete_time">删除于</string>
+    <string name="recycle_future">"未来"</string>
+    <string name="recycle_today">"今天"</string>
+    <string name="recycle_yesterday">"昨天"</string>
+    <string name="recycle_since_week">"过去一周"</string>
+    <string name="recycle_since_one_month">"过去一月"</string>
+    <string name="recycle_since_long_ago">"更早"</string>
+    <string name="touch_speak_home">"按住说话"</string>
+    <string name="keyboard_input">"键盘输入"</string>
+    <string name="keyboard_input_tip">"长按 Home 键启动，松手后开始键盘输入"</string>
+    <string name="touch_speak_home_tip">"按住 Home 键开始说话，松手后生成闪念胶囊，既可发送给子弹短信联系人也可以查看搜索结果"</string>
+    <string name="touch_speak_doubleside_tip">"挤压住双侧按键开始说话，松手后生成闪念胶囊，既可发送给子弹短信联系人也可以查看搜索结果"</string>
+    <string name="touch_speak_menu_tip">"按住菜单键开始说话，松手后生成闪念胶囊，既可发送给子弹短信联系人也可以查看搜索结果"</string>
+    <string name="touch_speak_singleside_tip">"长按侧键开始说话，松手后生成闪念胶囊，既可发送给子弹短信联系人也可以查看搜索结果"</string>
+    <string name="touch_speak_leftside_tip">"长按快捷键开始说话，松手后生成闪念胶囊，既可发送给子弹短信联系人也可以查看搜索结果"</string>
+    <string name="touch_speak_bluetooth_tip">"单击蓝牙耳机上的胶囊键开始说话，再次单击胶囊键即生成闪念胶囊并收起到队列"</string>
+    <string name="touch_speak_bluetooth">"单击说话"</string>
+    <string name="globle_app_name">全局闪念胶囊</string>
+    <string name="play">"播放"</string>
+    <string name="finish">"完成"</string>
+    <string name="mute_mode_is_turned_on">手机正处于静音状态</string>
+    <string name="network_error_tips">当前处于离线状态，请检查网络设置</string>
+    <string name="touch_speak_headset_tip">"长按耳机中键松开后开始说话，说完后产生闪念胶囊及搜索结果"</string>
+    <string name="touch_speak_headset_toast">"请松手开始说话"</string>
+    <string name="left_slide_lunch_global_pill">"左划呼出全局闪念胶囊"</string>
+    <string name="left_slide_lunch_global_pill_tips">"开启后，从屏幕右边缘任意位置向左划动，即可呼出全局闪念胶囊"</string>
+    <string name="bubble_offline_tag">离线</string>
+    <string name="bubble_optimize_text">联网后会优化输出文字</string>
+    <string name="recycle_bin_tips">"闪念胶囊将在回收站保留 30 天，之后将永久删除"</string>
+    <string name="bubble_copy">复制文字</string>
+    <string name="bubble_add_string_limit">非常抱歉，该操作会导致闪念胶囊内容过长，超出最大限制</string>
+    <string name="voice_search_interrupt">搜索被打断，请重新搜索</string>
+    <string name="enable_idea_pills">开启闪念胶囊</string>
+    <string name="enable_btn_text">开启</string>
+    <string name="idea_pills_beta">闪念胶囊</string>
+    <string name="idea_pills_beta_intro_msg">闪念胶囊目前处于测试阶段，仅供专业用户尝试和提交建议，非专业用户可在正式版本推出后再使用。正式版本会在下一版的系统升级中提供。</string>
+    <string name="enable_idea_pills_beta_dialog_confirm_msg">确认开启闪念胶囊测试版？</string>
+    <string name="enable_idea_pills_beta_dialog_warning_msg">闪念胶囊测试版使用过程中可能会出现体验欠佳的情况（存在一些不可预测的 Bug），确认要开启吗？</string>
+    <string name="confirm_title">确认</string>
+
+    <string name="recognition_language">识别语言</string>
+    <string name="recognition_language_tip">语言及方言识别技术由/iflytek/讯飞输入法提供</string>
+    <string name="mandarin">普通话</string>
+    <string name="english">英语</string>
+    <string name="cantonese">粤语</string>
+    <string name="lmz">四川话</string>
+    <string name="dongbeiese">东北话</string>
+    <string name="henanese">河南话</string>
+    <string name="hebeinese">河北话</string>
+    <string name="minnanese">闽南语</string>
+    <string name="hakkanese">客家语</string>
+    <string name="guizhounese">贵州话</string>
+    <string name="gansunese">甘肃话</string>
+    <string name="ningxianese">宁夏话</string>
+    <string name="yunnanese">云南话（昆明）</string>
+    <string name="changshanese">湖南话（长沙）</string>
+    <string name="shandongnese">山东话（济南）</string>
+    <string name="taiyuanese">山西话（太原）</string>
+    <string name="shanxinese">陕西话（西安）</string>
+    <string name="nanchangnese">江西话（南昌）</string>
+    <string name="shanghainese">上海话</string>
+    <string name="tianjinese">天津话</string>
+    <string name="nankinese">南京话</string>
+    <string name="wuhanese">武汉话</string>
+    <string name="hefeinese">合肥话</string>
+    <string name="max_global_bubbles_tips">超出数量限制，闪念胶囊最多支持 500 条</string>
+    <string name="handled">已完成</string>
+    <string name="handled_bubbles">已完成的胶囊</string>
+    <string name="handled_time">完成于</string>
+    <string name="handled_empty">"暂无已完成的闪念胶囊"</string>
+    <string name="handled_empty_secondary">在胶囊列表中勾选完成的闪念胶囊将会出现在“已完成”中</string>
+    <string name="handled_ok">已处理</string>
+    <string name="handled_ok_Bubbles">已处理的胶囊</string>
+    <string name="handled_ok_time">处理于</string>
+    <string name="handled_ok_empty">"暂无已处理的闪念胶囊"</string>
+    <string name="handled_ok_empty_secondary">在 Smartisan OS 4.1 之前的版本中分享到其它应用的闪念胶囊将会出现在“已处理”中</string>
+    <string name="default_bubble_color">默认胶囊类型</string>
+    <string name="note">记事</string>
+    <string name="important">重要事项</string>
+    <string name="todo">今日待办</string>
+    <string name="message">待发送信息</string>
+    <string name="inspiration">灵感</string>
+    <string name="share_ideapill">共享</string>
+
+    <string name="quick_command_title">快捷指令</string>
+    <string name="quick_command_nav_addr">地址导航</string>
+    <string name="quick_command_nav_addr_summary">提取选区内的地址信息，快速导航路线信息</string>
+    <string name="quick_command_nav_home">回家</string>
+    <string name="quick_command_nav_home_summary">从当前地理位置，快速导航至回家路线</string>
+    <string name="quick_command_web">打开网址</string>
+    <string name="quick_command_web_summary">提取选区内的网址信息，快速跳转</string>
+    <string name="quick_command_translate">翻译</string>
+    <string name="quick_command_translate_summary">提取选区内的英文单词，翻译为中文</string>
+    <string name="quick_command_boom">大爆炸</string>
+    <string name="quick_command_boom_summary">在当前文本页面触发分词功能</string>
+    <string name="quick_command_location">当前位置</string>
+    <string name="quick_command_location_summary">播报当前的位置信息</string>
+    <string name="quick_command_scan_wx">微信扫码</string>
+    <string name="quick_command_scan_wx_summary">快速启用微信扫一扫</string>
+    <string name="quick_command_wechat_pay">微信付款码</string>
+    <string name="quick_command_wechat_pay_summary">快速启用微信付款码</string>
+    <string name="quick_command_scan_zfb">支付宝扫码</string>
+    <string name="quick_command_scan_zfb_summary">快速启用支付宝扫一扫</string>
+    <string name="quick_command_zfb_pay">支付宝付款码</string>
+    <string name="quick_command_zfb_pay_summary">快速启用支付宝付款码</string>
+    <string name="quick_command_ocr">识别文字</string>
+    <string name="quick_command_ocr_summary">识别当前选框内的文字信息</string>
+    <string name="quick_command_time">语音报时</string>
+    <string name="quick_command_time_summary">播报当前时间</string>
+    <string name="quick_command_home_info_save">保存</string>
+    <string name="quick_command_home_info_hint">请输入家庭住址信息</string>
+    <string name="voice_command_report_time_words">当前时间</string>
+    <string name="voice_command_report_location_words">当前位置</string>
+    <string name="voice_command_location_process">正在定位</string>
+    <string name="voice_command_location_failed">暂无定位信息，请稍后</string>
+    <string name="voice_command_error_no_focus_item">未找到对应项目</string>
+    <string name="voice_command_process_hint">正在处理</string>
+    <string name="voice_command_func_disable">该功能已关闭</string>
+    <string name="voice_command_result_has_shown">已在结果页</string>
+    <string name="voice_command_prompt_unlock">请先解锁屏幕</string>
+
+    <string name="save_address_title">保存地址</string>
+    <string name="save_address_msg">是否保存当前地址 </string>
+    <string name="save_address_no">不保存</string>
+    <string name="choose_address_title">选择要跳转的地址</string>
+    <string name="choose_url_title">选择要跳转的网址</string>
+    <string name="choose_paras_title">选择要翻译的句子</string>
+
+    <string name="voice_command_global_back">返回</string>
+    <string name="voice_command_global_home">主屏幕</string>
+    <string name="voice_command_global_recents">概览</string>
+
+    <string name="voice_commond_intro">语音指令功能介绍</string>
+    <string name="voice_commond_title">语音指令</string>
+    <string name="voice_commond_title_tip_ideapill_key">你可以在同时按下快捷键和音量下键后，说出当前页面上的标签名称，系统将自动跳转至该标签所对应的功能</string>
+    <string name="voice_commond_title_tip_home_key">你可以在同时按下 Home 键+音量下键后，说出当前页面上的标签名称，系统将自动跳转至该标签所对应的功能</string>
+    <string name="voice_commond_share_text">文本分享</string>
+    <string name="voice_commond_shortcut">快捷指令</string>
+    <string name="voice_commond_shortcut_tip_ideapill_key">你可以在同时按下快捷键和音量下键后，说出指令，系统将直接跳转至结果页面</string>
+    <string name="voice_commond_shortcut_home_key">你可以在同时按下 Home 键+音量下键后，说出指令，系统将直接跳转至结果页面</string>
+    <string name="visial_barrier_mode">视觉无障碍模式</string>
+    <string name="voice_commond_about">关于语音指令</string>
+    <string name="voice_commond_finish">完成</string>
+
+    <string name="button_set_home_title">设置回家地址</string>
+    <string name="button_set_home_content">还未设置回家地址，设置后可启用此快捷指令</string>
+    <string name="button_setting">设置</string>
+    <string name="search_result">搜索结果</string>
+    <string name="search_result_empty">无搜索结果</string>
+
+    <string name="app_not_install_message">未安装%s,如需安装,请前往应用商店下载安装</string>
+    <string name="app_name_alipay">支付宝</string>
+    <string name="app_name_wechat">微信</string>
+    <string name="app_name_gaode">高德地图</string>
+    <string name="app_name_bigbang">大爆炸</string>
+
+    <string name="volume_key_left">左侧按键</string>
+    <string name="volume_key_right">右侧按键</string>
+    <string name="long_press_home_key">长按 Home 键</string>
+    <string name="hold_home_or_left_key">长按 Home 键或左侧按键</string>
+    <string name="hold_home_or_right_key">长按 Home 键或右侧按键</string>
+    <string name="idea_pills_usage_tips">你可以%s进行语音输入，将一闪而过的想法便捷快速地记录下来</string>
+    <string name="idea_pills_usage_video_tips">具体操作请观看闪念胶囊（Idea Pills）讲解视频</string>
+    <string name="left_slide_body">从屏幕右边缘任意位置向左划动，即可唤出闪念胶囊列表</string>
+    <string name="usage_video_title">闪念胶囊（Idea Pills）讲解视频</string>
+    <string name="usage_video_bt">闪念胶囊（Idea Pills）讲解视频</string>
+    <string name="dlg_msg_play_usage_video">你尚未观看闪念胶囊讲解视频，为了更好的了解闪念胶囊的功能，推荐你在观看后使用</string>
+    <string name="see_video_later">稍后观看</string>
+    <string name="play_video_now">现在观看</string>
+    <string name="enable_idea_pills_dialog_title">确认开启全局闪念胶囊？</string>
+    <string name="enable_idea_pills_dialog_msg">"开启“全局闪念胶囊”功能后，你可以通过长按%1$s来激活闪念胶囊。短按%2$s的功能将不会受到影响。请确认是否开启？"</string>
+    <string name="play_usage_video_tips"><u>观看闪念胶囊（Idea Pills）讲解视频</u></string>
+    <string name="notify_left_slide_title">闪念胶囊列表唤出方式已更改</string>
+    <string name="notify_left_slide_body">点击查看</string>
+    <string name="error_audio_file">录音不存在或已损坏</string>
+    <string name="global_idea_pills_enable">全局闪念胶囊已开启</string>
+    <string name="idea_pills_memory_dialog_content">“闪念胶囊”功能将消耗较多的系统资源，开启后手机可用内存会减少，后台应用更容易被系统清理，某些情况下也导致一些卡顿现象，请谨慎开启该功能。如果不是频繁使用“闪念胶囊”功能，建议关闭此选项。确认要开启“闪念胶囊”功能吗？</string>
+    <string name="click_idealpill_slide_body">单击快捷键，即可唤出闪念胶囊列表。</string>
+
+    <string name="bubble_notice">提示</string>
+    <string name="install">安装</string>
+    <string name="install_bigbang_message">当前系统中未安装“大爆炸”应用，无法使用大爆炸功能，点击“安装”前往应用商店下载并安装后即可启用该功能。</string>
+    <string name="intelligen_words_menu_title">选择插入</string>
+    <string name="intelligent_text_item_desc_full_text">全文</string>
+    <string name="intelligent_text_item_desc_result">结果</string>
+    <string name="idea_pills_key">快捷键</string>
+
+    <string name="blind_mode_no_result">未找到结果</string>
+    <string name="blind_mode_invalid_voice">同时长按快捷键及下音量键，说出想要操控的按钮名称或指令短语</string>
+    <string name="blind_mode_network_error">网络异常，请检查网络状态</string>
+    <string name="blind_mode_running_error">运行被中断，请重试</string>
+
+    <string name="download_no_application_title">无法打开文件</string>
+    <string name="preview_image_attachment_dialog_title">确认从附件移除?</string>
+    <string name="preview_image_attachment_dialog_confirm">确认移除</string>
+    <string name="select_attachment_type">"选择应用添加附件"</string>
+    <string name="bubble_datetime_format_year">yyyy年MM月dd日 HH:mm</string>
+    <string name="bubble_datetime_format_month">MM月dd日 HH:mm</string>
+    <string name="bubble_datetime_format_day">dd日 HH:mm</string>
+    <string name="bubble_datetime_format">HH:mm</string>
+
+    <string name="bubble_image">图片</string>
+    <string name="bubble_file">文件</string>
+    <string name="bubble_remove">移除</string>
+    <string name="bubble_share">分享</string>
+
+    <plurals name="bubble_count_attach">
+     <item quantity="one">%d 个附件</item>
+     <item quantity="other">%d 个附件</item>
+    </plurals>
+    <string name="activity_not_found">未安装该应用</string>
+    <string name="voice_commond_cannot_used">语音指令暂不可用</string>
+    <string name="bubble_todo_over_settings_title">隐藏列表中已完成的胶囊</string>
+    <string name="bubble_todo_over_immediately">立即</string>
+    <string name="bubble_todo_over_dayly">每天</string>
+    <string name="bubble_todo_over_weekly">每周</string>
+    <string name="bubble_todo_over_immediately_tip">已完成的胶囊将会在每次收起列表时自动隐藏</string>
+    <string name="bubble_todo_over_dayly_tip">已完成的胶囊将会在每天凌晨 4 点自动隐藏</string>
+    <string name="bubble_todo_over_weekly_tip">已完成的胶囊将会在每周一凌晨 4 点自动隐藏</string>
+    <string name="bubble_share_tip">暂不支持分享胶囊中的附件</string>
+    <plurals name="bubble_image_count_attach">
+     <item quantity="one">%d 个图片附件</item>
+     <item quantity="other">%d 个图片附件</item>
+    </plurals>
+    <string name="app_drawer_string">快捷应用抽屉</string>
+    <string name="app_drawer_detail_string">开启快捷应用抽屉，可将使用语音新建的闪念胶囊快速分享至其他应用</string>
+    <string name="app_drawer_max_number_alert">最多可添加 6 个应用</string>
+
+    <string name="ifly_speaker_setting_title">发音人设置</string>
+    <string name="net_error_tips">网络连接失败，请检查网络</string>
+    <string name="resource_service_init_failed">资源服务初始化失败</string>
+    <string name="play_sample_audio">试听</string>
+    <string name="pause_sample_audio">暂停</string>
+    <string name="fyr_download_no">资源还未下载，请下载</string>
+    <string name="download_tts">下载</string>
+    <string name="downloading_tts">下载中</string>
+    <string name="audio_download_failed">下载失败</string>
+    <string name="fyr_download_success">下载成功</string>
+    <string name="use_tts">使用</string>
+    <string name="tts_using">正在使用</string>
+    <string name="speaker_switch_error">发音人设置失败</string>
+    <string name="ifly_buffer_fail">缓冲失败</string>
+    <string name="bubble_list_open_mode">闪念胶囊列表呼出方式</string>
+    <string name="bubble_list_open_mode_key">单击快捷键</string>
+    <string name="bubble_list_open_touch">屏幕右边缘左划</string>
+    <string name="bubble_list_open_mode_tip">单击快捷键或从屏幕右边缘任意位置向左划动，即可呼出闪念胶囊列表</string>
+    <string name="btn_cancel_complete">取消完成</string>
+
+    <string name="voice_command_seekbar_alert1" formatted="false">已播放 %d分　%d秒</string>
+    <string name="voice_command_seekbar_alert2" formatted="false">音频时长　%d分　%d秒</string>
+    <string name="voice_command_seekbar_alert3" formatted="false">当前时间　%d分　%d秒, 共 %d分　%d秒</string>
+
+    <string name="no_network_connected">网络连接不可用，请稍后重试</string>
+    <string name="color_profiles_reset">重置</string>
+    <string name="shortcut_setting_tips1">拖动图标可调整应用顺序</string>
+    <string name="shortcut_setting_tips2">应用列表</string>
+    <string name="touch_speak_search_key_title">未找到搜索结果</string>
+
+    <string name="voice_file_null">语音文件不存在，不能分享</string>
+    <string name="weibo_private_messages_name">私信</string>
+
+    <!--bullet-->
+    <string name="tips_no_speak">您好像没有说话哦</string>
+    <string name="tips_no_result">未找到结果</string>
+    <string name="tips_detail1">请按住下方按钮，并说出你想查找的</string>
+    <string name="tips_detail2">联系人，松手搜索</string>
+    <string name="tips_speak">说出你要搜索的联系人</string>
+    <string name="desc_speak_search">搜索联系人</string>
+    <string name="flash_im_not_install_tip">子弹短信还未安装</string>
+    <string name="flash_im_finger_unlocked_tip">请使用指纹进行解锁</string>
+    <string name="flash_im_finger_retry_tip">再试一次</string>
+
+    <string name="bullet_contact_recent">最近联系人</string>
+    <string name="bullet_contact_favorite">星标联系人</string>
+    <string name="bullet_contact_all">所有联系人</string>
+    <string name="bullet_contact_search">搜索到的联系人</string>
+    <string name="bullet_searchbar_hint">搜索联系人</string>
+
+    <string name="setting_default_show">默认展示结果</string>
+    <string name="setting_default_show_search">搜索结果</string>
+    <string name="setting_default_show_bullet">子弹短信</string>
+    <string name="tips_close">关闭</string>
+
+    <!--lock UI start-->
+    <string name="fingerprint_pattern_too_many_times">指纹验证失败次数过多，请绘制图案</string>
+    <string name="input_pattern">绘制图案</string>
+    <string name="pattern_error_warning">图案错误</string>
+    <string msgid="567011538994429120" name="accessibility_back">&quot;返回&quot;</string>
+
+    <string name="lock_easy_title">简单密码</string>
+    <string name="lock_complex_title">复杂密码</string>
+    <string name="lock_pattern_title">图案解锁</string>
+    <string name="input_password">输入密码</string>
+    <string name="input_pattern">绘制图案</string>
+    <string name="password_error_warning">密码错误</string>
+    <string name="pattern_error_warning">图案错误</string>
+    <plurals name="unlock_error_try_later">
+     <item quantity="one"><xliff:g id="SECOND">%d</xliff:g> 秒后重试</item>
+     <item quantity="other"><xliff:g id="SECOND">%d</xliff:g> 秒后重试</item>
+    </plurals>
+    <string name="yes">确定</string>
+
+    <string name="prevent_touch_title">已触发防误触模式</string>
+    <string name="prevent_touch_warning">请勿遮挡屏幕顶端</string>
+    <string name="prevent_touch_body">同时按下 “音量键%1$s” 和 “音量键%2$s” 退出该模式，可在 “设置-全局高级设置-辅助功能” 中关闭此功能</string>
+
+    <string name="fingerprint_instructions">或验证指纹</string>
+    <string name="fingerprint_authentication_failed">再试一次</string>
+    <string name="fingerprint_pattern_too_many_times">指纹验证失败次数过多，请绘制图案</string>
+    <string name="fingerprint_password_too_many_times">指纹验证失败次数过多，请输入密码</string>
+
+    <string name="lockscreen_access_pattern_start" >"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added" >"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose" >"已添加圆点 <xliff:g id="CELL_INDEX">%1$s</xliff:g>"</string>
+    <string name="lockscreen_access_pattern_detected" >"图案绘制完成"</string>
+    <string name="lockscreen_access_pattern_area" >"图案区域。"</string>
+    <string name="prevent_touch_title_toast">已触发防误触模式，请勿遮挡屏幕顶端。可同时按下“音量＋”和“音量－”退出该模式</string>
+    <string name="input_password_reboot">手机重启后，请输入密码来解锁手机</string>
+    <string name="input_pattern_reboot">手机重启后，请绘制图案来解锁手机</string>
+    <string name="faceid_or_password_pattern">识别面部信息也可解锁</string>
+    <string name="fingerprint_or_password_pattern">验证指纹也可解锁</string>
+    <string name="input_password_or_fingerprint">输入密码或验证指纹</string>
+    <string name="input_pattern_or_fingerprint">绘制图案或验证指纹</string>
+     <!--lock UI end-->
+
+    <string name="install">安装</string>
+
+    <!--search_flash_im start -->
+    <string name="search_flash_im_uninstall_tip">尚未安装子弹短信</string>
+    <string name="search_flash_im_unlogin_tip">尚未登录子弹短信</string>
+    <string name="search_flash_im_go_to_login_tip">去登录</string>
+    <string name="search_flash_im_go_to_install_tip">去安装</string>
+     <!--search_flash_im end -->
+
+
+</resources>

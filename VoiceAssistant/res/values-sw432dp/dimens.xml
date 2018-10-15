@@ -1,0 +1,55 @@
+<resources>
+    <dimen name="bubble_anim_hand_start_x">277.5dip</dimen>
+    <dimen name="bubble_anim_hand_end_x">224dip</dimen>
+    <dimen name="bubble_anim_hand_middle_x">185.3dip</dimen>
+    <dimen name="bubble_anim_list_margin_right">3.5dip</dimen>
+    <dimen name="bubble_anim_list_setting_padding_right">-10dip</dimen>
+    <dimen name="bubble_anim_circle_start_x">185dip</dimen>
+    <dimen name="bubble_anim_fak_width">105dip</dimen>
+    <dimen name="bubble_wave_path_clip">24dp</dimen>
+    <dimen name="bubble_wave_max_width">300dp</dimen>
+
+    <dimen name="left_wave_result_margin_bottom">515dp</dimen>
+    <dimen name="square_mode_left_wave_result_margin_bottom">515dp</dimen>
+    <dimen name="square_mode_bottom_pop_left_wave_result_margin_bottom">492dp</dimen>
+    <dimen name="onestep_mode_wave_result_margin_bottom_revise">70dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom">634dp</dimen>
+    <dimen name="window_thumb_square_mode_left_wave_result_margin_bottom">607dp</dimen>
+    <dimen name="bubble_arrow_width">44px</dimen>
+    <dimen name="bubble_checkbox_margintop">-0.5dp</dimen>
+    <dimen name="result_margin_bottom">0dp</dimen>
+    <dimen name="result_margin_top">45dp</dimen>
+    <dimen name="bubble_wave_text_popup_radius">18dp</dimen>
+
+    <dimen name="app_item_width">102.6dp</dimen>
+    <dimen name="app_item_height">118.56dp</dimen>
+    <dimen name="bubble_load_anim_height">79dp</dimen>
+    <dimen name="wave_result_margin_left">8dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom_oscar">604dp</dimen>
+    <dimen name="left_wave_result_margin_bottom_oscar">488dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom_trident">658dp</dimen>
+    <dimen name="left_wave_result_margin_bottom_trident">534dp</dimen>
+    <dimen name="bullet_finger_content_margin_horizontal">5dp</dimen>
+
+    <!--lock UI start -->
+    <dimen name="keyguard_patternview_grid_size">239px</dimen>
+    <dimen name="keyguard_patternview_circle_size">60px</dimen>
+    <dimen name="keyguard_patternview_node_x_offset">-36px</dimen>
+    <dimen name="keyguard_patternview_node_y_offset">96px</dimen>
+    <dimen name="keyguard_patternview_path_x_offset">218.5px</dimen>
+    <dimen name="keyguard_patternview_path_y_offset">-55.5px</dimen>
+    <dimen name="keyguard_lock_pattern_line_width">23px</dimen>
+    <dimen name="keyguard_patternview_padding_left">177px</dimen>
+    <dimen name="keyguard_patternview_padding_right">177px</dimen>
+    <dimen name="keyguard_patternview_padding_top">54px</dimen>
+    <dimen name="keyguard_patternview_padding_bottom">54px</dimen>
+    <dimen name="keyguard_patternview_margin_top">135px</dimen>
+    <dimen name="keyguard_patternparent_height">1050px</dimen>
+    <dimen name="keyguard_patternparent_padding_bottom">54px</dimen>
+    <dimen name="keyguard_patternparent_padding_top">45px</dimen>
+
+    <dimen name="keyguard_number_width">102dp</dimen>
+    <dimen name="keyguard_number_height">64dp</dimen>
+    <!--lock UI end -->
+
+</resources>

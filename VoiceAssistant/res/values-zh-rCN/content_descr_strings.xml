@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools">
+    <string name="bubble_boom">大爆炸</string>
+    <string name="bubble_gaode">分享到高德地图</string>
+    <string name="bubble_dianping">分享到大众点评</string>
+    <string name="bubble_jingdong">分享到京东</string>
+    <string name="bubble_qq">分享到QQ</string>
+    <string name="bubble_weixin">分享到微信</string>
+    <string name="bubble_attach">添加附件</string>
+    <string name="bubble_calendar">添加提醒</string>
+    <string name="bubble_play_voice">播放语音</string>
+    <string name="bubble_save">保存</string>
+    <string name="button_expand">展开</string>
+    <string name="button_dial">拨打电话</string>
+    <string name="button_send_message">发送短信</string>
+    <string name="search_float_window_setting">全局搜索浮窗设置</string>
+    <string name="show_result_in_browser">在浏览器中展示结果</string>
+    <string name="search_web">网页搜索</string>
+    <string name="search_dict">词典搜索</string>
+    <string name="search_wiki">维基搜索</string>
+    <string name="search_thirdparty">第三方搜索</string>
+
+    <string name="read_pause">暂停</string>
+    <string name="already_read_pause">已暂停</string>
+</resources>

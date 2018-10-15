@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mute_mode_is_turned_on">"휴대전화가 음소거 모드입니다"</string>
+    <string name="bubble_optimize_text">연결 후 최적화된 문자를 내보냅니다.</string>
+    <string name="bubble_boom_twice">이미 2개의 BigBang 페이지가 존재 합니다. 먼저 ideapills 편집을 완료하신 후 계속해서 실행 하시기 바랍니다.</string>
+</resources>

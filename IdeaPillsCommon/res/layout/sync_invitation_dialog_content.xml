@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/sync_invitation_dialog_padding"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/invite_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sync_send_invitation_dialog_content"
+        android:textColor="@color/sync_invitation_dialog_item_tip_color"
+        android:textSize="@dimen/sync_invitation_dialog_text_size" />
+    <EditText
+        android:id="@+id/phone_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textfield_activated_smartisanos_light"
+        android:layout_marginTop="@dimen/sync_invitation_dialog_padding"
+        android:paddingLeft="@dimen/sync_invitation_dialog_inner_padding"
+        android:paddingRight="@dimen/sync_invitation_dialog_inner_padding"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:imeOptions="actionDone"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/sync_invitation_dialog_hint_text_color"
+        android:textSize="@dimen/sync_invitation_dialog_text_size"
+        android:singleLine="true"
+        android:hint="@string/sync_send_invitation_phone_email" />
+</LinearLayout>

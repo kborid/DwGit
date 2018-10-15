@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/controller_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:background="@drawable/list_mesk"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginRight="-5dp"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="17.5dp"
+            android:src="@drawable/select_contact_popup_icon"/>
+
+        <com.smartisanos.sara.bullet.contact.view.PickContactView
+            android:id="@+id/pick_contact"
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            app:showLabel="false"
+            app:multiple="false"
+            app:sourceType="searchFriend"
+            app:numColumns="1"
+            app:loadMore="false"
+            app:showLivIndex="false" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View android:id="@+id/voice_button_divider"
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3.5dp"
+        android:background="@drawable/divider_line_horizontal"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/revone_bubble_voice_button_height"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/voice_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/voice_input_cancel"
+            android:gravity="center"
+            android:text="@string/voice_input_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/bubble_text_size" />
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/divider_line_vertical" />
+
+        <TextView
+            android:id="@+id/voice_over"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/voice_input_done"
+            android:gravity="center"
+            android:text="@string/voice_input_done"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/bubble_text_size" />
+    </LinearLayout>
+</LinearLayout>

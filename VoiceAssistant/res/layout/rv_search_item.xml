@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:background="@drawable/bullet_contact_search_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/frameLayoutHead"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="38dp"
+        android:layout_centerVertical="true">
+
+        <com.smartisanos.sara.bullet.widget.CircleImageView
+            android:id="@+id/imageViewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.smartisanos.sara.bullet.widget.AvatarImageView
+            android:id="@+id/imageViewHeader_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/foreground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lightning_message_select_contact_list_head"
+            android:visibility="visible" />
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_centerVertical="true"
+        android:singleLine="true"
+        android:textColor="#565656"
+        android:textSize="18sp"/>
+</LinearLayout>

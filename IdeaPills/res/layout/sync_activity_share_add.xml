@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <smartisanos.widget.Title
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/sync_content_top_margin"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/country_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/choose_country_selector"
+                android:paddingLeft="@dimen/sync_setting_item_inner_padding"
+                android:paddingRight="@dimen/sync_setting_item_inner_padding"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/country_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sync_edit_item_inner_padding"
+                    android:text="@string/edit_country_name"
+                    android:textColor="@android:color/black"
+                    android:textSize="@smartisanos:dimen/medium_text_size"/>
+
+                <TextView
+                    android:id="@+id/country_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:maxWidth="@dimen/choose_country_max_length"
+                    android:paddingTop="4dp"
+                    android:singleLine="true"
+                    android:text="@string/default_country_name"
+                    android:textColor="@color/sync_setting_item_summary_color"
+                    android:textSize="@dimen/country_name_text_size" />
+
+                <ImageView
+                    android:id="@+id/btn_choose_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/sync_edit_item_inner_padding"
+                    android:paddingRight="@dimen/sync_edit_item_inner_padding"
+                    android:src="@drawable/select_sign" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/country_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_bottom"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/sync_setting_item_inner_padding"
+                android:paddingRight="@dimen/sync_setting_item_inner_padding"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/country_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sync_edit_item_inner_padding"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/black"
+                    android:textSize="@smartisanos:dimen/medium_text_size" />
+                <EditText
+                    android:id="@+id/country_phone"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/sync_edit_item_inner_padding"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/sync_phone_number"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/setting_hint_text_color"
+                    android:textSize="@smartisanos:dimen/medium_text_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/contact_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/text_field_single"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/sync_setting_item_inner_padding">
+
+                <EditText
+                    android:id="@+id/phone_email"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/sync_edit_item_inner_padding"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:hint="@string/sync_phone_email"
+                    android:imeOptions="actionDone"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/setting_hint_text_color"
+                    android:textSize="@smartisanos:dimen/medium_text_size" />
+
+                <ImageView
+                    android:id="@+id/contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/sync_setting_item_inner_padding"
+                    android:paddingRight="@dimen/sync_setting_item_inner_padding"
+                    android:src="@drawable/sync_contact_icon"
+                    android:contentDescription="@string/add_contact"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/invite_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="13dp"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:paddingRight="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:text="@string/sync_send_invitation_summary"
+                android:textColor="@color/sync_invitation_item_tip_color"
+                android:textSize="@dimen/sync_setting_tip_text_size" />
+
+            <smartisanos.widget.ShadowButton
+                android:id="@+id/invitation"
+                android:layout_width="match_parent"
+                android:text="@string/sync_send_invitation"
+                style="@smartisanos:style/LongButton.Highlight"/>
+
+            <TextView
+                android:id="@+id/login_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="12dip"
+                android:paddingBottom="12dip"
+                android:layout_marginLeft="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:layout_marginRight="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:singleLine="true"
+                android:text="@string/international_phone"
+                android:textColor="@color/sync_blue_text_color"
+                android:textSize="@dimen/country_name_text_size" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="search_engine_text">
+        <item>在百度中搜索</item>
+        <item>在谷歌中搜索</item>
+        <item>在必应中搜索</item>
+        <item>在搜狗中搜索</item>
+        <item>在 360 中搜索</item>
+    </string-array>
+
+    <string-array name="search_dict_text">
+        <item>必应词典</item>
+        <item>金山词霸</item>
+        <item>有道词典</item>
+        <item>Google 翻译</item>
+    </string-array>
+
+    <string-array name="search_wiki_text">
+        <item>百度百科</item>
+        <item>互动百科</item>
+        <item>英文维基百科</item>
+        <item>中文维基百科</item>
+    </string-array>
+
+    <string-array name="search_thirdparty_text">
+        <item>搜狗|微信搜索</item>
+        <item>微博搜索</item>
+        <item>搜狗|知乎搜索</item>
+    </string-array>
+
+    <string-array name="ifly_speakers_accent_value">
+        <item>（中/英文普通话）</item>
+        <item>（东北话）</item>
+        <item>（河南话）</item>
+        <item>（湖南话）</item>
+        <item>（普通话）</item>
+        <item>（普通话）</item>
+        <item>（普通话）</item>
+        <item>（四川话）</item>
+        <item>（台湾话）</item>
+        <item>（粤语）</item>
+        <item>（英语 美式）</item>
+    </string-array>
+    <string-array name="ifly_speakers_gender_value">
+        <item>女声1</item>
+        <item>女声2</item>
+        <item>男声1</item>
+        <item>男声2</item>
+        <item>男声3</item>
+        <item>女声3</item>
+        <item>女声4</item>
+        <item>女声5</item>
+        <item>女声6</item>
+        <item>女声7</item>
+        <item>女声8</item>
+    </string-array>
+</resources>

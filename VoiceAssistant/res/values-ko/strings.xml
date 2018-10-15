@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="listener_name_contacts">연락처</string>
+    <string name="listener_name_app">앱</string>
+    <string name="listener_name_music">음악</string>
+    <string name="contacts_listener_title">연락처</string>
+    <string name="web_search_listener_title">웹 검색</string>
+    <string name="play_text_call_people">%s과 통화하시겠습니까?</string>
+    <string name="pls_say_number">번호를 말하세요.</string>
+    <plurals name="find_people_many_number">
+        <item quantity="one">1에 항목을 많은 번호를 찾았습니다.</item>
+        <item quantity="other">%d에 항목을 많은 번호를 찾았습니다.</item>
+    </plurals>
+    <string name="re_confirm">죄송합니다. 당신의 대답을 인식하지 못했습니다. 다시 말하세요.</string>
+    <string name="re_say_number">죄송합니다. 말하신 번호를 인식하지 못했습니다. 다시 한번 말하세요.</string>
+    <string name="cancel">취소</string>
+    <string name="music_title">노래:&#160; </string>
+    <string name="music_album">앨범:&#160;</string>
+    <string name="music_artist">가수:&#160;</string>
+    <plurals name="music_total">
+        <item quantity="one">모두 &#160;1&#160;개 노래</item>
+        <item quantity="other">모두 &#160;%d&#160;개 노래</item>
+    </plurals>
+    <plurals name="music_artist">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>. 모두 &#160;<xliff:g id="COUNT_0">%1$d</xliff:g>&#160;개 노래</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g>. 모두 &#160;<xliff:g id="COUNT_0">%1$d</xliff:g>&#160;개 노래</item>
+    </plurals>
+    <string name="call_person">%s와(과) 통화하기</string>
+    <string name="no_result">명령을 듣지 못했습니다. 다시 한번 말하세요.</string>
+    <string name="research">명령을 듣지 못했습니다. 다시 시도하세요.</string>
+    <string name="calling_now">전화 거는 중</string>
+    <string name="record_warning_dialog_title">사용할 수 없습니다.</string>
+    <string name="record_warning_dialog_message">현재 다른 앱에서 휴대폰 마이크를 사용하고 있기에 보이스 검색을 잠시 사용할 수 없습니다.</string>
+    <string name="record_warning_dialog_positive_button">확인</string>
+    <string name="china_unicom">China Unicom</string>
+    <string name="china_mobile">China Mobie</string>
+    <string name="china_telecom">China Telecom</string>
+    <string name="no_result_title">검색 결과 없음</string>
+    <string name="no_result_detail1">아래 버튼을 누르고 검색하려는</string>
+    <string name="no_result_detail2">연락처, 앱 혹은 음악을 말하세요.</string>
+    <string name="headset_no_result_play">검색결과가 없습니다.메뉴키를 길게 누르고 보이스를 시작하여 검색려는 연락처나 음악을 말하세요.</string>
+    <string name="contact_is_forbidden">화면 잠금단계를 건너 연락처를 검색할 수 없습니다\n"검색 및 보이스"에서 설정하세요.</string>
+    <string name="contact_is_forbidden_tts">화면 잠금단계를 건너 연락처를 검색할 수 없습니다. "검색 및 보이스"에서 설정하세요. </string>
+    <plurals name="find_many_result">
+        <item quantity="one">1개 항목을 찾았습니다.</item>
+        <item quantity="other">%d개 항목을 찾았습니다.</item>
+    </plurals>
+    <string name="contact_no_result">검색 결과가 없습니다. 다시 검색하세요.</string>
+    <string name="find_many_contact_result">검색결과가 많습니다. 확인하고 선택하세요.</string>
+    <string name="control_by_headset">"+""-"으로 선택하고 중간의 버튼으로 확인하세요.</string>
+    <plurals name="some_other">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>에게 <xliff:g id="COUNT_0">%1$d</xliff:g>개 번호가 있습니다.</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g>에게 <xliff:g id="COUNT_0">%1$d</xliff:g>개 번호가 있습니다.</item>
+    </plurals>
+    <string name="headset_guide">헤드폰 버튼을 놓으시고 소리나면 검색하세요.</string>
+    <string name="play_music_singer">노래:&#160;</string>
+    <string name="play_music_album">앨범:&#160;</string>
+    <string name="play_aritst_music">%s의 모든 노래를 재생</string>
+    <!-- key string, not translate -->
+    <string name="random_play">随机播放</string>
+    <string name="listen_music">听音乐</string>
+    <string name="music">音乐</string>
+    <string name="random">随机</string>
+    <string name="mute_toast">현재 휴대폰은 음소거 상태입니다. 휴대폰 음량을 조절하세요.</string>
+    <!-- index alias -->
+    <string name="dialtacts_tab_recent">"통화 기록"</string>
+    <string name="dialtacts_tab_contacts">"연락처"</string>
+    <string name="dialtacts_tab_starred">"즐겨찾기"</string>
+    <string name="dialtacts_tab_dialpad">"키패드"</string>
+    <string name="tabBar_worldclock">"세계 시간"</string>
+    <string name="tabBar_alarm">"알람"</string>
+    <string name="tabBar_stopwatch">"스톱워치"</string>
+    <string name="tabBar_timer">"타이머"</string>
+    <string name="unsupport_tips1">"현재 보이스 검색은 표준 중국어만 인식합니다"</string>
+    <string name="copy_text">"클립보드에 복사"</string>
+    <string name="toast_text_copied">"텍스트 복사됨"</string>
+    <string name="more_action">추가 작업</string>
+    <string name="view_contact_detail">View Contact Details</string>
+    <string name="btn_share_contact_text">"연락처를 텍스트로 공유"</string>
+    <string name="btn_share_contact_vcf">"연락처를 Vcf로 공유"</string>
+    <string name="share_contact_subject_context">"공유 연락처: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%s</xliff:g>개"</string>
+    <string name="menu_share">"공유"</string>
+    <string name="missing_name">"(이름 없음)\u0008"</string>
+    <string name="full_name">"이름"</string>
+    <string name="share_error">"이 연락처는 공유할 수 없습니다."</string>
+    <string name="agree">"동의"</string>
+    <string name="disagree">"동의 안 함"</string>
+    <string name="loading">"로드 중, 잠시만 기다려주십시오."</string>
+    <string name="permission_tips">"제시"</string>
+    <string name="permission_content">"보이스 검색이 음성녹음, 연락처 및 인터넷 접속 인증을 엑세스하려고 합니다. 허락하시겠습니까?"</string>
+    <string name="call_by_sim1">SIM 카드1로 발신</string>
+    <string name="call_by_sim2">SIM 카드2로 발신</string>
+    <string name="public_number">공공 전화번호</string>
+    <string name="default_dict">기본사전</string>
+    <string name="default_search_way">기본 검색 엔진 또는 BaiDu 백과</string>
+    <string name="search_via_baidu">바이두</string>
+    <string name="search_via_google">구글</string>
+    <string name="search_via_bing">Bing</string>
+    <string name="search_via_shenma">Shenma</string>
+    <string name="search_via_baidupedia">Baidu 백과</string>
+    <string name="search_via_youdao">Youdao 사전</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_hudong">Wikipedia</string>
+    <string name="search_via_bingdict">Bing 사전</string>
+    <string name="search_via_hidict">Dict.CN</string>
+    <string name="mute_mode_is_turned_on">"휴대전화가 음소거 모드입니다"</string>
+    <string name="finish">"완성"</string>
+    <string name="no_search_result">검색결과 없음</string>
+    <string name="network_error_tips">현재 오프라인 상태 입니다. 네트워크 연결을 확인해 주십시오.</string>
+
+    <!-- voice command-->
+
+    <string name="quick_command_title">단축키</string>
+    <string name="quick_command_nav_addr">네비게이션</string>
+    <string name="quick_command_nav_addr_summary">본문의 내용의 주소로 네비게이션 작동</string>
+    <string name="quick_command_nav_home">집으로</string>
+    <string name="quick_command_nav_home_summary">현재의 위치에서 집으로 빠른 길안내</string>
+    <string name="quick_command_web">인터넷 주소 열기</string>
+    <string name="quick_command_web_summary">본문의 내용의 주소로 인터넷 열기</string>
+    <string name="quick_command_translate">번역</string>
+    <string name="quick_command_translate_summary">본문의 내용의 영어 중국어로 번역</string>
+    <string name="quick_command_boom_summary">현재 본문 페이지의 단어 분석</string>
+    <string name="quick_command_location">현재위치</string>
+    <string name="quick_command_location_summary">현재 위치 정보 알리기</string>
+    <string name="quick_command_scan_wx">Wechat 스캔</string>
+    <string name="quick_command_scan_wx_summary">빠른 Wechat스캔 작동</string>
+    <string name="quick_command_wechat_pay">Wechat 지불정보</string>
+    <string name="quick_command_wechat_pay_summary">빠른 Wechat 지불정보</string>
+    <string name="quick_command_scan_zfb">Alipay 스캔</string>
+    <string name="quick_command_scan_zfb_summary">빠른 Alipay 스캔</string>
+    <string name="quick_command_zfb_pay"> Alipay 지불정보</string>
+    <string name="quick_command_zfb_pay_summary">빠른 Alipay 지불정보</string>
+    <string name="quick_command_time">음성 시간 알림</string>
+    <string name="quick_command_time_summary">현재 시간 알림</string>
+    <string name="quick_command_home_info_hint">집 주소 정보 입력해 주십시오</string>
+    <string name="voice_command_report_time_words">현재시간</string>
+    <string name="voice_command_report_location_words">현재위치</string>
+    <string name="voice_command_location_process">현재 위치</string>
+    <string name="voice_command_location_failed">일시적으로 위치정보가 없습니다. 잠시후 다시 시도해주십시오.</string>
+    <string name="voice_command_error_no_focus_item">대응하는 항목을 찾지 못했습니다.</string>
+
+    <string name="ifly_speaker_setting_title">음성 설정</string>
+    <string name="net_error_tips">네트워크 연결 실패, 네트워크를 확인해 주십시오.</string>
+    <string name="resource_service_init_failed">리소스 서비스 초기화 실패</string>
+    <string name="play_sample_audio">미리듣기</string>
+    <string name="pause_sample_audio">일시정지</string>
+    <string name="fyr_download_no">리소스 없습니다. 다운로드 해주십시오.</string>
+    <string name="download_tts">다운로드</string>
+    <string name="downloading_tts">다운로드 중</string>
+    <string name="audio_download_failed">다운로드 실패</string>
+    <string name="fyr_download_success">다운로드 성공</string>
+    <string name="use_tts">사용</string>
+    <string name="tts_using">현재 사용중</string>
+    <string name="speaker_switch_error">음성 설정 실패</string>
+    <string name="ifly_buffer_fail">완충 실패</string>
+
+    <!--lock UI start -->
+    <string name="input_pattern">패턴 그리기<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="pattern_error_warning">패턴이 틀렸습니다</string>
+    <string name="fingerprint_pattern_too_many_times">지문 인증 실패 횟수를 초과 하였습니다，패턴 잠금해제 하십시오</string>
+    <string name="accessibility_back">&quot;뒤로&quot;</string>
+
+    <string name="input_password">비밀번호를 입력하세요.</string>
+    <string name="input_pattern">잠금해제 패턴을 그리세요.</string>
+    <string name="password_error_warning">비밀번호가 틀렸습니다. <xliff:g id="COUNT">%d</xliff:g>번</string>
+    <string name="pattern_error_warning">패턴이 틀렸습니다. <xliff:g id="COUNT">%d</xliff:g>번</string>
+    <plurals name="password_error_try_later">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g>번 틀렸습니다\n<xliff:g id="SECOND">%d</xliff:g>초후 다시 시도하세요.</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>번 틀렸습니다\n<xliff:g id="SECOND">%d</xliff:g>초후 다시 시도하세요.</item>
+    </plurals>
+    <plurals name="pattern_error_try_later">
+        <item quantity="one"><xliff:g id="COUNT">%d</xliff:g>번 틀렸습니다\n<xliff:g id="SECOND">%d</xliff:g>초후 다시 시도하세요.</item>
+        <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>번 틀렸습니다\n<xliff:g id="SECOND">%d</xliff:g>초후 다시 시도하세요.</item>
+    </plurals>
+
+    <string name="prevent_touch_title">터치 오류 방지 모드</string>
+    <string name="prevent_touch_warning">화면 상단을 가리지 마십시오</string>
+    <string name="prevent_touch_body">동시에 “사운드 키%1$s” 과 “사운드 키%2$s”를 눌러 모드해제.  “설정-전체 고급 설정-보조 기능”에서 켜고/끄기 할 수 있습니다. </string>
+    <!--lock UI end -->
+
+</resources>

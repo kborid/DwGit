@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.sara.bubble.revone.widget.PcGuideAnimView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:paddingBottom="13dp"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/guide_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/revone_guide_anim_bg" />
+
+    <ImageView
+        android:id="@+id/guide_mask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/revone_guide_anim_mask" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+        android:layout_alignRight="@id/guide_bg">
+
+        <ImageView
+            android:id="@+id/guide_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-32dp"
+            android:src="@drawable/revone_guide_anim_list" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/guide_bg"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/guide_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/revone_guide_anim_button" />
+
+        <ImageView
+            android:id="@+id/guide_right_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/revone_guide_anim_click_normal" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/guide_center_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/revone_guide_anim_click_press" />
+
+    <ImageView
+        android:id="@+id/guide_hand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_alignLeft="@id/guide_center_dot"
+        android:layout_alignTop="@id/guide_center_dot"
+        android:src="@drawable/revone_guide_anim_hand" />
+
+</com.smartisanos.sara.bubble.revone.widget.PcGuideAnimView>

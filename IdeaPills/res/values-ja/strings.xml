@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mute_mode_is_turned_on">"端末がミュートモードになっています"</string>
+    <string name="select_attachment_type">"選択してください"</string>
+    <string name="preview_image_attachment_dialog_title">"添付ファイルから削除しますか？"</string>
+    <string name="preview_image_attachment_dialog_confirm">削除</string>
+</resources>

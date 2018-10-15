@@ -1,0 +1,32 @@
+<com.smartisanos.sara.widget.ShortcutAppLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_result_bg"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp">
+    <com.smartisanos.sara.widget.NoScrollListView
+        android:id="@+id/result_list_view"
+        android:clipToPadding="false"
+        android:layout_marginTop="@dimen/short_item_top_margin"
+        android:layout_marginBottom="@dimen/short_item_top_margin"
+        style="@style/ListViewGeneralStyle"
+        android:scrollbars="none"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/short_bottom_setting_height"
+        android:background="@drawable/win_bottombar"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:layout_gravity="bottom">
+        <ImageView
+            android:id="@+id/shortcut_app_setting"
+            android:contentDescription="@string/search_float_window_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/win_setting" />
+    </RelativeLayout>
+</com.smartisanos.sara.widget.ShortcutAppLayout>

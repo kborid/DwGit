@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <smartisanos.widget.SearchBar
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        smartisanos:withAnimation="false"
+        smartisanos:hintText="@string/bullet_searchbar_hint"
+        smartisanos:searchBarBackground="#00000000"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/search_bar">
+        <LinearLayout
+            android:id="@+id/contactLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <com.smartisanos.sara.bullet.contact.view.PickContactView
+                android:id="@+id/pick_contact_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0.4dp"
+                app:sourceType="recentFriend"
+                app:numColumns="1"
+                app:loadMore="false"
+                app:showLivIndex="false" />
+
+            <View
+                android:id="@+id/bottomLine"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#14000000" />
+
+            <com.smartisanos.sara.bullet.contact.view.PickContactView
+                android:id="@+id/pick_contact_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0.4dp"
+                app:sourceType="starAndAllFriend"
+                app:numColumns="1"
+                app:loadMore="true"
+                app:showLivIndex="true" />
+        </LinearLayout>
+
+        <ViewStub
+            android:id="@+id/pick_search_result_stub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0.4dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="12dp"
+            android:inflatedId="@+id/pick_search_result"
+            android:layout="@layout/pick_search_result"/>
+    </FrameLayout>
+</merge>

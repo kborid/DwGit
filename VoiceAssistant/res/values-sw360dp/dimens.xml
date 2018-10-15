@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="bubble_arrow_width">49.5px</dimen>
+    <dimen name="window_thumb_square_mode_left_wave_result_margin_bottom">504.8dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom">525dp</dimen>
+    <dimen name="square_mode_bottom_pop_left_wave_result_margin_bottom">406dp</dimen>
+    <dimen name="left_wave_result_margin_bottom">425dp</dimen>
+    <dimen name="square_mode_left_wave_result_margin_bottom">425.5dp</dimen>
+    <dimen name="onestep_mode_wave_result_margin_bottom_revise">65dp</dimen>
+    <dimen name="wave_result_margin_bottom">10dp</dimen>
+    <dimen name="result_margin_bottom">0dp</dimen>
+    <dimen name="result_margin_top">40dp</dimen>
+    <dimen name="bubble_checkbox_margintop">-1.5dp</dimen>
+    <dimen name="bubble_wave_text_popup_radius">18dp</dimen>
+    <dimen name="bubble_wave_path_clip">24dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom_oscar">495dp</dimen>
+    <dimen name="left_wave_result_margin_bottom_oscar">400dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom_trident">540dp</dimen>
+    <dimen name="left_wave_result_margin_bottom_trident">438dp</dimen>
+    <dimen name="bubble_load_anim_height">77dp</dimen>
+    <dimen name="bullet_finger_content_margin_horizontal">6dp</dimen>
+    <dimen name="list_music_title_max_width">203dp</dimen>
+
+    <dimen name="keyguard_number_width">86dp</dimen>
+    <dimen name="keyguard_number_height">53dp</dimen>
+</resources>

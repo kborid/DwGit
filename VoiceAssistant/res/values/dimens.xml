@@ -1,0 +1,230 @@
+<resources>
+    <dimen name="text_size_contact_result_item_person_name">18sp</dimen>
+    <dimen name="text_size_music_result_item_music_name">18sp</dimen>
+    <dimen name="text_size_music_result_item_album_name">14sp</dimen>
+    <dimen name="text_size_result_item_summary">15sp</dimen>
+    <dimen name="text_size_result_item_title">18sp</dimen>
+    <dimen name="list_icon_size_normal">32dp</dimen>
+
+    <!-- app -->
+    <dimen name="list_app_icon_width">36dp</dimen>
+    <dimen name="list_app_text_margin_left">9dp</dimen>
+
+    <!-- contact -->
+    <dimen name="list_contact_padding_bottom_name_number">5dp</dimen>
+    <!-- music -->
+    <dimen name="list_item_music_height">80dp</dimen>
+    <dimen name="list_music_pic_width">44dp</dimen>
+    <dimen name="list_music_songs_height">48dp</dimen>
+    <dimen name="list_music_content_margin_left">11dp</dimen>
+    <dimen name="list_music_content_margin_right">5.8dp</dimen>
+    <dimen name="list_music_title_max_width">220dp</dimen>
+    <dimen name="wave_result_margin_bottom">12dp</dimen>
+    <dimen name="navigation_bar_wave_result_margin_bottom">23dp</dimen>
+    <dimen name="wave_result_margin_left">8dp</dimen>
+    <dimen name="popup_arrow_horrizontal_offset">22dp</dimen>
+    <dimen name="bubble_wave_form_size">1dp</dimen>
+    <dimen name="bubble_wave_min_width">124dp</dimen>
+    <dimen name="bubble_wave_left_min_width">95dp</dimen>
+    <dimen name="bubble_wave_max_width">264dp</dimen>
+    <dimen name="bubble_wave_margin_left">132.5dp</dimen>
+    <dimen name="bubble_arrow_width">20dp</dimen>
+    <dimen name="bubble_text_popup_height">81dp</dimen>
+    <dimen name="wave_padding_left">15dp</dimen>
+    <dimen name="wave_padding_right">15dp</dimen>
+    <dimen name="bubble_item_margin_left">12dp</dimen>
+    <dimen name="bubble_item_margin_right">12dp</dimen>
+    <dimen name="wave_result_margin_left_popup">0dp</dimen>
+    <dimen name="item_block_gap">5dip</dimen>
+    <dimen name="settings_item_top_bottom_margin">9dip</dimen>
+    <dimen name="settings_item_title_left_margin">30dip</dimen>
+    <dimen name="common_horizontal_padding">16dp</dimen>
+    <dimen name="result_margin_bottom">0dp</dimen>
+    <dimen name="result_margin_top">45dp</dimen>
+    <dimen name="local_web_3_margin_top">-15dp</dimen>
+    <dimen name="pop_expansion_margin_bottom">25dp</dimen>
+    <dimen name="pop_expansion_margin_bottom_negative">-26dp</dimen>
+    <dimen name="list_emptyview_hint_primary_size">21sp</dimen>
+    <dimen name="list_emptyview_hint_secondary_size">15sp</dimen>
+    <dimen name="divider_height">0.7dp</dimen>
+    <dimen name="checkbox_width">36dip</dimen>
+    <dimen name="checkbox_height">36dip</dimen>
+    <dimen name="title_in_title_bar_font_size">20sp</dimen>
+    <dimen name="button_primary_textsize">13.5sp</dimen>
+    <dimen name="listview_primary_textsize">16sp</dimen>
+    <dimen name="listview_secondary_textsize">12.5sp</dimen>
+    <dimen name="listview_secondary_margin_top">3dp</dimen>
+    <dimen name="quick_bubble_buttons_padding">7dip</dimen>
+    <dimen name="recycle_list_margin_left">18dip</dimen>
+    <dimen name="recycle_list_margin_left_icon">72dip</dimen>
+    <dimen name="recycle_bin_empty_primary_margin_top">206dp</dimen>
+    <dimen name="recycle_bin_empty_secondary_margin_top">10dp</dimen>
+    <dimen name="edit_wav_max_height">331dp</dimen>
+    <dimen name="edit_text_max_height">355dp</dimen>
+    <dimen name="popup_min_width_anim">64dp</dimen>
+    <dimen name="small_min_height_exclude_edit">100dp</dimen>
+    <dimen name="large_min_height_exclude_edit">145dp</dimen>
+    <dimen name="share_drawer_large_min_height_exclude_edit">184dp</dimen>
+    <dimen name="recycle_edit_max_height">400dp</dimen>
+    <dimen name="bubble_wave_text_popup_radius">15dp</dimen>
+    <dimen name="settings_item_tips_margin_bottom">13dp</dimen>
+    <dimen name="settings_item_tips_margin_top">2dp</dimen>
+    <dimen name="settings_item_tips_text_size">13.5sp</dimen>
+    <dimen name="bubble_min_height_exclude_edit_wav">137.7dp</dimen>
+    <dimen name="bubble_min_height_exclude_edit_text">114.4dp</dimen>
+    <dimen name="bubble_item_normal_textwidth_min">65dp</dimen>
+    <dimen name="bubble_result_footer_height">22dip</dimen>
+    <dimen name="setting_item_check_icon_padding_right">4dip</dimen>
+    <dimen name="wave_cover_width">22dip</dimen>
+    <dimen name="bubble_anim_hand_start_x">236.5dip</dimen>
+    <dimen name="bubble_anim_hand_start_y">83dip</dimen>
+    <dimen name="bubble_anim_hand_end_x">183dip</dimen>
+    <dimen name="bubble_anim_hand_end_y">120dip</dimen>
+    <dimen name="bubble_anim_hand_middle_x">144.3dip</dimen>
+    <dimen name="bubble_anim_hand_middle_y">99dip</dimen>
+    <dimen name="bubble_anim_list_padding_right">3dip</dimen>
+    <dimen name="bubble_anim_list_setting_padding_right">-8dip</dimen>
+    <dimen name="bubble_anim_circle_start_x">144dip</dimen>
+    <dimen name="bubble_anim_circle_start_y">99dip</dimen>
+    <dimen name="bubble_anim_fak_width">64dip</dimen>
+    <dimen name="todo_left_margin">25.6dip</dimen>
+    <dimen name="bubble_wave_path_clip">0dp</dimen>
+
+    <!--bubble attachment-->
+    <dimen name="bubble_attachment_imagesize">40dp</dimen>
+    <dimen name="bubble_attachment_imagerealsize">38dp</dimen>
+    <dimen name="bubble_attachment_image_margin">4dp</dimen>
+    <dimen name="bubble_attachment_shape_corner">4dp</dimen>
+    <dimen name="bubble_attachment_file_padding">8dp</dimen>
+    <dimen name="bubble_edit_margin_top">45dp</dimen>
+    <dimen name="bubble_edit_margin_bottom">10dp</dimen>
+    <dimen name="bubble_normal_margin_bottom">34dp</dimen>
+    <dimen name="bubble_normal_margin_left">20dp</dimen>
+    <dimen name="bubble_normal_share_margin_left">38dp</dimen>
+    <dimen name="bubble_normal_margin_top">2dp</dimen>
+
+    <dimen name="left_wave_result_margin_bottom">515dp</dimen>
+    <dimen name="square_mode_left_wave_result_margin_bottom">515dp</dimen>
+    <dimen name="square_mode_bottom_pop_left_wave_result_margin_bottom">492dp</dimen>
+    <dimen name="onestep_mode_wave_result_margin_bottom_revise">70dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom">634dp</dimen>
+    <dimen name="window_thumb_square_mode_left_wave_result_margin_bottom">607dp</dimen>
+    <dimen name="left_wave_result_margin_left_popup">8dp</dimen>
+    <dimen name="left_wave_padding_left">11dp</dimen>
+    <dimen name="settings_item_title_size">18sp</dimen>
+
+    <dimen name="recycle_bubble_left">18dp</dimen>
+    <dimen name="recycle_bubble_left_attachment">16dp</dimen>
+    <dimen name="recycle_bubble_left_share">40dp</dimen>
+
+    <dimen name="bubble_start_height">135dp</dimen>
+
+    <dimen name="bubble_attachment_file_lr_margin">1dp</dimen>
+
+    <dimen name="share_bubble_small_bottom">-635dp</dimen>
+    <dimen name="share_bubble_large_bottom">-350dp</dimen>
+    <dimen name="bubble_item_small_text_size">9dp</dimen>
+    <dimen name="delete_icon_width">34dp</dimen>
+    <dimen name="no_width">0dp</dimen>
+    <dimen name="wave_view_left_margin">36dp</dimen>
+    <dimen name="wave_view_full_left_margin">0dp</dimen>
+    <dimen name="text_right_margin_share">8dp</dimen>
+    <dimen name="text_right_full_margin_share">0dp</dimen>
+
+    <dimen name="home_info_general_margin">12dp</dimen>
+
+    <dimen name="bubble_attachment_icon_size">40dp</dimen>
+    <dimen name="bubble_attachment_image_width">34dp</dimen>
+    <dimen name="bubble_attachment_image_height">@dimen/bubble_attachment_icon_size</dimen>
+    <dimen name="bubble_attachment_imageview_width">32dp</dimen>
+    <dimen name="bubble_attachment_imageview_height">38dp</dimen>
+    <dimen name="share_layout_height">65dp</dimen>
+    <dimen name="bubble_left_side">-2dp</dimen>
+    <dimen name="share_button_width">28dp</dimen>
+    <integer name="icon_size_origin">128</integer>
+    <integer name="icon_size_with_shadow">164</integer>
+    <integer name="icon_shadow_single_radius">3</integer>
+    <dimen name="bubble_checkbox_margintop">-0.5dp</dimen>
+
+    <dimen name="local_title_height">26dp</dimen>
+    <dimen name="local_item_height">60dp</dimen>
+    <dimen name="local_titlebar_height">40dp</dimen>
+    <dimen name="local_bottom_height">30dp</dimen>
+    <dimen name="attachment_left_margin">36dp</dimen>
+    <dimen name="attachment_share_left_margin">45dp</dimen>
+
+    <dimen name="loading_bubble_left_margin">1dp</dimen>
+    <dimen name="nomal_bubble_left_margin">6.5dp</dimen>
+
+    <dimen name="setting_item_margintop">7dp</dimen>
+
+    <dimen name="app_drawer_margin_top_negative">-23dp</dimen>
+    <dimen name="app_drawer_bubble_item_height">150dp</dimen>
+    <dimen name="app_drawer_bubble_item_padding">50dp</dimen>
+    <dimen name="app_drawer_bubble_item_share_padding_left">60dp</dimen>
+    <dimen name="app_item_width">95dp</dimen>
+    <dimen name="app_item_height">112dp</dimen>
+    <dimen name="drawer_item_width">24dp</dimen>
+    <dimen name="bubble_load_anim_height">79dp</dimen>
+    <dimen name="bubble_loading_width_calibration">12dp</dimen>
+    <dimen name="attachment_container_right_padding">8dp</dimen>
+
+    <dimen name="local_search_rect_margin">12dp</dimen>
+    <dimen name="attachment_container_gap_x">6dp</dimen>
+    <dimen name="attachment_container_gap_y">8dp</dimen>
+
+    <dimen name="bubble_local_reduce_gap">1dp</dimen>
+
+    <dimen name="pop_expansion_margin_keyboard_bottom">64dp</dimen>
+    <dimen name="attachment_margin_bottom">10dp</dimen>
+
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom_oscar">604dp</dimen>
+    <dimen name="left_wave_result_margin_bottom_oscar">488dp</dimen>
+    <dimen name="window_thumb_mode_left_wave_result_margin_bottom_trident">658dp</dimen>
+    <dimen name="left_wave_result_margin_bottom_trident">534dp</dimen>
+
+    <dimen name="recycle_empty_view_margin_left">80dp</dimen>
+    <dimen name="recycle_empty_view_margin_right">60dp</dimen>
+
+    <dimen name="web_search_load_progress_size">24dp</dimen>
+    <dimen name="web_search_type_button_width">44dp</dimen>
+    <dimen name="web_search_type_button_height">40dp</dimen>
+
+    <dimen name="widget_icon_size">40dp</dimen>
+    <dimen name="widget_distance_move_bottom">11.6dp</dimen>
+    <dimen name="drag_view_left_margin">66.6dp</dimen>
+    <dimen name="widgets_grid_view_item_padding">12dp</dimen>
+    <dimen name="widget_drag_view_item_padding">7dp</dimen>
+    <dimen name="notification_custom_widget_item_min_height">54dp</dimen>
+    <dimen name="notification_custom_widget_name_margin_top">1dp</dimen>
+    <dimen name="notification_custom_widget_name_text_size">8sp</dimen>
+    <dimen name="shortcut_item_width">80dp</dimen>
+    <dimen name="shortcut_item_height">100dp</dimen>
+
+    <dimen name="short_item_top_margin">36dp</dimen>
+    <dimen name="short_item_middle_gap">10dp</dimen>
+    <dimen name="short_bottom_setting_height">40dp</dimen>
+
+    <dimen name="search_top_margin">10dp</dimen>
+    <dimen name="web_search_margin">6dp</dimen>
+    <dimen name="search_bottom_margin">20dp</dimen>
+
+    <dimen name="search_margin_bottom">40dp</dimen>
+    <dimen name="search_item_space">8.7dp</dimen>
+
+    <dimen name="shortcut_widget_icon_size">44dp</dimen>
+    <dimen name="video_intro_padding_y">15dp</dimen>
+    <dimen name="video_intro_padding_x">24dp</dimen>
+    <dimen name="bullet_finger_content_margin_horizontal">5dp</dimen>
+
+    <!--lock UI start -->
+    <dimen name="prevent_touch_w">268dp</dimen>
+    <dimen name="prevent_touch_h">360dp</dimen>
+    <dimen name="complex_passward_layout_padding_bottom">0dp</dimen>
+    <dimen name="pattern_password_bottom_margin">0px</dimen>
+    <dimen name="lock_tip_max_text_size">18dp</dimen>
+    <dimen name="pop_up_dialog_complex_passward_edit_max_text_size">23dp</dimen>
+    <!--lock UI end -->
+
+    <dimen name="margin_top_default_value">14dp</dimen>
+</resources>

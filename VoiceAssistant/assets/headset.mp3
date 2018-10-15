@@ -1,0 +1,6 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar headset;
+!slot <phrase>;
+!start <begin>;
+<begin>:<phrase>;
+<phrase>:张海洋;

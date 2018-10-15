@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/fak_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="-32dp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/fak_llbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_toRightOf="@id/fak_todo"
+        android:background="@drawable/text_popup"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:paddingRight="12dp" >
+
+        <CheckBox
+            android:id="@+id/fake_todo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:button="@drawable/bubble_todo_checkbox"
+            android:gravity="center_vertical" />
+
+
+        <TextView
+            android:id="@+id/fak_bubble_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:maxWidth="145dp"
+            android:minWidth="@dimen/bubble_item_normal_textwidth_min"
+            android:singleLine="true"
+            android:text="@string/bubble_optimize_text"
+            android:textColor="#FFFFFFFF"
+            android:textSize="13.5sp" />
+
+        <ImageView
+            android:id="@+id/v_little_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:visibility="gone"
+            android:layout_marginRight="2dp"
+            android:src="@drawable/little_remind_icon" />
+
+        <ImageView
+            android:id="@+id/fak_bubble_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+            android:scaleType="center"
+            android:src="@drawable/play_icon" />
+    </LinearLayout>
+
+</RelativeLayout>

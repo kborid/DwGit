@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_inputopt"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:layout_below="@+id/view_split_line2"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/iv_cancel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/bubble_cancel"
+        android:scaleType="center"
+        android:src="@drawable/bubble_btn_cancel" />
+
+    <View
+        android:id="@+id/v_divider_line"
+        android:layout_width="4px"
+        android:layout_height="match_parent"
+        android:background="@drawable/divider_line_vertical" />
+
+    <ImageView
+        android:id="@+id/iv_edit_attach"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/bubble_attach"
+        android:scaleType="center"
+        android:src="@drawable/bubble_btn_attach" />
+
+    <View
+        android:layout_width="4px"
+        android:layout_height="match_parent"
+        android:background="@drawable/divider_line_vertical" />
+
+    <ImageView
+        android:id="@+id/iv_over"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:contentDescription="@string/bubble_over"
+        android:scaleType="center"
+        android:src="@drawable/bubble_btn_finish" />
+</LinearLayout>

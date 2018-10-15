@@ -1,0 +1,19 @@
+<resources>
+    <!-- add for remind begin-->
+    <color name="black_60">#666666</color>
+    <color name="black_55">#FF555555</color>
+    <color name="date_pick_normal_day_color">#b3b3b5</color>
+    <color name="date_pick_select_day_color">#5079D9</color>
+    <color name="calendar_date_pick_today_color">#FF567ACE</color>
+
+    <color name="today_highlight_color">#0033b5e5</color>
+    <color name="month_today_number">#FFFFFFFF</color>
+    <color name="month_day_number_other">#FFFFFFFF</color>
+    <!-- add for remind end-->
+    <color name="other_color">#9ea1a9</color>
+    <drawable name="black_bg_mask">#50000000</drawable>
+
+    <color name="sync_invitation_dialog_item_tip_color">#9a000000</color>
+    <color name="sync_invitation_dialog_hint_text_color">#26000000</color>
+    <color name="month_grid_lines">#66CCCCCC</color>
+</resources>

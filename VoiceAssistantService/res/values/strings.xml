@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Search Services</string>
+    <string name="dialtacts_tab_recent">Call Log</string>
+    <string name="dialtacts_tab_contacts">Contacts</string>
+    <string name="dialtacts_tab_starred">Favorites</string>
+    <string name="dialtacts_tab_dialpad">Keypad</string>
+    <string name="tabBar_worldclock">World Clock</string>
+    <string name="tabBar_alarm">"Alarm"</string>
+    <string name="tabBar_stopwatch">Stopwatch</string>
+    <string name="tabBar_timer">"Timer"</string>
+    <string name="china_unicom">CUCC</string>
+    <string name="china_mobile">CMCC</string>
+    <string name="china_telecom">CTCC</string>
+    <string name="random_play">随机播放</string>
+    <string name="listen_music">听音乐</string>
+    <string name="music">音乐</string>
+    <string name="random">随机</string>
+    <string name="data_tracker_recognize_by_contact_count" translatable="false">EVENT_SARA_RECOGNIZE_CONTACT_ENTRANCE_COUNT</string>
+    <string name="data_tracker_recognize_by_music_count" translatable="false">EVENT_SARA_RECOGNIZE_MUSIC_ENTRANCE_COUNT</string>
+    <string name="data_tracker_recognize_all_count_with_result_music" translatable="false">EVENT_SARA_RECOGNIZE_TOTAL_COUNT_WITH_RESULT_MUSIC</string>
+    <string name="data_tracker_recognize_all_count_with_result_search" translatable="false">EVENT_SARA_RECOGNIZE_TOTAL_COUNT_WITH_RESULT_SEARCH</string>
+    <string name="data_tracker_recognize_all_count_with_result_contact" translatable="false">EVENT_SARA_RECOGNIZE_TOTAL_COUNT_WITH_RESULT_CONTACT</string>
+    <string name="data_tracker_detail_recognize_all_count" translatable="false">语音识别总次数</string>
+    <string name="data_tracker_detail_people_count" translatable="false">语音识别的总人数</string>
+    <string name="blind_mode_voice_string">Screen Reader</string>
+    <!-- start [Rev One]: voice command -->
+    <string-array name="revone_voice_command_search_pref">
+        <item>search</item>
+        <item>find</item>
+    </string-array>
+    <!-- end -->
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <smartisanos.widget.ListContentItemSwitch
+        android:id="@+id/voice_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@smartisanos:style/ListContentItemStyle.Top"/>
+
+    <LinearLayout
+        android:id="@+id/guide_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/left_slide_body"
+        android:focusable="true"
+        android:background="@drawable/sub_item_back_ground_bottom"/>
+
+    <smartisanos.widget.TipsView
+        android:id="@+id/id_usage_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@smartisanos:style/GroupListTipsViewStyle"/>
+
+    <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+
+    <LinearLayout
+        android:id="@+id/sub_header_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <smartisanos.widget.PreviewOptionsCheckView
+            android:id="@+id/id_shortcut_key_chooser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <smartisanos.widget.ListContentItemSwitch
+            android:id="@+id/left_slide_lunch_global_pill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/ListContentItemStyle.Single"
+            android:visibility="gone"/>
+
+
+        <smartisanos.widget.TipsView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/GroupListTipsViewStyle"
+            android:text="@string/left_slide_lunch_global_pill_tips"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/open_mode_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <LinearLayout
+            android:id="@+id/default_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/GroupListSectionTitleStyle"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="6dp"
+            android:text="@string/default_bubble_color"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="RemindDialog" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PopupAnim</item>
+    </style>
+
+    <style name="RemindDialogNoneFloating" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PopupAnim</item>
+    </style>
+
+    <style name="proxyActivityTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+    <style name="pptActivityTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+    <style name="SettingsAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@smartisanos:anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@smartisanos:anim/slide_out_to_left</item>
+        <item name="android:activityCloseEnterAnimation">@smartisanos:anim/slide_in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@smartisanos:anim/slide_out_to_right</item>
+        <item name="android:taskOpenEnterAnimation">@smartisanos:anim/slide_in_from_right</item>
+        <item name="android:taskOpenExitAnimation">@smartisanos:anim/slide_out_to_left</item>
+        <item name="android:taskCloseEnterAnimation">@smartisanos:anim/slide_in_from_left</item>
+        <item name="android:taskCloseExitAnimation">@smartisanos:anim/slide_out_to_right</item>
+    </style>
+    <style name="SettingsActivityStyle" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/setting_background</item>
+        <item name="android:windowAnimationStyle">@style/SettingsAnim</item>
+    </style>
+    <style name="ListViewGeneralStyle">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:overScrollMode">always</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+    <style name="SettingItemGeneralStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/selector_setting_sub_item_bg_single</item>
+    </style>
+
+    <style name="PopupAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@*android:anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@*android:anim/dialog_exit</item>
+    </style>
+
+    <style name="RevoneRemindActivity" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="RemindActivity" parent="@style/RemindDialogNoneFloating">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="dialogActivityTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="headSettingItemStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bubble_head_setting_item_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="headSettingDividerStyle">
+        <item name="android:layout_width">@dimen/bubble_head_setting_divider_width</item>
+        <item name="android:layout_height">@dimen/bubble_head_setting_divider_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/setting_popup_divider_line</item>
+    </style>
+</resources>

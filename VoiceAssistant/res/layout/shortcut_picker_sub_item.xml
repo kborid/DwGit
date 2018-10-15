@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.sara.widget.AppPickerSubView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/shortcut_item_width"
+    android:layout_height="@dimen/shortcut_item_height"
+    android:background="@drawable/app_select_bg_selected">
+    <View
+        android:id="@+id/background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/widget_icon_size"
+        android:layout_height="@dimen/widget_icon_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"/>
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/icon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:paddingBottom="14dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#9a000000"
+        android:textSize="10sp"/>
+    <ImageView
+        android:id="@+id/selected"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_normal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+</com.smartisanos.sara.widget.AppPickerSubView>

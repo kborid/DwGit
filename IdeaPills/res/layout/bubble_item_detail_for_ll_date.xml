@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_date"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/date_margin_share_full"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="13dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_offline_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bubble_offline_tag"
+        android:textColor="@color/bubble_text_color"
+        android:textSize="@dimen/bubble_item_small_text_size" />
+
+    <View
+        android:id="@+id/v_offline_line"
+        android:layout_width="2px"
+        android:layout_height="8.3dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@drawable/little_line" />
+
+    <TextView
+        android:id="@+id/tv_offline_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bubble_optimize_text"
+        android:textColor="@color/bubble_date_text_color"
+        android:textSize="@dimen/bubble_item_small_text_size" />
+
+    <ImageView
+        android:id="@+id/iv_conflict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clash_hint" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textColor="@color/bubble_date_text_color"
+        android:textSize="@dimen/bubble_item_small_text_size" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.smartisanos.ideapills.widget.AvatarImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/sync_invitation_item_icon_size"
+        android:layout_height="@dimen/sync_invitation_item_icon_size"
+        android:layout_marginLeft="@dimen/sync_setting_item_inner_margin"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/sync_invitation_item_name_max_width"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/icon"
+        android:layout_marginLeft="@dimen/sync_setting_item_inner_padding"
+        android:layout_centerVertical="true"
+        android:textColor="@color/sync_invitation_title_color"
+        android:textSize="@smartisanos:dimen/large_text_size" >
+    </TextView>
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/sync_setting_item_inner_padding"
+        android:layout_centerVertical="true"
+        android:src="@smartisanos:drawable/secletor_setting_item_arrow"/>
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/sync_invitation_item_status_max_width"
+        android:singleLine="true"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_centerVertical="true"
+        android:textColor="@color/sync_invitation_summary_color"
+        android:textSize="@smartisanos:dimen/small_text_size" />
+</RelativeLayout>

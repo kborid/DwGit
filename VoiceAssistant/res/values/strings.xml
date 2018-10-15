@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Sara</string>
+    <string name="app_pill_name">Idea Pills</string>
+    <string name="listener_name_contacts">Contacts</string>
+    <string name="listener_name_app">Apps</string>
+    <string name="listener_name_music">Music</string>
+    <string name="toast_tip1">Please Tap and Hold the Button Below</string>
+    <string name="toast_tip2">and Search for</string>
+    <string name="toast_tip3">Contacts, Apps<font size="15">&#160;or&#160;</font>Music</string>
+    <string name="toast_tip4">release the button to search</string>
+    <string name="contacts_listener_title">Contacts</string>
+    <string name="web_search_listener_title">Web Search</string>
+    <string name="play_text_call_people">Do you want to call %s</string>
+    <string name="pls_say_number">Please speak out the number</string>
+    <plurals name="find_people_many_number">
+        <item quantity="one">found 1 number</item>
+        <item quantity="other">found %d numbers</item>
+    </plurals>
+    <string name="re_confirm">Sorry, unable to identify your reply, please say again</string>
+    <string name="re_say_number">Sorry, unable to identify the number you picked, please say again</string>
+    <string name="cancel">Cancel</string>
+    <string name="music_title">Songs:&#160; </string>
+    <string name="music_album">Albums:&#160;</string>
+    <string name="music_artist">Singers:&#160;</string>
+    <plurals name="music_total">
+        <item quantity="one">&#160;1&#160; song</item>
+        <item quantity="other">&#160;%d&#160; songs</item>
+    </plurals>
+    <plurals name="music_artist">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>,&#160;<xliff:g id="COUNT_0">%1$d&#160;</xliff:g> song</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g>,&#160;<xliff:g id="COUNT_0">%1$d</xliff:g>&#160; songs</item>
+    </plurals>
+    <string name="call_person">Call%s</string>
+    <string name="no_result">Unable to identify your command, please say again</string>
+    <string name="research">Unable to identify your command, please search again</string>
+    <string name="calling_now">Calling&#8230;&#8230;&#8230;</string>
+    <string name="record_warning_dialog_title">Unable To Use</string>
+    <string name="record_warning_dialog_message">The microphone is occupied by another app, idea pills temporarily unusable.</string>
+    <string name="record_warning_dialog_positive_button">Confirm</string>
+    <string name="china_unicom">CUCC</string>
+    <string name="china_mobile">CMCC</string>
+    <string name="china_telecom">CTCC</string>
+    <string name="no_result_title">No Result</string>
+    <string name="no_result_detail1">Press and hold the button below and speak out</string>
+    <string name="no_result_detail2">your contact, app or music, release the button to search</string>
+    <string name="headset_no_result_play">No result found, press and hold to activate voice assistant, release and search for contact or music</string>
+    <string name="contact_is_forbidden">Unable to bypass your lock screen\nplease adjust your settings in Search and Voice</string>
+    <string name="contact_is_forbidden_tts">Unable to bypass your lock screen, please adjust your settings in Search and Voice</string>
+    <plurals name="find_many_result">
+        <item quantity="one">1 Result Found</item>
+        <item quantity="other">%d Results Found</item>
+    </plurals>
+    <string name="contact_no_result">No Contact Found</string>
+    <string name="find_many_contact_result">Multiple results found, please select one on the screen</string>
+    <plurals name="find_many_phone_result">
+        <item quantity="one">found 1 number, please select one on the screen</item>
+        <item quantity="other">found %d numbers, please select one on the screen</item>
+    </plurals>
+    <string name="control_by_headset">Use the Up and Down keys to select and the middle key to confirm</string>
+    <plurals name="some_other">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g> has <xliff:g id="COUNT_0">%1$d</xliff:g> number</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g> has <xliff:g id="COUNT_0">%1$d</xliff:g> numbers</item>
+    </plurals>
+    <string name="headset_guide">Please release the remoter and search after the beep</string>
+    <string name="play_music_singer">Songs:&#160;</string>
+    <string name="play_music_album">Albums:&#160;</string>
+    <string name="play_aritst_music">Play all songs of %s</string>
+    <string name="mute_toast">Please unmute the phone and try again</string>
+    <string name="random_play">随机播放</string>
+    <string name="listen_music">听音乐</string>
+    <string name="music">Music</string>
+    <string name="random">随机</string>
+    <!-- index alias -->
+    <string name="dialtacts_tab_recent">Call Log</string>
+    <string name="dialtacts_tab_contacts">Contacts</string>
+    <string name="dialtacts_tab_starred">Favorites</string>
+    <string name="dialtacts_tab_dialpad">Keypad</string>
+    <string name="tabBar_worldclock">World Clock</string>
+    <string name="tabBar_alarm">"Alarm"</string>
+    <string name="tabBar_stopwatch">Stopwatch</string>
+    <string name="tabBar_timer">"Timer"</string>
+    <string name="unsupport_tips1">"Voice Search currently only supports Mandarin Chinese."</string>
+    <string name="copy_text">Copy number to Clipboard</string>
+    <string name="toast_text_copied">Text Copied</string>
+    <string name="more_action">More Actions</string>
+    <string name="view_contact_detail">View Contact Details</string>
+    <string name="btn_share_contact_text">Share Contact as Text</string>
+    <string name="btn_share_contact_vcf">Share Contact as Vcf</string>
+    <string name="share_contact_subject_context">Share contact: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%s</xliff:g></string>
+    <string name="menu_share">Share</string>
+    <string name="missing_name">(No Name)\u0008</string>
+    <string name="full_name">Name</string>
+    <string name="share_error">This contact cannot be shared</string>
+    <string name="agree">"Allow"</string>
+    <string name="disagree">"Cancel"</string>
+    <string name="loading">"Loading\u2026"</string>
+    <string name="permission_tips">Reminder</string>
+    <string name="permission_content">"Voice Search requests permission to access your phone's audio recorder, contacts' information, and network certificates. Do you wish to allow this?"</string>
+    <string-array name="data_tracker_detail_recognize_count" translatable="false">
+        <item>1</item>
+        <item>2–5</item>
+        <item>6–10</item>
+        <item>11+</item>
+    </string-array>
+    <string name="data_tracker_detail_recognize_all_count" translatable="false">语音识别总次数</string>
+    <string name="data_tracker_detail_recognize_count" translatable="false">语音识别次数分布</string>
+    <string name="data_tracker_detail_people_count" translatable="false">语音识别的总人数</string>
+    <string name="data_tracker_recognize_all_count_with_result" translatable="false">EVENT_SARA_RECOGNIZE_TOTAL_COUNT_WITH_RESULT</string>
+    <string name="data_tracker_recognize_all_count_with_result_contact" translatable="false">EVENT_SARA_RECOGNIZE_TOTAL_COUNT_WITH_RESULT_CONTACT</string>
+    <string name="data_tracker_recognize_all_count_with_result_music" translatable="false">EVENT_SARA_RECOGNIZE_TOTAL_COUNT_WITH_RESULT_MUSIC</string>
+   <string name="data_tracker_recognize_all_count_with_result_search" translatable="false">EVENT_SARA_RECOGNIZE_TOTAL_COUNT_WITH_RESULT_SEARCH</string>
+    <string name="data_tracker_appear_all_count_wechat" translatable="false">EVENT_SARA_WECHAT_SHOW_TOTAL_COUNT</string>
+    <string name="data_tracker_click_phone_count" translatable="false">EVENT_SARA_CLICK_PHONE_COUNT</string>
+    <string name="data_tracker_click_contact_name_count" translatable="false">EVENT_SARA_CLICK_CONTACT_NAME_COUNT</string>
+    <string name="data_tracker_click_mms_count" translatable="false">EVENT_SARA_CLICK_MMS_COUNT</string>
+    <string name="data_tracker_click_wechat_count" translatable="false">EVENT_SARA_CLICK_WECHAT_COUNT</string>
+    <string name="data_tracker_click_play_count" translatable="false">EVENT_SARA_CLICK_PLAY_MUSIC_COUNT</string>
+    <string name="data_tracker_click_app_count" translatable="false">EVENT_SARA_CLICK_APP_COUNT</string>
+    <string name="data_tracker_clipboard_count" translatable="false">EVENT_SARA_CLIPBOARD_COUNT</string>
+    <string name="data_tracker_share_as_text_count" translatable="false">EVENT_SARA_TEXT_SHARE_CONTACT_COUNT</string>
+    <string name="data_tracker_share_as_vcf_count" translatable="false">EVENT_SARA_VCF_SHARE_CONTACT_COUNT</string>
+    <string name="data_tracker_by_desk_count" translatable="false">EVENT_SARA_RECOGNIZE_LAUNCHER_ENTRANCE_COUNT</string>
+    <string name="data_tracker_by_systemui_count" translatable="false">EVENT_SARA_RECOGNIZE_SYSTEMUI_ENTRANCE_COUNT</string>
+    <string name="data_tracker_by_menu_count" translatable="false">EVENT_SARA_RECOGNIZE_MENU_ENTRANCE_COUNT</string>
+    <string name="data_tracker_recognize_by_contact_count" translatable="false">EVENT_SARA_RECOGNIZE_CONTACT_ENTRANCE_COUNT</string>
+    <string name="data_tracker_recognize_by_music_count" translatable="false">EVENT_SARA_RECOGNIZE_MUSIC_ENTRANCE_COUNT</string>
+    <string name="call_by_sim1">Call Using SIM Card No. 1</string>
+    <string name="call_by_sim2">Call Using SIM Card No. 2</string>
+    <string name="public_number">Public Number</string>
+    <string name="bubble_speech_duration">Duration: %s </string>
+    <string name="bubble_no_result">No Text Detected</string>
+    <string name="voice_input_settings">Voice Search</string>
+    <string name="voice_input">Voice Search</string>
+    <string name="voice_input_web">Online Search Result</string>
+    <string name="voice_input_local">Local Search Result</string>
+    <string name="default_dict">Default Dictionary</string>
+    <string name="default_search_way">Default Search Service</string>
+    <string name="search_via_baidu">Baidu</string>
+    <string name="search_via_google">Google</string>
+    <string name="search_via_bing">Bing</string>
+    <string name="search_via_shenma">Shenma</string>
+       <string name="search_via_sogo">Sogou</string>
+    <string name="search_via_baidupedia">Baidu Baike</string>
+    <string name="search_via_youdao">Youdao Dictionary</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_hudong">Hudong Baike</string>
+    <string name="search_via_bingdict">Bing Dictionary</string>
+    <string name="search_via_hidict">Dict.CN</string>
+    <string name="default_input_mode">Default Input Mode</string>
+    <string name="voice_input_mode">Voice</string>
+    <string name="keyboard_input_mode">Keyboard</string>
+    <string name="auto_generated_backlog">Todo Auto Generate</string>
+    <string name="manual_generated_backlog">Todo Manual Generate</string>
+
+    <string name="recycle_bin">Recently Deleted</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+        <string name="btn_restore">"Restore"</string>
+    <string name="btn_delete_permanently_confirm">"Delete"</string>
+    <string name="btn_back">Back</string>
+    <string name="dialog_content_wait_message">Please wait</string>
+    <string name="edit_bubbles_option_bar_msg">Idea Pills Selected ( %1$d/%2$d )</string>
+    <string name="delete_single_recycle_bubble_dialog_title">"Do you want to permanently delete this idea pill?"</string>
+
+    <plurals name="delete_recycle_bubbles_dialog_title">
+        <item quantity="one">Permanently Delete 1 Idea Pill？</item>
+        <item quantity="other">Permanently Delete %d Idea Pills？</item>
+    </plurals>
+
+    <string name="progress_dialog_message_for_wait">Just a Moment&#8230;</string>
+    <string name="space">" "</string>
+    <string name="recycle_future">"Future"</string>
+    <string name="recycle_today">"Today"</string>
+    <string name="recycle_yesterday">"Yesterday"</string>
+    <string name="recycle_since_week">"1 Week"</string>
+    <string name="recycle_since_one_month">"1 Month"</string>
+    <string name="recycle_since_long_ago">"Earlier"</string>
+    <string name="delete_time">Deleted at</string>
+    <string name="no_search_result">No Search Results</string>
+    <string name="recycle_bin_empty">"No Deleted Idea Pill Yet"</string>
+    <string name="recycle_bin_empty_secondary">"Deleted idea pills will be displayed here"</string>
+    <string name="touch_speak_home">"Press to Talk"</string>
+    <string name="keyboard_input">"Keyboard Mode"</string>
+    <string name="keyboard_input_tip">"Press and hold Home to launch, release to type"</string>
+    <string name="touch_speak_home_tip">"Press and hold Home to talk, release to generate an idea pill with search results"</string>
+    <string name="touch_speak_doubleside_tip">"Squeeze and hold both side-keys to talk, release to generate an idea pill with search results"</string>
+    <string name="touch_speak_menu_tip">"Press and hold the Menu key to talk, release to generate an idea pill with search results"</string>
+    <string name="touch_speak_singleside_tip">"Press and hold side-key to speak, release to generate an idea pill and related search results"</string>
+    <string name="touch_speak_leftside_tip">"Press and hold the shortcut key to speak, release to generate an idea pill and related search results"</string>
+    <string name="mute_mode_is_turned_on">The Phone is in Mute Mode</string>
+    <string name="globle_app_name">Global Idea Pills</string>
+    <string name="play">"Play"</string>
+    <string name="touch_speak_headset_tip">"Press and hold middle button of your earphone remoter to talk, release to generate an idea pill with search results"</string>
+    <string name="touch_speak_headset_toast">"Release to talk"</string>
+    <string name="finish">"Done"</string>
+    <string name="network_error_tips">You are currently offline, please check your network settings</string>
+    <string name="left_slide_lunch_global_pill">"Quick Launch"</string>
+    <string name="left_slide_lunch_global_pill_tips">"Once enabled, swipe from the right edge of the display to launch Idea Pills globally"</string>
+    <string name="bubble_offline_tag">OFFLINE</string>
+    <string name="bubble_optimize_text">Will optimize once connected</string>
+    <string name="recycle_bin_tips">"Deleted pills will be stored in Trash for 30 days, and will be permanently deleted thereafter"</string>
+    <string name="bubble_copy">Copy Text</string>
+    <string name="bubble_add_string_limit">Sorry, this operation would make the Idea Pills exceed the character limit. </string>
+    <string name="voice_search_interrupt">Search is interrupted，please try again</string>
+    <string name="enable_idea_pills">Enable</string>
+    <string name="enable_btn_text">Enable</string>
+    <string name="idea_pills_beta">Idea Pills</string>
+    <string name="idea_pills_beta_intro_msg">This feature is currently in public beta, and is designed for professional users to preview and provide suggestions. Final version will be released in our next system update.</string>
+    <string name="enable_idea_pills_beta_dialog_confirm_msg">Do you want to enable the public beta?</string>
+    <string name="enable_idea_pills_beta_dialog_warning_msg">Unexpected bugs may occur during the public beta phase, do you want to enable this feature anyway?</string>
+    <string name="confirm_title">Confirm</string>
+
+    <string name="recognition_language">Language Preference</string>
+    <string name="recognition_language_tip">Powered by/iflytek/iFlyTek</string>
+    <string name="mandarin">普通话</string>
+    <string name="english">English</string>
+    <string name="cantonese">粤语</string>
+    <string name="lmz">四川话</string>
+    <string name="dongbeiese">东北话</string>
+    <string name="henanese">河南话</string>
+    <string name="hebeinese">河北话</string>
+    <string name="minnanese">闽南语</string>
+    <string name="hakkanese">客家语</string>
+    <string name="guizhounese">贵州话</string>
+    <string name="gansunese">甘肃话</string>
+    <string name="ningxianese">宁夏话</string>
+    <string name="yunnanese">云南话（昆明）</string>
+    <string name="changshanese">湖南话（长沙）</string>
+    <string name="shandongnese">山东话（济南）</string>
+    <string name="taiyuanese">山西话（太原）</string>
+    <string name="shanxinese">陕西话（西安）</string>
+    <string name="nanchangnese">江西话（南昌）</string>
+    <string name="shanghainese">上海话</string>
+    <string name="tianjinese">天津话</string>
+    <string name="nankinese">南京话</string>
+    <string name="wuhanese">武汉话</string>
+    <string name="hefeinese">合肥话</string>
+    <string name="max_global_bubbles_tips">Unable to create more than 500 idea pills</string>
+    <string name="handled">Tagged</string>
+    <string name="handled_bubbles">Tagged Idea Pills</string>
+    <string name="handled_time">Tagged at</string>
+    <string name="handled_empty">"No Tagged Idea Pills Yet"</string>
+    <string name="handled_empty_secondary">Tagged Idea Pills will be listed here</string>
+    <string name="handled_ok">Processed</string>
+    <string name="handled_ok_Bubbles">processed pills</string>
+    <string name="handled_ok_time">Processed at</string>
+    <string name="handled_ok_empty">"No processed pills yet"</string>
+    <string name="handled_ok_empty_secondary">Pills shared before Smartisan OS 4.1 will be stored in the Processed section</string>
+    <string name="default_bubble_color">Default Type</string>
+    <string name="note">Note</string>
+    <string name="important">Important</string>
+    <string name="todo">Today\'s Todo</string>
+    <string name="message">Pending</string>
+    <string name="inspiration">Idea</string>
+    <string name="share_ideapill">Share</string>
+
+    <!--quick command-->
+    <string name="quick_command_title">Shortcuts</string>
+    <string name="quick_command_nav_addr">Navigation</string>
+    <string name="quick_command_nav_addr_summary">Extract and navigate to the address in selected area</string>
+    <string name="quick_command_nav_home">Home</string>
+    <string name="quick_command_nav_home_summary">Navigate to home from current address</string>
+    <string name="quick_command_web">Launch URL</string>
+    <string name="quick_command_web_summary">Extract and jump to URL in the selected area</string>
+    <string name="quick_command_translate">Translate</string>
+    <string name="quick_command_translate_summary">Translate English words contained in the text</string>
+    <string name="quick_command_boom">Big Bang</string>
+    <string name="quick_command_boom_summary">Launch Big Bang in current text page</string>
+    <string name="quick_command_location">Announce Location</string>
+    <string name="quick_command_location_summary">Announce current location information</string>
+    <string name="quick_command_scan_wx">WeChat Scan</string>
+    <string name="quick_command_scan_wx_summary">Launch WeChat Scan feature</string>
+    <string name="quick_command_wechat_pay">WeChat Pay</string>
+    <string name="quick_command_wechat_pay_summary">Launch WeChat payment QRCode</string>
+    <string name="quick_command_scan_zfb">Alipay Scan</string>
+    <string name="quick_command_scan_zfb_summary">Launch Alipay Scan feature</string>
+    <string name="quick_command_zfb_pay">Alipay Pay</string>
+    <string name="quick_command_zfb_pay_summary">Launch Alipay payment QRCode</string>
+    <string name="quick_command_time">Announce Time</string>
+    <string name="quick_command_time_summary">Announce current time information</string>
+    <string name="quick_command_home_info_save">Save</string>
+    <string name="quick_command_home_info_hint">Please enter your home address</string>
+    <string name="voice_command_report_time_words">Current time</string>
+    <string name="voice_command_report_location_words">Current Location</string>
+    <string name="voice_command_location_process">Locating…</string>
+    <string name="voice_command_location_failed">No location information, please wait a moment</string>
+    <string name="voice_command_error_no_focus_item">No matched item found</string>
+    <string name="voice_command_process_hint">Processing…</string>
+    <string name="voice_command_func_disable">Feature turned off</string>
+    <string name="voice_command_result_has_shown">You are on result page already</string>
+    <string name="voice_command_prompt_unlock">Please unlock first</string>
+
+    <string name="save_address_title">Save Address</string>
+    <string name="save_address_msg">Do you want to save current address?</string>
+    <string name="save_address_yes">@string/quick_command_home_info_save</string>
+    <string name="save_address_no">Cancel</string>
+
+    <string name="voice_command_global_back">Back</string>
+    <string name="voice_command_global_home">Home</string>
+    <string name="voice_command_global_recents">Overview</string>
+
+    <string name="volume_key_left">Left Sidekey</string>
+    <string name="volume_key_right">Right Sidekey</string>
+    <string name="long_press_home_key">Press and Hold Home</string>
+    <string name="hold_home_or_left_key">press and hold Home or left sidekey</string>
+    <string name="hold_home_or_right_key">press and hold Home or right sidekey</string>
+    <string name="idea_pills_usage_tips">You can %s anytime to capture your sparkling idea.</string>
+    <string name="idea_pills_usage_video_tips">For a detailed instruction please watch the Idea Pills tutorial video.</string>
+    <string name="left_slide_body">Swipe from the right edge of the display to launch Idea Pills globally</string>
+    <string name="usage_video_title">Idea Pills tutorial video</string>
+    <string name="usage_video_bt">Idea Pills tutorial video</string>
+    <string name="dlg_msg_play_usage_video">You have not watched the instruction video yet, it is suggested that you enable this feature after watching the tutorial.</string>
+    <string name="see_video_later">Watch Later</string>
+    <string name="play_video_now">OK</string>
+    <string name="enable_idea_pills_dialog_title">Do you want to globally enable Idea Pills?</string>
+    <string name="enable_idea_pills_dialog_msg">"Once the Idea Pills feature is enabled globally, you can long press %1$s to capture your ideas. Features triggered by short pressing %2$s will not be affected. Do you want to enable globally now?"</string>
+    <string name="play_usage_video_tips"><u>watch the Idea Pills tutorial video</u></string>
+    <string name="idea_pills_beta_version" translatable="false">beta 2</string>
+    <string name="notify_left_slide_title">The way to  launch Idea Pills has changed</string>
+    <string name="notify_left_slide_body">Tap to set up</string>
+    <string name="error_audio_file">File damaged or missing</string>
+    <string name="global_idea_pills_enable">Global Idea Pills enabled</string>
+    <string name="idea_pills_memory_dialog_content">The use of Idea Pills requires a relatively large amount of system resources, enabling it might reduce your RAM available, resulting in more frequent revoking of background apps, thus please enable with caution. Do you still want to enable Idea Pills?</string>
+    <string name="click_idealpill_slide_body">You can press and hold the shortcut key to quickly record your sparking thought, or press the shortcut key to view your idea pills. </string>
+    <string name="voice_commond_intro">Voice command introduction</string>
+    <string name="voice_commond_title">Voice command</string>
+    <string name="voice_commond_title_tip_ideapill_key">You can press Shortcut and Volume Down key simutaneously, speak out your tag name to trigger a feature</string>
+    <string name="voice_commond_title_tip_home_key">你可以在同时按下 Home 键+音量下键后，说出当前页面上的标签名称，系统将自动跳转至该标签所对应的功能</string>
+    <string name="voice_commond_share_text">Text Share</string>
+    <string name="voice_commond_shortcut">Shortcuts</string>
+    <string name="voice_commond_shortcut_tip_ideapill_key">You can press Shortcut and Volume Down key simutaneously, speak out your command and the system will jump to result page automatically</string>
+    <string name="voice_commond_shortcut_home_key">你可以在同时按下 Home 键+音量下键后，说出指令，系统将直接跳转至结果页面</string>
+    <string name="visial_barrier_mode">Accessibility Mode</string>
+    <string name="voice_commond_about">About Voice Commands</string>
+    <string name="voice_commond_finish">Finished</string>
+    <string name="voice_commond_time_default">00:00</string>
+
+    <string name="button_set_home_title">Set Home Address</string>
+    <string name="button_set_home_content">You need to specify your home address before use this feature</string>
+    <string name="button_setting">Settings</string>
+    <string name="search_result">Search Results</string>
+    <string name="search_result_empty">No search results</string>
+
+    <string name="app_not_install_message">%s not installed, please proceed to App Market to install</string>
+    <string name="app_name_alipay">Alipay Pay</string>
+    <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_gaode">AutoNavi Maps</string>
+    <string name="app_name_bigbang">Big Bang</string>
+
+    <string name="bubble_notice">Notice</string>
+    <string name="install">Install</string>
+    <string name="install_bigbang_message">Unable to perform this action as Big Bang is not installed. Please tap “Install” to download and install Big Bang.</string>
+    <string name="intelligen_words_menu_title">Select</string>
+    <string name="intelligent_words_flight_num_date">"%1$s年%2$s月%3$s日 %4$s:%5$s"</string>
+    <string name="intelligent_text_item_desc_full_text">Full Text</string>
+    <string name="intelligent_text_item_desc_result">Result</string>
+    <string name="idea_pills_key">Shortcut Key</string>
+
+    <string name="blind_mode_no_result">No result found</string>
+    <string name="blind_mode_invalid_voice">Press the Shortcut and Volume Down key and speak out your command</string>
+    <string name="blind_mode_network_error">Please check your network</string>
+    <string name="blind_mode_running_error">Operation interrupted, please try again</string>
+
+    <string name="select_attachment_type">Please Choose</string>
+    <string name="download_no_application_title">Can\'t open file</string>
+    <string name="preview_image_attachment_dialog_title">Remove from Attachments</string>
+    <string name="preview_image_attachment_dialog_confirm">Remove</string>
+    <string name="bubble_datetime_format_year">yyyy-MM-dd HH:mm</string>
+    <string name="bubble_datetime_format_month">MM-dd HH:mm</string>
+    <string name="bubble_datetime_format_day">dd HH:mm</string>
+    <string name="bubble_datetime_format">HH:mm</string>
+
+    <string name="bubble_image">Picture</string>
+    <string name="bubble_file">File</string>
+
+    <string name="bubble_share">Share</string>
+    <string name="bubble_remove">Remove</string>
+    <plurals name="bubble_count_attach">
+        <item quantity="one">%d Attachment</item>
+        <item quantity="other">%d Attachments</item>
+    </plurals>
+    <string name="bubble_hint">点击可输入文字</string>
+    <string name="activity_not_found">App isn\'t installed</string>
+    <string name="voice_commond_cannot_used">Voice command temporarily unavailable</string>
+    <string name="bubble_todo_over_settings_title">Hide finished pills in list</string>
+    <string name="bubble_todo_over_immediately">Immediately</string>
+    <string name="bubble_todo_over_dayly">Daily</string>
+    <string name="bubble_todo_over_weekly">Weekly</string>
+    <string name="bubble_todo_over_immediately_tip">Finished pills will be hidden every time the list folds</string>
+    <string name="bubble_todo_over_dayly_tip">Finished pills will be hidden at 4am every day</string>
+    <string name="bubble_todo_over_weekly_tip">Finished pills will be hidden at 4am every Monday</string>
+    <string name="bubble_share_tip">Sharing of attachment is not supported yet</string>
+    <plurals name="bubble_image_count_attach">
+        <item quantity="one">%d Picture Attachment</item>
+        <item quantity="other">%d Picture Attachments</item>
+    </plurals>
+    <string name="app_drawer_string">App Drawer</string>
+    <string name="app_drawer_detail_string">Once enabled, you can quickly share your idea pills to other apps</string>
+    <string name="app_drawer_max_number_alert">You can add up to 6 apps here</string>
+
+    <string name="voice_command_seekbar_alert1" formatted="false">%d minute %d second played</string>
+    <string name="voice_command_seekbar_alert2" formatted="false">%d minute %d second total</string>
+    <string name="voice_command_seekbar_alert3" formatted="false">%d minute %d second played %d minute %d second total</string>
+
+    <string name="choose_address_title">Pick the address you want</string>
+    <string name="choose_url_title">Pick the URL you want</string>
+    <string name="choose_paras_title">Pick the sentence you want to translate</string>
+    <string name="ifly_speaker_setting_title">Speaker</string>
+    <string name="net_error_tips">Connection failed, please check your network</string>
+    <string name="resource_service_init_failed">Unable to initialize services</string>
+    <string name="play_sample_audio">Play</string>
+    <string name="pause_sample_audio">Pause</string>
+    <string name="fyr_download_no">Service not downloaded</string>
+    <string name="download_tts">Download</string>
+    <string name="downloading_tts">Downloading</string>
+    <string name="audio_download_failed">Download failed</string>
+    <string name="fyr_download_success">Download succeeded</string>
+    <string name="use_tts">Use</string>
+    <string name="tts_using">Current</string>
+    <string name="speaker_switch_error">Unable to switch speaker</string>
+    <string name="ifly_buffer_fail">Failed to buffer</string>
+    <string name="bubble_list_open_mode">Trigger Idea Pills List</string>
+    <string name="bubble_list_open_mode_key">Press Shortcut Key</string>
+    <string name="bubble_list_open_touch">Swipe in from right edge</string>
+    <string name="bubble_list_open_mode_tip">You can press the shortcut key or swipe in from right edge to display Idea Pills list</string>
+    <string name="btn_cancel_complete">Cancel completed</string>
+
+    <string name="no_network_connected">Network connection is not available, please try again later</string>
+    <string name="no_network_connected">网络连接不可用，请稍后重试</string>
+
+    <string name="touch_speak_bluetooth_tip">"单击蓝牙耳机上的胶囊键开始说话，再次单击胶囊键即生成闪念胶囊并收起到队列"</string>
+    <string name="touch_speak_bluetooth">"单击说话"</string>
+    <string name="color_profiles_reset">Reset</string>
+
+    <string name="shortcut_setting_tips1">拖动图标可调整应用顺序</string>
+    <string name="shortcut_setting_tips2">应用列表</string>
+    <string name="touch_speak_search_key_title">未找到搜索结果</string>
+
+    <string name="voice_file_null">语音文件不存在，不能分享</string>
+    <string name="text_ppt">PPT</string>
+
+    <string name="weibo_private_messages_name">Private Messages</string>
+    <!--bullet-->
+    <string name="tips_no_speak">Sorry,it sounds as if you didn\'t say anything</string>
+    <string name="tips_no_result">No Results</string>
+    <string name="tips_detail1">请按住下方按钮，并说出你想查找的</string>
+    <string name="tips_detail2">联系人，松手搜索</string>
+    <string name="tips_speak">Say the contact you want to search for</string>
+    <string name="desc_speak_search">Search for contacts</string>
+    <string name="flash_im_not_install_tip">bullet not install</string>
+    <string name="flash_im_finger_unlocked_tip">Please use fingerprint to unlock</string>
+    <string name="flash_im_finger_retry_tip">Try again</string>
+
+    <string name="bullet_contact_recent">Recent Contacts</string>
+    <string name="bullet_contact_favorite">Favourite Contacts</string>
+    <string name="bullet_contact_all">All Contacts</string>
+    <string name="bullet_contact_search">Search Result</string>
+    <string name="bullet_searchbar_hint">Search Contact</string>
+
+    <string name="setting_default_show">Default Display</string>
+    <string name="setting_default_show_search">Search Results</string>
+    <string name="setting_default_show_bullet">Bullet Messages</string>
+    <string name="tips_close">Close</string>
+
+    <!--lock UI start -->
+    <string name="fingerprint_pattern_too_many_times">Fingerprint ID has failed too many times; please use your pattern password instead.</string>
+    <string name="input_pattern">Draw Pattern</string>
+    <string name="pattern_error_warning">Incorrect Password</string>
+    <string name="accessibility_back">Back</string>
+    <string name="yes">OK</string>
+
+    <string name="prevent_touch_title">Palm Rejection triggered</string>
+    <string name="prevent_touch_warning">Do not cover the upper side</string>
+    <string name="prevent_touch_body">Press &quot;Volume%1$s&quot; and &quot;Volume%2$s&quot; at the same time to disable temporarily, you can also completely turn off Palm Rejection in Settings-Advanced Settings-Accessibility</string>
+
+    <string name="fingerprint_instructions">" Or Verify Fingerprint ID"</string>
+    <string name="fingerprint_authentication_failed">Try Again</string>
+    <string name="fingerprint_pattern_too_many_times">Fingerprint ID has failed too many times; please use your pattern password instead.</string>
+    <string name="fingerprint_password_too_many_times">Fingerprint ID has failed too many times; please use your password instead.</string>
+
+    <string name="lockscreen_access_pattern_start">"Pattern started"</string>
+    <string name="lockscreen_access_pattern_cleared" >"Pattern cleared"</string>
+    <string name="lockscreen_access_pattern_cell_added">"Cell added"</string>
+    <string name="lockscreen_access_pattern_cell_added_verbose">"Cell <xliff:g id="CELL_INDEX">%1$s</xliff:g> added"</string>
+    <string name="lockscreen_access_pattern_detected" >"Pattern completed"</string>
+    <string name="lockscreen_access_pattern_area" >"Pattern area."</string>
+
+    <string name="lock_easy_title">Simple Password</string>
+    <string name="lock_complex_title">Complex Password</string>
+    <string name="lock_pattern_title">Pattern Password</string>
+    <string name="input_password">Enter Password<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="input_pattern">Draw Pattern<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="password_error_warning">Incorrect Password</string>
+    <string name="pattern_error_warning">Incorrect Password</string>
+    <plurals name="unlock_error_try_later">
+        <item quantity="one">"Retry in <xliff:g id="NUMBER">%d</xliff:g> second."</item>
+        <item quantity="other">"Retry in <xliff:g id="NUMBER">%d</xliff:g> seconds."</item>
+    </plurals>
+    <string name="prevent_touch_title_toast">Please  do not cover the top side of the display. Alternatively you can press and hold Volume Up and Volume Down to unlock</string>
+    <string name="input_password_reboot">Please enter the password to unlock the phone when the phone is restarted</string>
+    <string name="input_pattern_reboot">After the phone reboot, please draw a pattern to unlock the phone</string>
+    <string name="faceid_or_password_pattern">You can also unlock with your face</string>
+    <string name="fingerprint_or_password_pattern">Enter password or use fingerprint to unlock phone</string>
+    <string name="input_password_or_fingerprint">Enter password or use fingerprint to unlock phone</string>
+    <string name="input_pattern_or_fingerprint">Draw Pattern or use fingerprint to unlock phone</string>
+    <!--lock UI end -->
+
+    <string name="install">Install</string>
+
+     <!--search_flash_im start -->
+    <string name="search_flash_im_uninstall_tip">Bullet short message has not been installed </string>
+    <string name="search_flash_im_unlogin_tip">Bullet short message has not been login </string>
+    <string name="search_flash_im_go_to_login_tip">go to login </string>
+    <string name="search_flash_im_go_to_install_tip">go to install</string>
+    <!--search_flash_im end -->
+
+</resources>

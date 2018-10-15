@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">보이스 검색</string>
+    <string name="dialtacts_tab_recent">"통화 기록"</string>
+    <string name="dialtacts_tab_contacts">"연락처"</string>
+    <string name="dialtacts_tab_starred">"즐겨찾기"</string>
+    <string name="dialtacts_tab_dialpad">"키패드"</string>
+    <string name="tabBar_worldclock">"세계 시간"</string>
+    <string name="tabBar_alarm">"알람"</string>
+    <string name="tabBar_stopwatch">"스톱워치"</string>
+    <string name="tabBar_timer">"타이머"</string>
+    <string name="china_unicom">China Unicom</string>
+    <string name="china_mobile">China Mobie</string>
+    <string name="china_telecom">China Telecom</string>
+</resources>

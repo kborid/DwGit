@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_filtrate_up_bg">
+    <LinearLayout android:id="@+id/ll_filtrate_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="14dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/filtrate_all"
+            android:contentDescription="@string/text_all"
+            android:paddingLeft="12dp"
+            android:src="@drawable/filtrate_check_all"
+            style="@style/headSettingItemStyle"/>
+        <View style="@style/headSettingDividerStyle" />
+        <ImageView
+            android:id="@+id/filtrate_blue"
+            android:contentDescription="@string/text_blue"
+            android:src="@drawable/filtrate_check_blue"
+            style="@style/headSettingItemStyle"/>
+        <View style="@style/headSettingDividerStyle" />
+        <ImageView
+            android:id="@+id/filtrate_red"
+            android:contentDescription="@string/text_red"
+            android:src="@drawable/filtrate_check_red"
+            style="@style/headSettingItemStyle"/>
+        <View style="@style/headSettingDividerStyle" />
+        <ImageView
+            android:id="@+id/filtrate_orange"
+            android:contentDescription="@string/text_orange"
+            android:src="@drawable/filtrate_check_orange"
+            style="@style/headSettingItemStyle"/>
+        <View style="@style/headSettingDividerStyle" />
+        <ImageView
+            android:id="@+id/filtrate_green"
+            android:contentDescription="@string/text_green"
+            android:src="@drawable/filtrate_check_green"
+            style="@style/headSettingItemStyle"/>
+        <View style="@style/headSettingDividerStyle" />
+        <ImageView
+            android:id="@+id/filtrate_purple"
+            android:contentDescription="@string/text_purple"
+            android:src="@drawable/filtrate_check_purple"
+            style="@style/headSettingItemStyle"/>
+        <View style="@style/headSettingDividerStyle" />
+        <ImageView
+            android:id="@+id/filtrate_share"
+            android:contentDescription="@string/text_share"
+            android:src="@drawable/filtrate_check_share"
+            style="@style/headSettingItemStyle"/>
+        <View style="@style/headSettingDividerStyle" />
+        <ImageView
+            android:id="@+id/filtrate_ppt"
+            android:contentDescription="@string/text_share"
+            android:src="@drawable/filtrate_check_ppt"
+            style="@style/headSettingItemStyle"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/popup_filtrate_arrow_up"/>
+</FrameLayout>

@@ -1,0 +1,61 @@
+package com.smartisanos.music;
+
+import android.graphics.Bitmap;
+
+interface ISmartisanosMusicService
+{
+    oneway void openFile(String path);
+    oneway void open(in long [] list, int position);
+    int getQueuePosition();
+    boolean isPlaying();
+    oneway void stop();
+    oneway void pause();
+    oneway void play();
+    oneway void prev();
+    oneway void next();
+    long duration();
+    long position();
+    long seek(long pos);
+    String getTrackName();
+    String getAlbumName();
+    long getAlbumId();
+    String getArtistName();
+    long getArtistId();
+    void enqueue(in long [] list, int action);
+    long [] getQueue();
+    void setQueuePosition(int index);
+    String getPath();
+    long getAudioId();
+    oneway void setShuffleMode(int shufflemode);
+    int getShuffleMode();
+    int removeTracks(int first, int last);
+    int removeTrack(long id);
+    oneway void setRepeatMode(int repeatmode);
+    int getRepeatMode();
+    int getMediaMountedCount();
+    int getAudioSessionId();
+    oneway void addToFavorites(long id);
+    oneway void removeFromFavorites(long id);
+    boolean isFavorite(long id);
+    oneway void toggleFavorite();
+    Bitmap getAlbumBitmap();
+    oneway void delayPlay(long delayTime);
+    oneway void replace(in long [] list);
+    oneway void rollback();
+    oneway void playAll(in long [] list, int position,boolean netResource);
+    long getBufferProgress();
+    boolean isBuffering();
+    boolean isNetResource();
+    oneway void toSleepMode(long delayTime);
+    oneway void cancelSleepMode();
+    String getAbsolutePath();
+    long getRemainingTime();
+    void tonggleHifi();
+    boolean isHifi();
+    void pauseNow();
+    oneway void shuffleAllAlbums(in long[] songList,in long [] albumlist,int firstSongPos,int firstAlbumPos);
+    oneway void cycleRepeat();
+    oneway void toggleShuffle();
+    oneway void seekAndPlay(long positon,boolean play, boolean fadeup, long delayTime);
+    boolean isPlayingState();
+}

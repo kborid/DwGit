@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.sara.bubble.BubbleRootView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ViewStub
+        android:id="@+id/no_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout="@layout/no_result_view"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/wave_left"
+        android:layout_width="@dimen/bubble_wave_left_min_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/left_wave_result_margin_bottom"
+        android:layout_marginLeft="@dimen/wave_result_margin_left"
+        layout="@layout/wave_layout_left"
+        android:visibility="gone"/>
+
+</com.smartisanos.sara.bubble.BubbleRootView>

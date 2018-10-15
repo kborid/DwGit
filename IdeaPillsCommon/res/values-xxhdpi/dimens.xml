@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add for remind begin-->
+    <dimen name="remind_dialog_general_margin">12dp</dimen>
+    <dimen name="monthweek_grid_bg_interval_width">4dp</dimen>
+    <dimen name="monthweek_item_width">48dp</dimen>
+    <dimen name="monthweek_item_height">44dp</dimen>
+    <dimen name="monthweek_item_single_height">67.6dp</dimen>
+    <dimen name="fullmonthheader_layout_height">29.3dp</dimen>
+    <dimen name="fullmonthheader_margin_left">12.3dp</dimen>
+    <dimen name="fullmonthheader_margin_right">12.3dp</dimen>
+    <dimen name="allinone_dateview_layout_width">174.6dp</dimen>
+    <dimen name="remind_title_text_size">16dp</dimen>
+    <!-- add for remind end-->
+</resources>

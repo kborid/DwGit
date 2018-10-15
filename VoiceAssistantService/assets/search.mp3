@@ -1,0 +1,14 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar search;
+!slot <app>;
+!slot <appext>;
+!slot <contact>;
+!slot <music>;
+!slot <yellow>;
+!start <begin>;
+<begin>:<app>|<appext>|<contact>|<music>|<yellow>;
+<app>:时钟;
+<appext>:秒表;
+<contact>:张海洋;
+<music>:爱情转移;
+<yellow>:支付宝;

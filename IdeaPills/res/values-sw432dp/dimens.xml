@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubbleopt_layout_width">400dp</dimen>
+    <dimen name="bubble_attachment_layout_max_measure_width">370dp</dimen>
+    <dimen name="bubble_item_edit_text_width_in_large">320dp</dimen>
+
+    <dimen name="monthweek_item_height">50dp</dimen>
+    <dimen name="time_picker_height">208dp</dimen>
+    <dimen name="bubble_item_detail_input_max_hight">400dp</dimen>
+    <dimen name="sync_setting_item_inner_margin">24dp</dimen>
+    <dimen name="sync_setting_item_inner_padding">16dp</dimen>
+    <dimen name="sync_invitation_item_name_max_width">172dp</dimen>
+    <dimen name="sync_invitation_item_status_max_width">112dp</dimen>
+</resources>

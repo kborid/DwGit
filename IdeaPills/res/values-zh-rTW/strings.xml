@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bubble_over">完成</string>
+    <string name="bubble_select_all">全選</string>
+    <string name="bubble_datetime_format">yyyy年MM月dd日 HH:mm</string>
+    <string name="bubble_datetime_format_month">MM月dd日 HH:mm</string>
+    <string name="bubble_datetime_format_day">dd日 HH:mm</string>
+    <string name="bubble_datetime_format_time">HH:mm</string>
+    <string name="bubble_datetime_format_year">yyyy年MM月dd日</string>
+    <string name="bubble_offline_tag">離線</string>
+    <string name="bubble_optimize_text">聯網後會優化輸出文字</string>
+    <string name="bubble_delete_single">確認要刪除這個閃念膠囊？ </string>
+    <string name="bubble_delete_multiple">是否删除選中的閃念膠囊？ </string>
+    <string name="bubble_add_string_limit">非常抱歉，該操作會導致閃念膠囊內容過長，超出最大限制</string>
+    <string name="mute_mode_is_turned_on">手機正處於靜音狀態</string>
+    <string name="bubble_boom_twice">當前已存在兩層爆炸頁面，請先完成正在編輯的閃念膠囊，再繼續操作</string>
+    <string name="bubble_copy">複製文字</string>
+    <string name="text_copied">文本已復制</string>
+    <string name="share_to">分享到閃念膠囊</string>
+    <string name="enable_idea_pills_for_share">當前未開啟“閃念膠囊”功能</string>
+    <string name="enable_idea_pills_goto">去開啟</string>
+    <string name="toast_for_bubble_receive_by_app">膠囊已被處理，你可以在“閃念膠囊-已處理”中查看</string>
+    <string name="share_unsupport_file_toast_tips">無法添加此類文件</string>
+    <string name="search_hint">搜索膠囊內容</string>
+    <string name="select_attachment_type">"選擇附件類型"</string>
+    <string name="preview_image_attachment_dialog_title">確認從附件移除?</string>
+    <string name="preview_image_attachment_dialog_confirm">確認移除</string>
+    <string name="bubble_attachment_limit">最多可以添加%d個附件</string>
+    <string name="download_no_application_title">無法打開文件</string>
+
+    <string name="install">安裝</string>
+    <string name="install_bigbang_message">當前系統中未安裝“大爆炸”應用，無法使用大爆炸功能，點擊“安裝”前往應用商店下載並安裝後即可啟用該功能。</string>
+    <string name="drag_empty_tip">拖拽的內容不能為空</string>
+    <string name="drag_save_succeed">成功保存到閃念膠囊</string>
+    <string name="share_to_idea_succeed">成功分享到閃念膠囊</string>
+    <string name="net_error_tips">網絡連接失敗，請檢查網絡</string>
+    <string name="share_main_button_setting">设置</string>
+    <string name="bubble_todo_checkbox">標記</string>
+    <string name="remind_previous_arrow_text">向前</string>
+    <string name="remind_next_arrow_text">向後</string>
+    <string name="app_name">閃念膠囊</string>
+    <string name="sync_not_support_multiple_account_tip">當前版本暫不支持多帳號共享</string>
+    <string name="sync_login_cloud_account">登入歡喜雲帳號</string>
+    <string name="sync_add_share_account">添加共享帳號</string>
+    <string name="sync_share_main_tip">登入歡喜雲帳號並開啟膠囊同步後，你可以與另一個歡喜雲帳戶建立共享關係。
+        建立後，你可將閃念膠囊共享給此帳戶，你創建的共享閃念膠囊將出現在對方的膠囊清單中，對方對這個膠囊的改動也會同步到你的清單中。低版本系統的設備上不支持共享膠囊功能。</string>
+    <string name="sync_send_invitation_cancel">取消邀請</string>
+    <string name="sync_share_cancel">取消共享</string>
+    <string name="sync_share_cancel_tip">取消與該帳戶的共享關係，本次記錄將被移除，是否確認取消共享？</string>
+    <string name="sync_invite_cancel_tip">取消邀請該帳戶後，本次記錄將被移除，是否確認取消？</string>
+    <string name="sync_item_share_change_tip">更改膠囊顏色後，該膠囊會取消共享狀態，是否確認更改？</string>
+    <string name="sync_request_failed">請求失敗</string>
+    <string name="sync_receive_invitation_accept">接受</string>
+    <string name="sync_receive_invitation_refuse">拒絕</string>
+    <string name="sync_delete_account">删除帳號</string>
+    <string name="sync_phone_email">手機號碼/郵箱</string>
+    <string name="sync_phone_number">手機號碼</string>
+    <string name="sync_send_invitation_summary">你可將閃念膠囊共享給其他人，請在上方輸入對方的手機號碼或郵箱並發送邀請。低版本系統的設備上不支持共享膠囊功能。</string>
+    <string name="sync_send_invitation_country_summary">你可將閃念膠囊共享給其他人，請在上方輸入對方的手機號碼並發送邀請。低版本系統的設備上不支持共享膠囊功能。</string>
+    <string name="sync_history_shared_account">歷史共享帳號</string>
+    <string name="sync_not_support_multiperson_tip">對方已與其它歡喜雲帳戶建立共享關係，無法向對方發送邀請。</string>
+    <string name="sync_self_not_enabled_yet_tip">你尚未開啟共享閃念膠囊功能</string>
+    <string name="sync_not_enabled_yet_tip">該用戶不接收共享邀請</string>
+    <string name="sync_not_share_self_tip">該帳號已在本機登入，不能發起邀請</string>
+    <string name="sync_request_too_frequent_tip">發送邀請過於頻繁，請稍候再進行邀請</string>
+    <string name="sync_invitation_phone_register">該手機號碼尚未注册Smartisan ID，是否發送短信邀請對方注册？</string>
+    <string name="sync_invitation_email_register">該郵箱尚未注册Smartisan ID或輸入的郵箱帳號有誤，檢查帳號資訊後重試</string>
+    <string name="sync_invitation_sended_tip">共享邀請已發送，等待對方接受邀請</string>
+    <string name="sync_invitation_register_sended_tip">簡訊已發送</string>
+    <string name="sync_invitation_register_send_fail_tip">簡訊發送失敗</string>
+    <string name="sync_invitation_notification_title">收到來自 %s 的膠囊共享邀請</string>
+    <string name="sync_decline_notification_title">%s 拒絕了共享邀請</string>
+    <string name="sync_accept_notification_title">%s 接受了共享邀請</string>
+    <string name="sync_cancel_notification_title">%s 取消了與你的膠囊共享</string>
+    <string name="sync_share_ideapills_notification_title">收到來自 %s 共享的膠囊</string>
+    <string name="sync_edit_ideapills_notification_title">%s 編輯了膠囊</string>
+    <string name="sync_todo_over_ideapills_notification_title">%s 將膠囊標記為完成</string>
+    <string name="sync_trash_ideapills_notification_title">%s 删除了膠囊</string>
+    <string name="sync_cancel_ideapills_notification_title">%s 取消了一條共享膠囊</string>
+    <string name="sync_invitation_not_exists">共享關係不存在</string>
+    <string name="sync_share_waiting">等待對方接受共享 </string>
+    <string name="sync_invitation_cancel_cause_multi_invitations">該用戶已與他人建立共享，當前版本暫不支持多人共享</string>
+    <string name="edit_country_name">國家和地區</string>
+    <string name="default_country_name">中國</string>
+    <string name="international_phone">國際手機號登入</string>
+    <string name="chinese_phone_email">國內手機號及郵箱登錄</string>
+
+    <string name="bubble_delete">删除</string>
+    <string name="bubble_edit">編輯</string>
+    <string name="bubble_extend_all">展開所有</string>
+    <string name="bubble_collapse_all">收起所有</string>
+    <string name="bubble_collapse">收起</string>
+    <string name="bubble_add">添加</string>
+    <string name="bubble_search">蒐索</string>
+    <string name="bubble_hide_todo_over">隱藏已完成</string>
+    <string name="bubble_show_todo_over">顯示已完成</string>
+    <string name="bubble_hide_todo_over_tip">點擊按鈕可以隱藏已完成膠囊，當前沒有已完成的膠囊</string>
+    <string name="bubble_show_todo_over_tip">點擊按鈕可以顯示已完成膠囊，當前沒有已完成的膠囊</string>
+    <string name="bubble_hide">隱藏</string>
+
+    <string name="bubble_boom">大爆炸</string>
+    <string name="bubble_weixin">微信</string>
+    <string name="bubble_attach">添加附件</string>
+    <string name="bubble_calendar">添加提醒</string>
+    <string name="bubble_image">圖片</string>
+    <string name="bubble_file">檔案</string>
+
+    <string name="text_blue">記事</string>
+    <string name="text_red">重要事項</string>
+    <string name="text_orange">待辦事項</string>
+    <string name="text_green">待發送資訊</string>
+    <string name="text_purple">靈感</string>
+    <string name="text_share">共享</string>
+
+    <string name="play_voice">播放語音</string>
+    <string name="bubble_item_description">第%d個膠囊</string>
+    <string name="bubble_del_attach">删除附件</string>
+
+    <plurals name="bubble_count_attach">
+        <item quantity="one">%d 個附件</item>
+        <item quantity="other">%d 個附件</item>
+    </plurals>
+
+    <string name="got_it">知道了</string>
+    <string name="bubble_hint">點擊可輸入文字</string>
+    <string name="notification_icon_desc">已設定提醒</string>
+
+    <string name="notify_todo_title">已完成 “%s”</string>
+    <string name="notify_todo_body">已完成 “%s”</string>
+    <string name="bubble_share_tip">暫不支持分享膠囊中的附件</string>
+    <plurals name="bubble_image_count_attach">
+        <item quantity="one">%d 個圖片附件</item>
+        <item quantity="other">%d 個圖片附件</item>
+    </plurals>
+    <string name="bubble_share_attachment_unknown_type">無法分享此類檔案</string>
+    <string name="bubble_open_attachment_unknown_type">無法打開此類檔案 </string>
+    <string name="sync_share_setting_title">設定</string>
+    <string name="sync_content_wait_message">請稍候...</string>
+    <string name="sync_share_read_list_failed_tip">無法獲取數據 </string>
+    <string name="sync_share_read_list_failed_summary">請稍後重繪重試</string>
+    <string name="sync_share_read_list_failed_refresh">重繪</string>
+    <string name="sync_account_detail_title">帳號資訊</string>
+    <string name="sync_share_accept_setting">允許接收共享邀請 </string>
+    <string name="sync_share_setting_failed_tip">檢查網絡重試</string>
+    <string name="sync_share_status_confirm">等待對方接受邀請</string>
+    <string name="sync_share_status_confirm_invitee">收到共享邀請 </string>
+    <string name="sync_share_status_other_refuse">對方已拒絕</string>
+    <string name="sync_share_status_refuse">已拒絕</string>
+    <string name="sync_share_status_canceled">已取消共享</string>
+    <string name="sync_share_invitation_canceled">已取消邀請</string>
+    <string name="sync_share_status_accept">已和對方建立共享</string>
+    <string name="sync_send_invitation">發送邀請</string>
+    <string name="sync_send_invitation_again">再次邀請</string>
+    <string name="sync_receive_invitation_start_title">收到以下用戶發來的膠囊共享邀請</string>
+    <string name="sync_send_invitation_start_title">共享邀請已發送，等待對方接受邀請</string>
+    <string name="sync_account_remark_hint">設定備註</string>
+    <string name="sync_account_set_remark_failed">網絡訊號不佳，檢查網絡後重新設定備註名</string>
+    <plurals name="sync_send_invitation_minite_after">
+        <item quantity="one">%d 分鐘後可再次邀請</item>
+        <item quantity="other">%d 分鐘後可再次邀請</item>
+    </plurals>
+    <plurals name="sync_send_invitation_hour_after">
+        <item quantity="one">%d 小時後可再次邀請</item>
+        <item quantity="other">%d 小時後可再次邀請</item>
+    </plurals>
+    <string name="remind_set_title">選擇提醒日期</string>
+</resources>

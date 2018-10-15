@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools">
+    <string name="voice_cmd_start_wechat_scan" tools:ignore="MissingTranslation" >微信扫码</string>
+    <string name="quick_command_nav_from_screen" tools:ignore="MissingTranslation" >导航</string>
+</resources>

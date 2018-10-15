@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <smartisanos.widget.Title
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/sync_content_top_margin"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/invite_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="4dp"
+                android:paddingLeft="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:paddingRight="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:textColor="@color/sync_invitation_item_tip_color"
+                android:textSize="@dimen/sync_setting_tip_text_size" />
+
+            <RelativeLayout
+                android:id="@+id/invite_info"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sync_setting_item_height"
+                android:background="@smartisanos:drawable/sub_item_back_ground_single">
+
+                <com.smartisanos.ideapills.widget.AvatarImageView
+                    android:id="@+id/invite_icon"
+                    android:layout_width="@dimen/sync_invitation_item_icon_size"
+                    android:layout_height="@dimen/sync_invitation_item_icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/sync_setting_item_inner_margin" />
+
+                <TextView
+                    android:id="@+id/invite_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/sync_setting_item_inner_padding"
+                    android:layout_marginRight="@dimen/sync_setting_item_inner_padding"
+                    android:layout_toRightOf="@id/invite_icon"
+                    android:singleLine="true"
+                    android:textColor="@color/sync_invitation_item_title_color"
+                    android:textSize="@smartisanos:dimen/large_text_size" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/remarks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/invite_info"
+                android:layout_marginTop="@dimen/setting_item_margintop"
+                android:background="@drawable/text_field_single"
+                android:hint="@string/sync_account_remark_hint"
+                android:imeOptions="actionDone"
+                android:maxLength="15"
+                android:paddingLeft="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:paddingRight="@*smartisanos:dimen/settings_item_title_left_margin"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/setting_hint_text_color"
+                android:textSize="@smartisanos:dimen/medium_text_size" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sync_setting_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/sync_main_content_margin"
+        android:background="@drawable/sync_long_red_button_selector"
+        android:gravity="center"
+        android:text="@string/sync_send_invitation_cancel"
+        android:textColor="@color/sync_add_share_color"
+        android:textSize="@dimen/sync_setting_button_text_size" />
+
+    <smartisanos.widget.ShadowButton
+        android:id="@+id/btn_accept"
+        android:layout_width="match_parent"
+        android:layout_above="@id/btn_delete"
+        android:layout_marginBottom="@dimen/setting_item_margintop"
+        android:text="@string/sync_send_invitation"
+        style="@smartisanos:style/LongButton.Highlight" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="text_size_contact_result_item_person_name">18sp</dimen>
+    <dimen name="text_size_music_result_item_music_name">18sp</dimen>
+    <dimen name="text_size_music_result_item_album_name">14sp</dimen>
+    <dimen name="text_size_result_item_summary">15sp</dimen>
+    <dimen name="text_size_result_item_title">18sp</dimen>
+
+    <!-- app -->
+    <dimen name="list_app_icon_width">36dp</dimen>
+    <dimen name="list_app_text_margin_left">9dp</dimen>
+
+    <!-- contact -->
+    <dimen name="list_contact_padding_bottom_name_number">5dp</dimen>
+    <!-- music -->
+    <dimen name="list_item_music_height">80dp</dimen>
+    <dimen name="list_music_pic_width">44dp</dimen>
+    <dimen name="list_music_songs_height">48dp</dimen>
+    <dimen name="list_music_content_margin_left">11dp</dimen>
+    <dimen name="list_music_content_margin_right">5.8dp</dimen>
+    <dimen name="list_music_title_max_width">220dp</dimen>
+</resources>

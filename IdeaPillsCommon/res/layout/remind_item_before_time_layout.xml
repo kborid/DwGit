@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.ideapills.common.remind.view.RemindeItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <!-- add this RelativeLayout to ensure the content in the middle of parent view-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip">
+
+        <TextView
+            android:id="@+id/before_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black_60"
+            android:layout_marginLeft="18dip" />
+
+        <ImageView
+            android:id="@+id/select_item_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/remind_time_right_icon" />
+    </RelativeLayout>
+</com.smartisanos.ideapills.common.remind.view.RemindeItemView>

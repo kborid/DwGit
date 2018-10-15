@@ -1,0 +1,31 @@
+<resources>
+    <dimen name="bubble_wave_margin_left">132.5dp</dimen>
+    <dimen name="recycle_bin_empty_primary_margin_top">250dp</dimen>
+    <dimen name="recycle_bin_empty_secondary_margin_top">13.5dp</dimen>
+    <dimen name="bubble_wave_text_popup_radius">35dp</dimen>
+    <dimen name="bubble_anim_hand_start_x">264.5dip</dimen>
+    <dimen name="bubble_anim_hand_end_x">211dip</dimen>
+    <dimen name="bubble_anim_hand_middle_x">172.3dip</dimen>
+    <dimen name="bubble_anim_list_margin_right">3.5dip</dimen>
+    <dimen name="bubble_anim_list_setting_padding_right">-9.5dip</dimen>
+    <dimen name="bubble_anim_circle_start_x">169dip</dimen>
+    <dimen name="bubble_anim_fak_width">75dip</dimen>
+    <dimen name="bubble_wave_path_clip">0dp</dimen>
+
+    <!--lock UI start -->
+    <dimen name="complex_passward_layout_padding_bottom">30dp</dimen>
+    <dimen name="pattern_password_bottom_margin">13px</dimen>
+
+    <dimen name="keyguard_patternview_grid_size">280px</dimen>
+    <dimen name="keyguard_patternview_circle_size">80px</dimen>
+    <dimen name="keyguard_patternview_node_x_offset">-38px</dimen>
+    <dimen name="keyguard_patternview_node_y_offset">206px</dimen>
+    <dimen name="keyguard_patternview_path_x_offset">336.5px</dimen>
+    <dimen name="keyguard_patternview_path_y_offset">-151px</dimen>
+    <dimen name="keyguard_lock_pattern_line_width">30px</dimen>
+
+    <dimen name="slide_dialog_start_position">-490dp</dimen>
+    <dimen name="slide_dialog_show_position">114dp</dimen>
+    <dimen name="slide_dialog_dimiss_position">-166dp</dimen>
+    <!--lock UI end -->
+</resources>

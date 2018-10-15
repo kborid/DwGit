@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slv="http://schemas.android.com/apk/res/com.smartisanos.sara"
+    android:id="@+id/seachresultview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0"
+    android:visibility="invisible" >
+
+    <TextView
+        android:id="@+id/sv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0.6"
+        android:background="#000000" />
+
+    <com.smartisanos.sara.widget.SlideListView
+        android:id="@+id/search_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f7f8f8"
+        android:divider="@null"
+        android:dividerHeight="0dip"
+        android:overScrollFooter="@drawable/list_last_item_shadow"
+        android:overScrollHeader="@drawable/header_line"
+        android:visibility="gone"
+        slv:left_btns_id="@id/item_background"
+        slv:scroll_enabled="true"
+        slv:scroll_factor="0.2"
+        slv:scroll_handle_id="@id/item_foreground"
+        slv:slider_checkbox_id="@id/checkBoxFrame"
+        slv:slider_enabled="true" />
+
+    <TextView
+        android:id="@+id/search_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f7f8f8"
+        android:gravity="center_horizontal"
+        android:paddingTop="115dp"
+        android:text="@string/no_search_result"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4c000000"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

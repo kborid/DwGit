@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.sara.bubble.BubbleRootView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/gauss_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <ViewStub
+        android:id="@+id/bubble_item_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:inflatedId="@+id/bubble_item"
+        android:layout="@layout/revone_bubble_item" />
+
+    <ViewStub
+        android:id="@+id/wave_left_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:inflatedId="@+id/wave_left"
+        android:layout="@layout/revone_wave_left_layout" />
+
+    <ViewStub
+        android:id="@+id/wave_bottom_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:inflatedId="@+id/wave_bottom"
+        android:layout="@layout/revone_wave_bottom_layout" />
+
+    <ViewStub android:id="@+id/button_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="@dimen/setting_button_marigin_top"
+        android:layout_marginRight="@dimen/setting_button_marigin_right"
+        android:inflatedId="@+id/button"
+        android:layout="@layout/revone_search_button" />
+
+    <ViewStub
+        android:id="@+id/app_drawer_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/app_drawer"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="@dimen/revone_drawer_padding"
+        android:layout_marginRight="@dimen/revone_drawer_padding"
+        android:layout="@layout/revone_search_app_drawer" />
+
+    <ViewStub
+        android:id="@+id/fak_bubble_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/fak_bubble"
+        android:layout="@layout/fak_bubble_item"
+        android:visibility="gone" />
+</com.smartisanos.sara.bubble.BubbleRootView>

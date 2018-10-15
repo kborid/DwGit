@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="countries_name_code">
+        <item>加拿大,+1,JIA NA DA</item>
+        <item>美国,+1,MEI GUO</item>
+        <item>俄罗斯,+7,E LUO SI</item>
+        <item>埃及,+20,AI JI</item>
+        <item>南非,+27,NAN FEI</item>
+        <item>希腊,+30,XI LA</item>
+        <item>荷兰,+31,HE LAN</item>
+        <item>比利时,+32,BI LI SHI</item>
+        <item>法国,+33,FA GUO</item>
+        <item>西班牙,+34,XI BAN YA</item>
+        <item>匈牙利,+36,XIONG YA LI</item>
+        <item>意大利,+39,YI DA LI</item>
+        <item>罗马尼亚,+40,LUO MA NI YA</item>
+        <item>瑞士,+41,RUI SHI</item>
+        <item>奥地利,+43,AO DE LI</item>
+        <item>英国,+44,YING GUO</item>
+        <item>丹麦,+45,DAN MAI</item>
+        <item>瑞典,+46,RUI DIAN</item>
+        <item>挪威,+47,NUO WEI</item>
+        <item>波兰,+48,BO LAN</item>
+        <item>德国,+49,DE GUO</item>
+        <item>秘鲁,+51,BI LU</item>
+        <item>墨西哥,+52,MO XI GE</item>
+        <item>古巴,+53,GU BA</item>
+        <item>阿根廷,+54,A GEN TING</item>
+        <item>巴西,+55,BA XI</item>
+        <item>智利,+56,ZHI LI</item>
+        <item>哥伦比亚,+57,GE LUN BI YA</item>
+        <item>委内瑞拉,+58,WEI NEI RUI LA</item>
+        <item>马来西亚,+60,MA LAI XI YA</item>
+        <item>澳大利亚,+61,AO DA LI YA</item>
+        <item>印度尼西亚,+62,YIN DU NI XI YA</item>
+        <item>菲律宾,+63,FEI LV BIN</item>
+        <item>新西兰,+64,XIN XI LAN</item>
+        <item>新加坡,+65,XIN JIA PO</item>
+        <item>泰国,+66,TAI GUO</item>
+        <item>日本,+81,RI BEN</item>
+        <item>韩国,+82,HAN GUO</item>
+        <item>越南,+84,YUE NAN</item>
+        <item>中国,+86,ZHONG GUO</item>
+        <item>土耳其,+90,TU ER QI</item>
+        <item>印度,+91,YIN DU</item>
+        <item>阿富汗,+93,A FU HAN</item>
+        <item>斯里兰卡,+94,SI LI LAN KA</item>
+        <item>伊朗,+98,YI LANG</item>
+        <item>摩洛哥,+212,MO LUO GE</item>
+        <item>突尼斯,+216,TU NI SI</item>
+        <item>利比亚,+218,LI BI YA</item>
+        <item>冈比亚,+220,GANG BI YA</item>
+        <item>塞内加尔,+221,SAI NEI JIA ER</item>
+        <item>马里,+223,MA LI</item>
+        <item>几内亚,+224,JI NEI YA</item>
+        <item>科特迪瓦,+225,KE TE DI WA</item>
+        <item>布基纳法索,+226,BU JI NA FA SUO</item>
+        <item>尼日尔,+227,NI RI ER</item>
+        <item>多哥,+228,DUO GE</item>
+        <item>贝宁,+229,BEI NING</item>
+        <item>毛里求斯,+230,MAO LI QIU SI</item>
+        <item>利比里亚,+231,LI BI LI YA</item>
+        <item>塞拉利昂,+232,SAI LA LI ANG</item>
+        <item>加纳,+233,JIA NA</item>
+        <item>乌兹别克斯坦,+998,WU ZI BIE KE SI TAN</item>
+        <item>尼日利亚,+234,NI RI LI YA</item>
+        <item>乍得,+235,ZHA DE</item>
+        <item>中非共和国,+236,ZHONG FEI GONG HE GUO</item>
+        <item>喀麦隆,+237,KA MAI LONG</item>
+        <item>圣多美和普林西比,+239,SHENG DUO MEI HE PU LIN XI BI</item>
+        <item>加蓬,+241,JIA PENG</item>
+        <item>安哥拉,+244,AN GE LA</item>
+        <item>塞舌尔,+248,SAI SHE ER</item>
+        <item>埃塞俄比亚,+251,AI SAI E BI YA</item>
+        <item>索马里,+252,SUO MA LI</item>
+        <item>吉布提,+253,JI BU TI</item>
+        <item>肯尼亚,+254,KEN NI YA</item>
+        <item>坦桑尼亚,+255,TAN SANG NI YA</item>
+        <item>乌干达,+256,WU GAN DA</item>
+        <item>布隆迪,+257,BU LONG DI</item>
+        <item>莫桑比克,+258,MO SANG BI KE</item>
+        <item>赞比亚,+260,ZAN BI YA</item>
+        <item>马达加斯加,+261,MA DA JIA SI JIA</item>
+        <item>津巴布韦,+263,JIN BA BU WEI</item>
+        <item>纳米比亚,+264,NA MI BI YA</item>
+        <item>马拉维,+265,MA LA WEI</item>
+        <item>莱索托,+266,LAI SUO TUO</item>
+        <item>博茨瓦纳,+267,BO CI WA NA</item>
+        <item>斯威士兰,+268,SI WEI SHI LAN</item>
+        <item>哈萨克斯坦,+7,HA SA KE SI TAN</item>
+        <item>吉尔吉斯斯坦,+996,JI ER JI SI SI TAN</item>
+        <item>直布罗陀,+350,ZHI BU LUO TUO</item>
+        <item>葡萄牙,+351,PU TAO YA</item>
+        <item>卢森堡,+352,LU SEN BAO</item>
+        <item>爱尔兰,+353,AI ER LAN</item>
+        <item>冰岛,+354,BING DAO</item>
+        <item>阿尔巴尼亚,+355,A ER BA NI YA</item>
+        <item>马耳他,+356,MA ER TA</item>
+        <item>塞浦路斯,+357,SAI PU LU SI</item>
+        <item>芬兰,+358,FEN LAN</item>
+        <item>保加利亚,+359,BAO JIA LI YA</item>
+        <item>立陶宛,+370,LI TAO WAN</item>
+        <item>拉脱维亚,+371,LA TUO WEI YA</item>
+        <item>爱沙尼亚,+372,AI SHA NI YA</item>
+        <item>摩尔多瓦,+373,MO ER DUO WA</item>
+        <item>亚美尼亚,+374,YA MEI NI YA</item>
+        <item>白俄罗斯,+375,BAI E LUO SI</item>
+        <item>安道尔共和国,+376,AN DAO ER GONG HE GUO</item>
+        <item>摩纳哥,+377,MO NA GE</item>
+        <item>圣马力诺,+378,SHENG MA LI NUO</item>
+        <item>乌克兰,+380,WU KE LAN</item>
+        <item>斯洛文尼亚,+386,SI LUO WEN NI YA</item>
+        <item>捷克,+420,JIE KE</item>
+        <item>斯洛伐克,+421,SI LUO FA KE</item>
+        <item>列支敦士登,+423,LIE ZHI DUN SHI DENG</item>
+        <item>伯利兹,+501,BO LI ZI</item>
+        <item>危地马拉,+502,WEI DE MA LA</item>
+        <item>萨尔瓦多,+503,SA ER WA DUO</item>
+        <item>洪都拉斯,+504,HONG DOU LA SI</item>
+        <item>尼加拉瓜,+505,NI JIA LA GUA</item>
+        <item>哥斯达黎加,+506,GE SI DA LI JIA</item>
+        <item>巴拿马,+507,BA NA MA</item>
+        <item>海地,+509,HAI DE</item>
+        <item>玻利维亚,+591,BO LI WEI YA</item>
+        <item>圭亚那,+592,GUI YA NA</item>
+        <item>厄瓜多尔,+593,E GUA DUO ER</item>
+        <item>法属圭亚那,+594,FA SHU GUI YA NA</item>
+        <item>巴拉圭,+595,BA LA GUI</item>
+        <item>马提尼克,+596,MA TI NI KE</item>
+        <item>苏里南,+597,SU LI NAN</item>
+        <item>乌拉圭,+598,WU LA GUI</item>
+        <item>荷属安的列斯,+599,HE SHU AN DE LIE SI</item>
+        <item>文莱,+673,WEN LAI</item>
+        <item>巴布亚新几内亚,+675,BA BU YA XIN JI NEI YA</item>
+        <item>汤加,+676,TANG JIA</item>
+        <item>斐济,+679,FEI JI</item>
+        <item>库克群岛,+682,KU KE QUN DAO</item>
+        <item>萨摩亚,+685,SA MO YA</item>
+        <item>法属玻利尼西亚,+689,FA SHU BO LI NI XI YA</item>
+        <item>中国香港特别行政区,+852,ZHONG GUO XIANG GANG TE BIE XING ZHENG OU</item>
+        <item>中国澳门特别行政区,+853,ZHONG GUO AO MEN TE BIE XING ZHENG OU</item>
+        <item>老挝,+856,LAO WO</item>
+        <item>孟加拉国,+880,MENG JIA LA GUO</item>
+        <item>台湾,+886,TAI WAN</item>
+        <item>马尔代夫,+960,MA ER DAI FU</item>
+        <item>黎巴嫩,+961,LI BA NEN</item>
+        <item>约旦,+962,YUE DAN</item>
+        <item>伊拉克,+964,YI LA KE</item>
+        <item>科威特,+965,KE WEI TE</item>
+        <item>沙特阿拉伯,+966,SHA TE A LA BO</item>
+        <item>也门,+967,YE MEN</item>
+        <item>阿曼,+968,A MAN</item>
+        <item>阿拉伯联合酋长国,+971,A LA BO LIAN HE QIU CHANG GUO</item>
+        <item>以色列,+972,YI SE LIE</item>
+        <item>巴林,+973,BA LIN</item>
+        <item>卡塔尔,+974,KA TA ER</item>
+        <item>蒙古,+976,MENG GU</item>
+        <item>尼泊尔,+977,NI PO ER</item>
+        <item>塔吉克斯坦,+992,TA JI KE SI TAN</item>
+        <item>土库曼斯坦,+993,TU KU MAN SI TAN</item>
+        <item>阿塞拜疆,+994,A SAI BAI JIANG</item>
+        <item>格鲁吉亚,+995,GE LU JI YA</item>
+        <item>巴哈马,+1242,BA HA MA</item>
+        <item>巴巴多斯,+1246,BA BA DUO SI</item>
+        <item>安圭拉岛,+1264,AN GUI LA DAO</item>
+        <item>安提瓜和巴布达,+1268,AN TI GUA HE BA BU DA</item>
+        <item>开曼群岛,+1345,KAI MAN QUN DAO</item>
+        <item>百慕大群岛,+1441,BAI MU DA QUN DAO</item>
+        <item>蒙特塞拉特岛,+1664,MENG TE SAI LA TE DAO</item>
+        <item>关岛,+1671,GUAN DAO</item>
+        <item>圣卢西亚,+1758,SHENG LU XI YA</item>
+        <item>圣文森特岛,+1784,SHENG WEN SEN TE DAO</item>
+        <item>波多黎各,+1787,BO DUO LI GE</item>
+        <item>格林纳达,+1473,GE LIN NA DA</item>
+        <item>特立尼达和多巴哥,+1868,TE LI NI DA HE DUO BA GE</item>
+        <item>牙买加,+1876,YA MAI JIA</item>
+        <item>多米尼加共和国,+1809,DUO MI NI JIA GONG HE GUO</item>
+        <item>美属萨摩亚群岛,+1684,MEI SHU SA MO YA QUN DAO</item>
+        <item>佛得角共和国,+238,FU DE JIAO GONG HE GUO</item>
+        <item>卢旺达,+250,LU WANG DA</item>
+        <item>阿鲁巴,+297,A LU BA</item>
+        <item>塞尔维亚共和国,+381,SAI ER WEI YA GONG HE GUO</item>
+        <item>黑山共和国,+382,HEI SHAN GONG HE GUO</item>
+        <item>克罗地亚,+385,KE LUO DE YA</item>
+        <item>柬埔寨,+855,JIAN BU ZHAI</item>
+        <item>不丹,+975,BU DAN</item>
+    </string-array>
+
+</resources>

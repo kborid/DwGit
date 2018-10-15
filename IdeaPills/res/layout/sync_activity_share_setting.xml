@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <smartisanos.widget.Title
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="14dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingBottom="@smartisanos:dimen/list_item_vertical_gap">
+
+            <smartisanos.widget.ListContentItemSwitch
+                android:id="@+id/enable_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@smartisanos:style/ListContentItemStyle.Single" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

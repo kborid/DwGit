@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="countries_name_code">
+        <item>캐나다,+1</item>
+        <item>미국,+1</item>
+        <item>러시아,+7</item>
+        <item>이집트,+20</item>
+        <item>남아프리카,+27</item>
+        <item>그리스,+30</item>
+        <item>네덜란드,+31</item>
+        <item>벨기에,+32</item>
+        <item>프랑스,+33</item>
+        <item>스페인,+34</item>
+        <item>헝가리,+36</item>
+        <item>이탈리아,+39</item>
+        <item>루마니아,+40</item>
+        <item>스위스,+41</item>
+        <item>오스트리아,+43</item>
+        <item>영국,+44</item>
+        <item>덴마크,+45</item>
+        <item>스웨덴,+46</item>
+        <item>노르웨이,+47</item>
+        <item>폴란드,+48</item>
+        <item>독일,+49</item>
+        <item>페루,+51</item>
+        <item>멕시코,+52</item>
+        <item>쿠바,+53</item>
+        <item>아르헨티나,+54</item>
+        <item>브라질,+55</item>
+        <item>칠레,+56</item>
+        <item>콜롬비아,+57</item>
+        <item>베네수엘라,+58</item>
+        <item>말레이시아,+60</item>
+        <item>오스트레일리아,+61</item>
+        <item>인도네시아,+62</item>
+        <item>필리핀,+63</item>
+        <item>뉴질랜드,+64</item>
+        <item>싱가폴,+65</item>
+        <item>태국,+66</item>
+        <item>일본,+81</item>
+        <item>한국,+82</item>
+        <item>베트남,+84</item>
+        <item>중국,+86</item>
+        <item>터키,+90</item>
+        <item>인도,+91</item>
+        <item>아프가니스탄,+93</item>
+        <item>스리랑카,+94</item>
+        <item>이란,+98</item>
+        <item>모로코,+212</item>
+        <item>튀니지,+216</item>
+        <item>리비아,+218</item>
+        <item>감비아,+220</item>
+        <item>세네갈,+221</item>
+        <item>말리,+223</item>
+        <item>기니,+224</item>
+        <item>코트디부아르,+225</item>
+        <item>부르키나파소,+226</item>
+        <item>니제르,+227</item>
+        <item>토고,+228</item>
+        <item>베냉,+229</item>
+        <item>모리셔스,+230</item>
+        <item>라이베리아,+231</item>
+        <item>시에라리온,+232</item>
+        <item>가나,+233</item>
+        <item>우즈베키스탄,+998</item>
+        <item>나이지리아,+234</item>
+        <item>차드,+235</item>
+        <item>중앙아프리카공화국,+236</item>
+        <item>카메룬,+237</item>
+        <item>상투메프린시페,+239</item>
+        <item>가봉,+241</item>
+        <item>앙골라,+244</item>
+        <item>세이셀,+248</item>
+        <item>에티오피아,+251</item>
+        <item>소말리아,+252</item>
+        <item>지부티,+253</item>
+        <item>케냐,+254</item>
+        <item>탄자니아,+255</item>
+        <item>우간다,+256</item>
+        <item>부룬디,+257</item>
+        <item>모잠비크,+258</item>
+        <item>잠비아,+260</item>
+        <item>마다가스카르,+261</item>
+        <item>짐바브웨,+263</item>
+        <item>나미비아,+264</item>
+        <item>말라위,+265</item>
+        <item>레소토,+266</item>
+        <item>보츠와나,+267</item>
+        <item>스와질란드,+268</item>
+        <item>카자흐스트나,+7</item>
+        <item>키르기스스탄,+996</item>
+        <item>지블롤터,+350</item>
+        <item>포르투갈,+351</item>
+        <item>룩셈부르크,+352</item>
+        <item>아일랜드,+353</item>
+        <item>아이슬란드,+354</item>
+        <item>알바니아,+355</item>
+        <item>몰타,+356</item>
+        <item>키프로스,+357</item>
+        <item>핀란드,+358</item>
+        <item>불가리아,+359</item>
+        <item>리투아니아,+370</item>
+        <item>라트비아,+371</item>
+        <item>에스토니아,+372</item>
+        <item>몰도바,+373</item>
+        <item>아르메니아,+374</item>
+        <item>벨로루시,+375</item>
+        <item>안도라공화국,+376</item>
+        <item>모나코,+377</item>
+        <item>산마리노,+378</item>
+        <item>우크라이나,+380</item>
+        <item>슬로베니아,+386</item>
+        <item>체코,+420</item>
+        <item>슬로바키아,+421</item>
+        <item>리히텐슈타인,+423</item>
+        <item>벨리즈,+501</item>
+        <item>콰테말라,+502</item>
+        <item>엘살바도르,+503</item>
+        <item>온두라스,+504</item>
+        <item>니키라과,+505</item>
+        <item>코스타리카,+506</item>
+        <item>파나마,+507</item>
+        <item>아이티,+509</item>
+        <item>볼리비아,+591</item>
+        <item>가이아나,+592</item>
+        <item>에콰도르,+593</item>
+        <item>프랑스령기아나,+594</item>
+        <item>파라과이,+595</item>
+        <item>마르티니크 섬,+596</item>
+        <item>수리남,+597</item>
+        <item>우루과이,+598</item>
+        <item>네덜란드령 안틸레스,+599</item>
+        <item>브루나이,+673</item>
+        <item>파푸아 뉴기니,+675</item>
+        <item>통가,+676</item>
+        <item>피지,+679</item>
+        <item>쿡제도,+682</item>
+        <item>사모아,+685</item>
+        <item>프랑스령 폴리네시아,+689</item>
+        <item>홍콩 특별 행정구,+852</item>
+        <item>마카오 특별 행정구,+853</item>
+        <item>라오스,+856</item>
+        <item>방글라데시,+880</item>
+        <item>타이완,+886</item>
+        <item>몰디브,+960</item>
+        <item>레바논,+961</item>
+        <item>요르단,+962</item>
+        <item>이라크,+964</item>
+        <item>쿠웨이트,+965</item>
+        <item>사우디아라비아,+966</item>
+        <item>예멘,+967</item>
+        <item>오만,+968</item>
+        <item>아랍에미레이트 연방,+971</item>
+        <item>이스라엘,+972</item>
+        <item>바레인,+973</item>
+        <item>카타르,+974</item>
+        <item>몽골,+976</item>
+        <item>네팔,+977</item>
+        <item>타지키스탄,+992</item>
+        <item>투르크메니스탄,+993</item>
+        <item>아제르바이잔,+994</item>
+        <item>그루지야,+995</item>
+        <item>바하마,+1242</item>
+        <item>바베이도스,+1246</item>
+        <item>앵궐라 섬,+1264</item>
+        <item>앤티가 바부다,+1268</item>
+        <item>케이맨 제도,+1345</item>
+        <item>버뮤다 제도,+1441</item>
+        <item>몬트세라트 섬,+1664</item>
+        <item>괌,+1671</item>
+        <item>세인트루시아,+1758</item>
+        <item>세인트빈센트 섬,+1784</item>
+        <item>푸에르토리코,+1787</item>
+        <item>그레나다,+1473</item>
+        <item>트리니다드토바고,+1868</item>
+        <item>자메이카,+1876</item>
+        <item>도미니카공화국,+1809</item>
+        <item>미국령 사모아 군도,+1684</item>
+        <item>카보베르데 공화국,+238</item>
+        <item>르완다,+250</item>
+        <item>아루바,+297</item>
+        <item>세르비아 공화국,+381</item>
+        <item>몬테네그로 공화국,+382</item>
+        <item>크로아티아,+385</item>
+        <item>캄보디아,+855</item>
+        <item>부탄,+975</item>
+    </string-array>
+
+</resources>

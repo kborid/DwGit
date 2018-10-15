@@ -1,0 +1,3594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voice_commands>
+    <module name="captionbar">
+        <command id="101">
+            <value>最大化</value>
+            <keys>
+                <item>最大化</item>
+                <item>最大</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>隐藏</value>
+            <keys>
+                <item>隐藏</item>
+                <item>最小化</item>
+                <item>最小</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>关闭</value>
+            <keys>
+                <item>关闭</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>左半屏</value>
+            <keys>
+                <item>左半屏</item>
+                <item>靠左</item>
+                <item>左分屏</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>右半屏</value>
+            <keys>
+                <item>右半屏</item>
+                <item>靠右</item>
+                <item>右分屏</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>上半屏</value>
+            <keys>
+                <item>上半屏</item>
+                <item>靠上</item>
+                <item>上分屏</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>下半屏</value>
+            <keys>
+                <item>下半屏</item>
+                <item>靠下</item>
+                <item>下分屏</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>截屏</value>
+            <keys>
+                <item>截屏</item>
+                <item>截图</item>
+            </keys>
+        </command>
+        <command id="109">
+            <value>关闭其他</value>
+            <keys>
+                <item>关闭其他</item>
+                <item>其他关闭</item>
+                <item>关闭其他窗口</item>
+                <item>其他窗口关闭</item>
+            </keys>
+        </command>
+        <command id="110">
+            <value>隐藏其他</value>
+            <keys>
+                <item>隐藏其他</item>
+                <item>其他隐藏</item>
+                <item>隐藏其他窗口</item>
+                <item>其他窗口隐藏</item>
+                <item>最小化其他</item>
+                <item>其他最小化</item>
+                <item>最小化其他窗口</item>
+                <item>其他窗口最小化</item>
+            </keys>
+        </command>
+        <command id="111">
+            <value>钉住</value>
+            <keys>
+                <item>钉住</item>
+                <item>钉在最前</item>
+                <item>最前</item>
+            </keys>
+        </command>
+        <command id="112">
+            <value>全屏</value>
+            <keys>
+                <item>全屏</item>
+                <item>满屏</item>
+            </keys>
+        </command>
+        <command id="113">
+            <value>关闭全部</value>
+            <keys>
+                <item>关闭全部</item>
+                <item>全部关闭</item>
+                <item>关闭所有</item>
+                <item>关闭所有应用</item>
+                <item>关闭全部应用</item>
+                <item>全都关闭</item>
+                <item>全关闭</item>
+            </keys>
+        </command>
+        <command id="114">
+            <value>显示桌面</value>
+            <keys>
+                <item>显示桌面</item>
+                <item>回到桌面</item>
+                <item>桌面</item>
+            </keys>
+        </command>
+        <command id="115">
+            <value>隐藏全部</value>
+            <keys>
+                <item>隐藏全部</item>
+                <item>全部隐藏</item>
+                <item>隐藏所有</item>
+                <item>隐藏所有应用</item>
+                <item>隐藏全部应用</item>
+                <item>全都隐藏</item>
+                <item>全隐藏</item>
+                <item>最小化全部</item>
+                <item>全部最小化</item>
+                <item>最小化所有</item>
+                <item>最小化所有应用</item>
+                <item>最小化全部应用</item>
+                <item>全都最小化</item>
+                <item>全最小化</item>
+            </keys>
+        </command>
+        <command id="116">
+            <value>关闭应用</value>
+            <keys>
+                <item>关闭应用</item>
+            </keys>
+        </command>
+    </module>
+    <!--launcher-->
+    <module name="lhr">
+        <rule>
+            <![CDATA[
+                ([([请|麻烦][帮我])|我[想|要]]<operation>[下|一下](<obj>|<app>))
+            ]]>
+        </rule>
+        <rule>
+            <![CDATA[
+                <app>
+            ]]>
+        </rule>
+        <command groups="operation">
+            <value>打开</value>
+            <keys>
+                <item>打开</item>
+                <item>开启</item>
+                <item>启动</item>
+            </keys>
+        </command>
+        <command groups="operation">
+            <value>关闭</value>
+            <keys>
+                <item>关闭</item>
+                <item>退出</item>
+                <item>取消</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>OPENAPP</value>
+            <keys>
+                <item>打开_APP_</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>CLOSEAPP</value>
+            <keys>
+                <item>关闭_APP_</item>
+                <item>退出_APP_</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>OPENSET</value>
+            <keys>
+                <item>打开_SET_</item>
+                <item>开启_SET_</item>
+                <item>启动_SET_</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>CLOSESET</value>
+            <keys>
+                <item>关闭_SET_</item>
+                <item>退出_SET_</item>
+                <item>取消_SET_</item>
+            </keys>
+        </command>
+        <command id="101">
+            <value>锁屏</value>
+            <keys>
+                <item>锁屏</item>
+                <item>灭屏</item>
+                <item>熄屏</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>关闭全部</value>
+            <keys>
+                <item>关闭全部</item>
+                <item>全部关闭</item>
+                <item>关闭所有</item>
+                <item>关闭所有应用</item>
+                <item>关闭全部应用</item>
+                <item>全都关闭</item>
+                <item>全关闭</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>隐藏全部</value>
+            <keys>
+                <item>隐藏全部</item>
+                <item>全部隐藏</item>
+                <item>隐藏所有</item>
+                <item>隐藏所有应用</item>
+                <item>隐藏全部应用</item>
+                <item>全都隐藏</item>
+                <item>全隐藏</item>
+                <item>最小化全部</item>
+                <item>全部最小化</item>
+                <item>最小化所有</item>
+                <item>最小化所有应用</item>
+                <item>最小化全部应用</item>
+                <item>全都最小化</item>
+                <item>全最小化</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>多任务</value>
+            <keys>
+                <item>多任务</item>
+                <item>后台应用</item>
+                <item>后台</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>显示桌面</value>
+            <keys>
+                <item>显示桌面</item>
+                <item>回到桌面</item>
+                <item>桌面</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>截屏</value>
+            <keys>
+                <item>截屏</item>
+                <item>截图</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>按名称排序</value>
+            <keys>
+                <item>按名称排序</item>
+                <item>名称排序</item>
+                <item>名称顺序</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>按类型排序</value>
+            <keys>
+                <item>按类型排序</item>
+                <item>类型排序</item>
+                <item>类型顺序</item>
+            </keys>
+        </command>
+        <command id="109">
+            <value>按大小排序</value>
+            <keys>
+                <item>按大小排序</item>
+                <item>大小排序</item>
+                <item>大小顺序</item>
+            </keys>
+        </command>
+        <command id="110">
+            <value>按时间排序</value>
+            <keys>
+                <item>按时间排序</item>
+                <item>时间排序</item>
+                <item>时间顺序</item>
+            </keys>
+        </command>
+        <command id="111">
+            <value>新建文件夹</value>
+            <keys>
+                <item>新建文件夹</item>
+                <item>创建文件夹</item>
+                <item>建文件夹</item>
+                <item>文件夹</item>
+            </keys>
+        </command>
+        <command id="112">
+            <value>新建邮件</value>
+            <keys>
+                <item>新建邮件</item>
+                <item>新建一封邮件</item>
+                <item>写邮件</item>
+                <item>创建新邮件</item>
+            </keys>
+        </command>
+        <command id="113">
+            <value>新建便签</value>
+            <keys>
+                <item>新建便签</item>
+                <item>新建一个便签</item>
+                <item>创建一个新的便签</item>
+            </keys>
+        </command>
+        <command id="114">
+            <value>删除</value>
+            <keys>
+                <item>删除</item>
+                <item>移除</item>
+                <item>删掉</item>
+                <item>把这个删了</item>
+            </keys>
+        </command>
+        <command id="115">
+            <value>复制</value>
+            <keys>
+                <item>复制</item>
+                <item>拷贝</item>
+                <item>复制一下</item>
+                <item>复制到剪贴板</item>
+            </keys>
+        </command>
+        <command id="116">
+            <value>剪切</value>
+            <keys>
+                <item>剪切</item>
+                <item>剪切一下</item>
+            </keys>
+        </command>
+        <command id="117">
+            <value>压缩</value>
+            <keys>
+                <item>压缩</item>
+                <item>打包</item>
+                <item>添加到压缩文件</item>
+                <item>压缩一下</item>
+                <item>压一下</item>
+            </keys>
+        </command>
+        <command id="118">
+            <value>解压</value>
+            <keys>
+                <item>解压</item>
+                <item>解压缩</item>
+                <item>解压文件</item>
+                <item>解压压缩包</item>
+                <item>压缩包解压</item>
+            </keys>
+        </command>
+        <command id="119">
+            <value>重命名</value>
+            <keys>
+                <item>重命名</item>
+                <item>文件名</item>
+                <item>改名字</item>
+                <item>改名</item>
+            </keys>
+        </command>
+        <command id="120">
+            <value>粘贴</value>
+            <keys>
+                <item>粘贴</item>
+                <item>粘上去</item>
+            </keys>
+        </command>
+        <command id="121">
+            <value>加入文件夹</value>
+            <keys>
+                <item>加入文件夹</item>
+                <item>放入文件夹</item>
+                <item>组成文件夹</item>
+                <item>成组文件夹</item>
+            </keys>
+        </command>
+        <command id="122">
+            <value>音量加</value>
+            <keys>
+                <item>音量加</item>
+                <item>音量大点</item>
+                <item>大点声</item>
+                <item>声音大点</item>
+            </keys>
+        </command>
+        <command id="123">
+            <value>音量减</value>
+            <keys>
+                <item>音量减</item>
+                <item>音量小点</item>
+                <item>小点声</item>
+                <item>声音小点</item>
+            </keys>
+        </command>
+        <command id="124">
+            <value>最大音量</value>
+            <keys>
+                <item>最大音量</item>
+                <item>音量最大</item>
+                <item>声音最大</item>
+                <item>最大声音</item>
+                <item>最大声</item>
+            </keys>
+        </command>
+        <command id="125">
+            <value>最小音量</value>
+            <keys>
+                <item>最小音量</item>
+                <item>音量最小</item>
+                <item>声音最小</item>
+                <item>最小声音</item>
+                <item>最小声</item>
+            </keys>
+        </command>
+        <command pref="false" id="5001" groups="obj">
+            <value>勿扰_1</value>
+            <keys>
+                <item>勿扰</item>
+                <item>勿扰模式</item>
+            </keys>
+        </command>
+        <command pref="false" id="5002" groups="obj">
+            <value>蓝牙_2</value>
+            <keys>
+                <item>蓝牙</item>
+            </keys>
+        </command>
+        <command pref="false" id="5003" groups="obj">
+            <value>静音_3</value>
+            <keys>
+                <item>静音</item>
+                <item>关闭声音</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6001" groups="obj">
+            <value>手机管理</value>
+            <keys>
+                <item>安全中心</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6002" groups="obj">
+            <value>盖得排行</value>
+            <keys>
+                <item>盖得</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6003" groups="obj">
+            <value>浏览器</value>
+            <keys>
+                <item>上网</item>
+                <item>网页</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6004" groups="obj">
+            <value>坚果幻灯片</value>
+            <keys>
+                <item>幻灯片</item>
+                <item>ppt</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6005" groups="obj">
+            <value>坚果文档</value>
+            <keys>
+                <item>文档</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6006" groups="obj">
+            <value>坚果表格</value>
+            <keys>
+                <item>表格</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6007" groups="obj">
+            <value>子弹短信</value>
+            <keys>
+                <item>子弹</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6008" groups="obj">
+            <value>相册</value>
+            <keys>
+                <item>图库</item>
+                <item>照片</item>
+                <item>相片</item>
+                <item>看图</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6009" groups="obj">
+            <value>音乐</value>
+            <keys>
+                <item>听歌</item>
+                <item>歌曲</item>
+                <item>播放器</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6010" groups="obj">
+            <value>相机</value>
+            <keys>
+                <item>照相</item>
+                <item>拍照</item>
+                <item>摄像</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6011" groups="obj">
+            <value>设置</value>
+            <keys>
+                <item>齿轮</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6012" groups="obj">
+            <value>计算器</value>
+            <keys>
+                <item>计算</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6013" groups="obj">
+            <value>录音机</value>
+            <keys>
+                <item>录音</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6014" groups="obj">
+            <value>时钟</value>
+            <keys>
+                <item>时间</item>
+                <item>闹钟</item>
+                <item>计时器</item>
+                <item>秒表</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6015" groups="obj">
+            <value>天气</value>
+            <keys>
+                <item>温度</item>
+                <item>湿度</item>
+                <item>空气</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6016" groups="obj">
+            <value>远程协助</value>
+            <keys>
+                <item>远程帮忙</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6017" groups="obj">
+            <value>手机天猫</value>
+            <keys>
+                <item>天猫</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6018" groups="obj">
+            <value>优酷视频</value>
+            <keys>
+                <item>优酷</item>
+            </keys>
+        </command>
+    </module>
+    <!--SystemUI-->
+    <module name="syt">
+        <rule>
+            <![CDATA[
+                ([([请|麻烦][帮我])|我[想|要]]<operation>[下|一下](<obj>|<app>))
+            ]]>
+        </rule>
+        <rule>
+            <![CDATA[
+                <app>
+            ]]>
+        </rule>
+        <command groups="operation">
+            <value>打开</value>
+            <keys>
+                <item>打开</item>
+                <item>开启</item>
+                <item>启动</item>
+            </keys>
+        </command>
+        <command groups="operation">
+            <value>关闭</value>
+            <keys>
+                <item>关闭</item>
+                <item>退出</item>
+                <item>取消</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>OPENAPP</value>
+            <keys>
+                <item>打开_APP_</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>CLOSEAPP</value>
+            <keys>
+                <item>关闭_APP_</item>
+                <item>退出_APP_</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>OPENSET</value>
+            <keys>
+                <item>打开_SET_</item>
+                <item>开启_SET_</item>
+                <item>启动_SET_</item>
+            </keys>
+        </command>
+        <command exclude="true">
+            <value>CLOSESET</value>
+            <keys>
+                <item>关闭_SET_</item>
+                <item>退出_SET_</item>
+                <item>取消_SET_</item>
+            </keys>
+        </command>
+        <command id="101">
+            <value>锁屏</value>
+            <keys>
+                <item>锁屏</item>
+                <item>灭屏</item>
+                <item>熄屏</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>关闭全部</value>
+            <keys>
+                <item>全部关闭</item>
+                <item>关闭所有</item>
+                <item>关闭所有应用</item>
+                <item>关闭全部应用</item>
+                <item>全都关闭</item>
+                <item>全关闭</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>隐藏全部</value>
+            <keys>
+                <item>隐藏全部</item>
+                <item>全部隐藏</item>
+                <item>隐藏所有</item>
+                <item>隐藏所有应用</item>
+                <item>隐藏全部应用</item>
+                <item>全都隐藏</item>
+                <item>全隐藏</item>
+                <item>最小化全部</item>
+                <item>全部最小化</item>
+                <item>最小化所有</item>
+                <item>最小化所有应用</item>
+                <item>最小化全部应用</item>
+                <item>全都最小化</item>
+                <item>全最小化</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>多任务</value>
+            <keys>
+                <item>多任务</item>
+                <item>后台应用</item>
+                <item>后台</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>显示桌面</value>
+            <keys>
+                <item>显示桌面</item>
+                <item>回到桌面</item>
+                <item>桌面</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>亮度加</value>
+            <keys>
+                <item>亮度加</item>
+                <item>亮一点</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>亮度减</value>
+            <keys>
+                <item>亮度减</item>
+                <item>暗一点</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>最高亮度</value>
+            <keys>
+                <item>最高亮度</item>
+                <item>最大亮度</item>
+            </keys>
+        </command>
+        <command id="109">
+            <value>最低亮度</value>
+            <keys>
+                <item>最低亮度</item>
+                <item>最小亮度</item>
+            </keys>
+        </command>
+        <command id="110">
+            <value>音量加</value>
+            <keys>
+                <item>音量加</item>
+                <item>音量大点</item>
+                <item>大点声</item>
+                <item>声音大点</item>
+            </keys>
+        </command>
+        <command id="111">
+            <value>音量减</value>
+            <keys>
+                <item>音量减</item>
+                <item>音量小点</item>
+                <item>小点声</item>
+                <item>声音小点</item>
+            </keys>
+        </command>
+        <command id="112">
+            <value>最大音量</value>
+            <keys>
+                <item>最大音量</item>
+                <item>音量最大</item>
+                <item>声音最大</item>
+                <item>最大声音</item>
+                <item>最大声</item>
+            </keys>
+        </command>
+        <command id="113">
+            <value>最小音量</value>
+            <keys>
+                <item>最小音量</item>
+                <item>音量最小</item>
+                <item>声音最小</item>
+                <item>最小声音</item>
+                <item>最小声</item>
+            </keys>
+        </command>
+        <command id="114">
+            <value>胶囊</value>
+            <keys>
+                <item>胶囊列表</item>
+                <item>胶囊队列</item>
+                <item>呼出胶囊</item>
+                <item>呼出胶囊列表</item>
+                <item>呼出胶囊队列</item>
+            </keys>
+        </command>
+        <command pref="false" id="5001" groups="obj">
+            <value>勿扰_1</value>
+            <keys>
+                <item>勿扰</item>
+                <item>勿扰模式</item>
+            </keys>
+        </command>
+        <command pref="false" id="5002" groups="obj">
+            <value>蓝牙_2</value>
+            <keys>
+                <item>蓝牙</item>
+            </keys>
+        </command>
+        <command pref="false" id="5003" groups="obj">
+            <value>静音_3</value>
+            <keys>
+                <item>静音</item>
+                <item>关闭声音</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6001" groups="obj">
+            <value>手机管理</value>
+            <keys>
+                <item>安全中心</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6002" groups="obj">
+            <value>盖得排行</value>
+            <keys>
+                <item>盖得</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6003" groups="obj">
+            <value>浏览器</value>
+            <keys>
+                <item>上网</item>
+                <item>网页</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6004" groups="obj">
+            <value>坚果幻灯片</value>
+            <keys>
+                <item>幻灯片</item>
+                <item>ppt</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6005" groups="obj">
+            <value>坚果文档</value>
+            <keys>
+                <item>文档</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6006" groups="obj">
+            <value>坚果表格</value>
+            <keys>
+                <item>表格</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6007" groups="obj">
+            <value>子弹短信</value>
+            <keys>
+                <item>子弹</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6008" groups="obj">
+            <value>相册</value>
+            <keys>
+                <item>图库</item>
+                <item>照片</item>
+                <item>相片</item>
+                <item>看图</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6009" groups="obj">
+            <value>音乐</value>
+            <keys>
+                <item>听歌</item>
+                <item>歌曲</item>
+                <item>播放器</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6010" groups="obj">
+            <value>相机</value>
+            <keys>
+                <item>照相</item>
+                <item>拍照</item>
+                <item>摄像</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6011" groups="obj">
+            <value>设置</value>
+            <keys>
+                <item>齿轮</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6012" groups="obj">
+            <value>计算器</value>
+            <keys>
+                <item>计算</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6013" groups="obj">
+            <value>录音机</value>
+            <keys>
+                <item>录音</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6014" groups="obj">
+            <value>时钟</value>
+            <keys>
+                <item>时间</item>
+                <item>闹钟</item>
+                <item>计时器</item>
+                <item>秒表</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6015" groups="obj">
+            <value>天气</value>
+            <keys>
+                <item>温度</item>
+                <item>湿度</item>
+                <item>空气</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6016" groups="obj">
+            <value>远程协助</value>
+            <keys>
+                <item>远程帮忙</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6017" groups="obj">
+            <value>手机天猫</value>
+            <keys>
+                <item>天猫</item>
+            </keys>
+        </command>
+        <command isApp="true" id="6018" groups="obj">
+            <value>优酷视频</value>
+            <keys>
+                <item>优酷</item>
+            </keys>
+        </command>
+    </module>
+    <!--office-->
+    <module name="ofc">
+        <command id="101">
+            <value>播放</value>
+            <keys>
+                <item>播放</item>
+                <item>播放PPT</item>
+                <item>播一下</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>全选</value>
+            <keys>
+                <item>全选</item>
+                <item>都选</item>
+                <item>全选上</item>
+                <item>全部选中</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>取消全选</value>
+            <keys>
+                <item>取消全选</item>
+                <item>都不选</item>
+                <item>关闭全选</item>
+                <item>不要全选</item>
+                <item>别全选</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>跳过</value>
+            <keys>
+                <item>跳过</item>
+                <item>跳</item>
+                <item>略过</item>
+                <item>跳过这张</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>取消跳过</value>
+            <keys>
+                <item>取消跳过</item>
+                <item>别跳过</item>
+                <item>不要跳过</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>加标签</value>
+            <keys>
+                <item>加标签</item>
+                <item>加个标签</item>
+                <item>添加标签</item>
+                <item>添个标签</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>改母版</value>
+            <keys>
+                <item>改母版</item>
+                <item>换个母版</item>
+                <item>换母版</item>
+                <item>改个母版</item>
+                <item>修改母版</item>
+                <item>改一下母版</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>改主题</value>
+            <keys>
+                <item>改主题</item>
+                <item>换个主题</item>
+                <item>换主题</item>
+                <item>改个主题</item>
+                <item>修改主题</item>
+                <item>改一下主题</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>加动画</value>
+            <keys>
+                <item>加动画</item>
+                <item>添加动画</item>
+                <item>加个动画</item>
+                <item>添个动画</item>
+            </keys>
+        </command>
+        <command id="109">
+            <value>取消动画</value>
+            <keys>
+                <item>取消动画</item>
+                <item>把动画去掉</item>
+                <item>去掉动画</item>
+                <item>不要动画</item>
+                <item>把动画取消</item>
+            </keys>
+        </command>
+        <command id="110">
+            <value>背景色</value>
+            <keys>
+                <item>背景色</item>
+                <item>背景颜色</item>
+                <item>背景的颜色</item>
+            </keys>
+        </command>
+        <command id="111">
+            <value>插入文本</value>
+            <keys>
+                <item>插入文本</item>
+                <item>添加文本</item>
+                <item>补充文本</item>
+            </keys>
+        </command>
+        <command id="112">
+            <value>插入形状</value>
+            <keys>
+                <item>插入形状</item>
+                <item>插个形状</item>
+                <item>添加形状</item>
+                <item>添个形状</item>
+                <item>补充形状</item>
+            </keys>
+        </command>
+        <command id="113">
+            <value>插入图片</value>
+            <keys>
+                <item>插入图片</item>
+                <item>插张图</item>
+                <item>插个图</item>
+                <item>添加图片</item>
+                <item>添张图片</item>
+                <item>添加一张图片</item>
+                <item>补充图片</item>
+                <item>补充一张图片</item>
+            </keys>
+        </command>
+        <command id="114">
+            <value>插入表格</value>
+            <keys>
+                <item>插入表格</item>
+                <item>插个表格</item>
+                <item>插张表</item>
+                <item>添加表格</item>
+                <item>添个表</item>
+                <item>添加一张表</item>
+                <item>补充表格</item>
+                <item>补充一张表格</item>
+                <item>添个表格</item>
+            </keys>
+        </command>
+        <command id="115">
+            <value>插入图表</value>
+            <keys>
+                <item>插入图表</item>
+                <item>插个图表</item>
+                <item>插图表</item>
+                <item>添加图表</item>
+                <item>添个图表</item>
+                <item>添加一张图表</item>
+                <item>补充图表</item>
+                <item>补充一张图表</item>
+            </keys>
+        </command>
+        <command id="116">
+            <value>插入视频</value>
+            <keys>
+                <item>插入视频</item>
+                <item>插个视频</item>
+                <item>插视频</item>
+                <item>添加视频</item>
+                <item>添个视频</item>
+                <item>添加一个视频</item>
+                <item>补充一个视频</item>
+            </keys>
+        </command>
+        <command id="117">
+            <value>字号</value>
+            <keys>
+                <item>字号</item>
+                <item>字体大小</item>
+                <item>字体的大小</item>
+                <item>字的大小</item>
+                <item>字号的大小</item>
+                <item>文字大小</item>
+                <item>文字的大小</item>
+            </keys>
+        </command>
+        <command id="118">
+            <value>字体</value>
+            <keys>
+                <item>字体</item>
+            </keys>
+        </command>
+        <command id="119">
+            <value>字体颜色</value>
+            <keys>
+                <item>字体颜色</item>
+                <item>字的颜色</item>
+                <item>字体的颜色</item>
+                <item>文字的颜色</item>
+                <item>文字颜色</item>
+            </keys>
+        </command>
+        <command id="120">
+            <value>加粗</value>
+            <keys>
+                <item>加粗</item>
+                <item>字体加粗</item>
+                <item>文字加粗</item>
+                <item>粗体</item>
+            </keys>
+        </command>
+        <command id="121">
+            <value>取消加粗</value>
+            <keys>
+                <item>取消加粗</item>
+                <item>去掉加粗</item>
+                <item>不要加粗</item>
+                <item>别加粗</item>
+                <item>不加粗</item>
+            </keys>
+        </command>
+        <command id="122">
+            <value>斜体</value>
+            <keys>
+                <item>斜体</item>
+                <item>字体倾斜</item>
+                <item>文字倾斜</item>
+                <item>倾斜文字</item>
+                <item>倾斜字体</item>
+            </keys>
+        </command>
+        <command id="123">
+            <value>取消斜体</value>
+            <keys>
+                <item>取消斜体</item>
+                <item>去掉斜体</item>
+                <item>不要斜体</item>
+            </keys>
+        </command>
+        <command id="124">
+            <value>下划线</value>
+            <keys>
+                <item>下划线</item>
+                <item>添加下划线</item>
+                <item>加上下划线</item>
+            </keys>
+        </command>
+        <command id="125">
+            <value>取消下划线</value>
+            <keys>
+                <item>取消下划线</item>
+                <item>去掉下划线</item>
+                <item>不要下划线</item>
+                <item>删除下划线</item>
+            </keys>
+        </command>
+        <command id="126">
+            <value>删除线</value>
+            <keys>
+                <item>删除线</item>
+                <item>添加删除线</item>
+                <item>加上删除线</item>
+            </keys>
+        </command>
+        <command id="127">
+            <value>取消删除线</value>
+            <keys>
+                <item>取消删除线</item>
+                <item>去掉删除线</item>
+                <item>不要删除线</item>
+            </keys>
+        </command>
+        <command id="128">
+            <value>加阴影</value>
+            <keys>
+                <item>加阴影</item>
+                <item>添加阴影</item>
+                <item>增加阴影</item>
+                <item>阴影</item>
+                <item>阴影效果</item>
+                <item>加上阴影</item>
+            </keys>
+        </command>
+        <command id="129">
+            <value>取消阴影</value>
+            <keys>
+                <item>取消阴影</item>
+                <item>去掉阴影</item>
+                <item>不要阴影</item>
+                <item>取消阴影效果</item>
+                <item>去掉阴影效果</item>
+                <item>删除阴影</item>
+                <item>删除阴影效果</item>
+            </keys>
+        </command>
+        <command id="130">
+            <value>阴影颜色</value>
+            <keys>
+                <item>阴影颜色</item>
+                <item>阴影的颜色</item>
+                <item>阴影效果的颜色</item>
+                <item>阴影效果颜色</item>
+            </keys>
+        </command>
+        <command id="131">
+            <value>加倒影</value>
+            <keys>
+                <item>加倒影</item>
+                <item>添加倒影</item>
+                <item>增加倒影</item>
+                <item>倒影</item>
+            </keys>
+        </command>
+        <command id="132">
+            <value>取消倒影</value>
+            <keys>
+                <item>取消倒影</item>
+                <item>去掉倒影</item>
+                <item>不要倒影</item>
+                <item>取消倒影效果</item>
+                <item>去掉倒影效果</item>
+                <item>删除倒影</item>
+                <item>删除倒影效果</item>
+            </keys>
+        </command>
+        <command id="133">
+            <value>加边框</value>
+            <keys>
+                <item>加边框</item>
+                <item>添加边框</item>
+                <item>增加边框</item>
+                <item>加上边框</item>
+                <item>边框</item>
+            </keys>
+        </command>
+        <command id="134">
+            <value>取消边框</value>
+            <keys>
+                <item>取消边框</item>
+                <item>去掉边框</item>
+                <item>删除边框</item>
+                <item>不要边框</item>
+            </keys>
+        </command>
+        <command id="135">
+            <value>边框颜色</value>
+            <keys>
+                <item>边框颜色</item>
+                <item>边框的颜色</item>
+            </keys>
+        </command>
+        <command id="136">
+            <value>加图片框</value>
+            <keys>
+                <item>加图片框</item>
+                <item>添加图片框</item>
+                <item>增加图片框</item>
+                <item>加上图片框</item>
+                <item>图片框</item>
+            </keys>
+        </command>
+        <command id="137">
+            <value>取消图片框</value>
+            <keys>
+                <item>取消图片框</item>
+                <item>去掉图片框</item>
+                <item>删除图片框</item>
+                <item>不要图片框</item>
+            </keys>
+        </command>
+        <command id="138">
+            <value>透明度</value>
+            <keys>
+                <item>透明度</item>
+                <item>透明百分比</item>
+            </keys>
+        </command>
+        <command id="139">
+            <value>半透明</value>
+            <keys>
+                <item>半透明</item>
+                <item>半透</item>
+            </keys>
+        </command>
+        <command id="140">
+            <value>填充颜色</value>
+            <keys>
+                <item>填充颜色</item>
+                <item>颜色填充</item>
+            </keys>
+        </command>
+        <command id="141">
+            <value>项目符号</value>
+            <keys>
+                <item>项目符号</item>
+                <item>项目符号和编号</item>
+                <item>创建项目符号</item>
+                <item>添加项目符号</item>
+            </keys>
+        </command>
+        <command id="142">
+            <value>取消项目符号</value>
+            <keys>
+                <item>取消项目符号</item>
+                <item>去掉项目符号</item>
+                <item>删除项目符号</item>
+                <item>不要项目符号</item>
+            </keys>
+        </command>
+        <command id="143">
+            <value>首行缩进</value>
+            <keys>
+                <item>首行缩进</item>
+                <item>首行空两格</item>
+                <item>首行缩进</item>
+            </keys>
+        </command>
+        <command id="144">
+            <value>增加缩进</value>
+            <keys>
+                <item>增加缩进</item>
+                <item>增加缩进量</item>
+            </keys>
+        </command>
+        <command id="145">
+            <value>减少缩进</value>
+            <keys>
+                <item>减少缩进</item>
+                <item>减少缩进量</item>
+            </keys>
+        </command>
+        <command id="146">
+            <value>取消缩进</value>
+            <keys>
+                <item>取消缩进</item>
+                <item>去掉缩进</item>
+                <item>不要缩进</item>
+            </keys>
+        </command>
+        <command id="147">
+            <value>左对齐</value>
+            <keys>
+                <item>左对齐</item>
+                <item>向左对齐</item>
+                <item>朝左对齐</item>
+                <item>靠左边</item>
+                <item>文字左对齐</item>
+            </keys>
+        </command>
+        <command id="148">
+            <value>右对齐</value>
+            <keys>
+                <item>右对齐</item>
+                <item>向右对齐</item>
+                <item>朝右对齐</item>
+                <item>靠右边</item>
+                <item>文字右对齐</item>
+            </keys>
+        </command>
+        <command id="149">
+            <value>居中对齐</value>
+            <keys>
+                <item>居中对齐</item>
+                <item>文字居中</item>
+                <item>文字居中对齐</item>
+                <item>向中间对齐</item>
+                <item>中间对齐</item>
+            </keys>
+        </command>
+        <command id="150">
+            <value>两端对齐</value>
+            <keys>
+                <item>两端对齐</item>
+                <item>左右两端同时对齐</item>
+                <item>文字两端对齐</item>
+                <item>向两端对齐</item>
+            </keys>
+        </command>
+        <command id="151">
+            <value>顶部对齐</value>
+            <keys>
+                <item>顶部对齐</item>
+                <item>文字顶端对齐</item>
+                <item>朝上对齐</item>
+                <item>上对齐</item>
+                <item>文字上对齐</item>
+                <item>顶端对齐</item>
+                <item>文字顶部对齐</item>
+            </keys>
+        </command>
+        <command id="152">
+            <value>中部对齐</value>
+            <keys>
+                <item>中部对齐</item>
+                <item>垂直居中</item>
+                <item>中间对齐</item>
+                <item>文字中间对齐</item>
+            </keys>
+        </command>
+        <command id="153">
+            <value>底部对齐</value>
+            <keys>
+                <item>底部对齐</item>
+                <item>底端对齐</item>
+                <item>文字底端对齐</item>
+                <item>文字底部对齐</item>
+                <item>下对齐</item>
+                <item>文字下对齐</item>
+                <item>朝下对齐</item>
+            </keys>
+        </command>
+        <command id="154">
+            <value>上一层</value>
+            <keys>
+                <item>上一层</item>
+                <item>上移一层</item>
+            </keys>
+        </command>
+        <command id="155">
+            <value>下一层</value>
+            <keys>
+                <item>下一层</item>
+                <item>下移一层</item>
+            </keys>
+        </command>
+        <command id="156">
+            <value>最上一层</value>
+            <keys>
+                <item>最上一层</item>
+                <item>顶层</item>
+                <item>最前面一层</item>
+            </keys>
+        </command>
+        <command id="157">
+            <value>最下一层</value>
+            <keys>
+                <item>最下一层</item>
+                <item>底层</item>
+                <item>最后面一层</item>
+            </keys>
+        </command>
+        <command id="158">
+            <value>旋转</value>
+            <keys>
+                <item>旋转</item>
+                <item>顺时针旋转</item>
+                <item>逆时针旋转</item>
+                <item>转</item>
+            </keys>
+        </command>
+        <command id="159">
+            <value>字间距</value>
+            <keys>
+                <item>字间距</item>
+                <item>文字间距</item>
+                <item>字符间距</item>
+                <item>字体间距</item>
+                <item>文字距离</item>
+            </keys>
+        </command>
+        <command id="160">
+            <value>减小字间距</value>
+            <keys>
+                <item>减小字间距</item>
+            </keys>
+        </command>
+        <command id="161">
+            <value>行间距</value>
+            <keys>
+                <item>行间距</item>
+                <item>文字行间距</item>
+                <item>文字的行距</item>
+                <item>行距</item>
+                <item>行距离</item>
+                <item>行间距离</item>
+            </keys>
+        </command>
+        <command id="162">
+            <value>锁定长宽比</value>
+            <keys>
+                <item>锁定长宽比</item>
+                <item>锁定长宽比例</item>
+                <item>锁定图片纵横比</item>
+                <item>锁定纵横比</item>
+            </keys>
+        </command>
+        <command id="163">
+            <value>取消锁定长宽比</value>
+            <keys>
+                <item>取消锁定长宽比</item>
+                <item>取消锁定长宽比例</item>
+                <item>取消锁定图片纵横比</item>
+                <item>取消锁定纵横比</item>
+            </keys>
+        </command>
+        <command id="164">
+            <value>原始大小</value>
+            <keys>
+                <item>原始大小</item>
+                <item>原来大小</item>
+                <item>原始尺寸</item>
+            </keys>
+        </command>
+        <command id="165">
+            <value>遮罩</value>
+            <keys>
+                <item>遮罩</item>
+                <item>图片遮罩</item>
+                <item>图片遮罩效果</item>
+                <item>遮罩效果</item>
+            </keys>
+        </command>
+        <command id="166">
+            <value>取消遮罩</value>
+            <keys>
+                <item>取消遮罩</item>
+                <item>取消图片遮罩</item>
+                <item>取消图片遮罩效果</item>
+                <item>取消遮罩效果</item>
+            </keys>
+        </command>
+        <command id="167">
+            <value>抠图</value>
+            <keys>
+                <item>抠图</item>
+                <item>背景消除</item>
+                <item>删除背景</item>
+            </keys>
+        </command>
+        <command id="168">
+            <value>取消抠图</value>
+            <keys>
+                <item>取消抠图</item>
+            </keys>
+        </command>
+        <command id="169">
+            <value>一键增强</value>
+            <keys>
+                <item>一键增强</item>
+            </keys>
+        </command>
+        <command id="170">
+            <value>取消一键增强</value>
+            <keys>
+                <item>取消一键增强</item>
+            </keys>
+        </command>
+        <command id="171">
+            <value>调整图片</value>
+            <keys>
+                <item>调整图片</item>
+            </keys>
+        </command>
+        <command id="172">
+            <value>隔行颜色</value>
+            <keys>
+                <item>隔行颜色</item>
+                <item>表格间隔背景色</item>
+                <item>隔行变色</item>
+                <item>表格颜色间隔</item>
+                <item>隔行填充颜色</item>
+                <item>表格隔行颜色</item>
+                <item>表格隔行变色</item>
+            </keys>
+        </command>
+        <command id="173">
+            <value>自适应</value>
+            <keys>
+                <item>自适应</item>
+                <item>自动适应</item>
+                <item>表格自适应</item>
+                <item>表格自动调整</item>
+            </keys>
+        </command>
+        <command id="174">
+            <value>垂直分布</value>
+            <keys>
+                <item>垂直分布</item>
+            </keys>
+        </command>
+        <command id="175">
+            <value>水平分布</value>
+            <keys>
+                <item>水平分布</item>
+                <item>横向分布</item>
+            </keys>
+        </command>
+        <command id="176">
+            <value>成组</value>
+            <keys>
+                <item>成组</item>
+                <item>组合</item>
+                <item>进行组合</item>
+                <item>变成组合</item>
+                <item>组成一组</item>
+                <item>合成一组</item>
+                <item>合并</item>
+            </keys>
+        </command>
+        <command id="177">
+            <value>取消成组</value>
+            <keys>
+                <item>取消成组</item>
+                <item>取消组合</item>
+                <item>拆开组合</item>
+            </keys>
+        </command>
+        <command id="178">
+            <value>复制</value>
+            <keys>
+                <item>复制</item>
+                <item>拷贝</item>
+            </keys>
+        </command>
+       <command id="179">
+            <value>求和</value>
+            <keys>
+                <item>求和</item>
+            </keys>
+        </command>
+        <command id="180">
+            <value>剪切</value>
+            <keys>
+                <item>剪切</item>
+            </keys>
+        </command>
+        <command id="181">
+            <value>平均值</value>
+            <keys>
+                <item>平均值</item>
+                <item>平均数</item>
+            </keys>
+        </command>
+        <command id="182">
+            <value>最大值</value>
+            <keys>
+                <item>最大值</item>
+            </keys>
+        </command>
+        <command id="183">
+            <value>最小值</value>
+            <keys>
+                <item>最小值</item>
+            </keys>
+        </command>
+        <command id="184">
+            <value>粘贴</value>
+            <keys>
+                <item>粘贴</item>
+            </keys>
+        </command>
+        <command id="185">
+            <value>删除</value>
+            <keys>
+                <item>删除</item>
+            </keys>
+        </command>
+        <command id="186">
+            <value>最前</value>
+            <keys>
+                <item>最前</item>
+            </keys>
+        </command>
+        <command id="187">
+            <value>最后</value>
+            <keys>
+                <item>最后</item>
+            </keys>
+        </command>
+        <command id="188">
+            <value>换行</value>
+            <keys>
+                <item>换行</item>
+            </keys>
+        </command>
+        <command id="189">
+            <value>分页</value>
+            <keys>
+                <item>分页</item>
+            </keys>
+        </command>
+        <command id="190">
+            <value>全屏</value>
+            <keys>
+                <item>全屏</item>
+            </keys>
+        </command>
+        <command id="191">
+            <value>段前间距</value>
+            <keys>
+                <item>段前间距</item>
+            </keys>
+        </command>
+        <command id="192">
+            <value>增大段前间距</value>
+            <keys>
+                <item>增大段前间距</item>
+            </keys>
+        </command>
+        <command id="193">
+            <value>减小段前间距</value>
+            <keys>
+                <item>减小段前间距</item>
+            </keys>
+        </command>
+        <command id="194">
+            <value>段后间距</value>
+            <keys>
+                <item>段后间距</item>
+            </keys>
+        </command>
+        <command id="195">
+            <value>增大段前后距</value>
+            <keys>
+                <item>增大段前后距</item>
+            </keys>
+        </command>
+        <command id="196">
+            <value>减小段前后距</value>
+            <keys>
+                <item>减小段前后距</item>
+            </keys>
+        </command>
+        <command id="197">
+            <value>绕排</value>
+            <keys>
+                <item>绕排</item>
+            </keys>
+        </command>
+        <command id="198">
+            <value>取消绕排</value>
+            <keys>
+                <item>取消绕排</item>
+            </keys>
+        </command>
+        <command id="199">
+            <value>红色</value>
+            <keys>
+                <item>红色</item>
+                <item>变红</item>
+            </keys>
+        </command>
+        <command id="200">
+            <value>黑色</value>
+            <keys>
+                <item>黑色</item>
+                <item>变黑</item>
+            </keys>
+        </command>
+        <command id="201">
+            <value>白色</value>
+            <keys>
+                <item>白色</item>
+                <item>变白</item>
+            </keys>
+        </command>
+        <command id="202">
+            <value>青色</value>
+            <keys>
+                <item>青色</item>
+            </keys>
+        </command>
+        <command id="203">
+            <value>绿色</value>
+            <keys>
+                <item>绿色</item>
+                <item>变绿</item>
+            </keys>
+        </command>
+        <command id="204">
+            <value>黄色</value>
+            <keys>
+                <item>黄色</item>
+                <item>变黄</item>
+            </keys>
+        </command>
+        <command id="205">
+            <value>橙色</value>
+            <keys>
+                <item>橙色</item>
+            </keys>
+        </command>
+        <command id="206">
+            <value>紫色</value>
+            <keys>
+                <item>紫色</item>
+            </keys>
+        </command>
+        <command id="207">
+            <value>蓝色</value>
+            <keys>
+                <item>蓝色</item>
+                <item>变蓝</item>
+            </keys>
+        </command>
+        <command id="208">
+            <value>方正悠宋体</value>
+            <keys>
+                <item>方正悠宋体</item>
+            </keys>
+        </command>
+        <command id="209">
+            <value>方正兰亭黑体</value>
+            <keys>
+                <item>方正兰亭黑体</item>
+            </keys>
+        </command>
+        <command id="210">
+            <value>方正黑体</value>
+            <keys>
+                <item>方正黑体</item>
+            </keys>
+        </command>
+        <command id="211">
+            <value>喜鹊招牌体</value>
+            <keys>
+                <item>喜鹊招牌体</item>
+            </keys>
+        </command>
+        <command id="212">
+            <value>喜鹊乐敦体</value>
+            <keys>
+                <item>喜鹊乐敦体</item>
+            </keys>
+        </command>
+        <command id="213">
+            <value>方正楷体</value>
+            <keys>
+                <item>方正楷体</item>
+                <item>楷体</item>
+            </keys>
+        </command>
+        <command id="214">
+            <value>方正兰亭黑</value>
+            <keys>
+                <item>方正兰亭黑</item>
+                <item>兰亭黑</item>
+            </keys>
+        </command>
+        <command id="215">
+            <value>方正博雅宋</value>
+            <keys>
+                <item>方正博雅宋</item>
+                <item>博雅宋</item>
+            </keys>
+        </command>
+        <command id="216">
+            <value>方正隶书</value>
+            <keys>
+                <item>方正隶书</item>
+                <item>隶书</item>
+            </keys>
+        </command>
+        <command id="217">
+            <value>白色加粗兰亭黑</value>
+            <keys>
+                <item>白色加粗兰亭黑</item>
+            </keys>
+        </command>
+        <command id="218">
+            <value>增大字间距</value>
+            <keys>
+                <item>增大字间距</item>
+                <item>增多字间距</item>
+                <item>字间距变大</item>
+                <item>字间距大</item>
+                <item>大字间距</item>
+            </keys>
+        </command>
+        <command id="219">
+            <value>再来一个</value>
+            <keys>
+                <item>再来一个</item>
+                <item>复制一份</item>
+                <item>再来一份</item>
+                <item>在此处复制一份</item>
+                <item>在此处复制一个</item>
+            </keys>
+        </command>
+        <command id="220">
+            <value>清除</value>
+            <keys>
+                <item>清除</item>
+                <item>清空</item>
+            </keys>
+        </command>
+        <command id="221">
+            <value>放大</value>
+            <keys>
+                <item>放大</item>
+                <item>变大</item>
+                <item>大</item>
+            </keys>
+        </command>
+        <command id="222">
+            <value>缩小</value>
+            <keys>
+                <item>缩小</item>
+                <item>变小</item>
+                <item>小</item>
+            </keys>
+        </command>
+        <command id="223">
+            <value>翻转</value>
+            <keys>
+                <item>翻转</item>
+                <item>水平翻转</item>
+            </keys>
+        </command>
+        <command id="224">
+            <value>垂直翻转</value>
+            <keys>
+                <item>垂直翻转</item>
+            </keys>
+        </command>
+        <command id="225">
+            <value>无填充</value>
+            <keys>
+                <item>无填充</item>
+                <item>去掉填充色</item>
+                <item>没有填充</item>
+                <item>去掉填充</item>
+                <item>删除填充</item>
+                <item>删除填充色</item>
+            </keys>
+        </command>
+        <command id="226">
+            <value>拆分</value>
+            <keys>
+                <item>拆分</item>
+                <item>拆开</item>
+                <item>拆成多个</item>
+            </keys>
+        </command>
+        <command id="227">
+            <value>自动换行</value>
+            <keys>
+                <item>自动换行</item>
+                <item>换行</item>
+                <item>开启自动换行</item>
+            </keys>
+        </command>
+        <command id="228">
+            <value>取消自动换行</value>
+            <keys>
+                <item>取消自动换行</item>
+                <item>取消换行</item>
+                <item>关闭自动换行</item>
+            </keys>
+        </command>
+        <command id="229">
+            <value>常规</value>
+            <keys>
+                <item>常规</item>
+                <item>常规格式</item>
+            </keys>
+        </command>
+        <command id="230">
+            <value>文本</value>
+            <keys>
+                <item>文本</item>
+                <item>文本格式</item>
+            </keys>
+        </command>
+        <command id="231">
+            <value>数字</value>
+            <keys>
+                <item>数字</item>
+                <item>数字格式</item>
+            </keys>
+        </command>
+        <command id="232">
+            <value>科学计数</value>
+            <keys>
+                <item>科学计数</item>
+                <item>科学计数格式</item>
+            </keys>
+        </command>
+        <command id="233">
+            <value>分数</value>
+            <keys>
+                <item>分数</item>
+                <item>分数格式</item>
+            </keys>
+        </command>
+        <command id="234">
+            <value>货币</value>
+            <keys>
+                <item>货币</item>
+                <item>货币格式</item>
+            </keys>
+        </command>
+        <command id="235">
+            <value>会计</value>
+            <keys>
+                <item>会计</item>
+                <item>会计格式</item>
+            </keys>
+        </command>
+        <command id="236">
+            <value>百分比</value>
+            <keys>
+                <item>百分比</item>
+                <item>百分比格式</item>
+            </keys>
+        </command>
+        <command id="237">
+            <value>日期</value>
+            <keys>
+                <item>日期</item>
+                <item>日期格式</item>
+            </keys>
+        </command>
+        <command id="238">
+            <value>时间</value>
+            <keys>
+                <item>时间</item>
+                <item>时间格式</item>
+            </keys>
+        </command>
+        <command id="239">
+            <value>公式</value>
+            <keys>
+                <item>公式</item>
+                <item>插入公式</item>
+                <item>函数</item>
+                <item>插入函数</item>
+            </keys>
+        </command>
+        <command id="240">
+            <value>删除行</value>
+            <keys>
+                <item>删除行</item>
+                <item>删一行</item>
+                <item>删除这行</item>
+                <item>删除此行</item>
+            </keys>
+        </command>
+        <command id="241">
+            <value>删除列</value>
+            <keys>
+                <item>删除列</item>
+                <item>删一列</item>
+                <item>删除这列</item>
+                <item>删除此列</item>
+            </keys>
+        </command>
+        <command id="242">
+            <value>添加行</value>
+            <keys>
+                <item>添加行</item>
+                <item>加一行</item>
+                <item>添加一行</item>
+                <item>增加行</item>
+                <item>增加一行</item>
+            </keys>
+        </command>
+        <command id="243">
+            <value>添加列</value>
+            <keys>
+                <item>添加列</item>
+                <item>加一列</item>
+                <item>添加一列</item>
+                <item>增加列</item>
+                <item>增加一列</item>
+            </keys>
+        </command>
+        <command id="244">
+            <value>筛选</value>
+            <keys>
+                <item>筛选</item>
+                <item>打开筛选</item>
+                <item>筛选面板</item>
+            </keys>
+        </command>
+        <command id="245">
+            <value>筛选它</value>
+            <keys>
+                <item>筛选它</item>
+                <item>包含它</item>
+            </keys>
+        </command>
+        <command id="246">
+            <value>排序</value>
+            <keys>
+                <item>排序</item>
+                <item>打开排序</item>
+                <item>排序面板</item>
+                <item>打开排序面板</item>
+            </keys>
+        </command>
+        <command id="247">
+            <value>降序</value>
+            <keys>
+                <item>降序</item>
+                <item>从高到低</item>
+                <item>从高到低排</item>
+                <item>从大到小</item>
+                <item>从大到小排</item>
+                <item>降序</item>
+            </keys>
+        </command>
+        <command id="248">
+            <value>升序</value>
+            <keys>
+                <value>升序</value>
+                <item>从低到高</item>
+                <item>从低到高排</item>
+                <item>从小到大</item>
+                <item>从小到大排</item>
+            </keys>
+        </command>
+        <command id="249">
+            <value>合并居中</value>
+            <keys>
+                <item>合并居中</item>
+            </keys>
+        </command>
+        <command id="250">
+            <value>柱状图</value>
+            <keys>
+                <item>柱状图</item>
+                <item>柱形图</item>
+            </keys>
+        </command>
+        <command id="251">
+            <value>扇形图</value>
+            <keys>
+                <item>扇形图</item>
+                <item>饼图</item>
+            </keys>
+        </command>
+        <command id="252">
+            <value>折线图</value>
+            <keys>
+                <item>折线图</item>
+                <item>趋势图</item>
+            </keys>
+        </command>
+        <command id="253">
+            <value>条形图</value>
+            <keys>
+                <item>条形图</item>
+            </keys>
+        </command>
+        <command id="254">
+            <value>堆叠条形图</value>
+            <keys>
+                <item>堆叠条形图</item>
+            </keys>
+        </command>
+        <command id="255">
+            <value>堆叠柱形图</value>
+            <keys>
+                <item>堆叠柱形图</item>
+                <item>堆叠柱状图</item>
+            </keys>
+        </command>
+        <command id="256">
+            <value>冻结</value>
+            <keys>
+                <item>冻结</item>
+                <item>冻结到这</item>
+                <item>锁定</item>
+                <item>锁定到这</item>
+            </keys>
+        </command>
+        <command id="257">
+            <value>取消冻结</value>
+            <keys>
+                <item>取消冻结</item>
+                <item>取消锁定</item>
+            </keys>
+        </command>
+        <command id="258">
+            <value>隐藏</value>
+            <keys>
+                <item>隐藏</item>
+            </keys>
+        </command>
+        <command id="259">
+            <value>取消隐藏</value>
+            <keys>
+                <item>取消隐藏</item>
+            </keys>
+        </command>
+        <command id="260">
+            <value>删除文本框</value>
+            <keys>
+                <item>删除文本框</item>
+                <item>删除文本</item>
+                <item>清空文本</item>
+                <item>清空文本框</item>
+                <item>清除文本</item>
+                <item>清除文本框</item>
+            </keys>
+        </command>
+        <command id="261">
+            <value>删除形状</value>
+            <keys>
+                <item>删除形状</item>
+                <item>清除形状</item>
+                <item>清空形状</item>
+            </keys>
+        </command>
+        <command id="262">
+            <value>删除图片</value>
+            <keys>
+                <item>删除图片</item>
+                <item>清除图片</item>
+                <item>清空图片</item>
+            </keys>
+        </command>
+        <command id="263">
+            <value>预测</value>
+            <keys>
+                <item>预测</item>
+                <item>智能预测</item>
+            </keys>
+        </command>
+        <command id="264">
+            <value>关闭预测</value>
+            <keys>
+                <item>关闭预测</item>
+                <item>关闭智能预测</item>
+            </keys>
+        </command>
+        <command id="265">
+            <value>显示序号</value>
+            <keys>
+                <item>显示序号</item>
+                <item>序号</item>
+            </keys>
+        </command>
+        <command id="266">
+            <value>关闭序号</value>
+            <keys>
+                <item>关闭序号</item>
+                <item>隐藏序号</item>
+            </keys>
+        </command>
+        <command id="267">
+            <value>十六比九</value>
+            <keys>
+                <item>十六比九</item>
+            </keys>
+        </command>
+        <command id="268">
+            <value>四比三</value>
+            <keys>
+                <item>四比三</item>
+            </keys>
+        </command>
+        <command id="269">
+            <value>平铺</value>
+            <keys>
+                <item>平铺</item>
+                <item>平铺视图</item>
+            </keys>
+        </command>
+        <command id="270">
+            <value>仅幻灯片</value>
+            <keys>
+                <item>仅幻灯片</item>
+                <item>仅幻灯片视图</item>
+            </keys>
+        </command>
+        <command id="271">
+            <value>导航</value>
+            <keys>
+                <item>导航</item>
+                <item>导航视图</item>
+            </keys>
+        </command>
+        <command id="272">
+            <value>标尺</value>
+            <keys>
+                <item>标尺</item>
+                <item>显示标尺</item>
+                <item>显示尺子</item>
+                <item>显示刻度</item>
+            </keys>
+        </command>
+        <command id="273">
+            <value>关闭标尺</value>
+            <keys>
+                <item>关闭标尺</item>
+            </keys>
+        </command>
+        <command id="274">
+            <value>插入一页</value>
+            <keys>
+                <item>插入一页</item>
+                <item>插入幻灯片</item>
+                <item>插入一页幻灯片</item>
+            </keys>
+        </command>
+        <command id="275">
+            <value>编辑</value>
+            <keys>
+                <item>编辑</item>
+                <item>多选</item>
+            </keys>
+        </command>
+        <command id="276">
+            <value>拼接</value>
+            <keys>
+                <item>拼接</item>
+            </keys>
+        </command>
+        <command id="277">
+            <value>取消拼接</value>
+            <keys>
+                <item>取消拼接</item>
+            </keys>
+        </command>
+        <command id="278">
+            <value>页码</value>
+            <keys>
+                <item>页码</item>
+                <item>显示页码</item>
+                <item>添加页码</item>
+                <item>增加页码</item>
+            </keys>
+        </command>
+        <command id="279">
+            <value>取消页码</value>
+            <keys>
+                <item>取消页码</item>
+                <item>关闭页码</item>
+                <item>隐藏页码</item>
+                <item>删除页码</item>
+            </keys>
+        </command>
+        <command id="280">
+            <value>页眉</value>
+            <keys>
+                <item>页眉</item>
+                <item>添加页眉</item>
+                <item>显示页眉</item>
+                <item>增加页眉</item>
+            </keys>
+        </command>
+        <command id="281">
+            <value>页脚</value>
+            <keys>
+                <item>页脚</item>
+                <item>添加页脚</item>
+                <item>显示页脚</item>
+                <item>增加页脚</item>
+            </keys>
+        </command>
+        <command id="282">
+            <value>查找</value>
+            <keys>
+                <item>查找</item>
+            </keys>
+        </command>
+        <command id="283">
+            <value>关闭查找</value>
+            <keys>
+                <item>关闭查找</item>
+            </keys>
+        </command>
+        <command id="284">
+            <value>替换</value>
+            <keys>
+                <item>替换</item>
+            </keys>
+        </command>
+        <command id="285">
+            <value>关闭替换</value>
+            <keys>
+                <item>关闭替换</item>
+            </keys>
+        </command>
+        <command id="286">
+            <value>选中行</value>
+            <keys>
+                <item>选中行</item>
+                <item>选中此行</item>
+                <item>选中这行</item>
+            </keys>
+        </command>
+        <command id="287">
+            <value>选中列</value>
+            <keys>
+                <item>选中列</item>
+                <item>选中此列</item>
+                <item>选中这列</item>
+            </keys>
+        </command>
+        <command id="288">
+            <value>关闭</value>
+            <keys>
+                <item>关闭</item>
+            </keys>
+        </command>
+        <command id="289">
+            <value>撤销</value>
+            <keys>
+                <item>撤销</item>
+            </keys>
+        </command>
+        <command id="290">
+            <value>恢复</value>
+            <keys>
+                <item>恢复</item>
+            </keys>
+        </command>
+        <command id="291">
+            <value>裁剪</value>
+            <keys>
+                <item>裁剪</item>
+            </keys>
+        </command>
+        <command id="292">
+            <value>亮度</value>
+            <keys>
+                <item>亮度</item>
+                <item>调整亮度</item>
+            </keys>
+        </command>
+        <command id="293">
+            <value>对比度</value>
+            <keys>
+                <item>对比度</item>
+                <item>调整对比度</item>
+            </keys>
+        </command>
+        <command id="294">
+            <value>亮一点</value>
+            <keys>
+                <item>亮一点</item>
+                <item>亮一些</item>
+                <item>更亮</item>
+                <item>变亮</item>
+                <item>增亮</item>
+            </keys>
+        </command>
+        <command id="295">
+            <value>暗一点</value>
+            <keys>
+                <item>暗一点</item>
+                <item>暗一些</item>
+                <item>更暗</item>
+                <item>变暗</item>
+                <item>将暗</item>
+            </keys>
+        </command>
+        <command id="296">
+            <value>增加对比</value>
+            <keys>
+                <item>增加对比</item>
+                <item>增加对比度</item>
+                <item>提高对比度</item>
+            </keys>
+        </command>
+        <command id="297">
+            <value>减少对比</value>
+            <keys>
+                <item>减少对比</item>
+                <item>降低对比度</item>
+                <item>减少对比度</item>
+            </keys>
+        </command>
+        <command id="298">
+            <value>铺满</value>
+            <keys>
+                <item>铺满</item>
+                <item>铺满画布</item>
+                <item>减少对比度</item>
+            </keys>
+        </command>
+        <command id="299">
+            <value>所有文本框</value>
+            <keys>
+                <item>所有文本框</item>
+                <item>全部文本框</item>
+            </keys>
+        </command>
+        <command id="300">
+            <value>所有形状</value>
+            <keys>
+                <item>所有形状</item>
+                <item>全部形状</item>
+            </keys>
+        </command>
+        <command id="301">
+            <value>所有图片</value>
+            <keys>
+                <item>所有图片</item>
+                <item>全部图片</item>
+            </keys>
+        </command>
+        <command id="302">
+            <value>退出平铺</value>
+            <keys>
+                <item>退出平铺</item>
+                <item>退出平铺视图</item>
+            </keys>
+        </command>
+        <command id="303">
+            <value>退出仅幻灯片</value>
+            <keys>
+                <item>退出仅幻灯片</item>
+                <item>退出仅幻灯片视图</item>
+            </keys>
+        </command>
+        <command id="304">
+            <value>退出导航</value>
+            <keys>
+                <item>退出导航</item>
+                <item>退出导航视图</item>
+            </keys>
+        </command>
+    </module>
+    <!--browser-->
+    <module name="bsr">
+        <command id="101">
+            <value>新建窗口</value>
+            <keys>
+                <item>新建窗口</item>
+                <item>打开新的窗口</item>
+                <item>新建一个窗口</item>
+                <item>打开新窗口</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>新建隐私窗口</value>
+            <keys>
+                <item>新建隐私窗口</item>
+                <item>打开新的隐身窗口</item>
+                <item>新建隐身窗口</item>
+                <item>新建一个隐私窗口</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>书签列表</value>
+            <keys>
+                <item>书签列表</item>
+                <item>书签</item>
+                <item>打开书签列表</item>
+                <item>打开书签</item>
+                <item>查看书签</item>
+                <item>我的书签</item>
+                <item>打开收藏</item>
+                <item>打开收藏夹</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>历史记录</value>
+            <keys>
+                <item>历史记录</item>
+                <item>打开历史记录</item>
+                <item>历史</item>
+                <item>查看历史记录</item>
+                <item>浏览记录</item>
+                <item>查看浏览记录</item>
+                <item>查看历史浏览记录</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>清空历史记录</value>
+            <keys>
+                <item>清空历史记录</item>
+                <item>清除浏览记录</item>
+                <item>清理浏览痕迹</item>
+                <item>清理上网痕迹</item>
+                <item>清除浏览数据</item>
+                <item>删除浏览记录</item>
+                <item>删除全部历史记录</item>
+                <item>删除全部历史</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>下载管理器</value>
+            <keys>
+                <item>下载管理器</item>
+                <item>下载管理</item>
+                <item>查看下载</item>
+                <item>查看下载内容</item>
+                <item>查看历史下载</item>
+                <item>打开下载管理器</item>
+                <item>打开下载</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>设置</value>
+            <keys>
+                <item>设置</item>
+                <item>打开设置</item>
+                <item>进入设置</item>
+                <item>我的设置</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>新建标签页</value>
+            <keys>
+                <item>新建标签页</item>
+                <item>打开新的标签页</item>
+                <item>新建一个标签页</item>
+                <item>新建选项卡</item>
+                <item>新建标签</item>
+                <item>创建标签</item>
+                <item>创建一个标签</item>
+                <item>新建一个标签</item>
+                <item>打开一个新的标签</item>
+                <item>创建一个新的标签</item>
+            </keys>
+        </command>
+        <command id="109">
+            <value>关闭标签</value>
+            <keys>
+                <item>关闭标签</item>
+                <item>关闭当前网页</item>
+                <item>关闭选项卡</item>
+                <item>关闭标签页</item>
+                <item>关闭当前标签页</item>
+                <item>关闭当前选项卡</item>
+                <item>关闭当前页面</item>
+            </keys>
+        </command>
+        <command id="110">
+            <value>关闭其他标签页</value>
+            <keys>
+                <item>关闭其他标签页</item>
+                <item>关闭其他选项卡</item>
+                <item>关闭其他标签</item>
+                <item>关闭其他页面</item>
+                <item>关闭其他网页</item>
+            </keys>
+        </command>
+        <command id="111">
+            <value>分享</value>
+            <keys>
+                <item>分享</item>
+                <item>分享网页</item>
+                <item>分享这个网页</item>
+                <item>分享这个页面</item>
+                <item>分享这个网站</item>
+                <item>分享网站</item>
+            </keys>
+        </command>
+        <command id="112">
+            <value>保存到书签</value>
+            <keys>
+                <item>保存到书签</item>
+                <item>添加网页</item>
+                <item>添加到收藏夹</item>
+                <item>收藏</item>
+                <item>添加书签</item>
+                <item>收藏网页</item>
+                <item>收藏网址</item>
+                <item>收藏地址</item>
+                <item>添加地址到收藏夹</item>
+                <item>添加网页到收藏夹</item>
+                <item>保存为书签</item>
+                <item>收藏为书签</item>
+                <item>保存至书签</item>
+                <item>保存到书签</item>
+                <item>添加链接到书签里</item>
+                <item>添加链接到收藏夹</item>
+                <item>把该链接添加成书签</item>
+            </keys>
+        </command>
+        <command id="113">
+            <value>添加到首页导航</value>
+            <keys>
+                <item>添加到首页导航</item>
+                <item>添加到导航页</item>
+                <item>添加到导航页面</item>
+            </keys>
+        </command>
+        <command id="114">
+            <value>查找网页内文字</value>
+            <keys>
+                <item>查找网页内文字</item>
+                <item>页面查找</item>
+                <item>搜索</item>
+                <item>搜索文字</item>
+            </keys>
+        </command>
+        <command id="115">
+            <value>放大</value>
+            <keys>
+                <item>放大</item>
+                <item>放大镜放大</item>
+                <item>放大页面</item>
+                <item>网页放大</item>
+                <item>放大网页</item>
+                <item>页面放大</item>
+            </keys>
+        </command>
+        <command id="116">
+            <value>缩小</value>
+            <keys>
+                <item>缩小</item>
+                <item>缩小页面</item>
+                <item>网页缩小</item>
+                <item>缩小网页</item>
+                <item>页面缩小</item>
+            </keys>
+        </command>
+        <command id="117">
+            <value>储存为</value>
+            <keys>
+                <item>储存为</item>
+                <item>保存网页</item>
+                <item>网页另存为</item>
+                <item>另存为</item>
+                <item>保存</item>
+            </keys>
+        </command>
+        <command id="118">
+            <value>在新窗口打开</value>
+            <keys>
+                <item>在新窗口打开</item>
+                <item>打开到新窗口</item>
+                <item>在新的浏览器里打开</item>
+            </keys>
+        </command>
+        <command id="119">
+            <value>在新标签页打开</value>
+            <keys>
+                <item>在新标签页打开</item>
+                <item>打开在新标签页</item>
+                <item>在新标签页里打开</item>
+            </keys>
+        </command>
+        <command id="120">
+            <value>在隐身窗口打开</value>
+            <keys>
+                <item>在隐身窗口打开</item>
+                <item>在隐私窗口打开</item>
+                <item>用隐身打开</item>
+            </keys>
+        </command>
+        <command id="121">
+            <value>拷贝链接</value>
+            <keys>
+                <item>拷贝链接</item>
+                <item>复制链接</item>
+                <item>复制</item>
+                <item>拷贝</item>
+            </keys>
+        </command>
+        <command id="122">
+            <value>将链接储存为</value>
+            <keys>
+                <item>将链接储存为</item>
+                <item>保存该链接</item>
+                <item>链接另存为</item>
+                <item>另存为</item>
+            </keys>
+        </command>
+        <command id="123">
+            <value>编辑书签</value>
+            <keys>
+                <item>编辑书签</item>
+                <item>书签编辑</item>
+                <item>书签编辑</item>
+            </keys>
+        </command>
+        <command id="124">
+            <value>分享全部书签</value>
+            <keys>
+                <item>分享全部书签</item>
+                <item>分享所有书签</item>
+            </keys>
+        </command>
+        <command id="125">
+            <value>删除书签</value>
+            <keys>
+                <item>删除书签</item>
+                <item>把书签删掉</item>
+            </keys>
+        </command>
+        <command id="126">
+            <value>删除所有书签</value>
+            <keys>
+                <item>删除所有书签</item>
+                <item>删除全部书签</item>
+                <item>把书签全部删掉</item>
+            </keys>
+        </command>
+        <command id="127">
+            <value>删除其他书签</value>
+            <keys>
+                <item>删除其他书签</item>
+                <item>删掉其他的书签</item>
+                <item>清除其他书签</item>
+            </keys>
+        </command>
+        <command id="128">
+            <value>删除历史记录</value>
+            <keys>
+                <item>删除历史记录</item>
+                <item>清除历史记录</item>
+                <item>把历史记录删掉</item>
+            </keys>
+        </command>
+        <command id="129">
+            <value>添加为书签</value>
+            <keys>
+                <item>添加为书签</item>
+                <item>把该网页添加为书签</item>
+                <item>把该网页添加到收藏夹</item>
+                <item>添加成书签</item>
+            </keys>
+        </command>
+        <command id="130">
+            <value>删除其他历史记录</value>
+            <keys>
+                <item>删除其他历史记录</item>
+                <item>清除其他历史记录</item>
+                <item>把其他的历史记录删掉</item>
+                <item>删除其他历史</item>
+            </keys>
+        </command>
+        <command id="131">
+            <value>复制下载链接</value>
+            <keys>
+                <item>复制下载链接</item>
+                <item>拷贝下载链接</item>
+            </keys>
+        </command>
+        <command id="132">
+            <value>删除任务</value>
+            <keys>
+                <item>删除任务</item>
+                <item>删除下载任务</item>
+                <item>把任务删除</item>
+                <item>把任务删除</item>
+            </keys>
+        </command>
+        <command id="133">
+            <value>删除全部任务</value>
+            <keys>
+                <item>删除全部任务</item>
+                <item>把所有下载任务删掉</item>
+                <item>删除所有下载任务</item>
+                <item>清除全部下载任务</item>
+            </keys>
+        </command>
+        <command id="134">
+            <value>删除任务及源文件</value>
+            <keys>
+                <item>删除任务及源文件</item>
+                <item>删除下载任务和源文件</item>
+                <item>把任务和源文件都删掉</item>
+                <item>清除任务及源文件</item>
+            </keys>
+        </command>
+        <command id="135">
+            <value>删除全部任务及源文件</value>
+            <keys>
+                <item>删除全部任务及源文件</item>
+            </keys>
+        </command>
+    </module>
+    <!--calendar-->
+    <module name="cld">
+        <command id="101">
+            <value>新建任务</value>
+            <keys>
+                <item>新建任务</item>
+                <item>新建一个任务</item>
+                <item>添加任务</item>
+                <item>创建一个新任务</item>
+                <item>新建</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>收藏</value>
+            <keys>
+                <item>收藏</item>
+                <item>收藏日历</item>
+                <item>收藏一下</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>取消收藏</value>
+            <keys>
+                <item>取消收藏</item>
+                <item>取消收藏日历</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>标记完成</value>
+            <keys>
+                <item>标记完成</item>
+                <item>完成标记</item>
+                <item>完成日历标记</item>
+                <item>标记已完成</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>取消标记完成</value>
+            <keys>
+                <item>取消标记完成</item>
+                <item>还没有完成标记</item>
+                <item>标记未完成</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>删除</value>
+            <keys>
+                <item>删除</item>
+                <item>删除任务</item>
+                <item>删掉日程</item>
+                <item>把这个日程删掉</item>
+                <item>删掉</item>
+                <item>取消日程</item>
+                <item>取消任务</item>
+                <item>删除任务</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>分享</value>
+            <keys>
+                <item>分享</item>
+                <item>转发</item>
+                <item>发送</item>
+                <item>把这个分享一下</item>
+                <item>分享到其他应用</item>
+                <item>分享一下</item>
+            </keys>
+        </command>
+    </module>
+    <!--music-->
+    <module name="msc">
+        <command id="101">
+            <value>加入播放列表</value>
+            <keys>
+                <item>加入播放列表</item>
+                <item>添加到播放列表</item>
+                <item>加到播放列表上</item>
+                <item>放到播放列表</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>分享</value>
+            <keys>
+                <item>分享</item>
+                <item>分享到其他应用</item>
+                <item>分享一下</item>
+                <item>把这个分享一下</item>
+                <item>转发</item>
+                <item>发送</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>加入播放队列</value>
+            <keys>
+                <item>加入播放队列</item>
+                <item>添加到播放队列</item>
+                <item>在播放队列中添加一下</item>
+                <item>放到播放队列</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>喜欢</value>
+            <keys>
+                <item>喜欢</item>
+                <item>喜欢这首歌</item>
+                <item>点击喜欢</item>
+                <item>添加到喜欢</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>取消喜欢</value>
+            <keys>
+                <item>取消喜欢</item>
+                <item>取消喜欢这首歌</item>
+                <item>点击取消喜欢</item>
+                <item>不喜欢这首歌</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>下载</value>
+            <keys>
+                <item>下载</item>
+                <item>下载这首歌</item>
+                <item>把这首歌下载下来</item>
+                <item>下载到本地</item>
+                <item>下载一下</item>
+                <item>下载到我的文件夹</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>删除</value>
+            <keys>
+                <item>删除</item>
+            </keys>
+        </command>
+    </module>
+    <!--filemanager-->
+    <module name="fmr">
+        <command id="101">
+            <value>新建文件夹</value>
+            <keys>
+                <item>新建文件夹</item>
+                <item>新建一个文件夹</item>
+                <item>创建一个文件夹</item>
+                <item>创建文件夹</item>
+                <item>新开一个文件夹</item>
+                <item>new一个文件夹</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>按名称排序</value>
+            <keys>
+                <item>按名称排序</item>
+                <item>按文件名进行排序</item>
+                <item>按文件名排序</item>
+                <item>按照名称排序</item>
+                <item>按照文件名进行排序</item>
+                <item>按照文件名称排序</item>
+                <item>根据名称排序</item>
+                <item>根据文件名称排序</item>
+                <item>根据文件名称进行排序</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>按类型排序</value>
+            <keys>
+                <item>按类型排序</item>
+                <item>按照文件类型进行排序</item>
+                <item>按照类型排序</item>
+                <item>按照类型排列</item>
+                <item>按文件类型排序</item>
+                <item>按文件类型进行排序</item>
+                <item>根据类型排序</item>
+                <item>根据文件类型排序</item>
+                <item>根据文件类型进行排序</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>按大小排序</value>
+            <keys>
+                <item>按大小排序</item>
+                <item>按照文件大小排序</item>
+                <item>按照文件大小排列</item>
+                <item>按照文件大小进行排序</item>
+                <item>按照大小排序</item>
+                <item>根据文件大小排序</item>
+                <item>根据文件大小进行排序</item>
+                <item>根据大小排序</item>
+                <item>按照大小顺序排列</item>
+                <item>按文件大小排序</item>
+                <item>按文件大小进行排序</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>按修改时间排序</value>
+            <keys>
+                <item>按修改时间排序</item>
+                <item>按文件修改时间排序</item>
+                <item>按文件修改顺序排序</item>
+                <item>按文件修改时间进行排序</item>
+                <item>按修改时间进行排序</item>
+                <item>按照修改时间进行排序</item>
+                <item>按照文件修改时间进行排序</item>
+                <item>按照文件修改时间排序</item>
+                <item>根据修改时间排序</item>
+                <item>根据文件修改时间进行排序</item>
+                <item>根据文件修改时间排序</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>图标显示</value>
+            <keys>
+                <item>图标显示</item>
+                <item>显示图标</item>
+                <item>视图显示</item>
+                <item>图标形式显示</item>
+                <item>用图标显示</item>
+                <item>用图标看</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>列表显示</value>
+            <keys>
+                <item>列表显示</item>
+                <item>显示列表</item>
+                <item>列表形式显示</item>
+                <item>用列表显示</item>
+                <item>用列表看</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>粘贴</value>
+            <keys>
+                <item>黏贴</item>
+                <item>粘贴</item>
+                <item>粘上去</item>
+            </keys>
+        </command>
+        <command id="109">
+            <value>撤销</value>
+            <keys>
+                <item>撤销</item>
+                <item>撤回</item>
+                <item>取消</item>
+            </keys>
+        </command>
+        <command id="110">
+            <value>属性</value>
+            <keys>
+                <item>属性</item>
+                <item>查看属性</item>
+                <item>显示属性</item>
+                <item>文件信息</item>
+                <item>查看文件信息</item>
+                <item>显示文件信息</item>
+                <item>文件夹信息</item>
+                <item>查看文件夹信息</item>
+                <item>显示文件夹信息</item>
+            </keys>
+        </command>
+        <command id="111">
+            <value>上一级</value>
+            <keys>
+                <item>上一级</item>
+                <item>返回上一级</item>
+                <item>查看上一级</item>
+                <item>回到上一层</item>
+            </keys>
+        </command>
+        <command id="112">
+            <value>下一级</value>
+            <keys>
+                <item>下一级</item>
+                <item>去下一级</item>
+                <item>查看下一级</item>
+                <item>进入下一层</item>
+            </keys>
+        </command>
+        <command id="113">
+            <value>选择应用打开</value>
+            <keys>
+                <item>选择应用打开</item>
+                <item>通过其他应用打开</item>
+                <item>用其他方式打开</item>
+                <item>通过其他方式代开</item>
+                <item>选择其他方式打开</item>
+                <item>选择其他应用打开</item>
+            </keys>
+        </command>
+        <command id="114">
+            <value>复制</value>
+            <keys>
+                <item>复制</item>
+                <item>拷贝</item>
+                <item>复制一下</item>
+                <item>复制到剪贴板</item>
+            </keys>
+        </command>
+        <command id="115">
+            <value>剪切</value>
+            <keys>
+                <item>剪切</item>
+                <item>剪切一下</item>
+            </keys>
+        </command>
+        <command id="116">
+            <value>删除</value>
+            <keys>
+                <item>删除</item>
+                <item>删掉</item>
+                <item>把这个删了</item>
+            </keys>
+        </command>
+        <command id="117">
+            <value>压缩</value>
+            <keys>
+                <item>压缩</item>
+                <item>添加到压缩文件</item>
+                <item>压缩一下</item>
+                <item>压一下</item>
+            </keys>
+        </command>
+        <command id="118">
+            <value>解压</value>
+            <keys>
+                <item>解压</item>
+                <item>解压缩</item>
+                <item>解压文件</item>
+                <item>解压压缩包</item>
+                <item>压缩包解压</item>
+            </keys>
+        </command>
+        <command id="119">
+            <value>显示属性</value>
+            <keys>
+                <item>显示属性</item>
+                <item>文件属性</item>
+                <item>显示文件属性</item>
+                <item>查看属性</item>
+                <item>查看文件属性</item>
+                <item>文件信息</item>
+                <item>查看文件信息</item>
+                <item>显示文件信息</item>
+                <item>文件夹信息</item>
+                <item>查看文件夹信息</item>
+                <item>显示文件夹信息</item>
+            </keys>
+        </command>
+        <command id="120">
+            <value>分享</value>
+            <keys>
+                <item>分享</item>
+                <item>分享到其他应用</item>
+                <item>分享一下</item>
+                <item>把这个分享一下</item>
+            </keys>
+        </command>
+        <command id="121">
+            <value>标记</value>
+            <keys>
+                <item>标记</item>
+                <item>标记一下</item>
+                <item>做一个标记</item>
+                <item>把这个标记一下</item>
+            </keys>
+        </command>
+        <command id="137">
+            <value>标记为灰色</value>
+            <keys>
+                <item>标记为灰色</item>
+                <item>灰色</item>
+            </keys>
+        </command>
+        <command id="138">
+            <value>标记为绿色</value>
+            <keys>
+                <item>标记为绿色</item>
+                <item>绿色</item>
+            </keys>
+        </command>
+        <command id="123">
+            <value>标记为橙色</value>
+            <keys>
+                <item>标记为橙色</item>
+                <item>橙色</item>
+            </keys>
+        </command>
+        <command id="124">
+            <value>标记为红色</value>
+            <keys>
+                <item>标记为红色</item>
+                <item>红色</item>
+            </keys>
+        </command>
+        <command id="125">
+            <value>收藏</value>
+            <keys>
+                <item>收藏</item>
+                <item>收藏一下</item>
+                <item>把这个收藏一下</item>
+                <item>添加到收藏夹</item>
+            </keys>
+        </command>
+        <command id="126">
+            <value>重命名</value>
+            <keys>
+                <item>虫命名</item>
+                <item>重命名</item>
+                <item>重新命名</item>
+            </keys>
+        </command>
+        <command id="127">
+            <value>添加到边栏</value>
+            <keys>
+                <item>添加到边栏</item>
+                <item>添加到侧边栏</item>
+            </keys>
+        </command>
+        <command id="128">
+            <value>在新窗口中打开</value>
+            <keys>
+                <item>在新窗口中打开</item>
+                <item>在新窗口打开</item>
+                <item>打开到新窗口</item>
+                <item>在新的浏览器里打开</item>
+            </keys>
+        </command>
+        <command id="129">
+            <value>全选</value>
+            <keys>
+                <item>全选</item>
+            </keys>
+        </command>
+        <command id="130">
+            <value>取消收藏</value>
+            <keys>
+                <item>取消收藏</item>
+            </keys>
+        </command>
+        <command id="131">
+            <value>开始</value>
+            <keys>
+                <item>开始</item>
+            </keys>
+        </command>
+        <command id="132">
+            <value>暂停</value>
+            <keys>
+                <item>暂停</item>
+            </keys>
+        </command>
+        <command id="133">
+            <value>重做</value>
+            <keys>
+                <item>虫做</item>
+                <item>重做</item>
+            </keys>
+        </command>
+        <command id="134">
+            <value>清空</value>
+            <keys>
+                <item>清空</item>
+                <item>清空回收站</item>
+                <item>全部清空</item>
+                <item>全部删除</item>
+            </keys>
+        </command>
+        <command id="135">
+            <value>恢复</value>
+            <keys>
+                <item>恢复</item>
+            </keys>
+        </command>
+        <command id="136">
+            <value>移除</value>
+            <keys>
+                <item>移除</item>
+                <item>移除边栏</item>
+            </keys>
+        </command>
+
+    </module>
+    <!--email-->
+    <module name="eml">
+        <command id="101">
+            <value>新建邮件</value>
+            <keys>
+                <item>新建邮件</item>
+                <item>新建一封邮件</item>
+                <item>写邮件</item>
+                <item>创建新邮件</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>删除邮件</value>
+            <keys>
+                <item>删除邮件</item>
+                <item>删除这封邮件</item>
+                <item>把这封邮件删掉</item>
+                <item>删除</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>标为未读</value>
+            <keys>
+                <item>标为未读</item>
+                <item>把邮件标为未读</item>
+                <item>标为未读邮件</item>
+                <item>设为未读邮件</item>
+                <item>改为未读邮件</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>标为已读</value>
+            <keys>
+                <item>标为已读</item>
+                <item>把邮件标为已读</item>
+                <item>标为已读邮件</item>
+                <item>设为已读邮件</item>
+                <item>改为已读邮件</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>屏蔽新邮件</value>
+            <keys>
+                <item>屏蔽新邮件</item>
+                <item>屏蔽</item>
+                <item>把新邮件屏蔽了</item>
+                <item>屏蔽一下新邮件</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>回复</value>
+            <keys>
+                <item>回复</item>
+                <item>回复邮件</item>
+                <item>邮件回复</item>
+                <item>回邮件</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>全部回复</value>
+            <keys>
+                <item>全部回复</item>
+                <item>回复给所有人</item>
+                <item>给所有人回复</item>
+                <item>回复全部</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>下载附件</value>
+            <keys>
+                <item>下载附件</item>
+                <item>下载一下附件</item>
+                <item>附件下载</item>
+                <item>把附件下载下来</item>
+                <item>把附件下载到本地</item>
+            </keys>
+        </command>
+        <command id="109">
+            <value>添加到日历</value>
+            <keys>
+                <item>添加到日历</item>
+                <item>发送到日历</item>
+            </keys>
+        </command>
+        <command id="110">
+            <value>编辑</value>
+            <keys>
+                <item>编辑</item>
+                <item>编辑邮件</item>
+                <item>编写邮件</item>
+                <item>编辑内容</item>
+            </keys>
+        </command>
+        <command id="111">
+            <value>涂鸦</value>
+            <keys>
+                <item>涂鸦</item>
+                <item>邮件涂鸦</item>
+            </keys>
+        </command>
+        <command id="112">
+            <value>发送邮件</value>
+            <keys>
+                <item>发送邮件</item>
+                <item>发邮件</item>
+            </keys>
+        </command>
+        <command id="113">
+            <value>复制邮件地址</value>
+            <keys>
+                <item>复制邮件地址</item>
+                <item>复制一下邮件地址</item>
+                <item>复制邮箱地址</item>
+                <item>复制地址</item>
+                <item>复制email</item>
+            </keys>
+        </command>
+    </module>
+    <!--gallery-->
+    <module name="gly">
+        <command id="101">
+            <value>分享</value>
+            <keys>
+                <item>分享</item>
+                <item>分享相片</item>
+                <item>分享照片</item>
+                <item>分享一下</item>
+                <item>分享给别人</item>
+                <item>分享这张照片</item>
+                <item>转发</item>
+                <item>发送</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>收藏</value>
+            <keys>
+                <item>收藏</item>
+                <item>收藏照片</item>
+                <item>收藏这张照片</item>
+                <item>收藏一下</item>
+                <item>添加到收藏夹</item>
+                <item>加星</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>取消收藏</value>
+            <keys>
+                <item>取消收藏</item>
+                <item>不加星</item>
+                <item>取消加星</item>
+                <item>不收藏</item>
+            </keys>
+        </command>
+        <command id="104">
+            <value>删除</value>
+            <keys>
+                <item>删除</item>
+                <item>删除相片</item>
+                <item>删除照片</item>
+                <item>移除照片</item>
+                <item>移除相片</item>
+                <item>删掉照片</item>
+                <item>删掉相片</item>
+                <item>放到回收站</item>
+                <item>把这张照片删掉</item>
+            </keys>
+        </command>
+        <command id="105">
+            <value>全屏播放</value>
+            <keys>
+                <item>全屏播放</item>
+                <item>全屏</item>
+                <item>视频全屏</item>
+                <item>打开全屏</item>
+                <item>全屏模式</item>
+                <item>全屏下观看</item>
+            </keys>
+        </command>
+        <command id="106">
+            <value>退出全屏播放</value>
+            <keys>
+                <item>退出全屏播放</item>
+                <item>退出全屏</item>
+                <item>取消全屏</item>
+                <item>取消全屏播放</item>
+                <item>退出全屏模式</item>
+                <item>退出全屏观看</item>
+            </keys>
+        </command>
+        <command id="107">
+            <value>上一个</value>
+            <keys>
+                <item>上一个</item>
+                <item>上一个视频</item>
+                <item>播放上一个</item>
+                <item>打开上一个</item>
+                <item>观看上一个</item>
+                <item>返回上一个</item>
+                <item>回到上一个</item>
+                <item>看上一个</item>
+            </keys>
+        </command>
+        <command id="108">
+            <value>下一个</value>
+            <keys>
+                <item>下一个</item>
+                <item>到下一个</item>
+                <item>播放下一个</item>
+                <item>打开下一个</item>
+                <item>观看下一个</item>
+                <item>去往下一个</item>
+                <item>看下一个</item>
+                <item>下一个视频</item>
+            </keys>
+        </command>
+    </module>
+    <!--notes-->
+    <module name="nts">
+        <command id="101">
+            <value>删除</value>
+            <keys>
+                <item>删除</item>
+                <item>删除便签</item>
+                <item>收藏这张照片</item>
+                <item>移除便签</item>
+                <item>把便签删掉</item>
+                <item>删除这个便签</item>
+            </keys>
+        </command>
+        <command id="102">
+            <value>分享</value>
+            <keys>
+                <item>分享</item>
+                <item>分享这个便签</item>
+                <item>分享便签</item>
+            </keys>
+        </command>
+        <command id="103">
+            <value>新建便签</value>
+            <keys>
+                <item>新建便签</item>
+                <item>新建一个便签</item>
+                <item>创建一个新的便签</item>
+            </keys>
+        </command>
+    </module>
+</voice_commands>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <smartisanos.widget.Title
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        smartisanos:shadowVisible="true"/>
+    <ListView
+        android:id="@+id/options_list"
+        style="@style/ListViewGeneralStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="@dimen/setting_item_margintop"
+        android:layout_below="@id/title_bar"/>
+
+</RelativeLayout>

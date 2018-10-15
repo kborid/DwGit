@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="search_engine_text">
+        <item>Baidu에서 검색</item>
+        <item>Google에서 검색</item>
+        <item>Bing에서 검색</item>
+        <item>Sogou에서 검색</item>
+    </string-array>
+
+    <string-array name="search_dict_text">
+        <item>Bing 사전</item>
+        <item>Iciba</item>
+        <item>Youdao 사전</item>
+        <item>Google Translate</item>
+    </string-array>
+
+    <string-array name="search_wiki_text">
+        <item>Hudong Baike</item>
+        <item>Baidu 백과</item>
+    </string-array>
+
+    <string-array name="ifly_speakers_accent_value">
+        <item>（중국어/영어 표준어）</item>
+        <item>（동북어）</item>
+        <item>（하남어）</item>
+        <item>（호남어）</item>
+        <item>（표준어）</item>
+        <item>（표준어）</item>
+        <item>（표준어）</item>
+        <item>（사천어）</item>
+        <item>（대만어）</item>
+        <item>（광동어）</item>
+        <item>（영국식 영어）</item>
+    </string-array>
+    <string-array name="ifly_speakers_gender_value">
+        <item>여자1</item>
+        <item>여자2</item>
+        <item>남자1</item>
+        <item>남자2</item>
+        <item>남자3</item>
+        <item>여자3</item>
+        <item>여자4</item>
+        <item>여자5</item>
+        <item>여자6</item>
+        <item>여자7</item>
+        <item>여자8</item>
+    </string-array>
+</resources>

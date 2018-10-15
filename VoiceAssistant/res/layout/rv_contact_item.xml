@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="11dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/select_contact_bg_normal"
+    android:clickable="true"
+    android:focusable="true"
+    android:clipToPadding="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutHead"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp">
+
+        <com.smartisanos.sara.bullet.widget.CircleImageView
+            android:id="@+id/imageViewHeader"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"/>
+
+        <com.smartisanos.sara.bullet.widget.AvatarImageView
+            android:id="@+id/imageViewHeader_phone"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center" />
+
+        <View
+            android:background="@drawable/select_contact_avatar_mask"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="16dp"
+        android:singleLine="true"
+        android:gravity="left"
+        android:textColor="#9a000000"
+        android:textSize="13.5sp"
+        android:textStyle="bold" />
+</LinearLayout>

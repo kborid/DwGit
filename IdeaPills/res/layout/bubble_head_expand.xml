@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_headexpand"
+    android:layout_gravity="center"
+    android:paddingLeft="14dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/iv_head_edit"
+        android:contentDescription="@string/bubble_edit"
+        android:paddingLeft="12dp"
+        android:src="@drawable/bubble_popup_setting"
+        style="@style/headSettingItemStyle"/>
+    <View
+        android:id="@+id/iv_filtrate_divider"
+        style="@style/headSettingDividerStyle" />
+    <ImageView
+        android:id="@+id/iv_head_filtrate"
+        android:contentDescription="@string/bubble_filtrate"
+        android:src="@drawable/filtrate_all"
+        style="@style/headSettingItemStyle"/>
+    <View style="@style/headSettingDividerStyle" />
+    <ImageView
+        android:id="@+id/iv_head_open"
+        android:contentDescription="@string/bubble_extend_all"
+        android:src="@drawable/bubble_expand_all"
+        style="@style/headSettingItemStyle"/>
+    <View style="@style/headSettingDividerStyle" />
+    <ImageView
+        android:id="@+id/iv_head_add"
+        android:contentDescription="@string/bubble_add"
+        android:src="@drawable/bubble_add"
+        style="@style/headSettingItemStyle"/>
+    <View style="@style/headSettingDividerStyle" />
+    <ImageView
+        android:id="@+id/iv_todo_over"
+        android:contentDescription="@string/bubble_show_todo_over"
+        android:src="@drawable/show_todo_icon"
+        style="@style/headSettingItemStyle"/>
+    <View
+        android:id="@+id/todo_over_divider"
+        style="@style/headSettingDividerStyle"/>
+    <ImageView
+        android:id="@+id/iv_head_search"
+        android:contentDescription="@string/bubble_search"
+        android:src="@drawable/bubble_search"
+        style="@style/headSettingItemStyle"/>
+    <View
+        android:id="@+id/iv_hide_divider"
+        style="@style/headSettingDividerStyle"/>
+    <ImageView
+        android:id="@+id/iv_head_hide"
+        android:contentDescription="@string/bubble_hide"
+        android:src="@drawable/bubble_hide_icon"
+        style="@style/headSettingItemStyle"/>
+</LinearLayout>

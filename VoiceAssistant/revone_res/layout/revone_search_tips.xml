@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/global_search_tip_margin_top">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/bubble_search_result"
+        android:textColor="@color/bubble_search_title_color"
+        android:textSize="@dimen/global_bubble_title_size"
+        android:textStyle="bold" />
+
+    <ViewStub
+        android:id="@+id/none_search_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:inflatedId="@+id/none_search"
+        android:layout="@layout/revone_none_search_content" />
+
+    <TextView
+        android:id="@+id/no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/search_no_result_tip"
+        android:textColor="#ccffffff"
+        android:textSize="20sp"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+.classpath
+.project
+bin/
+gen/
+.settings/
+._.DS_Store
+.DS_Store
+*.iml
+.idea/

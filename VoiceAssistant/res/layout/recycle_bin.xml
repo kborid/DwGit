@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slv="http://schemas.android.com/apk/res/com.smartisanos.sara"
+    android:id="@+id/bubbles_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/setting_background" >
+
+    <smartisanos.widget.Title
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:id="@+id/bubble_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/bubble_detail_background" >
+
+        <ViewStub
+            android:id="@+id/listview_emptyview_stub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout="@layout/recycle_bin_emptyview" />
+
+        <com.smartisanos.sara.widget.pinnedHeadList.HeadersListView
+            android:id="@+id/main_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/recycle_list_control"
+            android:layout_below="@+id/bubble_body_search"
+            android:overScrollHeader="@drawable/header_line"
+            android:scrollbarStyle="outsideOverlay"
+            slv:left_btns_id="@id/item_background"
+            slv:scroll_enabled="true"
+            slv:scroll_factor="0.2"
+            slv:scroll_handle_id="@id/item_foreground"
+            slv:slider_checkbox_id="@id/checkBoxFrame"
+            slv:slider_enabled="false" />
+
+            <smartisanos.widget.SearchBar
+                android:id="@+id/bubble_body_search"
+                android:layout_width="match_parent"
+                android:layout_height="48dip" />
+            <RelativeLayout
+                android:id="@+id/option_bar"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:background="@drawable/search_bar_bg_selector"
+                android:visibility="gone" >
+
+                <CheckBox
+                    android:id="@+id/checkbox_select_all"
+                    android:layout_width="@dimen/checkbox_width"
+                    android:layout_height="@dimen/checkbox_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dip"
+                    android:button="@drawable/checkbox"
+                    android:checked="false"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/option_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="71dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="#80000000"
+                    android:textSize="13.5sp" />
+
+                <View
+                    android:id="@+id/edit_divider"
+                    android:layout_width="0.67dp"
+                    android:layout_height="18.67dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="59.33dp"
+                    android:background="@drawable/edit_divider" />
+            </RelativeLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/bubble_body_search"
+            layout="@layout/searchview"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@id/recycle_list_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/list_edit_btn_bg"
+            android:orientation="horizontal"
+            android:paddingLeft="7dip"
+            android:paddingRight="7dip"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/recycle_list_control_delete"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_delete_btn"
+                android:text="@string/btn_delete"
+                android:textColor="@android:color/white"
+                android:textSize="13.5dp" />
+
+            <Button
+                android:id="@+id/recycle_list_control_restore"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_restore_btn"
+                android:text="@string/btn_restore"
+                android:textColor="#9a000000"
+                android:textSize="13.5dp" />
+        </LinearLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/bubble_body_search"
+            layout="@layout/search_view_for_picker"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/recycle_list_control_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/recycle_list_control"
+            android:background="@drawable/list_edit_btn_bg_shadow"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/title_bar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlebar"
+        android:background="@smartisanos:drawable/title_bar_shadow"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.ideapills.view.BubbleHeadOptView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_header_root"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:gravity="right">
+    <FrameLayout
+        android:id="@+id/fl_head_normal"
+        android:layout_marginTop="@dimen/bubble_item_base_margin_top"
+        android:layout_marginBottom="@dimen/bubble_head_base_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_setting_bg">
+        <include layout="@layout/bubble_head_expand_search" />
+        <include layout="@layout/bubble_head_expand_detail" />
+        <include layout="@layout/bubble_head_expand"/>
+    </FrameLayout>
+</com.smartisanos.ideapills.view.BubbleHeadOptView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Color of image view placeholder. -->
+    <color name="image_placeholder">#DDDDDD</color>
+    <color name="music_result_item_songs_color">#808080</color>
+    <color name="music_result_item_text_summary_color">#b4b4b4</color>
+    <color name="result_item_text_color">#565656</color>
+    <color name="result_item_contact_number_text_color">#b8b8b8</color>
+    <color name="color_wave">#ffffff</color>
+    <color name="transparent">#0000</color>
+    <color name="bubble_wave_line_text_normal_color">#c3d3f8</color>
+    <color name="bubble_wave_line_text_color">#26000000</color>
+    <color name="bubble_wave_line_text_color_pass">#99ffffff</color>
+    <color name="bubble_wave_line_text_share_color_pass">#a6bef4</color>
+    <color name="bubble_wave_line_text_normal_orange_color">#ffdcb9</color>
+    <color name="bubble_wave_line_text_normal_green_color">#c0edb9</color>
+    <color name="bubble_wave_line_text_normal_purple_color">#dcc2f2</color>
+    <color name="bubble_wave_line_text_normal_red_color">#fcc0c0</color>
+    <color name="bubble_wave_line_text_normal_share_color">#335d85ea</color>
+    <color name="setting_item_primary_title_color">#80000000</color>
+    <color name="list_empty_view_text_color">#26000000</color>
+    <color name="divider_color">#ebebeb</color>
+    <color name="top_button_text_color_grey">#99000000</color>
+    <color name="setting_item_text_color_disabled">#BABABA</color>
+    <color name="searchbar_text_color">#000000</color>
+    <color name="high_light_red">#d44d44</color>
+    <color name="no_result_text_color">#4c000000</color>
+    <color name="setting_item_tips_color">#80000000</color>
+    <color name="setting_item_text_color">#cc000000</color>
+    <color name="setting_item_text_color_highlight">#ffffff</color>
+    <color name="share_text_color">#6890ed</color>
+    <color name="bubble_hint_text_color">#66ffffff</color>
+    <color name="blue_shadow_color">#ffffffff</color>
+
+    <color name="coordinate_icon">#fff5f5f5</color>
+    <color name="addr_item_body">#ffffffff</color>
+
+    <color name="speaker_item_text_color">#9a000000</color>
+    <color name="speaker_item_text_color_disabled">#33000000</color>
+
+    <!--lock UI start-->
+    <color name="unlock_view_tips">#99000000</color>
+    <color name="unlock_view_tips_error">#d44d44</color>
+    <color name="dark">#CC000000</color>
+    <!--lock UI end-->
+    <color name="search_flash_im_tip_color">#9a000000</color>
+    <color name="bottom_link_tv_color">#5079d9</color>
+    <color name="link_tv_color">#567ed7</color>
+
+</resources>

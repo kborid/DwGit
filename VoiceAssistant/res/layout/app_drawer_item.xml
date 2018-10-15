@@ -1,0 +1,6 @@
+<com.smartisanos.sara.widget.ShadowBitmapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/share_view"
+    android:layout_width="@dimen/drawer_item_width"
+    android:layout_height="@dimen/drawer_item_width"
+    android:scaleType="center" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubbleopt_layout_width">380dp</dimen>
+    <dimen name="bubble_attachment_layout_max_measure_width">350dp</dimen>
+    <dimen name="bubble_item_edit_text_width_in_large">300dp</dimen>
+
+    <!-- add for remind begin-->
+    <dimen name="monthbyweek_v">5px</dimen>
+    <dimen name="monthbyweek_h">3px</dimen>
+    <!-- add for remind end-->
+
+    <dimen name="bubble_item_detail_input_max_hight">320dp</dimen>
+
+</resources>

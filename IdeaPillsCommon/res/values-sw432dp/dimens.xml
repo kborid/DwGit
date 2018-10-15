@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="bubble_list_item_wave_height">20dp</dimen>
+    <dimen name="bubble_list_item_wave_height_trident">32dp</dimen>
+    <dimen name="reminder_margin_right">-3dp</dimen>
+</resources>

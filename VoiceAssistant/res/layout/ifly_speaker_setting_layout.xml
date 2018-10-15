@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/setting_background">
+
+    <smartisanos.widget.Title
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        smartisanos:title="@string/ifly_speaker_setting_title"
+        smartisanos:shadowVisible="true"/>
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/ListViewGeneralStyle"
+        android:layout_below="@id/title_bar"/>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ideapills="http://schemas.android.com/apk/res/com.smartisanos.ideapills"
+    android:id="@+id/ll_colorchooser"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center_horizontal"
+    android:layout_marginTop="1dp"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <com.smartisanos.ideapills.view.BubbleColorChooserView
+        android:id="@+id/iv_color_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_blue"
+        android:src="@drawable/sign_blue" />
+
+    <com.smartisanos.ideapills.view.BubbleColorChooserView
+        android:id="@+id/iv_color_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_red"
+        android:src="@drawable/sign_red" />
+
+    <com.smartisanos.ideapills.view.BubbleColorChooserView
+        android:id="@+id/iv_color_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_orange"
+        android:src="@drawable/sign_orange" />
+
+    <com.smartisanos.ideapills.view.BubbleColorChooserView
+        android:id="@+id/iv_color_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_green"
+        android:src="@drawable/sign_green" />
+
+    <com.smartisanos.ideapills.view.BubbleColorChooserView
+        android:id="@+id/iv_color_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_purple"
+        android:src="@drawable/sign_purple" />
+
+    <com.smartisanos.ideapills.view.BubbleColorChooserView
+        android:id="@+id/iv_color_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_share"
+        android:src="@drawable/sign_share" />
+
+    <com.smartisanos.ideapills.view.BubbleColorChooserView
+        android:id="@+id/iv_color_navy_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/text_ppt"
+        android:src="@drawable/ppt_sign" />
+</LinearLayout>
+

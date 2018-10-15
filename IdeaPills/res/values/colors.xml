@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bubble_wave_line_text_color">#26000000</color>
+    <color name="bubble_wave_line_text_color_pass">#99ffffff</color>
+
+    <color name="bubble_wave_line_text_color_share">#335d85ea</color>
+    <color name="bubble_wave_line_text_color_pass_share">#a6bef4</color>
+
+    <color name="bubble_hint_text_color">#66ffffff</color>
+    <color name="bubble_hint_share_text_color">#806890ed</color>
+    <color name="calendar_window_bg">#55000000</color>
+
+    <color name="bubble_text_color">#ffffff</color>
+    <color name="bubble_text_color_share">#6890ed</color>
+
+    <color name="bubble_date_text_color">#80ffffff</color>
+    <color name="bubble_date_text_color_share">#806890ed</color>
+
+    <color name="share_noti_text_color">#6890ed</color>
+    <color name="noti_text_color">#ffffff</color>
+    <color name="sync_invitation_item_title_color">#ff000000</color>
+    <color name="sync_invitation_item_tip_color">#9a000000</color>
+    <color name="sync_refresh_button_color">#9f000000</color>
+    <color name="sync_blue_text_color_normal">#ff5f6fe9</color>
+    <color name="sync_blue_text_color_press">#a05f6fe9</color>
+    <color name="sync_setting_item_summary_color">#60000000</color>
+    <color name="setting_hint_text_color">#26000000</color>
+
+</resources>

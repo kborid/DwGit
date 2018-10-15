@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add for remind begin-->
+    <dimen name="remind_dialog_general_margin">12dp</dimen>
+    <dimen name="allinone_dateview_layout_width">174.6dp</dimen>
+    <dimen name="remind_title_text_size">16dp</dimen>
+    <!-- add for remind end-->
+</resources>

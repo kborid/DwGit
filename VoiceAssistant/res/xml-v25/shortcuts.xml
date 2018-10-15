@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/forcetouch_IdeaPills_start"
+        android:shortcutId="enableIdeaPills"
+        android:shortcutDisabledMessage="@string/enable_idea_pills"
+        android:shortcutLongLabel="@string/enable_idea_pills"
+        android:shortcutShortLabel="@string/enable_idea_pills">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.smartisanos.sara.bubble.SettingActivity"
+            android:targetPackage="com.smartisanos.sara" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"/>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/flash_im_drag_content_icon_size"
+            android:layout_height="@dimen/flash_im_drag_content_icon_size"
+            android:layout_marginLeft="@dimen/flash_im_drag_content_padding"
+            android:layout_marginTop="@dimen/flash_im_drag_content_padding"
+            android:layout_marginRight="@dimen/flash_im_drag_content_padding"
+            android:layout_marginBottom="@dimen/flash_im_drag_content_padding" />
+
+        <LinearLayout
+            android:id="@+id/description_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/flash_im_drag_content_padding"
+            android:paddingRight="@dimen/flash_im_drag_content_padding"
+            android:paddingTop="@dimen/flash_im_drag_content_padding"
+            android:alpha="0">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="middle"
+                android:maxWidth="@dimen/flash_im_drag_text_max_width"
+                android:singleLine="true"
+                android:textColor="#cc000000"
+                android:textSize="@dimen/flash_im_drag_content_title_size" />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxWidth="@dimen/flash_im_drag_text_max_width"
+                android:singleLine="true"
+                android:textColor="#66000000"
+                android:textSize="@dimen/flash_im_drag_content_title_size" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

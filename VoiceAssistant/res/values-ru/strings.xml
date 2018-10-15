@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="listener_name_contacts">Контакты</string>
+    <string name="listener_name_app">Приложения</string>
+    <string name="listener_name_music">Музыка</string>
+    <string name="toast_tip1">Коснитесь и удерживайте кнопку ниже</string>
+    <string name="toast_tip2">и выполните поиск</string>
+    <string name="toast_tip3">контактов, приложений<font size="15"> или </font>Музыка</string>
+    <string name="toast_tip4">отпустите кнопку для поиска</string>
+    <string name="contacts_listener_title">Контакты</string>
+    <string name="web_search_listener_title">Поиск в Интернете</string>
+    <string name="play_text_call_people">Позвонить %s</string>
+    <string name="pls_say_number">Произнесите номер</string>
+    <plurals name="find_people_many_number">
+        <item quantity="one">найден 1 номер</item>
+        <item quantity="other">найдено номеров: %d</item>
+    </plurals>
+    <string name="re_confirm">Не удалось распознать ответ. Произнесите еще раз.</string>
+    <string name="re_say_number">Не удалось распознать выбранный номер. Произнесите еще раз.</string>
+    <string name="cancel">Отмена</string>
+    <string name="music_title">Композиции:  </string>
+    <string name="music_album">Альбомы: </string>
+    <string name="music_artist">Исполнители: </string>
+    <plurals name="music_total">
+        <item quantity="one"> 1 композиция</item>
+        <item quantity="other"> Композиций: %d</item>
+    </plurals>
+    <plurals name="music_artist">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>, <xliff:g id="COUNT_0">%1$d </xliff:g> композиция</item>
+        <item quantity="other">Композиций: <xliff:g id="NAME">%2$s</xliff:g>, <xliff:g id="COUNT_0">%1$d</xliff:g></item>
+    </plurals>
+    <string name="call_person">Вызов %s</string>
+    <string name="no_result">Не удалось распознать команду. Скажите еще раз</string>
+    <string name="research">Не удалось распознать команду. Повторите поиск</string>
+    <string name="calling_now">Идет вызов………</string>
+    <string name="record_warning_dialog_title">Не удается использовать</string>
+    <string name="record_warning_dialog_message">Микрофон занят другим приложением, голосовой поиск временно недоступен.</string>
+    <string name="record_warning_dialog_positive_button">Подтвердить</string>
+    <string name="china_unicom">CUCC</string>
+    <string name="china_mobile">CMCC</string>
+    <string name="china_telecom">CTCC</string>
+    <string name="no_result_title">Нет результатов</string>
+    <string name="no_result_detail1">Нажмите и удерживайте кнопку ниже и произнесите</string>
+    <string name="no_result_detail2">имя контакта, имя приложения или композиции, а затем отпустите кнопку для поиска</string>
+    <string name="headset_no_result_play">Нет результатов. Нажмите и удерживайте для активации голосового помощника, отпустите и выполните поиск контактов или композиций</string>
+    <string name="contact_is_forbidden">Не удается обойти экран блокировки.\nИзмените настройки в меню "Поиск и голос"</string>
+    <string name="contact_is_forbidden_tts">Не удается обойти экран блокировки. Измените настройки в меню "Поиск и голос"</string>
+    <plurals name="find_many_result">
+        <item quantity="one">Найден 1 результат</item>
+        <item quantity="other">Найдено результатов: %d</item>
+    </plurals>
+    <string name="contact_no_result">Контакты не найдены</string>
+    <string name="find_many_contact_result">Найдено несколько результатов. Выберите один на экране</string>
+    <plurals name="find_many_phone_result">
+        <item quantity="one">Найден 1 номер. Выберите один на экране</item>
+        <item quantity="other">Найдено номеров: %d. Выберите один на экране</item>
+    </plurals>
+    <string name="control_by_headset">Используйте кнопки "Вверх" и "Вниз" для выбора, а среднюю кнопку — для подтверждения</string>
+    <plurals name="some_other">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g> имеет <xliff:g id="COUNT_0">%1$d</xliff:g> номер</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g> имеет несколько (<xliff:g id="COUNT_0">%1$d</xliff:g>) номеров</item>
+    </plurals>
+    <string name="headset_guide">Отпустите кнопку гарнитуры и произнесите поисковый запрос после сигнала</string>
+    <string name="play_music_singer">Композиции: </string>
+    <string name="play_music_album">Альбомы: </string>
+    <string name="play_aritst_music">Воспроизвести все композиции %s</string>
+    <string name="mute_toast">Включите звук телефона и повторите попытку</string>
+    <string name="dialtacts_tab_recent">Журнал вызовов</string>
+    <string name="dialtacts_tab_contacts">Контакты</string>
+    <string name="dialtacts_tab_starred">Избранное</string>
+    <string name="dialtacts_tab_dialpad">Клавиатура</string>
+    <string name="tabBar_worldclock">Мировое время</string>
+    <string name="tabBar_alarm">"Сигнал"</string>
+    <string name="tabBar_stopwatch">Секундомер</string>
+    <string name="tabBar_timer">"Таймер"</string>
+    <string name="unsupport_tips1">"В данный момент только голосовой поиск поддержка северокитайского языка"</string>
+    <string name="more_action">Другие действия</string>
+    <string name="view_contact_detail">View Contact Details</string>
+    <string name="btn_share_contact_text">Передача контактов как текста</string>
+    <string name="btn_share_contact_vcf">Передача контактов как Vcf</string>
+    <string name="share_contact_subject_context">Передать контакт: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%s</xliff:g></string>
+    <string name="menu_share">Поделиться</string>
+    <string name="missing_name">(нет имени)\u0008</string>
+    <string name="full_name">Имя</string>
+    <string name="share_error">Этим контактом нельзя поделиться</string>
+    <string name="call_by_sim1">пользоваться SIM 1 вызов</string>
+    <string name="call_by_sim2">пользоваться SIM 2 вызов</string>
+    <string name="public_number">Общественные номера</string>
+    <string name="default_dict">Славарь по умолчанию</string>
+    <string name="default_search_way">Поиск по умолчанию</string>
+    <string name="search_via_bingdict">Словарь Bing</string>
+    <string name="search_via_hidict">Dict.CN</string>
+    <string name="search_via_baidu">Baidu</string>
+    <string name="search_via_google">Google</string>
+    <string name="search_via_bing">Славарь Bing</string>
+    <string name="search_via_shenma">Shenma</string>
+    <string name="search_via_baidupedia">Baidu Baike</string>
+    <string name="search_via_youdao">Славарь Youdao</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_hudong">Википедия</string>
+    <string name="mute_mode_is_turned_on">Телефон в бесшумном режиме</string>
+    <string name="finish">"Выполнено"</string>
+    <string name="no_search_result">Ничего не найдено</string>
+
+    <!--lock UI start -->
+    <string name="fingerprint_pattern_too_many_times">Свыше лимита неправильности, нарисуйте схему</string>
+    <string name="input_pattern">Нарисуйте схему<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="pattern_error_warning">Неправильная схема</string>
+    <string msgid="567011538994429120" name="accessibility_back">&quot;Назад&quot;</string>
+
+    <string name="lock_easy_title">Простой пароль</string>
+    <string name="lock_complex_title">Сложный пароль</string>
+    <string name="lock_pattern_title">Графический ключ</string>
+    <string name="input_password">Введите пароль<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="input_pattern">Задать графический ключ<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="password_error_warning">Неверный пароль</string>
+    <string name="pattern_error_warning">Неверный пароль</string>
+    <plurals name="unlock_error_try_later">
+        <item quantity="one">"Повторите попытку через <xliff:g id="NUMBER">%d</xliff:g> сек."</item>
+        <item quantity="other">"Повторите попытку через <xliff:g id="NUMBER">%d</xliff:g>  сек."</item>
+    </plurals>
+
+    <string name="fingerprint_instructions">Или по дикталограмме</string>
+    <string name="fingerprint_authentication_failed">Попробуйте еще раз</string>
+    <string name="fingerprint_pattern_too_many_times">Свыше лимита неправильности, нарисуйте схему</string>
+    <string name="fingerprint_password_too_many_times">Свыше лимита неправильности, вводите пароль</string>
+    <!--lock UI end -->
+
+</resources>

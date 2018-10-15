@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_hit_letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#14000000"
+        android:padding="40dip"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_hit_letter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffffff"
+        android:textSize="40.0dip"
+        android:visibility="invisible" />
+
+
+    <com.smartisanos.sara.bullet.widget.letterIndex.LetterIndexView
+        android:id="@+id/liv_index"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        app:letterArray="@array/letter_list"
+        app:letterColor="#1a000000"
+        app:letterHeadArray="@array/pick_letter_head"
+        app:letterHeadHeight="16dp"
+        app:letterHeadMarginTop="7dp"
+        app:letterHeadMarginBottom="7dp"
+        app:letterHeadSpace="7dp"
+        app:letterHeadWidth="16dp"
+        app:letterHeight="14dp"
+        app:letterMarginTop="0dp"
+        app:letterMarginBottom="50dp"
+        app:letterSize="12sp"
+        app:letterStyle="bold"
+        app:letterWidth="14dp" />
+
+    <com.smartisanos.sara.bullet.widget.LoadMoreRecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/liv_index"
+        android:clipChildren="false"
+        android:cacheColorHint="@android:color/transparent" />
+</RelativeLayout>

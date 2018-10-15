@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/yellow_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/secondary_titlebar_bg"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="@string/public_number"
+        android:textColor="#4c000000"
+        android:textSize="12sp" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/yellow_number_result_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="19dp"
+        android:paddingRight="12dp"
+        android:background="@drawable/list_result_item_general" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/yellow_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/list_contact_padding_bottom_name_number"
+                android:singleLine="true"
+                android:textColor="@color/result_item_text_color"
+                android:textSize="@dimen/text_size_contact_result_item_person_name" />
+
+            <TextView
+                android:id="@+id/yellow_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/result_item_contact_number_text_color"
+                android:textSize="@dimen/text_size_result_item_summary" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/yellow_call"
+            android:contentDescription="@string/button_dial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_call_bg"
+            android:minWidth="1dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#ebebeb" />
+
+</LinearLayout>

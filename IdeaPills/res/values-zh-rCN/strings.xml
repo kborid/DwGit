@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">闪念胶囊</string>
+    <string name="bubble_over">完成</string>
+    <string name="bubble_select_all">全选</string>
+    <string name="bubble_delete">删除</string>
+    <string name="bubble_edit">编辑</string>
+    <string name="bubble_extend_all">展开所有</string>
+    <string name="bubble_collapse_all">收起所有</string>
+    <string name="bubble_collapse">收起</string>
+    <string name="bubble_todo_checkbox">标记</string>
+    <string name="bubble_add">添加</string>
+    <string name="bubble_search">搜索</string>
+    <string name="bubble_hide_todo_over">隐藏已完成</string>
+    <string name="bubble_show_todo_over">显示已完成</string>
+    <string name="bubble_hide_todo_over_tip">点击按钮可以隐藏已完成胶囊，当前没有已完成的胶囊</string>
+    <string name="bubble_show_todo_over_tip">点击按钮可以显示已完成胶囊，当前没有已完成的胶囊</string>
+    <string name="bubble_hide">隐藏</string>
+
+    <string name="bubble_boom">大爆炸</string>
+    <string name="bubble_weixin">微信</string>
+    <string name="bubble_attach">添加附件</string>
+    <string name="bubble_calendar">添加提醒</string>
+    <string name="bubble_image">图片</string>
+    <string name="bubble_file">文件</string>
+    <string name="bubble_filtrate">按类型筛选</string>
+
+    <string name="text_all">所有</string>
+    <string name="text_blue">记事</string>
+    <string name="text_red">重要事项</string>
+    <string name="text_orange">待办事项</string>
+    <string name="text_green">待发送信息</string>
+    <string name="text_purple">灵感</string>
+    <string name="text_share">共享</string>
+
+    <string name="play_voice">播放语音</string>
+    <string name="bubble_item_description">第%d个胶囊</string>
+    <string name="bubble_del_attach">删除附件</string>
+
+    <plurals name="bubble_count_attach">
+        <item quantity="one">%d 个附件</item>
+        <item quantity="other">%d 个附件</item>
+    </plurals>
+
+    <string name="bubble_datetime_format">yyyy年MM月dd日 HH:mm</string>
+    <string name="bubble_datetime_format_month">MM月dd日 HH:mm</string>
+    <string name="bubble_datetime_format_day">dd日 HH:mm</string>
+    <string name="bubble_datetime_format_time">HH:mm</string>
+    <string name="bubble_datetime_format_year">yyyy年MM月dd日</string>
+    <string name="bubble_offline_tag">离线</string>
+    <string name="bubble_optimize_text">联网后会优化输出文字</string>
+    <string name="bubble_delete_single">确认要删除这个闪念胶囊？</string>
+    <string name="bubble_delete_multiple">是否删除选中的闪念胶囊？</string>
+    <string name="bubble_add_string_limit">非常抱歉，该操作会导致闪念胶囊内容过长，超出最大限制</string>
+    <string name="mute_mode_is_turned_on">手机正处于静音状态</string>
+    <string name="bubble_boom_twice">当前已存在两层爆炸页面，请先完成正在编辑的闪念胶囊，再继续操作</string>
+    <string name="bubble_copy">复制文字</string>
+    <string name="text_copied">文本已复制</string>
+    <string name="share_to">分享到闪念胶囊</string>
+    <string name="enable_idea_pills_for_share">当前未开启“闪念胶囊”功能</string>
+    <string name="enable_idea_pills_goto">去开启</string>
+    <string name="toast_for_bubble_receive_by_app">胶囊已被处理，你可以在“闪念胶囊-已处理”中查看</string>
+    <string name="share_unsupport_file_toast_tips">无法添加此类文件</string>
+    <string name="search_hint">搜索胶囊内容</string>
+    <string name="select_attachment_type">"选择应用添加附件"</string>
+    <string name="preview_image_attachment_dialog_title">确认从附件移除?</string>
+    <string name="preview_image_attachment_dialog_confirm">确认移除</string>
+    <string name="download_no_application_title">无法打开文件</string>
+
+    <string name="install">安装</string>
+    <string name="install_bigbang_message">当前系统中未安装“大爆炸”应用，无法使用大爆炸功能，点击“安装”前往应用商店下载并安装后即可启用该功能。</string>
+
+    <string name="got_it">知道了</string>
+    <string name="bubble_hint">点击可输入文字</string>
+    <string name="notification_icon_desc">已设置提醒</string>
+
+    <string name="notify_todo_title">已完成 “%s”</string>
+    <string name="notify_todo_body">已完成 “%s”</string>
+    <string name="bubble_share_tip">暂不支持分享胶囊中的附件</string>
+    <plurals name="bubble_image_count_attach">
+        <item quantity="one">%d 个图片附件</item>
+        <item quantity="other">%d 个图片附件</item>
+    </plurals>
+    <string name="drag_empty_tip">拖拽的内容不能为空</string>
+    <string name="bubble_share_attachment_unknown_type">无法分享此类文件</string>
+    <string name="bubble_open_attachment_unknown_type">无法打开此类文件</string>
+    <string name="sync_share_setting_title">设置</string>
+    <string name="sync_content_wait_message">请稍候...</string>
+    <string name="sync_share_main_tip">登录欢喜云账号并开启胶囊同步后，你可以与另一个欢喜云账户建立共享关系。
+        建立后，你可将闪念胶囊共享给此账户，你创建的共享闪念胶囊将出现在对方的胶囊列表中，对方对这个胶囊的改动也会同步到你的列表中。低版本系统的设备上不支持共享胶囊功能。</string>
+    <string name="sync_share_read_list_failed_tip">无法获取数据</string>
+    <string name="sync_share_read_list_failed_summary">请稍后刷新重试</string>
+    <string name="sync_share_read_list_failed_refresh">刷新</string>
+    <string name="sync_add_share_account">添加共享账号</string>
+    <string name="sync_login_cloud_account">登录欢喜云账号</string>
+    <string name="sync_account_detail_title">账号信息</string>
+    <string name="sync_share_accept_setting">允许接收共享邀请</string>
+    <string name="sync_share_setting_failed_tip">检查网络重试</string>
+    <string name="sync_share_status_confirm">等待对方接受邀请</string>
+    <string name="sync_share_status_confirm_invitee">收到共享邀请</string>
+    <string name="sync_share_status_other_refuse">对方已拒绝</string>
+    <string name="sync_share_status_refuse">已拒绝</string>
+    <string name="sync_share_status_canceled">已取消共享</string>
+    <string name="sync_share_invitation_canceled">已取消邀请</string>
+    <string name="sync_share_status_accept">已和对方建立共享</string>
+    <string name="sync_send_invitation">发送邀请</string>
+    <string name="sync_send_invitation_again">再次邀请</string>
+    <string name="sync_receive_invitation_start_title">收到以下用户发来的胶囊共享邀请</string>
+    <string name="sync_send_invitation_start_title">共享邀请已发送，等待对方接受邀请</string>
+    <string name="sync_account_remark_hint">设置备注</string>
+    <string name="sync_account_set_remark_failed">网络信号不佳，检查网络后重新设置备注名</string>
+    <plurals name="sync_send_invitation_minite_after">
+        <item quantity="one">%d 分钟后可再次邀请</item>
+        <item quantity="other">%d 分钟后可再次邀请</item>
+    </plurals>
+    <plurals name="sync_send_invitation_hour_after">
+        <item quantity="one">%d 小时后可再次邀请</item>
+        <item quantity="other">%d 小时后可再次邀请</item>
+    </plurals>
+    <string name="sync_send_invitation_cancel">取消邀请</string>
+    <string name="sync_share_cancel">取消共享</string>
+    <string name="sync_share_cancel_tip">取消与该账户的共享关系，本次记录将被移除，是否确认取消共享？</string>
+    <string name="sync_invite_cancel_tip">取消邀请该账户后，本次记录将被移除，是否确认取消？</string>
+    <string name="sync_item_share_change_tip">更改胶囊颜色后，该胶囊会取消共享状态，是否确认更改？</string>
+    <string name="sync_request_failed">请求失败</string>
+    <string name="sync_receive_invitation_accept">接受</string>
+    <string name="sync_receive_invitation_refuse">拒绝</string>
+    <string name="sync_delete_account">删除账号</string>
+    <string name="sync_phone_email">手机号码/邮箱</string>
+    <string name="sync_phone_number">手机号码</string>
+    <string name="sync_send_invitation_summary">你可将闪念胶囊共享给其他人，请在上方输入对方的手机号码或邮箱并发送邀请。 低版本系统的设备上不支持共享胶囊功能。</string>
+    <string name="sync_send_invitation_country_summary">你可将闪念胶囊共享给其他人，请在上方输入对方的手机号码并发送邀请。 低版本系统的设备上不支持共享胶囊功能。</string>
+    <string name="sync_history_shared_account">历史共享账号</string>
+    <string name="sync_not_support_multiple_account_tip">当前版本暂不支持多账号共享</string>
+    <string name="sync_not_support_multiperson_tip">对方已与其它欢喜云账户建立共享关系，无法向对方发送邀请。</string>
+    <string name="sync_self_not_enabled_yet_tip">你尚未开启共享闪念胶囊功能</string>
+    <string name="sync_not_enabled_yet_tip">该用户不接收共享邀请</string>
+    <string name="sync_not_share_self_tip">该账号已在本机登录，不能发起邀请</string>
+    <string name="sync_request_too_frequent_tip">发送邀请过于频繁，请稍候再进行邀请</string>
+    <string name="sync_invitation_phone_register">该手机号码尚未注册 Smartisan ID，是否发送短信邀请对方注册？</string>
+    <string name="sync_invitation_email_register">该邮箱尚未注册 Smartisan ID 或输入的邮箱账号有误，检查账号信息后重试</string>
+    <string name="sync_invitation_sended_tip">共享邀请已发送，等待对方接受邀请</string>
+    <string name="sync_invitation_register_sended_tip">短信已发送</string>
+    <string name="sync_invitation_register_send_fail_tip">短信发送失败</string>
+    <string name="sync_invitation_notification_title">收到来自 %s 的胶囊共享邀请</string>
+    <string name="sync_decline_notification_title">%s 拒绝了共享邀请</string>
+    <string name="sync_accept_notification_title">%s 接受了共享邀请</string>
+    <string name="sync_cancel_notification_title">%s 取消了与你的胶囊共享</string>
+    <string name="sync_share_ideapills_notification_title">收到来自 %s 共享的胶囊</string>
+    <string name="sync_edit_ideapills_notification_title">%s 编辑了胶囊</string>
+    <string name="sync_todo_over_ideapills_notification_title">%s 将胶囊标记为完成</string>
+    <string name="sync_trash_ideapills_notification_title">%s 删除了胶囊</string>
+    <string name="sync_cancel_ideapills_notification_title">%s 取消了一条共享胶囊</string>
+    <string name="sync_invitation_not_exists">共享关系不存在</string>
+    <string name="drag_save_succeed">成功保存到闪念胶囊</string>
+    <string name="share_to_idea_succeed">成功分享到闪念胶囊</string>
+    <string name="sync_share_waiting">等待对方接受共享</string>
+    <string name="net_error_tips">网络连接失败，请检查网络</string>
+    <string name="sync_invitation_cancel_cause_multi_invitations">该用户已与他人建立共享，当前版本暂不支持多人共享</string>
+    <string name="edit_country_name">国家和地区</string>
+    <string name="default_country_name">中国</string>
+    <string name="international_phone">国际手机号登录</string>
+    <string name="chinese_phone_email">国内手机号及邮箱登录</string>
+    <string name="share_main_button_setting">设置</string>
+    <string name="drag_max_limit_hint_text">操作的胶囊超过数据大小限制，请重新选择</string>
+
+    <string name="remind_set_title">选择提醒日期</string>
+</resources>

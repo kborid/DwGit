@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add for remind begin-->
+    <dimen name="allinone_dateview_layout_width">350px</dimen>
+    <!-- add for remind end-->
+</resources>

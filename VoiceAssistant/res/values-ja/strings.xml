@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="listener_name_contacts">連絡先</string>
+    <string name="listener_name_app">アプリ</string>
+    <string name="listener_name_music">音楽</string>
+    <string name="toast_tip1">下の音声ボタンをタップ</string>
+    <string name="toast_tip2">検索したい</string>
+    <string name="toast_tip3">連絡先、アプリ<font size="15">&#160;或&#160;</font>音楽</string>
+    <string name="toast_tip4">の名前を声に出してボタンを離す</string>
+    <string name="contacts_listener_title">連絡先</string>
+    <string name="web_search_listener_title">ウェブで検索</string>
+    <string name="play_text_call_people">%sに発信しますか</string>
+    <string name="pls_say_number">番号を言ってください</string>
+    <plurals name="find_people_many_number">
+        <item quantity="one">1個番号をみつけました</item>
+        <item quantity="other">%d個番号をみつけました</item>
+    </plurals>
+    <string name="re_confirm">すみません。返答を識別できませんでした。改めて確認してください。</string>
+    <string name="re_say_number">すみません。番号を識別できませんでした。もう一度言ってください。</string>
+    <string name="cancel">キャンセル</string>
+    <string name="music_title">曲:&#160; </string>
+    <string name="music_album">アルバム:&#160;</string>
+    <string name="music_artist">歌手:&#160;</string>
+    <plurals name="music_total">
+        <item quantity="one">共に&#160;1&#160;曲</item>
+        <item quantity="other">共に&#160;%d&#160;曲</item>
+    </plurals>
+    <plurals name="music_artist">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>、共に&#160;<xliff:g id="COUNT_0">%1$d</xliff:g>&#160;曲</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g>、共に&#160;<xliff:g id="COUNT_0">%1$d</xliff:g>&#160;曲</item>
+    </plurals>
+    <string name="call_person">%sに発信</string>
+    <string name="no_result">ご用を聞き取れませんでした。もう一度言ってください。</string>
+    <string name="research">ご用を聞き取れませんでした。もう一度検索してください。</string>
+    <string name="calling_now">発信中</string>
+    <string name="record_warning_dialog_title">利用できません</string>
+    <string name="record_warning_dialog_message">他のアプリが携帯の拡声器を使用していて、音声検索が暫く利用できません。</string>
+    <string name="record_warning_dialog_positive_button">完了</string>
+    <string name="china_unicom">聨合通信</string>
+    <string name="china_mobile">移動通信</string>
+    <string name="china_telecom">電気通信</string>
+    <string name="no_result_title">結果が見つかりませんでした</string>
+    <string name="no_result_detail1">下のボタンを押して、検索したいものを言ってください</string>
+    <string name="no_result_detail2">連絡先、アプリと音楽名を声に出し、ボタンを離して検索</string>
+    <string name="headset_no_result_play">結果が見つかりません。ボタンを長押して、見つけたい連絡先と音楽を声に出し、ボタンを離して検索。</string>
+    <string name="contact_is_forbidden">現在、ロック画面では連絡先を検索できません。\n「検索と音声」で設定変更してください</string>
+    <string name="contact_is_forbidden_tts">現在、ロック画面では連絡先を検索できません。「検索と音声」で設定変更してください</string>
+    <plurals name="find_many_result">
+        <item quantity="one">1個の結果が見つかました</item>
+        <item quantity="other">%d個の結果が見つかました</item>
+    </plurals>
+    <string name="contact_no_result">連絡先が見つかりませんでした。もう一度検索してください</string>
+    <string name="find_many_contact_result">多数の結果を見つけました、画面で選択してください</string>
+    <plurals name="find_many_phone_result">
+        <item quantity="one">1個の番号を見つけました。画面で選択してください</item>
+        <item quantity="other">%d個の番号を見つけました。画面で選択してください</item>
+    </plurals>
+    <string name="control_by_headset">上、下で選択して、中キーで確定します。</string>
+    <plurals name="some_other">
+        <item quantity="one"><xliff:g id="NAME">%2$s</xliff:g>は<xliff:g id="COUNT_0">%1$d</xliff:g>個番号があります</item>
+        <item quantity="other"><xliff:g id="NAME">%2$s</xliff:g>は<xliff:g id="COUNT_0">%1$d</xliff:g>個番号があります</item>
+    </plurals>
+    <string name="headset_guide">イヤホンボタンを解き放して音が鳴り終わった後検索</string>
+    <string name="play_music_singer">曲:&#160;</string>
+    <string name="play_music_album">アルバム:&#160;</string>
+    <string name="play_aritst_music">アーティスト%sの全ての曲を再生</string>
+    <string name="mute_toast">現在マナーモードです。システムの音量を上げてください。</string>
+    <string name="random_play">シャッフル再生</string>
+    <string name="listen_music">音楽を聴く</string>
+    <string name="music">音楽</string>
+    <string name="random">シャッフル</string>
+    <!-- index alias -->
+    <string name="dialtacts_tab_recent">"通話履歴"</string>
+    <string name="dialtacts_tab_contacts">"連絡先"</string>
+    <string name="dialtacts_tab_starred">"お気に入り"</string>
+    <string name="dialtacts_tab_dialpad">"キーパッド"</string>
+    <string name="tabBar_worldclock">"世界時計"</string>
+    <string name="tabBar_alarm">"アラーム"</string>
+    <string name="tabBar_stopwatch">"ストップウォッチ"</string>
+    <string name="tabBar_timer">"タイマー"</string>
+    <string name="unsupport_tips1">"音声検索は中国標準語にしか対応していません"</string>
+    <string name="copy_text">"クリップボードにコピー"</string>
+    <string name="toast_text_copied">"テキストをコピーしました"</string>
+    <string name="agree">"同意"</string>
+    <string name="disagree">"同意しない"</string>
+    <string name="loading">"ロード中です。お待ちください\u2026"</string>
+    <string name="permission_tips">"ヒント"</string>
+    <string name="permission_content">"音声検索サービスはレコーダー機能、連絡先、ネットアクセスを使用します。同意しますか？"</string>
+    <string name="more_action">その他の操作</string>
+    <string name="view_contact_detail">連絡先の情報を見る</string>
+    <string name="btn_share_contact_text">"連絡先をテキストとして共有"</string>
+    <string name="btn_share_contact_vcf">"連絡先をVcfとして共有"</string>
+    <string name="share_contact_subject_context">"連絡先を共有: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%s</xliff:g>"</string>
+    <string name="menu_share">"共有先"</string>
+    <string name="missing_name">"（名前なし）\u0008"</string>
+    <string name="full_name">"名前"</string>
+    <string name="share_error">"この連絡先は共有できません"</string>
+    <string name="call_by_sim1">SIMカード 1 で呼び出し</string>
+    <string name="call_by_sim2">SIMカード2 で呼び出し</string>
+    <string name="public_number">公共番号</string>
+    <string name="search_via_baidu">baidu検索</string>
+    <string name="search_via_google">Google検索</string>
+    <string name="search_via_bing">bing検索</string>
+    <string name="search_via_shenma">shenma検索</string>
+    <string name="search_via_baidupedia">Baidu Baike</string>
+    <string name="search_via_powerword">Iciba</string>
+    <string name="search_via_bingdict">Bing辞書</string>
+    <string name="search_via_hidict">Dict.CN</string>
+    <string name="search_via_hudong">Baike検索</string>
+    <string name="search_via_youdao">Youdao辞書</string>
+    <string name="mute_mode_is_turned_on">"端末がミュートモードになっています"</string>
+    <string name="finish">"完了"</string>
+    <string name="no_search_result">検索結果なし</string>
+
+    <!--lock UI start -->
+    <string name="input_pattern">パターン<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="pattern_error_warning">&quot;間違ったパターン&quot;</string>
+    <string name="accessibility_back">&quot;戻る&quot;</string>
+
+    <string name="lock_easy_title">비밀번호(보안: 낮음)</string>
+    <string name="lock_complex_title">비밀번호(보안: 높음)</string>
+    <string name="lock_pattern_title">패턴</string>
+    <string name="input_password">비밀번호를 입력하세요<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="input_pattern">패턴 그리기<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="password_error_warning">비밀번호가 틀렸습니다</string>
+    <string name="pattern_error_warning">패턴이 틀렸습니다</string>
+    <plurals name="unlock_error_try_later">
+        <item quantity="one"><xliff:g id="SECOND">%d</xliff:g> 잠시후 다시 시도해주시기 바랍니다</item>
+        <item quantity="other"><xliff:g id="SECOND">%d</xliff:g>잠시후 다시 시도해주시기 바랍니다</item>
+    </plurals>
+
+    <string name="fingerprint_instructions">指紋認証</string>
+    <string name="fingerprint_authentication_failed">もう一度試す</string>
+    <string name="fingerprint_pattern_too_many_times">指紋認証の失敗回数が多すぎます、パターン入力で解除してください</string>
+    <string name="fingerprint_password_too_many_times">指紋認証の失敗回数が多すぎます、パスワード入力で解除してください</string>
+    <!--lock UI end -->
+
+</resources>

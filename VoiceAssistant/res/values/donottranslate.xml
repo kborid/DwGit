@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String format for displaying the date. -->
+    <string name="abbrev_wday_year_month">yyyy/MM</string>
+    <string name="abbrev_wday_month_no_year">yyyy/MM</string>
+</resources>

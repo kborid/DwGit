@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ppt_close">Exit</string>
+    <string name="ppt_generate">Generate slides</string>
+    <string name="ppt_generate_formate">Generate %d slides</string>
+    <string name="ppt_generate_empty_tip">Please select the idea pills that needs to generate slides</string>
+    <string name="ideapills_not_opened">Please turn on the global Idea Pill</string>
+</resources>

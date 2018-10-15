@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.ideapills.view.BubbleContainerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ideapills="http://schemas.android.com/apk/res/com.smartisanos.ideapills"
+    android:id="@+id/fl_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="@dimen/bubble_item_base_margin_bottom"
+    android:layout_marginTop="@dimen/bubble_item_base_margin_top"
+    android:contentDescription="@string/bubble_edit">
+
+    <ImageView
+        android:id="@+id/iv_bubble_fake_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pop_expansion_bg"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_bubble_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/text_popup" />
+
+    <include
+        android:id="@+id/bubbledetailview"
+        layout="@layout/bubble_item_detail"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/ll_colorchooser"
+        layout="@layout/bubble_item_for_ll_colorchooser"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/bubble_in_drag_text_margin_t_b"
+        android:layout_marginRight="@dimen/bubble_normal_margin_right"
+        android:layout_marginTop="@dimen/bubble_in_drag_text_margin_t_b"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/drag_padding_left_full"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:id="@+id/drag_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="6dp"
+            android:maxWidth="145dp"
+            android:minWidth="@dimen/bubble_item_normal_textwidth_min"
+            android:singleLine="true"
+            android:textColor="@color/bubble_text_color"
+            android:textSize="@dimen/bubble_item_text_size" />
+
+        <ImageView
+            android:id="@+id/v_little_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:scaleType="center"
+            android:src="@drawable/little_remind_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/v_speech_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+            android:contentDescription="@string/bubble_attach"
+            android:paddingRight="1dp"
+            android:scaleType="center"
+            android:src="@drawable/little_accessory_icon" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_bubble_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</com.smartisanos.ideapills.view.BubbleContainerLayout>

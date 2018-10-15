@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="search_engine_text">
+        <item>Search with Baidu</item>
+        <item>Search with Google</item>
+        <item>Search with Bing</item>
+        <item>Search with Sogou</item>
+        <item>Search with 360</item>
+    </string-array>
+        <array name="search_engine_icon">
+        <item>@drawable/win_search_baidu</item>
+        <item>@drawable/win_search_google</item>
+        <item>@drawable/win_search_bing</item>
+        <item>@drawable/win_search_sogou</item>
+        <item>@drawable/win_search_360</item>
+    </array>
+    <array name="search_type_engine_icon">
+        <item>@drawable/btn_web_search_btn_baidu</item>
+        <item>@drawable/btn_web_search_btn_google</item>
+        <item>@drawable/btn_web_search_btn_bing</item>
+        <item>@drawable/btn_web_search_btn_sogou</item>
+        <item>@drawable/btn_web_search_btn_360</item>
+    </array>
+    <string-array name="search_dict_text">
+        <item>Bing Dictionary</item>
+        <item>Iciba</item>
+        <item>Youdao Dictionary</item>
+        <item>Google Translate</item>
+    </string-array>
+        <array name="search_dict_icon">
+        <item>@drawable/win_search_bingdict</item>
+        <item>@drawable/win_search_kingsoft</item>
+        <item>@drawable/win_search_youdao</item>
+        <item>@drawable/boom_win_search_googletrans</item>
+    </array>
+    <array name="search_type_dict_icon">
+        <item>@drawable/btn_web_search_btn_bing_dic</item>
+        <item>@drawable/btn_web_search_btn_pw_dic</item>
+        <item>@drawable/btn_web_search_btn_youdao_dic</item>
+        <item>@drawable/btn_web_search_btn_google_dic</item>
+    </array>
+    <string-array name="search_wiki_text">
+        <item>Baidu Baike</item>
+        <item>Hudong Baike</item>
+        <item>Wiki Engish</item>
+        <item>Wiki Chinese</item>
+    </string-array>
+    <array name="search_wiki_icon">
+        <item>@drawable/win_search_baike</item>
+        <item>@drawable/win_search_hudongdict</item>
+        <item>@drawable/boom_win_search_wiki_en</item>
+        <item>@drawable/boom_win_search_wiki_cn</item>
+    </array>
+    <array name="search_type_wiki_icon">
+        <item>@drawable/btn_web_search_btn_baidu_pedia</item>
+        <item>@drawable/btn_web_search_btn_hd_pedia</item>
+        <item>@drawable/btn_web_search_btn_enwiki_pedia</item>
+        <item>@drawable/btn_web_search_btn_chwiki_pedia</item>
+    </array>
+    <string-array name="search_thirdparty_text">
+        <item>Wechat</item>
+        <item>Weibo</item>
+        <item>Zhihu</item>
+    </string-array>
+    <array name="search_thirdparty_icon">
+        <item>@drawable/boom_win_search_weixin</item>
+        <item>@drawable/boom_win_search_weibo</item>
+        <item>@drawable/boom_win_search_zhihu</item>
+    </array>
+    <array name="search_type_thirdparty_icon">
+        <item>@drawable/btn_web_search_btn_wechat</item>
+        <item>@drawable/btn_web_search_btn_weibo</item>
+        <item>@drawable/btn_web_search_btn_zh</item>
+    </array>
+    <string-array name="ilfy_language_entry">
+        <item>@string/mandarin</item>
+        <item>@string/english</item>
+        <item>@string/cantonese</item>
+        <item>@string/lmz</item>
+        <item>@string/dongbeiese</item>
+        <item>@string/henanese</item>
+        <item>@string/hebeinese</item>
+        <item>@string/minnanese</item>
+        <item>@string/hakkanese</item>
+        <item>@string/guizhounese</item>
+        <item>@string/gansunese</item>
+        <item>@string/ningxianese</item>
+        <item>@string/yunnanese</item>
+        <item>@string/changshanese</item>
+        <item>@string/shandongnese</item>
+        <item>@string/taiyuanese</item>
+        <item>@string/shanxinese</item>
+        <item>@string/nanchangnese</item>
+        <item>@string/shanghainese</item>
+        <item>@string/tianjinese</item>
+        <item>@string/nankinese</item>
+        <item>@string/wuhanese</item>
+        <item>@string/hefeinese</item>
+    </string-array>
+
+    <string-array name="ilfy_language_value">
+        <item>domain=iat,language=zh_cn,accent=mandarin</item>
+        <item>domain=iat,language=en_us,accent=mandarin</item>
+        <item>domain=iat,language=zh_cn,accent=cantonese</item>
+        <item>domain=iat,language=zh_cn,accent=lmz</item>
+        <item>domain=iat,language=zh_cn,accent=dongbeiese</item>
+        <item>domain=iat,language=zh_cn,accent=henanese</item>
+        <item>domain=iat,language=zh_cn,accent=hebeinese</item>
+        <item>domain=iat,language=zh_cn,accent=minnanese</item>
+        <item>domain=iat,language=zh_cn,accent=hakkanese</item>
+        <item>domain=iat,language=zh_cn,accent=guizhounese</item>
+        <item>domain=iat,language=zh_cn,accent=gansunese</item>
+        <item>domain=iat,language=zh_cn,accent=ningxianese</item>
+        <item>domain=iat,language=zh_cn,accent=yunnanese</item>
+        <item>domain=iat,language=zh_cn,accent=changshanese</item>
+        <item>domain=iat,language=zh_cn,accent=shandongnese</item>
+        <item>domain=iat,language=zh_cn,accent=taiyuanese</item>
+        <item>domain=iat,language=zh_cn,accent=shanxinese</item>
+        <item>domain=iat,language=zh_cn,accent=nanchangnese</item>
+        <item>domain=iat,language=zh_cn,accent=shanghainese</item>
+        <item>domain=iat,language=zh_cn,accent=tianjinese</item>
+        <item>domain=iat,language=zh_cn,accent=nankinese</item>
+        <item>domain=iat,language=zh_cn,accent=wuhanese</item>
+        <item>domain=iat,language=zh_cn,accent=hefeinese</item>
+    </string-array>
+
+    <!-- default color list -->
+    <array name="bubble_color_icon">
+        <item>@drawable/b_sign_blue</item>
+        <item>@drawable/b_sign_red</item>
+        <item>@drawable/b_sign_oranges</item>
+        <item>@drawable/b_sign_green</item>
+        <item>@drawable/b_sign_purple</item>
+        <item>@drawable/b_sign_share</item>
+        <item>@drawable/ppt_b_sign</item>
+    </array>
+
+    <string-array name="bubble_color_name">
+        <item>@string/note</item>
+        <item>@string/important</item>
+        <item>@string/todo</item>
+        <item>@string/message</item>
+        <item>@string/inspiration</item>
+        <item>@string/share_ideapill</item>
+        <item>@string/text_ppt</item>
+    </string-array>
+
+    <integer-array name="bubble_color_value">
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="bubble_todo_over_title">
+        <item>@string/bubble_todo_over_immediately</item>
+        <item>@string/bubble_todo_over_dayly</item>
+        <item>@string/bubble_todo_over_weekly</item>
+    </string-array>
+    <integer-array name="bubble_todo_over_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="ifly_speakers_accent_value">
+        <item>（中/英文普通话）</item>
+        <item>（东北话）</item>
+        <item>（河南话）</item>
+        <item>（湖南话）</item>
+        <item>（普通话）</item>
+        <item>（普通话）</item>
+        <item>（普通话）</item>
+        <item>（四川话）</item>
+        <item>（台湾话）</item>
+        <item>（粤语）</item>
+        <item>English (United States)</item>
+    </string-array>
+    <string-array name="ifly_speakers_gender_value">
+        <item>Female 1</item>
+        <item>Female 2</item>
+        <item>Male 1</item>
+        <item>Male 2</item>
+        <item>Male 3</item>
+        <item>Female 3</item>
+        <item>Female 4</item>
+        <item>Female 5</item>
+        <item>Female 6</item>
+        <item>Female 7</item>
+        <item>Female 8</item>
+    </string-array>
+    <string-array name="ifly_profiles_value">
+        <item>jiajia</item>
+        <item>xiaoqian</item>
+        <item>xiaokun</item>
+        <item>xiaoqiang</item>
+        <item>xiaofeng</item>
+        <item>xiaoyan</item>
+        <item>nannan</item>
+        <item>xiaorong</item>
+        <item>xiaolin</item>
+        <item>xiaomei</item>
+        <item>catherine</item>
+    </string-array>
+    <string-array name="letter_list">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+
+    <string-array name="pick_letter_head">
+        <item>@drawable/select_contact_right_icon_favorites</item>
+    </string-array>
+</resources>

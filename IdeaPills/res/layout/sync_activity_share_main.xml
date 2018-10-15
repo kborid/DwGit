@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/retry_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/titlebar_height"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sync_share_read_list_failed_tip"
+            android:textColor="@color/sync_invitation_item_tip_color"
+            android:textSize="@smartisanos:dimen/large_text_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sync_share_read_list_failed_summary"
+            android:textColor="@color/sync_invitation_item_tip_color"
+            android:textSize="@smartisanos:dimen/small_text_size" />
+
+        <Button
+            android:id="@+id/refresh_btn"
+            android:layout_width="156dp"
+            android:layout_height="56dp"
+            android:background="@drawable/btn_widebottom_selector"
+            android:gravity="center"
+            android:text="@string/sync_share_read_list_failed_refresh"
+            android:textColor="@color/sync_refresh_button_color"
+            android:textSize="@smartisanos:dimen/medium_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/titlebar_height"
+        android:layout_marginBottom="@dimen/sync_main_content_margin"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/account_list"
+            style="@style/ListViewGeneralStyle"
+            android:paddingTop="@dimen/sync_content_top_margin"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:clipToPadding="false" />
+
+        <ScrollView
+            android:id="@+id/empty_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:overScrollMode="always">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/sync_content_top_margin"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@smartisanos:drawable/sub_item_back_ground_single"
+                    android:paddingBottom="64dp"
+                    android:paddingTop="64dp"
+                    android:src="@drawable/sync_share_tip" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="@*smartisanos:dimen/settings_item_title_left_margin"
+                    android:paddingRight="@*smartisanos:dimen/settings_item_title_left_margin"
+                    android:text="@string/sync_share_main_tip"
+                    android:textColor="@color/sync_invitation_item_tip_color"
+                    android:textSize="@dimen/sync_setting_tip_text_size" />
+            </LinearLayout>
+        </ScrollView>
+
+        <include layout="@layout/sync_share_main_footer" />
+    </LinearLayout>
+
+    <smartisanos.widget.SmartisanComboTitleBar
+        android:id="@+id/title_bar"
+        smartisanos:centerContentStyle="normal"
+        smartisanos:leftButtonStyle="normal"
+        smartisanos:rightButtonStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>

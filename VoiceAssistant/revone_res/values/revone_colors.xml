@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bubble_search_text_color">#33000000</color>
+    <color name="global_search_setting_color">#ff333333</color>
+    <color name="bubble_search_title_color">#99ffffff</color>
+    <color name="translucent">#33000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="voice_search_tip_color">#80ffffff</color>
+    <color name="flash_im_title_color">#80ffffff</color>
+    <drawable name="global_search_divider">#26ffffff</drawable>
+    <drawable name="transparent">#00000000</drawable>
+</resources>

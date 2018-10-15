@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout of time picker -->
+<!--
+    android:paddingLeft="15dp"
+    android:paddingRight="12.5dp"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/time_picker_height"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <!-- hour -->
+
+    <com.smartisanos.ideapills.common.remind.view.SmartisanNumberPicker1Day
+        android:id="@+id/hour"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="208dp"
+        android:background="#0c000000" >
+    </View>
+    <!-- minute -->
+
+    <com.smartisanos.ideapills.common.remind.view.SmartisanNumberPicker1Day
+        android:id="@+id/minute"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <View
+        android:id="@+id/am_pm_divider"
+        android:layout_width="1dp"
+        android:layout_height="208dp"
+        android:background="#0c000000" >
+    </View>
+    <!-- AM / PM -->
+
+    <com.smartisanos.ideapills.common.remind.view.SmartisanNumberPicker1Day
+        android:id="@+id/amPm"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="208dp"
+        android:background="#0c000000" >
+    </View>
+    <!-- remind / no remind -->
+<!--
+    <com.smartisanos.ideapills.remind.view.SmartisanNumberPicker1Day
+        android:id="@+id/remind"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />-->
+
+</LinearLayout>

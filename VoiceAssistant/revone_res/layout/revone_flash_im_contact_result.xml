@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/revone_rounded_rectangle_bg"
+        android:minHeight="@dimen/flash_im_search_result_min_height"
+        android:padding="@dimen/flash_im_search_result_content_padding">
+
+        <com.smartisanos.sara.bubble.revone.widget.LimitedLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            dslv:maxHeight="@dimen/flash_im_search_result_window_max_height"
+            dslv:orientation="vertical">
+
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:dividerHeight="@dimen/flash_im_contact_item_divider_y"
+                android:listSelector="@color/transparent"
+                android:overScrollMode="always"
+                android:scrollbars="none" />
+        </com.smartisanos.sara.bubble.revone.widget.LimitedLinearLayout>
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/flash_im_no_contacts"
+            android:textColor="@color/global_search_setting_color"
+            android:textSize="@dimen/flash_im_contact_title_size" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/revone_triangle_down" />
+</LinearLayout>

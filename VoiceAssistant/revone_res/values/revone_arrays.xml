@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="local_search_package">
+        <item>com.smartisanos.notes</item>
+        <item>com.android.email</item>
+        <item>com.smartisanos.filemanager</item>
+        <item>com.android.calendar</item>
+        <item>com.android.settings</item>
+        <item>com.smartisanos.music</item>
+        <item>com.android.mms</item>
+    </string-array>
+
+    <string-array name="local_search_key">
+        <item>com.smartisanos.notes.SEARCH_NOTE</item>
+        <item>com.android.email.SEARCH_EMAIL</item>
+        <item>com.smartisanos.action.SEARCH</item>
+        <item>com.smartisanos.action.SEARCH</item>
+        <item>com.smartisanos.action.SEARCH</item>
+        <item>com.smartisanos.music.SEARCH_MUSIC</item>
+        <item>com.android.mms.SEARCH_SMS</item>
+    </string-array>
+
+    <integer-array name="local_search_launch_type">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </integer-array>
+
+    <string-array name="web_search_title">
+        <item>@string/rev_sogou_search</item>
+        <item>@string/rev_search_via_baidupedia</item>
+        <item>@string/rev_search_jd</item>
+        <item>@string/rev_search_dianping</item>
+        <item>@string/rev_search_toutiao</item>
+        <item>@string/rev_search_via_weibo</item>
+        <item>@string/rev_search_qqvideo</item>
+        <item>@string/rev_search_via_baidu</item>
+        <item>@string/rev_search_via_qihu</item>
+        <item>@string/rev_search_via_bing</item>
+        <item>@string/rev_search_via_google</item>
+        <item>@string/rev_search_via_hudongpedia</item>
+        <item>@string/rev_search_via_wiki_en</item>
+        <item>@string/rev_search_via_wiki_cn</item>
+        <item>@string/rev_search_via_weixin</item>
+        <item>@string/rev_search_via_zhihu</item>
+        <item>@string/rev_search_youku</item>
+        <item>@string/rev_search_taobao</item>
+        <item>@string/rev_search_haoqixin</item>
+        <item>@string/rev_search_douban</item>
+        <item>@string/rev_search_yelp</item>
+        <item>@string/rev_search_quora</item>
+        <item>@string/rev_search_twitter</item>
+        <item>@string/rev_search_youtube</item>
+        <item>@string/rev_search_amazon</item>
+    </string-array>
+
+    <integer-array name="web_search_values">
+        <item>0x003</item>
+        <item>0x011</item>
+        <item>0x701</item>
+        <item>0x708</item>
+        <item>0x702</item>
+        <item>0x201</item>
+        <item>0x706</item>
+        <item>0x000</item>
+        <item>0x004</item>
+        <item>0x707</item>
+        <item>0x001</item>
+        <item>0x010</item>
+        <item>0x012</item>
+        <item>0x013</item>
+        <item>0x200</item>
+        <item>0x202</item>
+        <item>0x705</item>
+        <item>0x700</item>
+        <item>0x703</item>
+        <item>0x704</item>
+        <item>0x760</item>
+        <item>0x758</item>
+        <item>0x755</item>
+        <item>0x750</item>
+        <item>0x751</item>
+    </integer-array>
+
+    <integer-array name="web_search_default_checked">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="letter_list">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+</resources>

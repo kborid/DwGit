@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.sara.bubble.BubbleRootView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ViewStub
+        android:id="@+id/no_result_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inflatedId="@+id/no_result"
+        android:layout="@layout/no_result_view"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/result_margin_top"
+        layout="@layout/bubble_result_layout" />
+
+    <ViewStub
+        android:id="@+id/bubble_item_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/wave_result_margin_bottom"
+        android:inflatedId="@+id/bubble_item"
+        android:layout="@layout/bubble_item" />
+
+    <ViewStub
+        android:id="@+id/bubble_item_left_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/left_wave_result_margin_bottom"
+        android:inflatedId="@+id/bubble_item_left"
+        android:layout="@layout/bubble_item_left" />
+
+    <ViewStub
+        android:id="@+id/bullet_voice_search_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-13dp"
+        android:inflatedId="@+id/bullet_voice_search"
+        android:layout="@layout/bullet_voice_search"/>
+
+    <ViewStub
+        android:id="@+id/wave_stub"
+        android:layout_width="@dimen/bubble_wave_min_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="@dimen/wave_result_margin_bottom"
+        android:inflatedId="@+id/wave"
+        android:layout="@layout/wave_layout" />
+
+    <ViewStub
+        android:id="@+id/wave_left_stub"
+        android:layout_width="@dimen/bubble_wave_left_min_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/left_wave_result_margin_bottom"
+        android:layout_marginLeft="@dimen/wave_result_margin_left"
+        android:inflatedId="@+id/wave_left"
+        android:layout="@layout/wave_layout_left" />
+
+    <ViewStub
+        android:id="@+id/fak_bubble_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inflatedId="@+id/fak_bubble"
+        android:layout="@layout/fak_bubble_item"
+        android:visibility="gone" />
+
+</com.smartisanos.sara.bubble.BubbleRootView>

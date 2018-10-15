@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="countries_name_code">
+        <item>Канада,+1</item>
+        <item>США,+1</item>
+        <item>РФ,+7</item>
+        <item>Египет,+20</item>
+        <item>ЮАР,+27</item>
+        <item>Греция,+30</item>
+        <item>Голландия,+31</item>
+        <item>Бельгия,+32</item>
+        <item>Франция,+33</item>
+        <item>Испания,+34</item>
+        <item>Венгрия,+36</item>
+        <item>Италия,+39</item>
+        <item>Румыния,+40</item>
+        <item>Швейцария,+41</item>
+        <item>Австралия,+43</item>
+        <item>Англия,+44</item>
+        <item>Дания,+45</item>
+        <item>Швеция,+46</item>
+        <item>Норвегия,+47</item>
+        <item>Польша,+48</item>
+        <item>Германия,+49</item>
+        <item>Перу,+51</item>
+        <item>Мексика,+52</item>
+        <item>Гюба,+53</item>
+        <item>Аргентина,+54</item>
+        <item>Бразилия,+55</item>
+        <item>Чили,+56</item>
+        <item>Колумбия,+57</item>
+        <item>Венесуэла,+58</item>
+        <item>Малазия,+60</item>
+        <item>Австралия,+61</item>
+        <item>Индонезия,+62</item>
+        <item>Филлипин,+63</item>
+        <item>Новая Заландия,+64</item>
+        <item>Сингапур,+65</item>
+        <item>Тайланд,+66</item>
+        <item>Янпония,+81</item>
+        <item>Южная Корея,+82</item>
+        <item>Вьетнам,+84</item>
+        <item>КНР,+86</item>
+        <item>Турция,+90</item>
+        <item>Индия,+91</item>
+        <item>Афганистан,+93</item>
+        <item>Шри-Ланка,+94</item>
+        <item>Иран,+98</item>
+        <item>Марокко,+212</item>
+        <item>Тунис,+216</item>
+        <item>Ливия,+218</item>
+        <item>Гамбия,+220</item>
+        <item>Сенегал,+221</item>
+        <item>Мали,+223</item>
+        <item>Гвинея,+224</item>
+        <item>Кот-д Ивуар,+225</item>
+        <item>Буркина-Фассо,+226</item>
+        <item>Нигер,+227</item>
+        <item>Того,+228</item>
+        <item>Бенин,+229</item>
+        <item>Маврикия,+230</item>
+        <item>Либерия,+231</item>
+        <item>Сьерра-Леоне,+232</item>
+        <item>Гана,+233</item>
+        <item>Узбекистан,+998</item>
+        <item>Нигерия,+234</item>
+        <item>Чад,+235</item>
+        <item>ЦАР,+236</item>
+        <item>Камерун,+237</item>
+        <item>Сан-Томе и Принсини,+239</item>
+        <item>Габон,+241</item>
+        <item>Ангола,+244</item>
+        <item>Шейсельские острова,+248</item>
+        <item>Эфиопия,+251</item>
+        <item>СДР,+252</item>
+        <item>Джибути,+253</item>
+        <item>Кения,+254</item>
+        <item>Танзания,+255</item>
+        <item>Уганда,+256</item>
+        <item>Бурунди,+257</item>
+        <item>Мозамбик,+258</item>
+        <item>Замбия,+260</item>
+        <item>Мадагасгар,+261</item>
+        <item>Зимбабве,+263</item>
+        <item>Намибия,+264</item>
+        <item>Малави,+265</item>
+        <item>Лесото,+266</item>
+        <item>Ботсвана,+267</item>
+        <item>Свазиленд,+268</item>
+        <item>Казахстан,+7</item>
+        <item>Киргизия,+996</item>
+        <item>Гибралтар,+350</item>
+        <item>Португалия,+351</item>
+        <item>Люксембург,+352</item>
+        <item>Ирландия,+353</item>
+        <item>Исландия,+354</item>
+        <item>Албания,+355</item>
+        <item>Мальта,+356</item>
+        <item>Кипр,+357</item>
+        <item>Финландия,+358</item>
+        <item>Болгалия,+359</item>
+        <item>Литва,+370</item>
+        <item>Латвия,+371</item>
+        <item>Эстония,+372</item>
+        <item>Молдова,+373</item>
+        <item>Армения,+374</item>
+        <item>Белорусь,+375</item>
+        <item>Андорра,+376</item>
+        <item>Монако,+377</item>
+        <item>Сан-Марино,+378</item>
+        <item>Украина,+380</item>
+        <item>Словения,+386</item>
+        <item>Чехия,+420</item>
+        <item>Словакия,+421</item>
+        <item>Лихтенштейн,+423</item>
+        <item>Белиз,+501</item>
+        <item>Гватемала,+502</item>
+        <item>Сальвадор,+503</item>
+        <item>Гондурас,+504</item>
+        <item>Никарагуа,+505</item>
+        <item>Коста-Рика,+506</item>
+        <item>Панама,+507</item>
+        <item>Гаити,+509</item>
+        <item>Боливия,+591</item>
+        <item>Гайана,+592</item>
+        <item>Эквадор,+593</item>
+        <item>Гвиана Французская,+594</item>
+        <item>Парагвай,+595</item>
+        <item>Мартиника,+596</item>
+        <item>Суринам,+597</item>
+        <item>Уругвай,+598</item>
+        <item>Нидерландские Антильские Острова,+599</item>
+        <item>Бруней,+673</item>
+        <item>Папуа-Новая Винея,+675</item>
+        <item>Тонга,+676</item>
+        <item>Фиджи,+679</item>
+        <item>Кука Архипелаг,+682</item>
+        <item>Самоа,+685</item>
+        <item>Французская Полинезия,+689</item>
+        <item>Гонконг,+852</item>
+        <item>Аомынь,+853</item>
+        <item>Лаос,+856</item>
+        <item>Бангладеш,+880</item>
+        <item>Тайвань,+886</item>
+        <item>Мальдив,+960</item>
+        <item>Ливан,+961</item>
+        <item>Иордания,+962</item>
+        <item>Ирак,+964</item>
+        <item>Кувейт,+965</item>
+        <item>Саудовская Аравия,+966</item>
+        <item>Йемен,+967</item>
+        <item>Оман,+968</item>
+        <item>Объединенный Арабский Эмират,+971</item>
+        <item>Изралия,+972</item>
+        <item>Бахрейн,+973</item>
+        <item>Катар,+974</item>
+        <item>Монголия,+976</item>
+        <item>Непал,+977</item>
+        <item>Таджикистан,+992</item>
+        <item>Туркменстан,+993</item>
+        <item>Азербайжан,+994</item>
+        <item>Грузия,+995</item>
+        <item>Багамские острова,+1242</item>
+        <item>Барбадос,+1246</item>
+        <item>Ангилья,+1264</item>
+        <item>Антигуа и Барбуда,+1268</item>
+        <item>Кайман острова,+1345</item>
+        <item>Бермудские острова,+1441</item>
+        <item>Монте Серра,+1664</item>
+        <item>Остров Гуам,+1671</item>
+        <item>Сент-Люсия,+1758</item>
+        <item>Сент-Винсент,+1784</item>
+        <item>Пуэрто-Рико,+1787</item>
+        <item>Гренада,+1473</item>
+        <item>Тринидад и Тобаго,+1868</item>
+        <item>Ямайка,+1876</item>
+        <item>Доминика,+1809</item>
+        <item>Американские Самоа,+1684</item>
+        <item>Зеленого Мыса острова,+238</item>
+        <item>Руанда,+250</item>
+        <item>Аруба,+297</item>
+        <item>Сербия,+381</item>
+        <item>Черногория,+382</item>
+        <item>Хорватия,+385</item>
+        <item>Комбоджа,+855</item>
+        <item>Бутан,+975</item>
+    </string-array>
+
+</resources>

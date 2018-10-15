@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:id="@+id/holdPlaceSpace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/contaier_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.smartisanos.sara.bullet.contact.view.IMPickContactView
+            android:id="@+id/pick_contact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ViewStub
+            android:id="@+id/lock_container_stub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inflatedId="@+id/lock_container_layout"
+            android:layout="@layout/lock_container_layout" />
+
+        <ViewStub
+            android:id="@+id/bullet_tip_stub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inflatedId="@+id/bullet_tip_layout"
+            android:layout="@layout/bullet_tip_layout" />
+
+    </FrameLayout>
+
+</FrameLayout>

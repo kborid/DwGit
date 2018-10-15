@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.ideapills.view.BubbleScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@id/ll_date"
+    android:layout_gravity="center_vertical"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="@dimen/bubble_text_margin_top"
+    android:paddingRight="13dp"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbarThumbVertical="@drawable/scrolling"
+    android:scrollbars="vertical">
+
+    <com.smartisanos.ideapills.view.BubbleEditText
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:paddingBottom="10dp"
+        android:paddingLeft="1px"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:textColor="@color/bubble_text_color"
+        android:textColorHighlight="#24000000"
+        android:textColorHint="@color/bubble_hint_text_color"
+        android:textCursorDrawable="@drawable/bubble_cursor"
+        android:textSize="@dimen/bubble_item_text_size" />
+</com.smartisanos.ideapills.view.BubbleScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ppt_close">退出</string>
+    <string name="ppt_generate">生成幻燈片</string>
+    <string name="ppt_generate_formate">生成%d張幻燈片</string>
+    <string name="ppt_generate_empty_tip">請選擇需要生成幻燈片的膠囊</string>
+    <string name="ideapills_not_opened">請開啟全局閃念膠囊</string>
+</resources>

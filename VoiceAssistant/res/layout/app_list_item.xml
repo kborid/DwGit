@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/secondary_titlebar_bg"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="@string/listener_name_app"
+        android:textColor="#4c000000"
+        android:textSize="12sp" >
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/app_list"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="19dp"
+        android:paddingRight="12dp"
+        android:background="@drawable/list_result_item_general" >
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/list_app_icon_width"
+            android:layout_height="@dimen/list_app_icon_width"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:id="@+id/app_install_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/install_btn"
+                style="@style/myapp_edit_btn_style"
+                android:background="@drawable/btn_install_selected_selector"
+                android:text="@string/install" />
+            <TextView
+                android:id="@+id/app_size_tv"
+                style="@style/app_list_size_style"
+                android:layout_marginTop="2dp"/>
+        </LinearLayout>
+
+	    <TextView
+                android:id="@+id/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/list_app_text_margin_left"
+                android:layout_toRightOf="@id/app_icon"
+                android:layout_toLeftOf="@id/app_install_layout"
+                android:textColor="@color/result_item_text_color"
+                android:textSize="@dimen/text_size_result_item_title"
+                android:maxEms="8"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#ebebeb" />
+
+</LinearLayout>

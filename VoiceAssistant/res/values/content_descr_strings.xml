@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools">
+    <string name="bubble_boom">Big Bang</string>
+    <string name="bubble_gaode">Share to AutoNavi Maps</string>
+    <string name="bubble_dianping">Share to Dianping</string>
+    <string name="bubble_jingdong">Share to JD</string>
+    <string name="bubble_qq">Share to QQ</string>
+    <string name="bubble_weixin">Share to WeChat</string>
+    <string name="bubble_attach">Attach file</string>
+    <string name="bubble_calendar">Add reminder</string>
+    <string name="bubble_play_voice">Play voice message</string>
+    <string name="bubble_save">Save</string>
+    <string name="button_expand">Expand</string>
+    <string name="button_dial">Dial numbers</string>
+    <string name="button_send_message">Send text</string>
+    <string name="search_float_window_setting">Universal search floating <windows></windows></string>
+    <string name="show_result_in_browser">Display in browser</string>
+    <string name="search_web">Web search</string>
+    <string name="search_dict">Dictionary</string>
+    <string name="search_wiki">Wiki search</string>
+    <string name="search_thirdparty">Thirdparty search</string>
+
+    <string name="read_play">@string/play</string>
+    <string name="read_pause">Pause</string>
+    <string name="already_read_pause">Paused</string>
+</resources>

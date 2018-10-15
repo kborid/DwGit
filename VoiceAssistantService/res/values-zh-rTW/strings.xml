@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">語音搜尋服務</string>
+    <string name="dialtacts_tab_recent">通話記錄</string>
+    <string name="dialtacts_tab_contacts">聯絡人</string>
+    <string name="dialtacts_tab_starred">收藏</string>
+    <string name="dialtacts_tab_dialpad">撥號</string>
+    <string name="tabBar_worldclock">世界時鐘</string>
+    <string name="tabBar_alarm">鬧鐘</string>
+    <string name="tabBar_stopwatch">碼錶</string>
+    <string name="tabBar_timer">計時器</string>
+    <string name="china_unicom">聯通</string>
+    <string name="china_mobile">移動</string>
+    <string name="china_telecom">電信</string>
+    <string name="blind_mode_voice_string">语音朗读</string>
+</resources>

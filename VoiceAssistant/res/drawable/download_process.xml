@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- process 100/31 -->
+    <item android:maxLevel="0" android:drawable="@drawable/btn_loading_1" />
+    <item android:maxLevel="1" android:drawable="@drawable/btn_loading_2" />
+    <item android:maxLevel="2" android:drawable="@drawable/btn_loading_3" />
+    <item android:maxLevel="3" android:drawable="@drawable/btn_loading_4" />
+    <item android:maxLevel="4" android:drawable="@drawable/btn_loading_5" />
+    <item android:maxLevel="5" android:drawable="@drawable/btn_loading_6" />
+    <item android:maxLevel="6" android:drawable="@drawable/btn_loading_7" />
+    <item android:maxLevel="7" android:drawable="@drawable/btn_loading_8" />
+    <item android:maxLevel="8" android:drawable="@drawable/btn_loading_9" />
+    <item android:maxLevel="9" android:drawable="@drawable/btn_loading_10" />
+    <item android:maxLevel="10" android:drawable="@drawable/btn_loading_11" />
+    <item android:maxLevel="11" android:drawable="@drawable/btn_loading_12" />
+    <item android:maxLevel="12" android:drawable="@drawable/btn_loading_13" />
+    <item android:maxLevel="13" android:drawable="@drawable/btn_loading_14" />
+    <item android:maxLevel="14" android:drawable="@drawable/btn_loading_15" />
+    <item android:maxLevel="15" android:drawable="@drawable/btn_loading_16" />
+    <item android:maxLevel="16" android:drawable="@drawable/btn_loading_17" />
+    <item android:maxLevel="17" android:drawable="@drawable/btn_loading_18" />
+    <item android:maxLevel="18" android:drawable="@drawable/btn_loading_19" />
+    <item android:maxLevel="19" android:drawable="@drawable/btn_loading_20" />
+    <item android:maxLevel="20" android:drawable="@drawable/btn_loading_21" />
+    <item android:maxLevel="21" android:drawable="@drawable/btn_loading_22" />
+    <item android:maxLevel="22" android:drawable="@drawable/btn_loading_23" />
+    <item android:maxLevel="23" android:drawable="@drawable/btn_loading_24" />
+    <item android:maxLevel="24" android:drawable="@drawable/btn_loading_25" />
+    <item android:maxLevel="25" android:drawable="@drawable/btn_loading_26" />
+    <item android:maxLevel="26" android:drawable="@drawable/btn_loading_27" />
+    <item android:maxLevel="27" android:drawable="@drawable/btn_loading_28" />
+    <item android:maxLevel="28" android:drawable="@drawable/btn_loading_29" />
+    <item android:maxLevel="29" android:drawable="@drawable/btn_loading_30" />
+    <item android:maxLevel="30" android:drawable="@drawable/btn_loading_31" />
+
+</level-list>

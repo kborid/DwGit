@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="always" >
+
+    <LinearLayout
+        android:id="@+id/command_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/settings_item_top_bottom_margin"
+        android:paddingBottom="@dimen/settings_item_top_bottom_margin"
+        android:orientation="vertical">
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/nav_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_top"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_nav_addr"
+            smartisanos:summary="@string/quick_command_nav_addr_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/nav_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="true"
+            smartisanos:title="@string/quick_command_nav_home"
+            smartisanos:summary="@string/quick_command_nav_home_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_web"
+            smartisanos:summary="@string/quick_command_web_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/translate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_translate"
+            smartisanos:summary="@string/quick_command_translate_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/boom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_boom"
+            smartisanos:summary="@string/quick_command_boom_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_location"
+            smartisanos:summary="@string/quick_command_location_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/wechat_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_wechat_pay"
+            smartisanos:summary="@string/quick_command_wechat_pay_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/scan_wx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_scan_wx"
+            smartisanos:summary="@string/quick_command_scan_wx_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/scan_zfb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_scan_zfb"
+            smartisanos:summary="@string/quick_command_scan_zfb_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/zfb_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_middle"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_zfb_pay"
+            smartisanos:summary="@string/quick_command_zfb_pay_summary" />
+
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_bottom"
+            smartisanos:show_arrow="false"
+            smartisanos:title="@string/quick_command_time"
+            smartisanos:summary="@string/quick_command_time_summary" />
+
+    </LinearLayout>
+</ScrollView>

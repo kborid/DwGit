@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<smartisanos.widget.TipsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/todo_over_tip"
+    style="@style/SettingItemTipsStyle"
+    android:layout_below="@id/options_list"/>

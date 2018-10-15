@@ -1,0 +1,33 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/open_mode_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@smartisanos:style/GroupListSectionTitleStyle"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/bubble_list_open_mode"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <smartisanos.widget.ListContentItemCheck
+            android:id="@+id/open_mode_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/ListContentItemStyle.Top" />
+
+        <smartisanos.widget.ListContentItemCheck
+            android:id="@+id/open_mode_touch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/ListContentItemStyle.Bottom" />
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="@dimen/global_search_divider_size"
+        android:layout_height="match_parent"
+        android:background="@drawable/global_search_divider" />
+
+    <LinearLayout
+        android:id="@+id/contact_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/flash_im_contact_content_margin_horizontal"
+        android:layout_marginBottom="@dimen/flash_im_voice_container_height"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/flash_im_contact_title_margin_left"
+            android:drawableLeft="@drawable/revone_contact_icon"
+            android:drawablePadding="@dimen/flash_im_contact_title_drawable_padding"
+            android:text="@string/flash_im_all_contacts"
+            android:textColor="@color/flash_im_title_color"
+            android:textSize="@dimen/flash_im_contact_title_size"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="@dimen/flash_im_contact_item_divider_y"
+            android:listSelector="@color/transparent"
+            android:overScrollMode="always"
+            android:paddingTop="@dimen/flash_im_contact_title_margin_bottom"
+            android:paddingLeft="@dimen/flash_im_contact_list_padding_horizontal"
+            android:clipToPadding="false"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <com.smartisanos.sara.bubble.revone.widget.LetterIndexView
+        android:id="@+id/liv_index"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/flash_im_contact_index_margin_top"
+        android:layout_marginRight="@dimen/flash_im_contact_index_margin_right"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/flash_im_contact_index_padding"
+        android:paddingLeft="@dimen/flash_im_contact_index_padding"
+        android:paddingRight="@dimen/flash_im_contact_index_padding" />
+</RelativeLayout>

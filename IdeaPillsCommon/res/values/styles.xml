@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.MonthView_DayLabel" parent="android:TextAppearance">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black_60</item>
+    </style>
+
+    <style name="MonthView_DayLabel">
+        <item name="android:layout_width">29dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:textAppearance">@style/TextAppearance.MonthView_DayLabel</item>
+    </style>
+
+    <style name="calDialogTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+    </style>
+
+    <style name="PickTimeDialogTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.InputMethod</item>
+    </style>
+
+    <style name="RemindPopupAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@*android:anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@*android:anim/dialog_exit</item>
+    </style>
+</resources>

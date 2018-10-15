@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/sub_footer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+
+        <smartisanos.widget.ListContentItemText
+            android:id="@+id/app_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            style="@smartisanos:style/ListContentItemStyle.Single"/>
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+
+        <LinearLayout
+            android:id="@+id/voice_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <smartisanos.widget.ListContentItemSwitch
+                android:id="@+id/local_voice"
+                style="@smartisanos:style/ListContentItemStyle.Single"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+
+            <smartisanos.widget.ListContentItemSwitch
+                android:id="@+id/web_voice"
+                style="@smartisanos:style/ListContentItemStyle.Single"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+        </LinearLayout>
+        <!--
+        <smartisanos.widget.SettingItemText
+            android:id="@+id/todo_over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_setting_sub_item_bg_single"
+            smartisanos:title="@string/bubble_todo_over_settings_title"/>
+
+        <include layout="@layout/item_bottom_shadow_layout"/>-->
+
+        <smartisanos.widget.ListContentItemText
+            android:id="@+id/bubble_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            style="@smartisanos:style/ListContentItemStyle.Single"/>
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+
+        <smartisanos.widget.ListContentItemText
+            android:id="@+id/handled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            style="@smartisanos:style/ListContentItemStyle.Single"/>
+
+        <smartisanos.widget.TipsView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/GroupListTipsViewStyle"
+            android:text="@string/handled_empty_secondary"/>
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+
+        <smartisanos.widget.ListContentItemText
+            android:id="@+id/handled_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            style="@smartisanos:style/ListContentItemStyle.Single"/>
+
+        <smartisanos.widget.TipsView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/GroupListTipsViewStyle"
+            android:text="@string/handled_ok_empty_secondary"/>
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+
+        <smartisanos.widget.ListContentItemText
+            android:id="@+id/recycle_bin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            style="@smartisanos:style/ListContentItemStyle.Single"/>
+
+        <smartisanos.widget.TipsView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/GroupListTipsViewStyle"
+            android:text="@string/recycle_bin_tips"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/video_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+        <ImageView
+            android:id="@+id/video_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="@dimen/video_intro_padding_y"
+            android:paddingLeft="@dimen/video_intro_padding_x"
+            android:paddingRight="@dimen/video_intro_padding_x"
+            android:paddingTop="@dimen/video_intro_padding_y"
+            android:scaleType="centerInside"
+            android:src="@drawable/setting_video_ideapills"
+            style="@style/SettingSubItemSingleStyle"
+            android:contentDescription="@string/usage_video_bt"/>
+
+        <smartisanos.widget.TipsView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/settings_item_tips_margin_bottom"
+            style="@smartisanos:style/GroupListTipsViewStyle"
+            android:text="@string/usage_video_title" />
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+    </LinearLayout>
+</LinearLayout>

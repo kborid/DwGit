@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.smartisanos.sara.widget.WebSearchLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/web_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_result_bg">
+        <RelativeLayout
+            android:id="@+id/top_panel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/voice_search_titlebar"
+            android:clickable="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/search_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:maxWidth="178dp"
+                android:singleLine="true"
+                android:textColor="#9a000000"
+                android:textSize="15sp"
+                android:text="@string/voice_input_web" />
+
+            <ImageView
+                android:id="@+id/goto_browser"
+                android:contentDescription="@string/show_result_in_browser"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="12.6dp"
+                android:background="@drawable/win_browser_smartisan" />
+
+            <ImageView
+                android:id="@+id/goto_browser_foreground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/win_browser_foreground" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_webview"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/voice_search_titlebar_shadow" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@drawable/search_bottombar_shadow"/>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/win_bottombar"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="20dp" >
+
+            <ImageView
+                android:id="@+id/go_back"
+                android:contentDescription="@string/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/win_go_back"
+                android:enabled="false" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/search_web"
+                        android:contentDescription="@string/search_web"
+                        android:layout_width="@dimen/web_search_type_button_width"
+                        android:layout_height="@dimen/web_search_type_button_height"
+                        android:background="@drawable/win_search_more_bg" />
+
+                    <RadioButton
+                        android:id="@+id/search_dict"
+                        android:contentDescription="@string/search_dict"
+                        android:layout_width="@dimen/web_search_type_button_width"
+                        android:layout_height="@dimen/web_search_type_button_height"
+                        android:background="@drawable/win_search_more_bg" />
+
+                    <RadioButton
+                        android:id="@+id/search_wiki"
+                        android:contentDescription="@string/search_wiki"
+                        android:layout_width="@dimen/web_search_type_button_width"
+                        android:layout_height="@dimen/web_search_type_button_height"
+                        android:background="@drawable/win_search_more_bg" />
+
+                    <RadioButton
+                        android:id="@+id/search_thirdparty"
+                        android:contentDescription="@string/search_thirdparty"
+                        android:layout_width="@dimen/web_search_type_button_width"
+                        android:layout_height="@dimen/web_search_type_button_height"
+                        android:background="@drawable/win_search_more_bg" />
+                </RadioGroup>
+
+                <ProgressBar
+                    android:id="@+id/search_progress"
+                    android:layout_width="@dimen/web_search_load_progress_size"
+                    android:layout_height="@dimen/web_search_load_progress_size"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:contentDescription="@null"
+                    android:indeterminate="false"
+                    android:indeterminateDrawable="@drawable/search_loading_progess"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/search_setting"
+                android:contentDescription="@string/search_float_window_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/win_setting" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.smartisanos.sara.widget.WebSearchLayout>

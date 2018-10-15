@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音声検索サービス</string>
+    <string name="dialtacts_tab_recent">"通話履歴"</string>
+    <string name="dialtacts_tab_contacts">"連絡先"</string>
+    <string name="dialtacts_tab_starred">"お気に入り"</string>
+    <string name="dialtacts_tab_dialpad">"キーパッド"</string>
+    <string name="tabBar_worldclock">"世界時計"</string>
+    <string name="tabBar_alarm">"アラーム"</string>
+    <string name="tabBar_stopwatch">"ストップウォッチ"</string>
+    <string name="tabBar_timer">"タイマー"</string>
+    <string name="china_unicom">聨合通信</string>
+    <string name="china_mobile">移動通信</string>
+    <string name="china_telecom">電気通信</string>
+</resources>

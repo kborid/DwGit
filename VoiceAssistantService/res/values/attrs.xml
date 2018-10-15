@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- XML attributes used by app_alias.xml -->
+    <declare-styleable name="alias">
+        <attr name="aliasName" format="string" />
+        <attr name="realName" format="string" />
+    </declare-styleable>
+    <!-- XML attributes used by defalt_index.xml -->
+    <declare-styleable name="favorites">
+        <attr name="index" format="integer" />
+        <attr name="lableName" format="string" />
+        <attr name="icon" format="string" />
+        <attr name="uri" format="string" />
+    </declare-styleable>
+</resources>

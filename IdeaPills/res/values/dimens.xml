@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sidebar_width">48dp</dimen>
+    <dimen name="bubbleopt_layout_width">340dp</dimen>
+    <dimen name="bubble_wave_form_size">1dp</dimen>
+    <dimen name="bubble_item_normal_textwidth_min">60dp</dimen>
+    <dimen name="bubble_item_base_margin_top">-19dp</dimen>
+    <dimen name="bubble_item_base_margin_bottom">-19dp</dimen>
+    <dimen name="bubble_head_base_margin_bottom">-17dp</dimen>
+    <dimen name="bubble_item_left_ignore">16dp</dimen>
+    <dimen name="bubble_list_top_margin">63dp</dimen>
+    <dimen name="bubble_item_edit_expand">21dp</dimen>
+    <dimen name="bubble_todo_show_width">38dp</dimen>
+    <dimen name="bubble_todo_show_maxout">5dp</dimen>
+    <dimen name="bubble_item_text_size">13.5dp</dimen>
+    <dimen name="bubble_item_small_text_size">9dp</dimen>
+    <dimen name="bubble_text_margin_top">31dp</dimen>
+    <dimen name="bubble_detail_layout_margin_top">27dp</dimen>
+    <dimen name="bubble_in_drag_text_margin_t_b">23dp</dimen>
+    <dimen name="bubble_input_extra_hight">8dp</dimen>
+    <dimen name="bubble_item_detail_input_max_hight">270dp</dimen>
+    <dimen name="bubble_text_max_height">417dp</dimen>
+    <dimen name="bubble_dragging_max_width">229dp</dimen>
+    <dimen name="bubble_wave_cover_width">22dp</dimen>
+    <dimen name="bubble_head_search_width">247dp</dimen>
+
+    <dimen name="bubble_item_normal_height">44dp</dimen>
+    <dimen name="bubble_item_large_text_height">134dp</dimen>
+    <dimen name="bubble_item_large_voice_height">184dp</dimen>
+    <dimen name="bubble_item_edit_text_height">133.3dp</dimen>
+    <dimen name="bubble_item_edit_voice_height">183.6dp</dimen>
+    <dimen name="buddle_scroll_view_max_height">145dp</dimen>
+    <dimen name="bubble_normal_margin_right">9dp</dimen>
+    <dimen name="bubble_item_edit_text_width_in_large">260dp</dimen>
+    <dimen name="bubble_todo_move_down">27dp</dimen>
+    <dimen name="bubble_slidebar_stable_width">16dp</dimen>
+
+    <dimen name="horizontal_scroll_response_area_top">62dp</dimen>
+    <dimen name="horizontal_scroll_response_area_bottom">125dp</dimen>
+    <dimen name="vertical_scroll_response_area_top">111dp</dimen>
+    <dimen name="vertical_scroll_response_area_bottom">221dp</dimen>
+
+    <dimen name="bubble_attachment_icon_size">40dp</dimen>
+    <dimen name="bubble_attachment_image_width">34dp</dimen>
+    <dimen name="bubble_attachment_image_height">@dimen/bubble_attachment_icon_size</dimen>
+    <dimen name="bubble_attachment_image_margin">4dp</dimen>
+    <dimen name="bubble_attachment_file_lr_margin">1dp</dimen>
+    <dimen name="bubble_attachment_shape_corner">4dp</dimen>
+    <dimen name="bubble_attachment_file_padding">8dp</dimen>
+
+    <dimen name="bubble_attachment_layout_max_measure_width">310dp</dimen>
+
+    <!-- add for remind begin-->
+    <dimen name="remind_fake_bubble_margin_left_share">45dp</dimen>
+    <dimen name="remind_bubble_content_vertical_padding">25dp</dimen>
+    <dimen name="remind_bubble_content_horizontal_padding">16dp</dimen>
+    <dimen name="remind_bubble_share_content_horizontal_padding">8dp</dimen>
+    <dimen name="remind_line_padding">2dp</dimen>
+    <dimen name="remind_bubble_wave_height">22dp</dimen>
+    <dimen name="remind_bubble_speech_button_size">30dp</dimen>
+    <!-- add for remind end-->
+
+    <dimen name="delete_icon_width">36dp</dimen>
+    <dimen name="wave_view_left_margin_share">37.5dp</dimen>
+    <dimen name="wave_view_left_margin_full">0dp</dimen>
+    <dimen name="date_margin_share">44dp</dimen>
+    <dimen name="date_margin_share_full">33dp</dimen>
+    <dimen name="drag_padding_left_share">39dp</dimen>
+    <dimen name="drag_padding_left_full">32dp</dimen>
+    <dimen name="bubble_loading_widht_calibration">12dp</dimen>
+    <dimen name="attachment_container_gap_x">6dp</dimen>
+    <dimen name="attachment_container_gap_y">8dp</dimen>
+    <dimen name="setting_item_margintop">7dp</dimen>
+    <dimen name="sync_content_top_margin">10dp</dimen>
+    <dimen name="sync_main_content_margin">12dp</dimen>
+    <dimen name="sync_setting_item_inner_margin">24dp</dimen>
+    <dimen name="sync_setting_item_inner_padding">16dp</dimen>
+    <dimen name="sync_edit_item_inner_padding">8dp</dimen>
+    <dimen name="sync_setting_item_height">64dp</dimen>
+    <dimen name="sync_setting_button_height">56dp</dimen>
+    <dimen name="sync_setting_button_text_size">20sp</dimen>
+    <dimen name="sync_setting_tip_text_size">13.5sp</dimen>
+    <dimen name="sync_invitation_item_icon_size">44dp</dimen>
+    <dimen name="sync_invitation_item_name_max_width">172dp</dimen>
+    <dimen name="sync_invitation_item_status_max_width">112dp</dimen>
+    <dimen name="choose_country_max_length">174dp</dimen>
+    <dimen name="country_name_text_size">13.6sp</dimen>
+    <dimen name="bubble_item_head_base_margin_top">-10dp</dimen>
+    <dimen name="bubble_head_setting_item_size">36dp</dimen>
+    <dimen name="bubble_head_setting_divider_width">4px</dimen>
+    <dimen name="bubble_head_setting_divider_height">14dp</dimen>
+    <dimen name="bubble_filtrate_window_margin_y">-10dp</dimen>
+    <dimen name="titlebar_height">48dp</dimen>
+    <dimen name="status_bar_height">@*android:dimen/status_bar_height</dimen>
+</resources>

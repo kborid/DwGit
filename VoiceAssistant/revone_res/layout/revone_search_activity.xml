@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/gauss_blur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <com.smartisanos.sara.bubble.revone.widget.SearchAnimLayout
+        android:id="@+id/search_anim_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ViewStub
+        android:id="@+id/tips_content_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/tip_content"
+        android:layout="@layout/revone_search_tips" />
+
+    <ViewStub
+        android:id="@+id/button_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_button_marigin_top"
+        android:layout_marginRight="@dimen/setting_button_marigin_right"
+        android:layout_gravity="right|top"
+        android:inflatedId="@+id/button"
+        android:layout="@layout/revone_search_button" />
+
+    <ViewStub
+        android:id="@+id/result_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/global_search_margin_bottom"
+        android:inflatedId="@+id/search_result"
+        android:layout="@layout/revone_search_result"
+        android:visibility="gone"/>
+
+    <ViewStub
+        android:id="@+id/bubble_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:inflatedId="@+id/bubble"
+        android:layout="@layout/revone_search_bubble"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/wave_left_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:inflatedId="@+id/wave_left"
+        android:layout="@layout/revone_wave_left_layout" />
+
+    <ViewStub
+        android:id="@+id/wave_bottom_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:inflatedId="@+id/wave_bottom"
+        android:layout="@layout/revone_wave_bottom_layout" />
+</FrameLayout>

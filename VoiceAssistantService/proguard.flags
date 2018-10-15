@@ -1,0 +1,54 @@
+ -optimizationpasses 5
+ -dontusemixedcaseclassnames
+ -dontskipnonpubliclibraryclasses
+ -dontpreverify
+ -dontwarn android.webkit.WebView
+ -dontwarn android.net.http.SslError
+ -dontwarn android.webkit.WebViewClient
+ -dontwarn android.net.http.**
+
+ -verbose
+ -optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+ -keep public class * extends android.app.Activity
+ -keep public class * extends android.view.View
+ -keep public class * extends android.app.Application
+ -keep public class * extends android.app.Service
+ -keep public class * extends android.content.BroadcastReceiver
+ -keep public class * extends android.content.ContentProvider
+ -keep public class * extends android.app.backup.BackupAgentHelper
+ -keep public class * extends android.preference.Preference
+ -keep public class android.net.http.SslError
+ -keep public class android.webkit.WebViewClient
+ -keep public class com.smartisanos.notes.sinaweibo.model.UserBean
+
+ # removes such information by default, so configure it to keep all of it.
+ -keepattributes Signature
+
+ -keep class com.iflytek.**{*;}
+ -keep class com.ht.tts.**{*;}
+ -keep class cn.yunzhisheng.ishuoshuo.tts.**{*;}
+ -keep class com.iflytek.speech.**{*;}
+ -keep class com.smartisanos.music.**{*;}
+ -keep class com.smartisanos.sara.engine.**{*;}
+ -keepattributes Signature  
+
+  -keepclasseswithmembernames class * {
+     native <methods>;
+ }
+
+ -keepclasseswithmembernames class * {
+     public <init>(android.content.Context, android.util.AttributeSet);
+ }
+
+ -keepclasseswithmembernames class * {
+     public <init>(android.content.Context, android.util.AttributeSet, int);
+ }
+
+ -keepclassmembers enum * {
+     public static **[] values();
+     public static ** valueOf(java.lang.String);
+ }
+
+ -keep class * implements android.os.Parcelable {
+   public static final android.os.Parcelable$Creator *;
+ }

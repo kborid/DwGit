@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">语音搜索服务</string>
+    <string name="dialtacts_tab_recent">通话记录</string>
+    <string name="dialtacts_tab_contacts">联系人</string>
+    <string name="dialtacts_tab_starred">收藏</string>
+    <string name="dialtacts_tab_dialpad">拨号</string>
+    <string name="tabBar_worldclock">"世界时钟"</string>
+    <string name="tabBar_alarm">"闹钟"</string>
+    <string name="tabBar_stopwatch">"秒表"</string>
+    <string name="tabBar_timer">"计时器"</string>
+    <string name="china_unicom">联通</string>
+    <string name="china_mobile">移动</string>
+    <string name="china_telecom">电信</string>
+    <string name="blind_mode_voice_string">语音朗读</string>
+    <!-- start [Rev One]: voice command -->
+    <string-array name="revone_voice_command_search_pref">
+        <item>搜索</item>
+        <item>搜</item>
+        <item>找</item>
+        <item>查</item>
+        <item>搜一下</item>
+        <item>查一下</item>
+        <item>search</item>
+        <item>find</item>
+    </string-array>
+    <!-- end -->
+</resources>

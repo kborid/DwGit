@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <smartisanos.widget.SettingItemSwitch
+        android:id="@+id/voice_commond"
+        style="@style/SettingSubItemSingleStyle"
+        smartisanos:title="@string/voice_commond_title"
+        android:layout_marginTop="10dp"/>
+
+    <smartisanos.widget.TipsView
+        android:id="@+id/voice_commond_tips"
+        style="@style/SettingItemTipsStyleNoBottomGap"
+        android:text="@string/voice_commond_title_tip_ideapill_key"/>
+
+    <smartisanos.widget.SettingItemText
+        android:id="@+id/voice_commond_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_setting_sub_item_bg_single"
+        smartisanos:title="@string/voice_commond_shortcut"
+        android:layout_marginTop="20dp"/>
+
+    <smartisanos.widget.TipsView
+        android:id="@+id/voice_commond_shortcut_tips"
+        style="@style/SettingItemTipsStyle"
+        android:text="@string/voice_commond_shortcut_tip_ideapill_key"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:background="@smartisanos:drawable/sub_item_back_ground_single">
+
+        <ImageButton
+            android:id="@+id/voice_intro_video_btn"
+            android:contentDescription="@string/read_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/voice_commond_pause_bg"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/voice_intro_video_btn">
+
+            <TextView
+                android:id="@+id/voice_commond_intro_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voice_commond_intro"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/settings_item_title_size"
+                android:textColor="@color/setting_item_text_colorlist"/>
+            <SeekBar
+                android:id="@+id/voice_intro_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="0"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:id="@+id/voice_current_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/voice_commond_time_default"
+                    android:textSize="10sp"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#66000000"/>
+                <TextView
+                    android:id="@+id/voice_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/voice_commond_time_default"
+                    android:textSize="10sp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#66000000"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

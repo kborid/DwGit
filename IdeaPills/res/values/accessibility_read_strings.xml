@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools">
+    <string name="read_bubble_list_show">Idea Pills list displayed</string>
+    <string name="read_bubble_list_hide">Idea Pills list hidden</string>
+    <string name="read_bubble_moving">Moving pills</string>
+    <string name="read_bubble_move_cancel">Moved back</string>
+    <string name="read_bubble_moved">Moved</string>
+    <string name="read_bubble_move_to">Move to item %d</string>
+    <string name="read_bubble_shared">Shared</string>
+    <string name="read_bubble_deleted">Deleted</string>
+    <string name="add_contact">Contact</string>
+</resources>

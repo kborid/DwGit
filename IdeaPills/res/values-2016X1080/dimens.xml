@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubble_item_detail_input_max_hight">317dp</dimen>
+</resources>

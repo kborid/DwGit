@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:voice="http://schemas.android.com/apk/res/com.smartisanos.voice" >
+    <!-- 时钟 -->
+    <app
+        voice:lableName="@string/tabBar_worldclock"
+        voice:icon="android.resource://com.smartisanos.clock/drawable/icon"
+        voice:index="0"
+        voice:uri="content://applications/applications/com.smartisanos.clock/com.smartisanos.clock.activity.ClockActivity" />
+    <app
+        voice:lableName="@string/tabBar_alarm"
+        voice:icon="android.resource://com.smartisanos.clock/drawable/icon"
+        voice:index="1"
+        voice:uri="content://applications/applications/com.smartisanos.clock/com.smartisanos.clock.activity.ClockActivity" />
+    <app
+        voice:lableName="@string/tabBar_stopwatch"
+        voice:icon="android.resource://com.smartisanos.clock/drawable/icon"
+        voice:index="2"
+        voice:uri="content://applications/applications/com.smartisanos.clock/com.smartisanos.clock.activity.ClockActivity" />
+    <app
+        voice:lableName="@string/tabBar_timer"
+        voice:icon="android.resource://com.smartisanos.clock/drawable/icon"
+        voice:index="3"
+        voice:uri="content://applications/applications/com.smartisanos.clock/com.smartisanos.clock.activity.ClockActivity" />
+    <!-- 时钟 -->
+    <app
+        voice:lableName="@string/dialtacts_tab_recent"
+        voice:icon="android.resource://com.android.contacts/drawable/ic_launcher_phone"
+        voice:index="0"
+        voice:uri="content://applications/applications/com.android.contacts/com.android.contacts.activities.DialtactsActivity" />
+    <app
+        voice:lableName="@string/dialtacts_tab_contacts"
+        voice:icon="android.resource://com.android.contacts/drawable/ic_launcher_phone"
+        voice:index="1"
+        voice:uri="content://applications/applications/com.android.contacts/com.android.contacts.activities.DialtactsActivity" />
+    <app
+        voice:lableName="@string/dialtacts_tab_dialpad"
+        voice:icon="android.resource://com.android.contacts/drawable/ic_launcher_phone"
+        voice:index="2"
+        voice:uri="content://applications/applications/com.android.contacts/com.android.contacts.activities.DialtactsActivity" />
+    <app
+        voice:lableName="@string/dialtacts_tab_starred"
+        voice:icon="android.resource://com.android.contacts/drawable/ic_launcher_phone"
+        voice:index="3"
+        voice:uri="content://applications/applications/com.android.contacts/com.android.contacts.activities.DialtactsActivity" />
+</favorites>

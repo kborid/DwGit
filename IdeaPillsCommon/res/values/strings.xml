@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="format_year_month_day">%1$s-%2$s-%3$s</string>
+    <string name="format_year">%1$s</string>
+    <string name="format_month_day">%1$s-%2$s</string>
+    <string name="format_week_notify">%1$s %2$s:%3$s%4$s</string>
+    <string name="format_today_notify">Today %1$s:%2$s%3$s</string>
+    <string name="format_tomorrow_notify">Tomorrow %1$s:%2$s%3$s</string>
+    <string name="format_week">%1$s</string>
+    <string name="format_today">Today</string>
+    <string name="format_tomorrow">Tomorrow</string>
+    <string name="format_week_1">Mon</string>
+    <string name="format_week_2">Tues</string>
+    <string name="format_week_3">Wed</string>
+    <string name="format_week_4">Thur</string>
+    <string name="format_week_5">Fri</string>
+    <string name="format_week_6">Sat</string>
+    <string name="format_week_7">Sun</string>
+    <string name="bubble_share_attachment_unknown_type">File is not supported</string>
+    <string name="bubble_open_attachment_unknown_type">File is not supported</string>
+    <string name="set_time_am">&#8201;AM</string>
+    <string name="set_time_pm">&#8201;PM</string>
+    <string name="bubble_share_setting_title">Share IdeaPills</string>
+
+    <!-- add for remind begin-->
+    <string name="remind_notify_time_expire">Reminder must be set after current time</string>
+    <string name="set_time_text">Set Time</string>
+    <string name="remind_remove">Remove</string>
+
+    <string name="remind_text">Reminder time</string>
+    <string name="cancel_reminder">Cancel Reminder</string>
+    <string name="confirm_reminder">Done</string>
+    <string name="remind_previous_arrow_text">forward</string>
+    <string name="remind_next_arrow_text">backward</string>
+    <string name="button_month">Month</string>
+    <string name="day">Day</string>
+    <string name="regularly_time_error">Sorry, you have selected a time earlier than the present</string>
+    <string name="got_it">OK</string>
+
+    <string name="des_selected">selected</string>
+    <string name="des_scroll_updown_to_select">scroll up and down to select</string>
+    <string name="save_label">Done</string>
+    <string name="discard_label">Cancel</string>
+    <string name="chose_date">"Choose Date"</string>
+    <string name="year">Year</string>
+    <string name="time_picker_dialog_title">Set Time</string>
+
+    <string name="set_full_day_time">All Day</string>
+    <string name="set_notify_text">Set Reminder</string>
+    <string name="today_text">Today</string>
+    <string name="set_notify_real_time">Real time</string>
+    <string name="set_notify_before_5_min">5 min prior</string>
+    <string name="set_notify_before_15_min">15 min prior</string>
+    <string name="set_notify_before_30_min">30 min prior</string>
+    <string name="set_notify_before_1_hour">1 hr prior</string>
+    <string name="set_notify_before_2_hour">2 hr prior</string>
+    <string name="set_notify_before_1_day">1 day prior</string>
+    <string name="set_notify_before_2_day">2 days prior</string>
+    <string name="set_notify_before_1_week">1 week prior</string>
+    <string name="remind_cancel">Cancel</string>
+    <string name="sync_share_main_title">Shared Idea Pills</string>
+    <!-- add for remind end-->
+
+    <string name="bubble_attachment_size_count_limit">You can attach up to %d files, and the size of attachments should be less than 30 MB</string>
+    <string name="bubble_share">Share</string>
+    <string name="bubble_remove">Remove</string>
+    <string name="bubble_attachment_size_limit">The size of attachments should be less than 30M</string>
+    <string name="bubble_attachment_limit">You can attach up to %d files</string>
+
+    <string name="bubble_cancel">Cancel</string>
+    <string name="bubble_notice">Notice</string>
+    <string name="sync_no_login_dialog_content">You have not logged in to Smiling Cloud yet, please log in and enable sharing.</string>
+    <string name="sync_unenable_dialog_content">You have not enabled sharing yet, do you want to go to Settings?</string>
+    <string name="sync_send_invitation_phone_email">Phone/Email</string>
+    <string name="sync_send_invitation_dialog_content">Once a sharing account is added, you can share an idea pill with them. Please provide their phone number and send your request. This feature is not supported in lower versions of Smartisan OS.</string>
+    <string name="sync_send_invitation_dialog_send">Send request</string>
+    <string name="sync_phone_email_empty_tip">Please provide your phone number or email</string>
+    <string name="sync_phone_email_illegal_tip">Please provide correct phone number or email</string>
+    <string name="dlg_title_notice">@*smartisanos:string/dlg_title_notice</string>
+    <string name="share_to_bullet_sms">@*smartisanos:string/share_to_bullet_sms_fake</string>
+</resources>

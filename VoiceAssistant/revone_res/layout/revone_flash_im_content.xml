@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewStub
+        android:id="@+id/bubble_item_stub"
+        android:layout_width="@dimen/bubble_wave_left_min_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:inflatedId="@+id/bubble_item"
+        android:layout="@layout/revone_bubble_item" />
+
+    <ViewStub
+        android:id="@+id/wave_left_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:inflatedId="@+id/wave_left"
+        android:layout="@layout/revone_wave_left_layout" />
+
+    <ViewStub
+        android:id="@+id/wave_bottom_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:inflatedId="@+id/wave_bottom"
+        android:layout="@layout/revone_wave_bottom_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/flash_im_bubble_page_width"
+        android:orientation="horizontal">
+
+        <ViewStub
+            android:id="@+id/recent_contact_container_stub"
+            android:layout_width="@dimen/flash_im_recent_contact_page_width"
+            android:layout_height="match_parent"
+            android:inflatedId="@+id/recent_contact_container"
+            android:layout="@layout/revone_recent_contacts" />
+
+        <ViewStub
+            android:id="@+id/favorite_contact_container_stub"
+            android:layout_width="@dimen/flash_im_favorite_contact_page_width"
+            android:layout_height="match_parent"
+            android:inflatedId="@+id/favorite_contact_container"
+            android:layout="@layout/revone_favorite_contacts" />
+
+        <FrameLayout
+            android:id="@+id/all_contact_container"
+            android:layout_width="@dimen/flash_im_all_contact_page_width"
+            android:layout_height="match_parent">
+
+            <ViewStub
+                android:id="@+id/all_contact_stub"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inflatedId="@+id/all_contact"
+                android:layout="@layout/revone_all_contacts" />
+
+            <ViewStub
+                android:id="@+id/im_voice_container_stub"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flash_im_voice_container_height"
+                android:layout_marginBottom="@dimen/global_search_margin_bottom"
+                android:layout_gravity="bottom"
+                android:inflatedId="@+id/im_voice_container"
+                android:layout="@layout/revone_flash_im_voice_container" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ViewStub
+        android:id="@+id/button_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/setting_button_marigin_top"
+        android:layout_marginRight="@dimen/setting_button_marigin_right"
+        android:layout_gravity="right|top"
+        android:inflatedId="@+id/button"
+        android:layout="@layout/revone_search_button" />
+
+    <ViewStub
+        android:id="@+id/fak_bubble_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/fak_bubble"
+        android:layout="@layout/fak_bubble_item"
+        android:visibility="gone" />
+</FrameLayout>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:smartisanos="http://schemas.android.com/apk/res/smartisanos"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/remind_round_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/allinone_titilebar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/allinone_titilebar_height"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/date_title"
+                    android:layout_width="@dimen/allinone_dateview_layout_width"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textColor="@color/black_60"
+                    android:textSize="@dimen/remind_title_text_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:contentDescription="@string/remind_previous_arrow_text"
+                    android:id="@+id/allinone_image_previous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="57dp"
+                    android:scaleType="center"
+                    android:src="@drawable/remind_previous_arrow_selector" />
+
+                <ImageView
+                    android:contentDescription="@string/remind_next_arrow_text"
+                    android:id="@+id/allinone_image_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="57dp"
+                    android:scaleType="center"
+                    android:src="@drawable/remind_next_arrow_selector" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/remind_topbar_bottom_line" />
+
+        <include
+            android:id="@+id/day_names"
+            layout="@layout/remind_full_month_header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.smartisanos.ideapills.common.remind.view.DragViewSwitcher
+                android:id="@+id/main_switcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/remind_month_content_frame"
+                android:measureAllChildren="false" />
+
+            <LinearLayout
+                android:id="@+id/divider_set_time_top_line"
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/remind_topbar_bottom_line"
+                android:visibility="visible" />
+
+            <RelativeLayout
+                android:id="@+id/set_time_view"
+                android:layout_width="match_parent"
+                android:layout_height="48dip"
+                android:layout_below="@+id/main_switcher"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/remind_dialog_general_margin"
+                android:layout_marginRight="@dimen/remind_dialog_general_margin">
+
+                <smartisanos.widget.SettingItemSwitch
+                    android:id="@+id/set_time_switch"
+                    android:layout_width="110dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginRight="-10dp"
+                    smartisanos:isChecked="true" />
+
+                <TextView
+                    android:id="@+id/set_full_day_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16dp"
+                    android:textColor="@color/black_60"
+                    android:layout_toLeftOf="@+id/set_time_switch"
+                    android:text="@string/set_full_day_time" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/remind_mid_line" />
+
+                <ImageView
+                    android:id="@+id/set_time_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:scaleType="center"
+                    android:src="@drawable/remind_set_setting_time_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16dp"
+                    android:textColor="@color/black_60"
+                    android:layout_toRightOf="@+id/set_time_iv"
+                    android:text="@string/set_time_text" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/remind_detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <LinearLayout
+                    android:id="@+id/divider_of_day_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/remind_topbar_bottom_line" />
+
+                <com.smartisanos.ideapills.common.remind.view.SmartisanTimePicker1Day
+                    android:id="@+id/time_picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/set_time_view"
+                    android:layout_marginBottom="@dimen/remind_dialog_general_margin"
+                    android:layout_marginLeft="@dimen/remind_dialog_general_margin"
+                    android:layout_marginRight="@dimen/remind_dialog_general_margin"
+                    android:layout_marginTop="@dimen/remind_dialog_general_margin" />
+
+                <LinearLayout
+                    android:id="@+id/divider_of_notify_top_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/remind_topbar_bottom_line" />
+
+                <RelativeLayout
+                    android:id="@+id/set_notify_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip"
+                    android:layout_marginLeft="@dimen/remind_dialog_general_margin"
+                    android:layout_marginRight="@dimen/remind_dialog_general_margin">
+
+                    <TextView
+                        android:id="@+id/set_notify_left_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="16dp"
+                        android:textColor="@color/black_60"
+                        android:layout_marginLeft="18dip"
+                        android:layout_centerVertical="true"
+                        android:text="@string/set_notify_text" />
+
+                    <TextView
+                        android:id="@+id/set_notify_right_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:textSize="13dp"
+                        android:textColor="@color/black_60"
+                        android:layout_toLeftOf="@+id/item_arrow"
+                        android:text="@string/set_notify_real_time"
+                        android:drawableRight="@drawable/remind_time_icon"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/divider_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/remind_topbar_bottom_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/remind_dialog_general_margin"
+            android:paddingRight="@dimen/remind_dialog_general_margin">
+
+            <Button
+                android:id="@+id/cancel_action"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/remind_dialog_general_margin"
+                android:layout_weight="1"
+                android:background="@drawable/remind_button_cancel_selector"
+                android:text="@string/remind_cancel"
+                android:textColor="@color/black_60" />
+
+            <Button
+                android:id="@+id/confirm_action"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/remind_button_confirm_selector"
+                android:text="@string/confirm_reminder"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

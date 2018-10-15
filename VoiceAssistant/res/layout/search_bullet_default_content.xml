@@ -1,0 +1,30 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/default_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@smartisanos:style/GroupListSectionTitleStyle"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="6dp"
+        android:text="@string/setting_default_show"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <smartisanos.widget.ListContentItemCheck
+            android:id="@+id/default_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/ListContentItemStyle.Top" />
+
+        <smartisanos.widget.ListContentItemCheck
+            android:id="@+id/default_bullet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@smartisanos:style/ListContentItemStyle.Bottom" />
+
+        <include layout="@smartisanos:layout/group_list_item_vertical_gap_layout" />
+    </LinearLayout>
+</merge>

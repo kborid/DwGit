@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+    xmlns:tools="http://schemas.android.com/tools">
+    <string name="read_bubble_list_show">胶囊列表已显示</string>
+    <string name="read_bubble_list_hide">胶囊列表已关闭</string>
+    <string name="read_bubble_moving">正在移动胶囊</string>
+    <string name="read_bubble_move_cancel">已移回原位</string>
+    <string name="read_bubble_moved">已移动</string>
+    <string name="read_bubble_move_to">移至第%d项</string>
+    <string name="read_bubble_shared">已分享</string>
+    <string name="read_bubble_deleted">已删除</string>
+    <string name="add_contact">連絡人</string>
+</resources>

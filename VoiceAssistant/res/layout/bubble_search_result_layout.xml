@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical" >
+
+    <View
+        android:id="@+id/result_hide_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/local_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/local_shell_search_result"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/web_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/web_shell_search_result"
+        android:visibility="gone" />
+
+</FrameLayout>
