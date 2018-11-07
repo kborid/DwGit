@@ -34,6 +34,9 @@
             </intent-filter>-->
         </activity>
         <activity android:name="com.kborid.smart.activity.RecyclerViewTestActivity"/>
+        <activity android:name="com.kborid.smart.activity.UniversalActivity"/>
+        <activity android:name="com.kborid.smart.activity.PicassoActivity"/>
+        <activity android:name="com.kborid.smart.activity.GlideActivity"/>
 
         <service android:name="com.kborid.smart.service.SmartTestService"/>
         <service android:name="com.kborid.smart.service.SmartCounterService"/>
@@ -43,6 +46,10 @@
                 <action android:name="android.intent.action.service.RemoteViewService"/>
             </intent-filter>
         </service>
+        <provider
+            android:authorities="com.kborid.smart.provider.TestProvider"
+            android:name=".provider.TestProvider"
+            android:exported="false"/>
     </application>
 
 </manifest>

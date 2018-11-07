@@ -82,6 +82,9 @@ public class SmartCounterService extends Service {
             value = integers[0];
             while (!isStop) {
                 if (!isPause) {
+                    if (value <= 0) {
+                        break;
+                    }
                     LogUtils.i("count = " + value);
                     try {
                         Thread.sleep(1000);
@@ -97,9 +100,6 @@ public class SmartCounterService extends Service {
                         e.printStackTrace();
                     }
                     value--;
-                    if (value <= 0) {
-                        break;
-                    }
                 }
             }
             return 1;

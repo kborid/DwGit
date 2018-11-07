@@ -43,7 +43,7 @@ public class WebViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_webview);
         initViews();
         initParams();
-        mWebView.loadUrl("http://www.baidu.com");
+        mWebView.loadUrl("http://www.hao123.com");
     }
 
     private void initViews() {
@@ -79,7 +79,7 @@ public class WebViewActivity extends AppCompatActivity {
         settings.setLoadWithOverviewMode(true);
         settings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.TEXT_AUTOSIZING);
         settings.setDatabaseEnabled(true);
-        settings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        settings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         settings.setLoadsImagesAutomatically(true);
     }
 

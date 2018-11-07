@@ -4,78 +4,105 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <include layout="@layout/measure_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <LinearLayout
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <Button
-            android:layout_width="match_parent"
-            android:onClick="onShare"
-            android:textSize="15sp"
-            android:text="文本分享"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:onClick="onTest2"
-            android:textSize="15sp"
-            android:text="跳转"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:onClick="onReflect"
-            android:textSize="15sp"
-            android:text="反射"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:onClick="onWebView"
-            android:textSize="15sp"
-            android:text="WebView"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:onClick="onClickMeasure"
-            android:textSize="15sp"
-            android:text="Measure"
-            android:layout_height="wrap_content" />
-        <Button
-            android:layout_width="match_parent"
-            android:onClick="onPrintContext"
-            android:textSize="15sp"
-            android:text="Context打印"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-        <ScrollView
-            android:id="@+id/scrollView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:id="@+id/tv_console"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <Button
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:onClick="onShare"
+                android:textSize="15sp"
+                android:text="文本分享"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:onClick="onWebView"
+                android:textSize="15sp"
+                android:text="WebView"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:onClick="onJump"
+                android:textSize="15sp"
+                android:text="跳转"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:onClick="onReflect"
+                android:textSize="15sp"
+                android:text="反射"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:onClick="onClickMeasure"
+                android:textSize="15sp"
+                android:text="Measure"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:onClick="onPrintContext"
+                android:textSize="15sp"
+                android:text="Context打印"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"/>
-        </ScrollView>
-        <TextView
-            android:id="@+id/tv_counter"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="100sp"
-            android:textColor="#000000"
-            android:gravity="center"/>
-    </FrameLayout>
-    <LinearLayout
-        android:id="@+id/third"
+                android:text="Universal"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:onClick="onUniversal"/>
+            <Button
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Picasso"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:onClick="onPicasso"/>
+            <Button
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Glide"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:onClick="onGlide"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_counter"
         android:layout_width="match_parent"
-        android:layout_gravity="bottom"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp"
-        android:gravity="center_horizontal"/>
+        android:textSize="200sp"
+        android:textColor="#ff0000"
+        android:gravity="center"/>
+
+    <com.kborid.smart.widget.ThirdLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

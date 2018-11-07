@@ -1,20 +1,20 @@
 package com.kborid.smart.activity;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.app.Activity;
-import android.content.ComponentName;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.Intent;
 import android.content.pm.LabeledIntent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Looper;
 import android.os.MessageQueue;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
 import android.view.ContextThemeWrapper;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -29,48 +29,35 @@ import com.kborid.library.common.ViewUtils;
 import com.kborid.library.sample.TestSettings;
 import com.kborid.smart.PRJApplication;
 import com.kborid.smart.R;
+import com.kborid.smart.interpolator.CustomInterpolator;
+import com.kborid.smart.interpolator.CustomThread;
 import com.kborid.smart.service.SmartCounterServiceConnection;
 import com.kborid.smart.service.SmartTestServiceConnection;
 import com.kborid.smart.util.ToastUtils;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
-
-    private static final String WX_PKG = "com.tencent.mm";
-    private static final String WX_CLASS = "com.tencent.mm.ui.LauncherUI";
-    private static final String QQ_PKG = "com.tencent.mobileqq";
-    private static final String QQ_CLASS = "com.tencent.mobileqq.activity.SplashActivity";
-    private static final String ALIPAY_PKG = "com.eg.android.AlipayGphone";
-    private static final String ALIPAY_CLASS = "com.eg.android.AlipayGphone.AlipayLogin";
-
-    private ScrollView scrollView;
-    private TextView tv_console;
 
     private SmartCounterServiceConnection counterConn = null;
     private SmartTestServiceConnection testConn = null;
     private static Drawable mDrawable;
-
-    private static final HashMap<String, String> packageName = new HashMap<String, String>() {
-        {
-            put(WX_PKG, WX_CLASS);
-            put(QQ_PKG, QQ_CLASS);
-            put(ALIPAY_PKG, ALIPAY_CLASS);
-        }
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED);
         setContentView(R.layout.activity_main);
-        scrollView = findViewById(R.id.scrollView);
-        tv_console = findViewById(R.id.tv_console);
+        LayoutInflater.from(this).inflate(R.layout.activity_main, null);
         printTest();
-        initThirdLoginLayout();
         bindServiceInner();
     }
 
@@ -103,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         counterConn.stopCount();
     }
 
-    public void onTest2(View v) {
+    public void onJump(View v) {
         ToastUtils.showToast("jump");
         UIHandler.postDelayed(new Runnable() {
             @Override
@@ -119,6 +106,35 @@ public class MainActivity extends AppCompatActivity {
         reflectInvokeTest();
         counterConn.startCount();
         idleHandler();
+        ObjectAnimator animator = ObjectAnimator.ofFloat(v, "scaleX", 1f, 0.5f, 1f);
+        ObjectAnimator animator1 = ObjectAnimator.ofFloat(v, "scaleY", 1f, 0.5f, 1f);
+        AnimatorSet set = new AnimatorSet();
+        set.playTogether(animator, animator1);
+        set.setInterpolator(new CustomInterpolator());
+        set.setDuration(500);
+        set.start();
+
+        CustomThread customThread = new CustomThread();
+        customThread.start();
+
+
+        Integer value1 = 56;
+        Integer value2 = 56;
+        LogUtils.d(String.valueOf(value1 == value2));
+        LogUtils.d(String.valueOf(value1.equals(value2)));
+
+        Integer value11 = 128;
+        Integer value22 = 128;
+        LogUtils.d(String.valueOf(value11 == value22));
+        LogUtils.d(String.valueOf(value11.equals(value22)));
+
+        Integer value111 = 256;
+        Integer value222 = 256;
+        LogUtils.d(String.valueOf(value111 == value222));
+        LogUtils.d(String.valueOf(value111.equals(value222)));
+
+        sendBroadcast(new Intent());
+
     }
 
     public void onPrintContext(View v) {
@@ -135,6 +151,18 @@ public class MainActivity extends AppCompatActivity {
         iv.setImageDrawable(mDrawable);
 
         testForEach();
+    }
+
+    public void onUniversal(View v) {
+        startActivity(new Intent(this, UniversalActivity.class));
+    }
+
+    public void onPicasso(View v) {
+        startActivity(new Intent(this, PicassoActivity.class));
+    }
+
+    public void onGlide(View v) {
+        startActivity(new Intent(this, GlideActivity.class));
     }
 
     private void printContextType(Context context) {
@@ -277,45 +305,6 @@ public class MainActivity extends AppCompatActivity {
         outputConsoleTextView(getResources().getQuantityString(R.plurals.test_plurals, 4, 4));
     }
 
-    private void initThirdLoginLayout() {
-        LinearLayout third = (LinearLayout) findViewById(R.id.third);
-        third.removeAllViews();
-        try {
-            for (final String key : packageName.keySet()) {
-                if (isInstalled(key)) {
-                    ImageView icon = new ImageView(this);
-                    LinearLayout.LayoutParams llp = new LinearLayout.LayoutParams(100, 100);
-                    llp.setMargins(10, 10, 10, 10);
-                    third.addView(icon, llp);
-                    icon.setImageDrawable(getPackageManager().getApplicationIcon(key));
-                    icon.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            Intent intent = new Intent();
-                            intent.setComponent(new ComponentName(key, packageName.get(key)));
-                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                            startActivity(intent);
-                        }
-                    });
-                }
-            }
-        } catch (PackageManager.NameNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private boolean isInstalled(String pkg) {
-        boolean flag = false;
-        List<PackageInfo> packageInfos = getPackageManager().getInstalledPackages(0);
-        for (PackageInfo packageInfo : packageInfos) {
-            if (packageInfo.packageName.equalsIgnoreCase(pkg)) {
-                flag = true;
-                break;
-            }
-        }
-        return flag;
-    }
-
     private void bindServiceInner() {
         bindTestService();
         bindCounterService();
@@ -405,15 +394,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void outputConsoleTextView(String string) {
         LogUtils.d("outputConsoleTextView() " + string);
-        if (null != tv_console) {
-            StringBuilder sb = new StringBuilder();
-            if (!TextUtils.isEmpty(tv_console.getText())) {
-                sb.append("\n");
-            }
-            sb.append(string);
-            tv_console.append(sb.toString());
-            scroll2Bottom(scrollView, tv_console);
-        }
     }
 
     public static void scroll2Bottom(final ScrollView scroll, final View inner) {
@@ -428,8 +408,28 @@ public class MainActivity extends AppCompatActivity {
                 if (offset < 0) {
                     offset = 0;
                 }
+                Thread.yield();
+                String name = SingletonTest.Singleton5.instance.getTestName();
+                SingletonTest.Singleton4.getInstance();
                 scroll.smoothScrollTo(0, offset);
             }
         });
     }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        new ThreadPoolExecutor(2, 5, 60, TimeUnit.SECONDS, new LinkedBlockingDeque<Runnable>(100));
+        ExecutorService single = Executors.newSingleThreadExecutor();
+        ExecutorService fix = Executors.newFixedThreadPool(2);
+        ExecutorService cache = Executors.newCachedThreadPool();
+        ScheduledExecutorService schedule = Executors.newScheduledThreadPool(2);
+        schedule.schedule(new Runnable() {
+            @Override
+            public void run() {
+                LogUtils.d("test");
+            }
+        }, 1, TimeUnit.SECONDS);
+        return super.dispatchTouchEvent(ev);
+    }
+
 }

@@ -1,6 +1,7 @@
 package com.kborid.smart.widget;
 
 import android.content.Context;
+import android.graphics.Canvas;
 import android.graphics.Color;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -57,5 +58,11 @@ public class MySimpleView extends View {
                 break;
         }
         return size;
+    }
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        invalidate();
     }
 }
